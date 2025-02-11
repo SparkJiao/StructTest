@@ -1,0 +1,1678 @@
+index,generated,result,format_properties
+0,"<ans>
+[""hello"", ""l""]
+[""kitten"", ""t""]
+[""python"", ""o""]
+[""apple"", ""p""]
+[""banana"", ""a""]
+</ans>",True,{}
+1,"<ans>
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[[9, 8, 7], [6, 5, 4], [3, 2, 1]]
+[[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+[[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]
+[[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]]
+</ans>",0,{}
+2,"<ans>
+[3, 4, 5]
+[2, 2, 3]
+[1, 2, 3]
+[5, 6, 7]
+[4, 5, 6]
+</ans>",True,{}
+3,"<ans>
+[""hello_world"", ""hello_world_again"", ""hello_world_again_again""]
+[""hello_world"", ""helloWorld"", ""hello_World""]
+[""hello_world"", ""hello_world_again"", ""helloWorld""]
+[""hello_world"", ""hello_world_again"", ""hello_world_again_again_again""]
+[""hello_world"", ""hello_world_again"", ""hello_World_Again""]
+</ans>",0,{}
+4,"<ans>
+[5]
+[10]
+[15]
+[20]
+[25]
+</ans>",True,{}
+5,"<ans>
+[""hello"", ""world""]
+[""hello"", ""o""]
+[""hello"", ""l""]
+[""hello"", """"]
+[""hello"", ""hello""]
+["""", ""world""]
+</ans>",0,{}
+6,"<ans>
+[1, 2, 3, 4]
+[1, 1, 2, 3]
+[1, 2, 2, 3]
+[1, 2, 3, 1]
+[1, 1, 1, 1]
+</ans>",0,{}
+7,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>",True,{}
+8,"<ans>
+[12,]
+[15,]
+[26,]
+[39,]
+[54,]
+</ans>",True,{}
+9,"<ans>
+[9, 8, 7, 6, 5, 4, 3, 2, 1]
+[5, 4, 3, 2, 1]
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+[9, 9, 9, 9, 9, 9, 9, 9, 9]
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
+</ans>",0,{}
+10,"<ans>
+[1, -1]
+[-1, 1]
+[0, 0]
+[10, -20]
+[-10, 20]
+</ans>",True,{}
+11,"<ans>
+[1, 1]
+[2, 5]
+[3, 13]
+[4, 25]
+[5, 41]
+</ans>",0,{}
+12,"<ans>
+[""123"", ""12345"", ""123456"", ""123456789"", ""1234567890""]
+[""12345"", ""123456"", ""1234567"", ""12345678"", ""123456789""]
+[""123456"", ""1234567"", ""12345678"", ""123456789"", ""1234567890""]
+[""1234567890"", ""12345678901"", ""123456789012"", ""1234567890123"", ""12345678901234""]
+[""12345678901234"", ""123456789012345"", ""1234567890123456"", ""12345678901234567"", ""123456789012345678""]
+</ans>",0,{}
+13,"<ans>
+[5, 2, 1, 3, 4]
+[10, 20, 30, 40, 50]
+[-5, -2, -1, 0, 1]
+[0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1]
+</ans>",0,{}
+14,"<ans>
+[[(1, 5), (2, 4), (3, 3)], [(10, 20), (30, 40), (50, 60)], [(1, 100), (2, 200), (3, 300)], [(10, 20), (30, 40), (50, 60), (70, 80)], [(1, 10), (2, 20), (3, 30), (4, 40), (5, 50)]]
+</ans>",0,{}
+15,"<ans>
+[['English', 88], ['Science', 90], ['Maths', 97], ['Social sciences', 82]]
+[['Maths', 97], ['Science', 90], ['English', 88], ['Social sciences', 82]]
+[['Maths', 97], ['Science', 90], ['English', 88], ['Social sciences', 82], ['History', 80]]
+[['Maths', 97], ['Science', 90], ['English', 88], ['Social sciences', 82], ['History', 80], ['Geography', 78]]
+[['Maths', 97], ['Science', 90], ['English', 88], ['Social sciences', 82], ['History', 80], ['Geography', 78], ['Physics', 92]]
+</ans>",0,{}
+16,"<ans>
+[[1, 2, 3, 4, 5]]
+[[1, [2, 3, [4, 5]]]]
+[[1, [2, [3, [4, 5]]]]]
+[[1, [2, [3, [4, [5]]]]]]
+[[1, [2, [3, [4, [5, [6]]]]]]
+</ans>",0,{}
+17,"<ans>
+[[-1, -2, -3, -4, -5], 0]
+[[1, 2, 3, 4, 5], 5]
+[[0, 1, -1, 2, -2], 3]
+[[10, -20, 30, -40, 50], 5]
+[[1, 1, 1, 1, 1], 5]
+</ans>",0,{}
+18,"<ans>
+[5, 3]
+[10, 4]
+[15, 5]
+[20, 6]
+[25, 7]
+</ans>",0,{}
+19,"<ans>
+[[-1, -2, -3, -4]]
+[[1, 2, 3, 4]]
+[[1, 1, 1, 1]]
+[[4, 4, 4, 4]]
+[[1, 2, 3, 4, 5]]
+[[-1, -2, -3, -4, -5]]
+</ans>",0,{}
+20,"<ans>
+[[[1, 2, 3], [1, 2]], [[1, 2, 3], [3, 2, 1]], [[1, 2, 3], [2, 3]], [[1, 2, 3], [1, 2, 3]], [[1, 2, 3], []]]
+[[[4, 5, 6, 7], [4, 5]], [[4, 5, 6, 7], [6, 7]], [[4, 5, 6, 7], [4, 5, 6]], [[4, 5, 6, 7], [7, 6, 5, 4]], [[4, 5, 6, 7], []]]
+[[[8, 9, 10], [9, 10]], [[8, 9, 10], [8, 9]], [[8, 9, 10], [10]], [[8, 9, 10], [8, 9, 10]], [[8, 9, 10], []]]
+[[[11, 12, 13, 14, 15], [12, 13, 14]], [[11, 12, 13, 14, 15], [11, 12, 13]], [[11, 12, 13, 14, 15], [14, 15]], [[11, 12, 13, 14, 15], [11, 12, 13, 14, 15]], [[11, 12, 13, 14, 15], []]]
+[[[16, 17, 18, 19, 20, 21], [17, 18, 19]], [[16, 17, 18, 19, 20, 21], [16, 17, 18]], [[16, 17, 18, 19, 20, 21], [19, 20, 21]], [[16, 17, 18, 19, 20, 21], [16, 17, 18, 19, 20, 21]], [[16, 17, 18, 19, 20, 21], []]]
+</ans>",0,{}
+21,"<ans>
+[[(1, 2), (3, 4), (5, 6)], [(1, 2, 3), (4, 5, 6), (7, 8, 9)], [(1, 2, 3), (4, 5), (6, 7, 8)]]
+[[(1, 2), (3, 4), (5)], [(1, 2, 3), (4, 5), (6, 7)], [(1, 2, 3), (4, 5, 6), (7, 8)]]
+[[(1, 2, 3), (4, 5, 6), (7, 8)], [(1, 2, 3), (4, 5, 6)], [(1, 2, 3), (4, 5, 6, 7)]]
+[[(1, 2, 3), (4, 5, 6), (7, 8, 9)], [(1, 2, 3, 4), (5, 6, 7, 8), (9, 10, 11, 12)], [(1, 2, 3, 4, 5), (6, 7, 8, 9, 10), (11, 12, 13, 14, 15)]]
+[[(1, 2, 3), (4, 5, 6), (7, 8, 9, 10)], [(1, 2, 3, 4), (5, 6, 7, 8), (9, 10, 11, 12)], [(1, 2, 3, 4, 5), (6, 7, 8, 9, 10), (11, 12, 13, 14, 15)]]
+</ans>",0,{}
+22,"<ans>
+[5, 2, 1, 3, 4]
+[1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1]
+[3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+[1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5]
+[5, 5, 5, 4, 4, 4, 3, 3, 3, 2, 2, 2, 1, 1, 1]
+</ans>",0,{}
+23,"<ans>
+[0]
+[1]
+[2]
+[3]
+[4]
+</ans>",True,{}
+24,"<ans>
+[""red"", ""green"", ""red"", ""blue"", ""red"", ""green"", ""red"", ""blue""]
+[""blue"", ""red"", ""blue"", ""green"", ""blue"", ""red"", ""blue"", ""green""]
+[""red"", ""green"", ""red"", ""blue"", ""red"", ""green"", ""red"", ""blue""]
+[""blue"", ""red"", ""blue"", ""green"", ""blue"", ""red"", ""blue"", ""green""]
+[""red"", ""green"", ""red"", ""blue"", ""red"", ""green"", ""red"", ""blue""]
+</ans>",0,{}
+25,"<ans>
+[[(1, 2, 3), (4, 5, 6)], 3]
+[[(1, 2, 3), (4, 5, 6), (7, 8, 9)], 3]
+[[(1, 2, 3), (4, 5, 6), (7, 8, 9), (10, 11, 12)], 4]
+[[(1, 2, 3), (4, 5, 6), (7, 8, 9), (10, 11, 12), (13, 14, 15)], 5]
+[[(1, 2, 3), (4, 5, 6), (7, 8, 9), (10, 11, 12), (13, 14, 15), (16, 17, 18)], 6]
+</ans>",True,{}
+26,"<ans>
+[0]
+[11]
+[22]
+[33]
+[44]
+</ans>",True,{}
+27,"<ans>
+[""hello"", ""world""]
+[""python"", ""programming""]
+[""even"", ""number""]
+[""odd"", ""number"", ""is"", ""weird""]
+[""12345"", ""67890""]
+</ans>",0,{}
+28,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>",True,{}
+29,"<ans>
+[""abc"", ""z"", ""a"", ""z"", ""a""]
+[""abcd"", ""e"", ""a"", ""e"", ""a""]
+[""abcde"", ""f"", ""a"", ""f"", ""a""]
+[""abcdef"", ""g"", ""a"", ""g"", ""a""]
+[""abcdefg"", ""h"", ""a"", ""h"", ""a""]
+</ans>",0,{}
+30,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>",True,{}
+31,"<ans>
+[1, 1]
+[2, 7]
+[3, 19]
+[4, 37]
+[5, 61]
+</ans>",0,{}
+32,"<ans>
+[{'a': 1, 'b': 2}, {'c': 3, 'd': 4}, {'e': 5}]
+[{'x': 10, 'y': 20}, {'z': 30}, {}]
+[{}, {'a': 1}, {'b': 2}]
+[{'a': 1, 'b': 2}, {'c': 3}, {'d': 4, 'e': 5}]
+[{'a': 1, 'b': 2, 'c': 3}, {}, {}]
+</ans>",0,{}
+33,"<ans>
+[['a', 'b', 'c', 'a', 'b', 'b']]
+[['apple', 'banana', 'apple', 'banana', 'banana', 'apple', 'apple']]
+[['red', 'green', 'blue', 'red', 'green', 'blue', 'blue', 'red']]
+[['x', 'y', 'z', 'x', 'x', 'y', 'z', 'y', 'y', 'z', 'x', 'x', 'y']]
+[['1', '2', '3', '1', '2', '2', '3', '1', '1', '2', '3', '3', '2', '1']]
+</ans>",True,{}
+34,"<ans>
+[10]
+[20]
+[15]
+[100]
+[50]
+</ans>",True,{}
+35,"<ans>
+[""hello"", ""world""]
+[""python"", ""programming""]
+[""a"", ""b"", ""c"", ""d"", ""e""]
+[""one"", ""two"", ""three"", ""four"", ""five""]
+[""supercalifragilisticexpialidocious""]
+</ans>",0,{}
+36,"<ans>
+[""hello"", ""world"", ""hello""]
+[""apple"", ""banana"", ""cherry"", ""date"", ""apple""]
+[""python"", ""java"", ""c++"", ""python""]
+[""12345"", ""67890"", ""12345""]
+[""abc"", ""def"", ""abc""]
+</ans>",0,{}
+37,"<ans>
+[12321, 1234567890987654321, 12345678909876543210, 12345678909876543212, 123456789098765432123]
+[12345, 1234567890987654321, 12345678909876543210, 12345678909876543212, 123456789098765432123]
+[1234, 1234567890987654321, 12345678909876543210, 12345678909876543212, 123456789098765432123]
+[123, 1234567890987654321, 12345678909876543210, 12345678909876543212, 123456789098765432123]
+[12, 1234567890987654321, 12345678909876543210, 12345678909876543212, 123456789098765432123]
+</ans>",0,{}
+38,"<ans>
+[2, 3]
+[0, 0]
+[1, 1]
+[-2, 2]
+[3, 4]
+</ans>",True,{}
+39,"<ans>
+[[(1, 2), (2, 1), (3, 3)],  # Expected output: 0
+ [(4, 5), (3, 2), (2, 3)],  # Expected output: 1
+ [(1, 1), (2, 2), (3, 3)],  # Expected output: 0
+ [(1, 3), (2, 2), (3, 1)],  # Expected output: 2
+ [(1, 4), (2, 3), (3, 2), (4, 1)]]  # Expected output: 3
+</ans>",0,{}
+40,"<ans>
+[[[1], [2, 3], [4, 5, 6]]]
+[[[1, 2], [3, 4], [5]]]
+[[[1, 2, 3], [4, 5], [6]]]
+[[[1, 2, 3, 4], [5, 6], [7, 8, 9]]]
+[[[1, 2, 3, 4, 5], [6, 7], [8, 9, 10, 11]]]
+</ans>",True,{}
+41,"<ans>
+[10]
+[15]
+[20]
+[25]
+[30]
+</ans>",True,{}
+42,"<ans>
+[[[1, 2, 2], [3, 3, 3]], 3]
+[[[1, 1, 1], [2, 2, 2]], 2]
+[[[1, 2, 3], [4, 5, 6]], 6]
+[[[1, 1, 2, 2], [3, 3, 4, 4]], 4]
+[[[1, 1, 1, 2, 2, 2], [3, 3, 3, 4, 4, 4]], 6]
+</ans>",0,{}
+43,"<ans>
+[0]
+[1]
+[10]
+[15]
+[32]
+</ans>",True,{}
+44,"<ans>
+[121,]
+[131,]
+[12321,]
+[12345,]
+[98765,]
+</ans>",True,{}
+45,"<ans>
+[5, 3]
+[10, 5]
+[7, 2]
+[2, 1]
+[4, 4]
+</ans>",0,{}
+46,"<ans>
+[""hello_world"", ""hello_world""]
+[""hello_world"", ""helloWorld""]
+[""hello_world"", ""helloWorld""]
+[""hello_world_again"", ""helloWorldAgain""]
+[""hello_world_again_again"", ""helloWorldAgainAgain""]
+</ans>",0,{}
+47,"<ans>
+[6, 3]
+[5, 2]
+[4, 2]
+[4, 1]
+[3, 1]
+</ans>",True,{}
+48,"<ans>
+[[[""b"", ""a""], [""d"", ""c""]], [[""z"", ""y""], [""x"", ""w""]]]
+[[[""apple"", ""banana""], [""cherry"", ""date""]], [[""zebra"", ""yak""], [""xerus"", ""wombat""]]]
+[[[""cat"", ""dog""], [""elephant"", ""giraffe""]], [[""zucchini"", ""yogurt""], [""xylene"", ""watermelon""]]]
+[[[""blue"", ""green""], [""red"", ""yellow""]], [[""violet"", ""indigo""], [""orange"", ""pink""]]]
+[[[""one"", ""two""], [""three"", ""four""]], [[""five"", ""six""], [""seven"", ""eight""]]]
+</ans>",0,{}
+49,"<ans>
+[True, True, True]
+[False, True, False]
+[True, False, True]
+[True, True, True, True]
+[False, False, True, True]
+</ans>",0,{}
+50,"<ans>
+[[1, 2, 3], [4, 5, 6]]
+[[], [7, 8, 9]]
+[[10], [11, 12]]
+[[13, 14], [15]]
+[[16, 17, 18], [19, 20]]
+[[21, 22], [23, 24, 25]]
+</ans>",0,{}
+51,"<ans>
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[[3, 2, 1], [6, 5, 4], [9, 8, 7]]
+[[1, 3, 2], [4, 6, 5], [7, 9, 8]]
+[[9, 8, 7, 6, 5, 4, 3, 2, 1], [], []]
+[[], [], [1, 2, 3, 4, 5, 6, 7, 8, 9]]
+</ans>",True,{}
+52,"<ans>
+[""10101"", 2]
+[""11111"", 1]
+[""10101010"", 4]
+[""11001010"", 3]
+[""10110101"", 3]
+</ans>",True,{}
+53,"<ans>
+[""12345""]
+[""-12345""]
+[""+12345""]
+[""12345a""]
+[""""]
+["" ""]
+[""12345.67""]
+[""12345-67""]
+[""12345+67""]
+</ans>",0,{}
+54,"<ans>
+[{}, {}, {}]
+[{}, {}, {}, {}]
+[{}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}]
+[{}, {}, {}, {}, {}, {}, {}]
+</ans>",True,{}
+55,"<ans>
+[123,]
+[456,]
+[12345,]
+[67890,]
+[123456,]
+</ans>",0,{}
+56,"<ans>
+[[""a"", ""1""], [""b"", ""2.5""]]
+[[""x"", ""3.14""], [""y"", ""1.618""]]
+[[""A"", ""10""], [""B"", ""20.5""]]
+[[""C"", ""30""], [""D"", ""40.6""]]
+[[""E"", ""50""], [""F"", ""60.7""]]
+</ans>",0,{}
+57,"<ans>
+[""hello world"", ""how"", ""are"", ""you""]
+[""this"", ""is"", ""a"", ""test""]
+[""one"", ""two"", ""three""]
+[""four"", ""five"", ""six"", ""seven""]
+[""eight"", ""nine"", ""ten"", ""eleven"", ""twelve""]
+</ans>",0,{}
+58,"<ans>
+[1, 2, 3, 4, 5, 5, 5, 6, 7]
+[1, 1, 2, 2, 3, 3, 4, 4, 5]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[1, 2, 3, 4, 5, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+</ans>",0,{}
+59,"<ans>
+[[(2, 3), (4, 5)], [(1, 2), (3, 4)], [(-1, -2), (3, 4)], [(0, 1), (2, 3)], [(1, 2), (3, -4)]]
+[[(1, 2), (3, 4), (5, 6)], [(1, 2), (3, -4), (5, 6)], [(1, 2), (3, 4), (-5, -6)], [(1, -2), (3, 4), (5, -6)], [(1, 2), (-3, 4), (5, -6)]]
+[[(1, 2), (3, 4), (5, 6), (7, 8)], [(1, 2), (3, -4), (5, 6), (7, -8)], [(1, 2), (3, 4), (-5, -6), (7, 8)], [(1, -2), (3, 4), (5, -6), (7, 8)], [(1, 2), (-3, 4), (5, -6), (7, 8)]]
+[[(1, 2), (3, 4), (5, 6), (7, 8), (9, 10)], [(1, 2), (3, -4), (5, 6), (7, -8), (9, 10)], [(1, 2), (3, 4), (-5, -6), (7, 8), (9, 10)], [(1, -2), (3, 4), (5, -6), (7, 8), (9, 10)], [(1, 2), (-3, 4), (5, -6), (7, 8), (9, 10)]]
+[[(1, 2), (3, 4), (5, 6), (7, 8), (9, 10), (11, 12)], [(1, 2), (3, -4), (5, 6), (7, -8), (9, 10), (11, 12)], [(1, 2), (3, 4), (-5, -6), (7, 8), (9, 10), (11, 12)], [(1, -2), (3, 4), (5, -6), (7, 8), (9, 10), (11, 12)], [(1, 2), (-3, 4), (5, -6), (7, 8), (9, 10), (11, 12)]]
+</ans>",0,{}
+60,"<ans>
+[1000]
+[2000]
+[5000]
+[10000]
+[20000]
+</ans>",0,{}
+61,"<ans>
+[""10101010"", ""11111111"", ""00000000""]
+[""1010101010101010"", ""1111111111111111"", ""0000000000000000""]
+[""101010101010101010101010"", ""111111111111111111111111"", ""000000000000000000000000""]
+[""10101010101010101010101010101010"", ""11111111111111111111111111111111"", ""00000000000000000000000000000000""]
+[""1010101010101010101010101010101010101010101010101010101010101010"", ""1111111111111111111111111111111111111111111111111111111111111111"", ""0000000000000000000000000000000000000000000000000000000000000000""]
+</ans>",0,{}
+62,"<ans>
+[10, 15]
+[12, 18]
+[14, 21]
+[16, 24]
+[18, 27]
+</ans>",True,{}
+63,"<ans>
+[5, 6]
+[0, 0]
+[1, 1]
+[-2, 3]
+[10, 10]
+</ans>",True,{}
+64,"<ans>
+[""apple"", ""banana"", ""cherry""]
+[""hello"", ""world"", ""programming""]
+[""python"", ""programming"", ""expert""]
+[""supercalifragilisticexpialidocious"", ""antidisestablishmentarianism""]
+[""internationalization"", ""localization"", ""accessibility""]
+</ans>",0,{}
+65,"<ans>
+[[[2, 7, 6], [9, 5, 1], [4, 3, 8]], 3]
+[[[8, 1, 6], [3, 5, 7], [4, 9, 2]], 3]
+[[[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3]
+[[[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]], 4]
+[[[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]], 2]
+</ans>",0,{}
+66,"<ans>
+[1, 2, 3, 2, 1]
+[3, 1, 2, 1, 1]
+[1, 1, 1, 1, 1]
+[5, 5, 5, 5, 5]
+[1, 2, 3, 4, 5]
+</ans>",0,{}
+67,"<ans>
+[""hello"", ""world""]
+[""leetcode"", ""is"", ""amazing""]
+[""aA"", ""eE"", ""iI"", ""oO"", ""uU""]
+[""aeiouAEIOU"", ""yY""]
+["""", ""y""]
+[""y"", """"]
+</ans>",0,{}
+68,"<ans>
+([""a"", ""b"", ""c""],)
+([""1"", ""2"", ""3""],)
+([""A"", ""B"", ""C""],)
+([""hello"", ""world""],)
+([""123"", ""456"", ""789""],)
+</ans>",True,{}
+69,"<ans>
+[[-1, -2, -3, -4, -5], 3]
+[[1, 2, -3, 4, -5], -8]
+[[], 0]
+[[1, -2, 3, -4, 5], -5]
+[[10, -20, 30, -40, 50], -90]
+</ans>",0,{}
+70,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>",True,{}
+71,"<ans>
+[10]
+[15]
+[16]
+[32]
+[64]
+</ans>",True,{}
+72,"<ans>
+[3, 2, 1]
+[5, 4, 3, 2, 1]
+[1, 2, 3, 4, 5]
+[5, 3, 2, 1, 4]
+[1, 3, 2, 5, 4]
+</ans>",0,{}
+73,"<ans>
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[[1, 1, 1], [2, 2, 2], [3, 3, 3]]
+[[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+[[1, 2, 3], [4, 5, 6], [1, 2, 3]]
+[[1, 2, 3], [1, 2, 3], [3, 2, 1]]
+</ans>",True,{}
+74,"<ans>
+[()]
+[(1,)]
+[(1, 2)]
+[(1, 2, 3)]
+[(1, 2, 3, 4)]
+</ans>",True,{}
+75,"<ans>
+[[-10, -20, -30, -40, -50], 50]
+[[1, 2, 3, 4, 5], 4]
+[[10, 20, 30, 40, 50], 40]
+[[1, 1, 1, 1, 1], 0]
+[[5, 5, 5, 5, 5], 0]
+</ans>",0,{}
+76,"<ans>
+[2, 3, 10]
+[3, 4, 13]
+[5, 7, 35]
+[10, 15, 75]
+[7, 11, 49]
+</ans>",True,{}
+77,"<ans>
+[[1, 2, 3], [2, 3], 1]
+[[1, 2, 3], [1, 2], 2]
+[[1, 2, 3], [3], 3]
+[[1, 2, 3, 4], [2, 3], 2]
+[[1, 2, 3, 4], [1, 2, 4], 3]
+</ans>",0,{}
+78,"<ans>
+[10]
+[5]
+[1]
+[0]
+[-5]
+</ans>",True,{}
+79,"<ans>
+[1, 1]
+[2, 2]
+[3, 3]
+[4, 4]
+[5, 5]
+</ans>",True,{}
+80,"<ans>
+[""Hello"", ""hello"", ""World"", ""world""]
+[""Python"", ""Programming"", ""is"", ""fun""]
+[""abc"", ""ABC"", ""xyz"", ""XYZ""]
+[""123"", ""abc"", ""xyz"", ""ABC""]
+["""", ""a"", ""A"", """"]
+</ans>",0,{}
+81,"<ans>
+[4, 2, 1, 3, 2]
+[1, 2, 3, 4, 5]
+[0, 1, 2, 3, 4]
+[5, 5, 5, 5, 5]
+[1, 1, 1, 1, 1]
+</ans>",0,{}
+82,"<ans>
+[1]
+[2]
+[3]
+[10]
+[15]
+</ans>",True,{}
+83,"<ans>
+[5, 3]
+[10, 5]
+[5, 5]
+[1, 1]
+[3, 3]
+</ans>",0,{}
+84,"<ans>
+[5, 0, 4]
+[10, 2, 5]
+[15, 1, 3]
+[20, 3, 7]
+[25, 4, 6]
+</ans>",0,{}
+85,"<ans>
+[5]
+[10]
+[15]
+[20]
+[25]
+</ans>",True,{}
+86,"<ans>
+[""stddstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstdstd",0,{}
+87,"<ans>
+[(1, 1, 1, 1)]
+[(1, 'a', 1, 'a')]
+[(1, 1, 'a', 1)]
+[(1, 2.0, 'a', 2.0)]
+[(1, [1], 'a', [1])]
+</ans>",True,{}
+88,"<ans>
+[5, 3, 3]
+[10, 5, 5]
+[7, 4, 4]
+[15, 8, 8]
+[20, 11, 11]
+</ans>",0,{}
+89,"<ans>
+[0]
+[1]
+[15]
+[255]
+[0xFFFFFFFF]
+</ans>",True,{}
+90,"<ans>
+[""hello"", ""world""]
+[""12345"", ""67890""]
+[""abcdefgh"", ""ijklmnop""]
+[""qwerty"", ""uiopasdfgh""]
+[""zxcvbnm"", ""1234567890""]
+</ans>",0,{}
+91,"<ans>
+[1, 2, 3]
+[3, 1, 2]
+[2, 2, 2]
+[5, 4, 3]
+[10, 10, 10]
+</ans>",True,{}
+92,"<ans>
+[0, 0, 0]
+[15, 1, 3]
+[31, 1, 5]
+[63, 1, 6]
+[127, 1, 7]
+</ans>",0,{}
+93,"<ans>
+[[-1, -2, 3, 4, 5], 3]
+[[1, 2, -3, -4, -5], 3]
+[[1, -2, 3, -4, 5], 4]
+[[1, 2, -3, 4, -5], 3]
+[[1, 2, 3, -4, -5], 2]
+</ans>",True,{}
+94,"<ans>
+[""hello world"", ""o""]
+[""hello world"", ""x""]
+[""hello world"", """"]
+[""hello world"", "" ""]
+[""hello world"", ""h""]
+</ans>",True,{}
+95,"<ans>
+[1, 1, 1]
+[2, 2, 2]
+[3, 3, 3]
+[4, 4, 4]
+[5, 5, 5]
+</ans>",0,{}
+96,"<ans>
+[15,]
+[20,]
+[10,]
+[30,]
+[25,]
+</ans>",True,{}
+97,"<ans>
+[[[1, 2], [2, 1], [1, 2]], [[3, 4], [4, 3], [3, 4]]]
+[[[1, 2], [2, 1], [1, 2], [2, 1]], [[3, 4], [4, 3], [3, 4], [4, 3]]]
+[[[1, 2], [2, 1], [1, 2], [2, 1], [1, 2]], [[3, 4], [4, 3], [3, 4], [4, 3], [3, 4]]]
+[[[1, 2, 3], [2, 1, 3], [1, 2, 3], [3, 2, 1]], [[4, 5, 6], [5, 4, 6], [4, 5, 6], [6, 5, 4]]]
+[[[1, 2, 3], [2, 1, 3], [1, 2, 3], [3, 2, 1], [2, 3, 1]], [[4, 5, 6], [5, 4, 6], [4, 5, 6], [6, 5, 4], [5, 6, 4]]]
+</ans>",0,{}
+98,"<ans>
+[""abc"", 3]
+[""hello"", 15]
+["""", 0]
+[""a"", 1]
+[""aa"", 3]
+</ans>",0,{}
+99,"<ans>
+[5, 3]
+[10, 4]
+[7, 2]
+[15, 5]
+[8, 3]
+</ans>",True,{}
+100,"<ans>
+[[1, 2, [3, 4]], [5, 6, [7, 8]]]
+[[1, 2, [3]], [4, 5, [6, 7]]]
+[[1, 2, [3, 4, 5]], [6, 7, [8]]]
+[[1, 2, [3, 4]], [5, 6, [7]]]
+[[1, 2, [3]], [4, 5, [6]]]
+</ans>",True,{}
+101,"<ans>
+[""hello"",]
+[""world"",]
+["""",]
+[""12345"",]
+[""abcdefghijklmnopqrstuvwxyz"",]
+</ans>",True,{}
+102,"<ans>
+[15]
+[25]
+[30]
+[40]
+[50]
+</ans>",True,{}
+103,"<ans>
+[[-1, -2, 3, 5, 6, -2, -1, 4, -4, 2], 4]
+[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 55]
+[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1], 110]
+[[5, 6, 7, 8, 9, 10, 9, 8, 7, 6, 5], 55]
+[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1], 110]
+</ans>",0,{}
+104,"<ans>
+[""aba"", ""bb""]
+[""abcd"", ""dcba""]
+[""level"", ""level""]
+[""racecar"", ""racecar""]
+[""radar"", ""radar""]
+</ans>",0,{}
+105,"<ans>
+[1, 2, 3, 4, 5], [3, 4, 5]
+[1, 2, 3, 4, 5], [1, 2, 3]
+[1, 2, 3, 4, 5], [5, 6, 7]
+[1, 2, 3, 4, 5], [1, 2, 3, 4, 5]
+[1, 2, 3, 4, 5], [5, 6, 7, 8, 9]
+</ans>",True,{}
+106,"<ans>
+[(1, 2, 3), 2]
+[(1, 2, 2, 2), 2]
+[(1, 1, 1, 1), 1]
+[(1, 2, 3, 4, 5), 3]
+[(1, 1, 2, 2, 3, 3), 2]
+</ans>",True,{}
+107,"<ans>
+[[1, 2, 3], 0]
+[[1, 2, 3, 4], 1]
+[[], 5]
+[['a', 'b', 'c'], 'x']
+[[1, 2, 3, 4, 5], 'z']
+</ans>",True,{}
+108,"<ans>
+[(1+1j),]
+[(2-3j),]
+[(0+0j),]
+[(3+4j),]
+[(1-1j),]
+</ans>",True,{}
+109,"<ans>
+[1, 2, 3, 4, 5]
+[10, 20, 30, 40, 50]
+[1, 2, ""3"", 4, 5.0]
+[1, 2, ""3"", 4, 5, ""six"", 7.0]
+[1, 2, ""three"", 4, 5, ""six"", 7.0, ""eight"", 9.0]
+</ans>",0,{}
+110,"<ans>
+[['r', 'g', 'b'], 3]
+[['r', 'g', 'b', 'y'], 4]
+[['r', 'r', 'g', 'g', 'b'], 5]
+[['r', 'g', 'b', 'y', 'y', 'y'], 6]
+[['r', 'r', 'r', 'g', 'g', 'b', 'b', 'b'], 8]
+</ans>",True,{}
+111,"<ans>
+[0]
+[10]
+[20]
+[30]
+[100]
+</ans>",True,{}
+112,"<ans>
+[5, 3]
+[10, 20]
+[7, 8]
+[2, 1]
+[4, 6]
+</ans>",True,{}
+113,"<ans>
+[(1, 2), (3, 4)]
+[(5, 6), (7, 8)]
+[(9, 10), (11, 12)]
+[(13, 14), (15, 16)]
+[(17, 18), (19, 20)]
+</ans>",0,{}
+114,"<ans>
+[0]
+[1]
+[2]
+[3]
+[10]
+</ans>",True,{}
+115,"<ans>
+[(1, 2, 3), (2, 3, 4)]
+[(4, 5, 6), (2, 2, 2)]
+[(10, 20, 30), (2, 4, 6)]
+[(5, 10, 15), (1, 2, 3)]
+[(8, 16, 32), (2, 4, 8)]
+</ans>",True,{}
+116,"<ans>
+[[1, 2, 3, 4, 5], 3]
+[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 5]
+[[], 0]
+[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 7]
+[[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 10]
+</ans>",True,{}
+117,"<ans>
+[10]
+[0]
+[2]
+[5]
+[15]
+</ans>",True,{}
+118,"<ans>
+[['a', 'b', 'c', 'd', 'e'], 2]
+[['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'], 3]
+[['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't'], 4]
+[['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'], 5]
+[['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'], 100]
+</ans>",True,{}
+119,"<ans>
+[2, ]
+[3, ]
+[5, ]
+[10, ]
+[7, ]
+</ans>",True,{}
+120,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>",True,{}
+121,"<ans>
+[1, 1]
+[2, 13]
+[3, 35]
+[4, 71]
+[5, 113]
+</ans>",0,{}
+122,"<ans>
+['a']
+[' ']
+['A']
+['0']
+['9']
+</ans>",True,{}
+123,"<ans>
+[1, 2, 3, 4, 5]
+[2, 4, 6, 8, 10]
+[10, 20, 30, 40, 50]
+[1, 3, 5, 7, 9]
+[2, 4, 6, 8, 10, 12]
+</ans>",0,{}
+124,"<ans>
+[5,]
+[10,]
+[15,]
+[20,]
+[25,]
+</ans>",True,{}
+125,"<ans>
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[[10, 20, 30], [40, 50, 60], [70, 80, 90]]
+[[100, 200, 300], [400, 500, 600], [700, 800, 900]]
+[[1000, 2000, 3000], [4000, 5000, 6000], [7000, 8000, 9000]]
+[[10000, 20000, 30000], [40000, 50000, 60000], [70000, 80000, 90000]]
+</ans>",0,{}
+126,"<ans>
+[(1, 2, 3), (4, 5, 6)]
+[(10, 20, 30), (5, 10, 15)]
+[(5, 10, 15), (0, 5, 10)]
+[(1, 2, 3, 4), (5, 6, 7, 8)]
+[(10, 20, 30, 40), (5, 10, 15, 20)]
+</ans>",0,{}
+127,"<ans>
+[10]
+[20]
+[30]
+[40]
+[50]
+</ans>",True,{}
+128,"<ans>
+{""a"": 5, ""b"": 3, ""c"": 8, ""d"": 2}
+3
+</ans>
+<ans>
+{""x"": 10, ""y"": 5, ""z"": 15, ""w"": 2}
+10
+</ans>
+<ans>
+{""apple"": 3, ""banana"": 2, ""cherry"": 4, ""date"": 1}
+3
+</ans>
+<ans>
+{""one"": 5, ""two"": 5, ""three"": 5, ""four"": 5}
+5
+</ans>
+<ans>
+{""a"": 1, ""b"": 2, ""c"": 3, ""d"": 4, ""e"": 5}
+5
+</ans>",0,{}
+129,"<ans>
+[(1, 2, 3, 4, 5)]
+[(1, 2, (3, 4, 5))]
+[(1, (2, 3), 4, 5)]
+[(1, 2, 3, (4, 5))]
+[(1, 2, (3, (4, 5)))]
+</ans>",True,{}
+130,"<ans>
+[1]
+[2]
+[3]
+[10]
+[50]
+</ans>",True,{}
+131,"<ans>
+[[[1, 2, 3, 4, 5], 3]]
+[[[1, 2, 3, 4, 5], 6]]
+[[[1, 2, 2, 3, 4, 5], 2]]
+[[[1, 2, 2, 2, 3, 4, 5], 2]]
+[[[1, 1, 1, 1, 1], 1]]
+</ans>",0,{}
+132,"<ans>
+[['a', 'b', 'c', 'd']]
+[['a', 'b', 'b', 'c']]
+[['a', 'a', 'a', 'a']]
+[['apple', 'banana', 'cherry', 'date']]
+[['apple', 'apple', 'banana', 'banana']]
+</ans>",True,{}
+133,"<ans>
+[1, 2, 3], [4, 5, 6]
+[9, 8, 7], [6, 5, 4]
+[10, 20, 30], [5, 10, 15]
+[-1, -2, -3], [2, 3, 4]
+[0, 0, 0], [0, 0, 0]
+</ans>",True,{}
+134,"<ans>
+[12345, 12345, 12345]
+[12345, 12345, 12345]
+[12345, 12345, 12345]
+[12345, 12345, 12345]
+[12345, 12345, 12345]
+</ans>",0,{}
+135,"<ans>
+[[1, 1, 1], 1]
+[[2, 2, 2], 2]
+[[1, 2, 3], 1]
+[[4, 4, 4, 4], 4]
+[[1, 1, 1, 1, 1], 1]
+</ans>",True,{}
+136,"<ans>
+[""abbb"", ""abbbb"", ""abbbbb""]
+[""ab"", ""abb"", ""abbb""]
+[""a"", ""abb"", ""abbb""]
+[""abbb"", ""abbbb"", ""abbbbbb""]
+[""abbb"", ""abbbb"", ""abbbbb""]
+</ans>",0,{}
+137,"<ans>
+[[1, 2, 3, 4, 5], 5, 2]
+[[5, 6, -1, -2, 3, 4], 6, 3]
+[[1, 2, 3, 4, 5, -1, -2, -3, -4, -5], 10, 5]
+[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 15, 3]
+[[1, -2, 3, -4, 5, -6, 7, -8, 9, -10], 10, 2]
+</ans>",True,{}
+138,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>",True,{}
+139,"<ans>
+[[[1, 2, 3], [4, 5], [6, 7, 8, 9]], [[1, 2, 3], [4, 5, 6], [7, 8, 9]]]
+[[[1, 2, 3], [4, 5, 6], [7, 8, 9]], [[1, 2, 3], [4, 5], [6, 7, 8, 9]]]
+[[[1, 2, 3], [4, 5, 6, 7], [8, 9]], [[1, 2, 3], [4, 5, 6], [7, 8, 9]]]
+[[[1, 2, 3, 4, 5], [6, 7], [8, 9]], [[1, 2, 3, 4, 5], [6, 7, 8, 9]]]
+[[[1, 2, 3, 4, 5, 6], [7, 8, 9]], [[1, 2, 3, 4, 5], [6, 7, 8, 9]]]
+</ans>",0,{}
+140,"<ans>
+[5, 3]
+[3, 2]
+[4, 3]
+[6, 4]
+[2, 1]
+</ans>",True,{}
+141,"<ans>
+[10, 3]
+[7, 2]
+[15, 4]
+[20, 5]
+[100, 10]
+</ans>",True,{}
+142,"<ans>
+[3, 4]
+[5, 12]
+[8, 15]
+[7, 24]
+[9, 40]
+</ans>",True,{}
+143,"<ans>
+[[1, 2, 3, 4, 5], [10, 20, 30, 40, 50], [100, 200, 300, 400, 500]]
+[[5, 10, 15, 20, 25], [100, 200, 300, 400, 500], [1000, 2000, 3000, 4000, 5000]]
+[[1, 'a', 3, 'b', 5], [10, 'a', 30, 'b', 50], [100, 'a', 300, 'b', 500]]
+[[1, 2, 'a', 4, 5], [10, 20, 'a', 40, 50], [100, 200, 'a', 400, 500]]
+[[1, 2, 3, 'a', 5], [10, 20, 30, 'a', 50], [100, 200, 300, 'a', 500]]
+</ans>",0,{}
+144,"<ans>
+[12]
+[18]
+[25]
+[36]
+[49]
+</ans>",True,{}
+145,"<ans>
+[5, 3, 2, 1, 4]
+[1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1]
+[1, 3, 5, 2, 4]
+[5, 2, 4, 1, 3]
+</ans>",0,{}
+146,"<ans>
+[[1, 2, [3, 4, [5, 6], 7], 8], 9]
+[[1, [2, [3, 4], 5], 6, 7]]
+[[1, 2, [3, 4, [5, 6, [7, 8], 9], 10], 11]]
+[[1, [2, [3, [4, 5, [6, 7], 8], 9], 10], 11]]
+[[1, 2, [3, [4, 5, [6, 7, [8, 9], 10], 11], 12], 13]]
+</ans>",0,{}
+147,"<ans>
+[[""Alice"", 80], [""Bob"", 90], [""Charlie"", 70]]
+[[""Alice"", 80], [""Bob"", 90], [""Charlie"", 70], [""David"", 85]]
+[[""Alice"", 80], [""Bob"", 90], [""Charlie"", 70], [""David"", 85], [""Eve"", 95]]
+[[""Alice"", 80], [""Bob"", 90], [""Charlie"", 70], [""David"", 85], [""Eve"", 95], [""Frank"", 80]]
+[[""Alice"", 80], [""Bob"", 90], [""Charlie"", 70], [""David"", 85], [""Eve"", 95], [""Frank"", 80], [""Grace"", 90]]
+</ans>",0,{}
+148,"<ans>
+[{'a': 1, 'b': 2, 'c': {'x': 3, 'y': 4}}, 2]
+{'a': {'b': {'c': 1}}, 3}
+{'a': 1, 'b': {'c': 2, 'd': 3}, 'e': 4, 'f': 5, 'g': 6}, 4]
+{'a': {'b': {'c': {'d': {'e': 1}}}}}, 5]
+{'a': 1, 'b': 2, 'c': 3, 'd': {'e': 4, 'f': 5, 'g': 6, 'h': {'i': 7, 'j': 8}}}, 6]
+</ans>",0,{}
+149,"<ans>
+[[[1, 2, 3, 4, 5], [[0, 4], [5, 5]], 2, 1], [1, 2, 3, 4, 5], [[0, 4], [5, 5]], 2, 1]
+[[[6, 7, 8, 9, 10], [[0, 4], [5, 5]], 3, 2], [6, 7, 8, 9, 10], [[0, 4], [5, 5]], 3, 2]
+[[[11, 12, 13, 14, 15], [[0, 4], [5, 5]], 1, 3], [11, 12, 13, 14, 15], [[0, 4], [5, 5]], 1, 3]
+[[[16, 17, 18, 19, 20], [[0, 2], [3, 4], [5, 5]], 2, 4], [16, 17, 18, 19, 20], [[0, 2], [3, 4], [5, 5]], 2, 4]
+[[[21, 22, 23, 24, 25], [[0, 4], [5, 5]], 0, 0], [21, 22, 23, 24, 25], [[0, 4], [5, 5]], 0, 0]
+</ans>",0,{}
+150,"<ans>
+[""python"", ""programming""]
+[""python"", ""pizza""]
+[""python"", ""penguin""]
+[""python"", ""pancake""]
+[""python"", ""penguin"", ""python""]
+</ans>",0,{}
+151,"<ans>
+[[5, 2, 3, 4, 1], 2, 4]
+[[1, 2, 3, 4, 5], 1, 3]
+[[5, 4, 3, 2, 1], 2, 4]
+[[1, 2, 3, 4, 5, 6, 7, 8, 9], 4, 8]
+[[9, 8, 7, 6, 5, 4, 3, 2, 1], 4, 8]
+</ans>",0,{}
+152,"<ans>
+[[[1, 2], [3, 4]], 1, 5]
+[[[1, 2, 3], [4, 5]], 1, 6]
+[[[1, 2, 3, 4], [5]], 2, 5]
+[[[1, 2, 3, 4, 5], []], 3, 6]
+[[[1, 2, 3, 4, 5, 6], [7, 8]], 5, 7]
+</ans>",0,{}
+153,"<ans>
+[[3, 4], [2, 3], 2]
+[[1, 2], [3, 4], 3]
+[[2, 2], [2, 3], 2]
+[[4, 4], [2, 3], 2]
+[[3, 3], [2, 2], 2]
+</ans>",True,{}
+154,"<ans>
+[1, 2]
+[3, 3]
+[4, 2]
+[-1, -2]
+[0, 0]
+</ans>",True,{}
+155,"<ans>
+[""hello"",]
+[""world"",]
+[""hello world"",]
+[""  hello world  "",]
+[""12345"",]
+</ans>",True,{}
+156,"<ans>
+[0]
+[1]
+[2]
+[7]
+[15]
+</ans>",True,{}
+157,"<ans>
+[16]
+[32]
+[15]
+[1]
+[0]
+</ans>",True,{}
+158,"<ans>
+[0]
+[1]
+[2]
+[3]
+[10]
+</ans>",True,{}
+159,"<ans>
+[""{0}"", ""{1}"", ""{2}""]
+[""{a}"", ""{b}"", ""{c}""]
+[""{x}"", ""{y}"", ""{z}""]
+[""{1}"", ""{2}"", ""{3}"", ""{4}""]
+[""{a}"", ""{b}"", ""{c}"", ""{d}""]
+</ans>",0,{}
+160,"<ans>
+[['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h', 'i']]
+[['x', 'y', 'z'], ['1', '2', '3'], ['a', 'b', 'c']]
+[['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']]
+[['apple', 'banana', 'cherry'], ['red', 'yellow', 'green'], ['fruit', 'fruit', 'fruit']]
+[['one', 'two', 'three'], ['first', 'second', 'third'], ['1', '2', '3']]
+</ans>",True,{}
+161,"<ans>
+[10]
+[20]
+[30]
+[40]
+[50]
+</ans>",True,{}
+162,"<ans>
+[[1, 2, 3], [4, 5, 6]]
+[[1, 2, 3, 4], [5, 6, 7, 8]]
+[[], [1, 2, 3]]
+[[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]]
+[[1, 2, 3, 4], [5, 6, 7, 8, 9]]
+</ans>",0,{}
+163,"<ans>
+[(1, 2, 3)]
+[(1, 1, 2)]
+[(1, 2, 2)]
+[(1, 2, 3, 4)]
+[(1, 2, 3, 3)]
+</ans>",0,{}
+164,"<ans>
+[""aabbc"", ""abcabc"", ""aabbcc"", ""aabbccdd"", ""aabbccdd""]
+</ans>",0,{}
+165,"<ans>
+[""a"", ""a""]
+[""aa"", ""a""]
+[""ab"", ""b""]
+[""abc"", ""c""]
+[""xyz"", ""x""]
+</ans>",0,{}
+166,"<ans>
+[1, 2, 3]
+[3, 2, 1]
+[2, 1, 3]
+[4, 2, 3]
+[3, 1, 2]
+</ans>",True,{}
+167,"<ans>
+[123, 456, 789]
+[100, 200, 300]
+[1234, 5678, 9012]
+[1000, 2000, 3000]
+[12345, 67890, 12345]
+</ans>",0,{}
+168,"<ans>
+[(1, 2, 3), (4, 5, 6)]
+[(7, 8, 9), (10, 11, 12)]
+[(13, 14, 15), (16, 17, 18)]
+[(19, 20, 21), (22, 23, 24)]
+[(25, 26, 27), (28, 29, 30)]
+</ans>",True,{}
+169,"<ans>
+[[[1, 2, 3], [3, 2, 1], [2, 1, 3]], [[1, 2, 2], [2, 1, 2], [2, 2, 1]], [[1, 1, 1], [1, 1, 1], [1, 1, 1]], [[1, 2, 3, 4], [4, 3, 2, 1], [2, 1, 4, 3]], [[1, 1, 2, 2], [2, 2, 1, 1], [2, 1, 2, 1]]]
+</ans>",0,{}
+170,"<ans>
+[(1, 2, 3), (4, 5, 6)]
+[(1, 2), (3, 4)]
+[(1, 2, 3), (4, 5)]
+[(1, 2, 3, 4), (5, 6, 7, 8)]
+[(1, 2, 3), (4, 5, 6, 7)]
+</ans>",0,{}
+171,"<ans>
+[5, 3]
+[2, 2]
+[0, -1]
+[-1, -2]
+[1.5, 1.5]
+</ans>",True,{}
+172,"<ans>
+[(""a"", ""b"", ""c""), (""b"",), True]
+[(""a"", ""b"", ""c""), (""d"", ""e"", ""f""), False]
+[(), (""a"",), False]
+[(""a"", ""a"", ""a""), (""a"",), True]
+[(""a"", ""b"", ""c"", ""d"", ""e""), (""b"", ""c""), True]
+</ans>",0,{}
+173,"<ans>
+[0]
+[1]
+[255]
+[65535]
+[4294967295]
+</ans>",True,{}
+174,"<ans>
+[1234, 5678]
+[9876, 8769]
+[1342, 2341]
+[4321, 4321]
+[1023, 3210]
+</ans>",0,{}
+175,"<ans>
+[[[1, 2], [2, 3], [3, 4]], 3]
+[[[1, 2], [2, 3]], 2]
+[[[1, 2], [2, 3], [3, 4], [4, 5]], 4]
+[[[1, 2], [2, 3], [3, 4], [4, 5], [5, 6]], 5]
+[[[1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]], 6]
+</ans>",0,{}
+176,"<ans>
+[[(2, 3), (4, 5)], [(1, 2), (3, 4)], [(1, 1), (2, 2)], [(1, 2), (3, 4), (5, 6)], [(1, 2), (3, 4), (5, 5)]]
+</ans>",0,{}
+177,"<ans>
+[[1, 2, 3, 4, 5], 1]
+[[1, 2, 'a', 4, 5], 1]
+[[1, 'a', 3, 4, 5], 3]
+[[1, 2, 3, 'a', 5], 1]
+[[1, 2, 3, 4, 'a'], 1]
+</ans>",0,{}
+178,"<ans>
+[""hello_world"", ""snake_case_string"", ""multi_word_variable"", ""first_word_second_word"", ""all_lower_case""]
+[""hello_world"", ""snake_case_string"", ""multi_word_variable"", ""first_word_second_word"", ""all_lower_case""]
+[""hello_world"", ""snake_case_string"", ""multi_word_variable"", ""first_word_second_word"", ""all_lower_case""]
+[""hello_world"", ""snake_case_string"", ""multi_word_variable"", ""first_word_second_word"", ""all_lower_case""]
+[""hello_world"", ""snake_case_string"", ""multi_word_variable"", ""first_word_second_word"", ""all_lower_case""]
+</ans>",0,{}
+179,"<ans>
+[1, 2, 3, 4, 5, 6]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[2, 4, 6, 8, 10]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[10, 20, 30, 40, 50]
+</ans>",0,{}
+180,"<ans>
+[[1, 2, 3], 1]
+[[4, 5, 6], 2]
+[[7, 8, 9], 0]
+[[1, 2, 3, 4, 5], 2]
+[[6, 7, 8, 9, 10], 3]
+</ans>",0,{}
+181,"<ans>
+[[1, 2, 3], [2, 3, 4]]
+[[1, 2, 3], [3, 4, 5]]
+[[1, 2, 3], [1, 2, 3]]
+[[1, 2, 3], [4, 5, 6]]
+[[1, 2, 3], [2, 3]]
+</ans>",0,{}
+182,"<ans>
+[[1, 2, 3, 4, 5], [10, -20, 30, -40, 50], [-1, -2, -3, -4, -5], [0, 0, 0, 0, 0], [1, 1, 1, 1, 1]]
+[[5, 10, 15, 20, 25], [1, 2, 3, 4, 5], [-1, -2, -3, -4, -5], [0, 0, 0, 0, 0], [1, 1, 1, 1, 1]]
+[[1, 2, 3, 4, 5], [10, -20, 30, -40, 50], [-1, -2, -3, -4, -5], [0, 0, 0, 0, 0], [1, 1, 1, 1, 1]]
+[[1, 2, 3, 4, 5], [10, -20, 30, -40, 50], [-1, -2, -3, -4, -5], [0, 0, 0, 0, 0], [1, 1, 1, 1, 1]]
+[[1, 2, 3, 4, 5], [10, -20, 30, -40, 50], [-1, -2, -3, -4, -5], [0, 0, 0, 0, 0], [1, 1, 1, 1, 1]]
+</ans>",0,{}
+183,"<ans>
+[[(1, 2, 3), (1, 2, 4), (1, 2, 5)], [(1, 2), (1, 3), (1, 4)]]
+[[(1, 2, 3), (1, 2, 3), (1, 2, 3)], [(1, 2), (1, 2), (1, 2)]]
+[[(1, 2, 3), (1, 2, 3), (1, 2, 4)], [(1, 2), (1, 2), (1, 2, 3)]]
+[[(1, 2, 3), (1, 2, 3), (1, 2, 3), (1, 2, 4)], [(1, 2), (1, 2), (1, 2), (1, 2, 3)]]
+[[(1, 2, 3), (1, 2, 3), (1, 2, 4), (1, 2, 4)], [(1, 2), (1, 2), (1, 2, 3), (1, 2, 3)]]
+</ans>",0,{}
+184,"<ans>
+[[1, 2, 3, 4, 5], [10, 20, 30, 40, 50], [1, 1, 1, 1, 1], [100, 200, 300, 400, 500], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]]
+[[], [1], [1, 2], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+[[1, 2, 3], [1, 2, 3, 4, 5], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], []]
+[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [10, 20, 30, 40, 50, 60, 70, 80, 90, 100], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [], [1, 2, 3, 4, 5]]
+[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [10, 20, 30, 40, 50, 60, 70, 80, 90, 100], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 2, 3, 4, 5], []]
+</ans>",0,{}
+185,"<ans>
+[1.5, 2.5, 3.5]
+[2.0, 3.0, 4.0]
+[0.0, 0.0, 0.0]
+[-1.5, -2.5, -3.5]
+[-2.0, -3.0, -4.0]
+</ans>",0,{}
+186,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>",0,{}
+187,"<ans>
+([1, 2, 3], ""-"")
+([4, 5, 6, 7], "","")
+([], ""x"")
+([""a"", ""b"", ""c""], ""|"")
+([""1"", ""2"", ""3"", ""4"", ""5""], "" "")
+</ans>",0,{}
+188,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>",True,{}
+189,"<ans>
+([""abc"", ""def"", ""ghi""],)
+([""123"", ""456"", ""789""],)
+([""hello"", ""world"", ""!""],)
+([""python"", ""is"", ""awesome""],)
+([""1"", ""2"", ""3"", ""4"", ""5""],)
+</ans>",True,{}
+190,"<ans>
+[[[1, 2, 3], 1], [[1, 2, 3], 2], [[1, 2, 3], 3], [[1, 2, 3], 4], [[1, 2, 3], 5]]
+[[[1, 2, 3, 4], 1], [[1, 2, 3, 4], 2], [[1, 2, 3, 4], 3], [[1, 2, 3, 4], 4], [[1, 2, 3, 4], 5]]
+[[[1, 2, 3, 4, 5], 1], [[1, 2, 3, 4, 5], 2], [[1, 2, 3, 4, 5], 3], [[1, 2, 3, 4, 5], 4], [[1, 2, 3, 4, 5], 5]]
+[[[1, 1, 1, 1, 1], 1], [[1, 1, 1, 1, 1], 2], [[1, 1, 1, 1, 1], 3], [[1, 1, 1, 1, 1], 4], [[1, 1, 1, 1, 1], 5]]
+[[[1, 2, 3, 4, 5, 6], 1], [[1, 2, 3, 4, 5, 6], 2], [[1, 2, 3, 4, 5, 6], 3], [[1, 2, 3, 4, 5, 6], 4], [[1, 2, 3, 4, 5, 6], 5]]
+</ans>",0,{}
+191,"<ans>
+[1, 2, 3, 4, 5]
+[2, 4, 6, 8, 10]
+[1, 3, 5]
+[10, 20, 30, 40, 50]
+[1, 3, 5, 7, 9, 11]
+</ans>",0,{}
+192,"<ans>
+[""2022-01-01""]
+[""2022-12-31""]
+[""1999-12-31""]
+[""2000-01-01""]
+[""2022-02-29""]
+</ans>",True,{}
+193,"<ans>
+[5, 3, 1, 4, 2]
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+[1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+</ans>",0,{}
+194,"<ans>
+[(1, 2, 3), (4, 5, 6)]
+[(7, 8, 9), (10, 11, 12)]
+[(13, 14, 15), (16, 17, 18)]
+[(19, 20, 21), (22, 23, 24)]
+[(25, 26, 27), (28, 29, 30)]
+</ans>",True,{}
+195,"<ans>
+[1, -2, 1]
+[2, -3, 10]
+[3, -4, 33]
+[4, -5, 68]
+[5, -6, 115]
+</ans>",0,{}
+196,"<ans>
+[[1, 2, 3], [3, 4, 5]]
+[[1, 2, 3], [6, 7, 8]]
+[[1, 2, 3], [2, 3, 4]]
+[[4, 5, 6], [6, 7, 8]]
+[[1, 2, 3], [3, 4, 5, 6]]
+</ans>",0,{}
+197,"<ans>
+[5, 3, 4]
+[10, 8, 6]
+[7, 9, 5]
+[15, 12, 10]
+[20, 18, 16]
+</ans>",0,{}
+198,"<ans>
+[5, [1, 2, 3]]
+[10, [5, 6, 7]]
+[7, [2, 4, 6]]
+[15, [10, 11, 12]]
+[20, [15, 16, 17]]
+</ans>",0,{}
+199,"<ans>
+[""a"", ""bb"", ""abbbbb""]
+[""ab"", ""abbb"", ""aabb""]
+[""a"", ""b"", ""ab""]
+[""aaaa"", ""bbbb"", ""aabbb""]
+[""ab"", ""bb"", ""aabbb""]
+</ans>",0,{}
+200,"<ans>
+[12345]
+[99999]
+[100000]
+[123456789]
+[987654321]
+</ans>",0,{}
+201,"<ans>
+[[-1, -2, -3]]
+[[1, -2, -3, -4]]
+[[1, 2, -3, -4, -5]]
+[[1, 2, 3, -4, -5, -6]]
+[[1, 2, 3, 4, -5, -6, -7]]
+</ans>",0,{}
+202,"<ans>
+[""abcdefg"", ""abcd""]
+[""1234567890"", ""2468""]
+[""aBcDeFgHiJkLmNoPqRsTuVwXyZ"", ""BdFhJlNpTvw""]
+[""Hello, World!"", ""e, l, o, l""]
+[""12345"", """"]
+</ans>",0,{}
+203,"<ans>
+[[[1, 2], [2, 1]], [[1, 2], [2, 1], [3, 4], [4, 3]]]
+[[[1, 2], [2, 1]], [[1, 2], [2, 1], [3, 3]]]
+[[[1, 2], [2, 1]], [[1, 2], [2, 1], [3, 4], [4, 3], [5, 5]]]
+[[[1, 2], [2, 1]], [[1, 2], [2, 1], [3, 4], [4, 3], [5, 6], [6, 5]]]
+[[[1, 2], [2, 1]], [[1, 2], [2, 1], [3, 4], [4, 3], [5, 6], [6, 5], [7, 7]]]
+</ans>",0,{}
+204,"<ans>
+[123, 456]
+[789, 0]
+[12, 34, 5]
+[678, 901]
+[234, 567, 890]
+</ans>",0,{}
+205,"<ans>
+[""It was raining heavily"", 7, 15, ""heavily""]
+[""She sings beautifully"", 10, 18, ""beautifully""]
+[""He runs quickly"", 8, 16, ""quickly""]
+[""She dances gracefully"", 14, 22, ""gracefully""]
+[""He plays guitar skillfully"", 22, 31, ""skillfully""]
+</ans>",0,{}
+206,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>",0,{}
+207,"<ans>
+[[-1, -2, -3], 0.0]
+[[1, 2, 3], 1.0]
+[[1, -2, 3], 0.67]
+[[1, 2, -3, 4], 0.5]
+[[0, 0, 0], 0.0]
+</ans>",0,{}
+208,"<ans>
+[-5, -2, -1, 0, 1]
+[-10, -5, -2, 0, 5]
+[-3, -2, -1, 0, 1]
+[-1, -1, -1, 0, 1]
+[-5, -3, -2, -1, 0]
+</ans>",0,{}
+209,"<ans>
+[[(1, 2), (3, 4)], 1]
+[[(1, 2, 3), (4, 5, 6)], 2]
+[[(1, 2, 3, 4), (5, 6, 7, 8)], 1]
+[[(1, 2, 3, 4, 5), (6, 7, 8, 9, 10)], 2]
+[[(1, 2, 3, 4, 5, 6), (7, 8, 9, 10, 11, 12)], 3]
+</ans>",True,{}
+210,"<ans>
+[(1, 2, 3), (4, 5, 6)]
+[(2, 4, 6), (8, 10, 12)]
+[(1, 2, 3), (4, 5, 6), (7, 8, 9)]
+[(1, 2, 3, 4), (5, 6, 7, 8)]
+[(1, 2, 3), (4, 5, 6), (7, 8, 9), (10, 11, 12)]
+</ans>",0,{}
+211,"<ans>
+[[(1, 2, 3), [1, 2, 3]], [(1, 2, 3), [2, 3]], [(1, 2, 3), [1, 2]], [(1, 2, 3), [3, 2, 1]], [(1, 2, 3), [1, 2, 3, 4]]]
+[(1, 2, 3, 4), [1, 2, 3]], [(1, 2, 3, 4), [2, 3, 4]], [(1, 2, 3, 4), [1, 2, 4]], [(1, 2, 3, 4), [3, 2, 1, 4]], [(1, 2, 3, 4), [1, 2, 3, 4, 5]]]
+[(1, 2, 3, 4, 5), [1, 2, 3]], [(1, 2, 3, 4, 5), [2, 3, 4]], [(1, 2, 3, 4, 5), [1, 2, 5]], [(1, 2, 3, 4, 5), [3, 2, 1, 5]], [(1, 2, 3, 4, 5), [1, 2, 3, 4, 5]]]
+[(1, 2, 3, 4, 5, 6), [1, 2, 3]], [(1, 2, 3, 4, 5, 6), [2, 3, 4]], [(1, 2, 3, 4, 5, 6), [1, 2, 5]], [(1, 2, 3, 4, 5, 6), [3, 2, 1, 6]], [(1, 2, 3, 4, 5, 6), [1, 2, 3, 4, 5, 6]]]
+[(1, 2, 3, 4, 5, 6, 7), [1, 2, 3]], [(1, 2, 3, 4, 5, 6, 7), [2, 3, 4]], [(1, 2, 3, 4, 5, 6, 7), [1, 2, 7]], [(1, 2, 3, 4, 5, 6, 7), [3, 2, 1, 7]], [(1, 2, 3, 4, 5, 6, 7), [1, 2, 3, 4, 5, 6, 7]]]
+</ans>",0,{}
+212,"<ans>
+[1, 2, 3]
+[0, -1, 0]
+[-3, -2, -1]
+[1, 8, 27]
+[64, 64, 64]
+</ans>",0,{}
+213,"<ans>
+[0]
+[1]
+[2]
+[5]
+[10]
+</ans>",True,{}
+214,"<ans>
+[""apple"", ""banana"", ""cherry"", ""date"", ""elderberry""], 5
+[""hello"", ""world"", ""python"", ""programming""], 5
+[""a"", ""bb"", ""ccc"", ""dddd"", ""eeeee""], 2
+[""12345"", ""67890"", ""11111"", ""22222"", ""33333""], 5
+[""abc"", ""def"", ""ghi"", ""jkl"", ""mno""], 3
+</ans>",True,{}
+215,"<ans>
+[""Hello World"", ""HelloWorld""]
+[""   Hello   World   "", ""HelloWorld""]
+[""Hello World  "", ""HelloWorld""]
+[""Hello   World"", ""HelloWorld""]
+[""HelloWorld"", ""HelloWorld""]
+</ans>",0,{}
+216,"<ans>
+[100, 120]
+[50, 40]
+[100, 100]
+[200, 180]
+[150, 150]
+</ans>",True,{}
+217,"<ans>
+[12,]
+[20,]
+[100,]
+[1024,]
+[1000000007,]
+</ans>",True,{}
+218,"<ans>
+[1]
+[3]
+[4]
+[6]
+[12]
+</ans>",True,{}
+219,"<ans>
+[""abc"", ""def""]
+[""123"", ""456""]
+[""hello"", ""world""]
+[""a"", ""b"", ""c""]
+[""1"", ""2"", ""3"", ""4""]
+</ans>",0,{}
+220,"<ans>
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[[10, 20, 30], [40, 50, 60], [70, 80, 90]]
+[[1, 2, 3, 4], [5, 6, 7], [8, 9]]
+[[10, 20, 30, 40], [50, 60, 70], [80, 90]]
+[[1, 2, 3, 4, 5], [6, 7, 8], [9]]
+</ans>",0,{}
+221,"<ans>
+[4, 5]
+[3, 6]
+[2, 2]
+[10, 2]
+[5, 5]
+</ans>",True,{}
+222,"<ans>
+[""HeLlO"", ""WorLD""]
+[""HeLlOwOrLD"", ""HeLlOwOrLD""]
+[""HeLlOwOrLD"", ""HeLlOwOrLD""]
+[""HeLlOwOrLD"", ""HeLlOwOrLD""]
+[""HeLlOwOrLD"", ""HeLlOwOrLD""]
+</ans>",0,{}
+223,"<ans>
+[[[1, 2, 3], [4, 5, 6], [7, 8, 9]], [[10, 20, 30], [40, 50, 60], [70, 80, 90]]]
+[[[1, 2], [3, 4], [5, 6]], [[7, 8], [9, 10], [11, 12]]]
+[[[1, 2, 3], [4, 5], [6, 7, 8]], [[9, 10, 11], [12, 13], [14, 15, 16]]]
+[[[1, 2, 3, 4], [5, 6], [7, 8, 9]], [[10, 11, 12, 13], [14, 15], [16, 17, 18, 19]]]
+[[[1, 2, 3, 4, 5], [6, 7], [8, 9, 10]], [[11, 12, 13, 14, 15], [16, 17], [18, 19, 20, 21]]]
+</ans>",0,{}
+224,"<ans>
+[""Hello, World!"", ""Python3.8"", ""AI_Programming"", ""123ABC"", ""NoUpperCase""]
+</ans>",0,{}
+225,"<ans>
+[[1, 2, 3], [1, 2], [1, 3], [2, 3], []]
+[[1, 2, 3, 4], [1, 2, 3], [1, 2, 4], [1, 3, 4], [2, 3, 4], [1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4], []]
+[[1, 2, 3, 4, 5], [1, 2, 3, 4], [1, 2, 3, 5], [1, 2, 4, 5], [1, 3, 4, 5], [2, 3, 4, 5], [1, 2, 3], [1, 2, 4], [1, 2, 5], [1, 3, 4], [1, 3, 5], [1, 4, 5], [2, 3, 4], [2, 3, 5], [2, 4, 5], [3, 4, 5], [1, 2], [1, 3], [1, 4], [1, 5], [2, 3], [2, 4], [2, 5], [3, 4], [3, 5], [4, 5], []]
+[[1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 5], [1, 2, 3, 4, 6], [1, 2, 3, 5, 6], [1, 2, 4, 5, 6], [1, 3, 4, 5, 6], [2, 3, 4, 5, 6], [1, 2, 3, 4], [1, 2, 3, 5], [1, 2, 3, 6], [1, 2, 4, 5], [1, 2, 4, 6], [1, 2, 5, 6], [1, 3, 4, 5], [1, 3, 4, 6], [1, 3, 5, 6], [1, 4, 5, 6], [2, 3, 4, 5], [2, 3, 4, 6], [2, 3, 5, 6], [2, 4, 5, 6], [1, 2, 3], [1, 2, 4], [1, 2, 5], [1, 2, 6], [1, 3, 4], [1, 3, 5], [1, 3, 6], [1, 4, 5], [1, 4, 6], [1, 5, 6], [2, 3, 4], [2, 3, 5], [2, 3, 6], [2, 4, 5], [2, 4, 6], [2, 5, 6], [3, 4, 5], [3, 4, 6], [3, 5, 6], [4, 5, 6], [1, 2], [1, 3], [1, 4], [1, 5], [1, 6], [2, 3], [2, 4], [2, 5], [2, 6], [3, 4], [3, 5], [3, 6], [4, 5], [4, 6], [5, 6], []]
+[[1, 2, 3, 4, 5, 6, 7], [1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 5, 7], [1, 2, 3, 4, 6, 7], [1, 2, 3, 5, 6, 7], [1, 2, 4, 5, 6, 7], [1, 3, 4, 5, 6, 7], [2, 3, 4, 5, 6, 7], [1, 2, 3, 4, 5], [1, 2, 3, 4, 6], [1, 2, 3, 5, 7], [1, 2, 3, 6, 7], [1, 2, 4, 5, 7], [1, 2, 4, 6, 7], [1, 2, 5, 6, 7], [1, 3, 4, 5, 7], [1, 3, 4, 6, 7], [1, 3, 5, 6, 7], [1, 4, 5, 6, 7], [2, 3, 4, 5, 7], [2, 3, 4, 6, 7], [2, 3, 5, 6, 7], [2, 4, 5, 6, 7], [1, 2, 3, 4], [1, 2, 3, 5], [1, 2, 3, 6], [1, 2, 3, 7], [1, 2, 4, 5], [1, 2, 4, 6], [1, 2, 4, 7], [1, 2, 5, 6], [1, 2, 5, 7], [1, 2, 6, 7], [1, 3, 4, 5], [1, 3, 4, 6], [1, 3, 4, 7], [1, 3, 5, 6], [1, 3, 5, 7], [1, 3, 6, 7], [1, 4, 5, 6], [1, 4, 5, 7], [1, 4, 6, 7], [1, 5, 6, 7], [2, 3, 4, 5], [2, 3, 4, 6], [2, 3, 4, 7], [2, 3, 5, 6], [2, 3, 5, 7], [2, 3, 6, 7], [2, 4, 5, 6], [2, 4, 5, 7], [2, 4, 6, 7], [2, 5, 6, 7], [3, 4, 5, 6], [3, 4, 5, 7], [3, 4, 6, 7], [3, 5, 6, 7], [4, 5, 6, 7], [1, 2, 3], [1, 2, 4], [1, 2, 5], [1, 2, 6], [1, 2, 7], [1, 3, 4], [1, 3, 5], [1, 3, 6], [1, 3, 7], [1, 4, 5], [1, 4, 6], [1, 4, 7], [1, 5, 6], [1, 5, 7], [1, 6, 7], [2, 3, 4], [2, 3, 5], [2, 3, 6], [2, 3, 7], [2, 4, 5], [2, 4, 6], [2, 4, 7], [2, 5, 6], [2, 5, 7], [2, 6, 7], [3, 4, 5], [3, 4, 6], [3, 4, 7], [3, 5, 6], [3, 5, 7], [3, 6, 7], [4, 5, 6], [4, 5, 7], [4, 6, 7], [5, 6, 7], [1, 2], [1, 3], [1, 4], [1, 5], [1, 6], [1, 7], [2, 3], [2, 4], [2, 5], [2, 6], [2, 7], [3, 4], [3, 5], [3, 6], [3, 7], [4, 5], [4, 6], [4, 7], [5, 6], [5, 7], [6, 7], []]
+</ans>",0,{}
+226,"<ans>
+[[-1, -2, -3, -4, -5], 5]
+[[1, 2, 3, 4, 5], 120]
+[[0, 0, 0, 0, 0], 0]
+[[1, -2, -3, 4, 5], 60]
+[[1, 2, 3, 4, -5], 120]
+</ans>",0,{}
+227,"<ans>
+{""a"": 1, ""b"": 1, ""c"": 1}
+{""a"": 2, ""b"": 2, ""c"": 2}
+{""a"": 1, ""b"": 2, ""c"": 3}
+{""a"": ""apple"", ""b"": ""apple"", ""c"": ""apple""}
+{""a"": 1, ""b"": 1, ""c"": 2}
+</ans>",0,{}
+228,"<ans>
+{""a"": 1, ""b"": None, ""c"": 3}
+{""a"": None, ""b"": 2, ""c"": None}
+{""a"": 1, ""b"": None, ""c"": 3, ""d"": None}
+{""a"": None, ""b"": 2, ""c"": None, ""d"": 4}
+{""a"": 1, ""b"": None, ""c"": 3, ""d"": None, ""e"": 5}
+</ans>",True,{}
+229,"<ans>
+[[-10, -10, 1, 3, 2]]
+[[10, 20, 30, 40, 50]]
+[[5, 4, 3, 2, 1]]
+[[1, 2, 3, 4, 5]]
+[[5, 4, 3, 2, 1, 0]]
+</ans>",True,{}
+230,"<ans>
+[(1, 2, 3, 4, 5),]
+[(10, 20, 30, 40),]
+[(1, 2, 3),]
+[(1, 2, 3, 4, 5, 6),]
+[(1, 2, 3, 4),]
+</ans>",True,{}
+231,"<ans>
+[5, 100]
+[3, 7]
+[10, 11]
+[20, 13]
+[15, 17]
+</ans>",0,{}
+232,"<ans>
+[1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1]
+[1, 2, 3, 4]
+[4, 3, 2, 1]
+[1, 3, 5, 7]
+</ans>",0,{}
+233,"<ans>
+[[[1, 2], [2, 1]], [[3, 4], [4, 3]]]
+[[[1, 2, 3], [2, 1, 3]], [[4, 5, 6], [5, 4, 6]]]
+[[[1, 2, 3], [2, 1, 3]], [[4, 5, 6], [5, 4, 6]]]
+[[[1, 2, 3], [2, 1, 3]], [[4, 5, 6], [5, 4, 6]]]
+[[[1, 2, 3], [2, 1, 3]], [[4, 5, 6], [5, 4, 6]]]
+</ans>",True,{}
+234,"<ans>
+[""hello"", ""l"", ""x""]
+[""world"", ""o"", ""a""]
+[""python"", ""t"", ""d""]
+[""programming"", ""g"", ""z""]
+[""expert"", ""e"", ""E""]
+</ans>",True,{}
+235,"<ans>
+{""a"": 3, ""b"": 1, ""c"": 2}
+{""apple"": 5, ""banana"": 3, ""cherry"": 1}
+{""one"": 2, ""two"": 2, ""three"": 1}
+{""x"": 4, ""y"": 2, ""z"": 3}
+{""red"": 1, ""green"": 1, ""blue"": 1, ""yellow"": 1}
+</ans>",True,{}
+236,"<ans>
+[[-1, 1], -2]
+[[1, 2, 3], 3]
+[[10, 20, 30, 40, 50], 60]
+[[0, 0, 0, 0, 0], 0]
+[[5, 5, 5, 5, 5], 10]
+</ans>",0,{}
+237,"<ans>
+[""HeLLo"", ""WORlD"", ""123"", ""Python"", ""Expert""]
+[""Hello"", ""world"", ""123"", ""python"", ""expert""]
+[""HELLO"", ""WORLD"", ""123"", ""PYTHON"", ""EXPERT""]
+[""Hello World"", ""123"", ""Python"", ""Expert""]
+[""HELLO WORLD"", ""123"", ""PYTHON"", ""EXPERT""]
+</ans>",0,{}
+238,"<ans>
+[""HeLlO"", ""HeLlOwOrLd""]
+[""HeLlOwOrLd"", ""HeLlOwOrLd""]
+[""HeLlOwOrLd"", ""HeLlOwOrLd""]
+[""HeLlOwOrLd"", ""HeLlOwOrLd""]
+[""HeLlOwOrLd"", ""HeLlOwOrLd""]
+</ans>",0,{}
+239,"<ans>
+[12345]
+[987654321]
+[1000000000]
+[0]
+[1234567890]
+</ans>",True,{}

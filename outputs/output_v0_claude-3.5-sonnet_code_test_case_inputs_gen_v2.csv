@@ -1,0 +1,6162 @@
+index,generated,result,format_properties
+0,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+7 4 5
+2 5 4 2 6 3 1
+2 1
+6 5
+2 1
+3 1
+<SPLIT>
+9 4 8
+6 8 5 1 8 1 1 2 1
+9 2
+8 4
+5 3
+9 7
+<SPLIT>
+5 1 4
+2 5 7 4 6
+5 4
+<SPLIT>
+10 3 7
+3 1 4 1 5 9 2 6 5 3
+4 2
+6 3
+8 4
+<SPLIT>
+8 2 6
+10 20 30 40 50 60 70 80
+3 1
+5 2
+</ans>",0,{}
+1,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+3
+<SPLIT>
+10
+<SPLIT>
+100
+<SPLIT>
+500
+<SPLIT>
+1000
+</ans>
+
+These test cases cover a range of inputs from small to large within the given constraint (1 ≤ N ≤ 10^3). They will help test the function's performance and correctness for various input sizes:
+
+1. N = 3 (the sample input)
+2. N = 10 (a small double-digit number)
+3. N = 100 (a medium-sized three-digit number)
+4. N = 500 (a larger three-digit number)
+5. N = 1000 (the maximum allowed input)
+
+These inputs will test the function's ability to handle different scales of factorial calculations and prime factorizations, as well as its performance with the modulo operation for larger results.",0,{}
+2,"<ans>
+4
+<SPLIT>
+12
+<SPLIT>
+1000000000000
+<SPLIT>
+7
+<SPLIT>
+100
+</ans>",0,{}
+3,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 0 1
+<SPLIT>
+5
+0 1 0 1 1
+<SPLIT>
+7
+1 1 0 0 1 0 1
+<SPLIT>
+11
+0 1 1 0 0 1 1 0 1 0 1
+<SPLIT>
+13
+1 0 1 1 0 0 1 1 0 1 0 1 1
+</ans>
+
+These test cases cover a range of prime numbers (p) and different sequences of 0s and 1s. They should help test the solution program for various scenarios:
+
+1. A small prime (3) with a simple sequence.
+2. A medium-sized prime (5) with alternating values.
+3. A larger prime (7) with a mixed sequence.
+4. A prime near the lower end of the allowed range (11) with a more complex sequence.
+5. A prime in the middle range (13) with a longer, varied sequence.
+
+Each test case follows the input format specified in the problem description, with the prime number p on the first line, followed by p integers (either 0 or 1) on the second line.",0,{}
+4,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 4
+2 1 3
+1 2
+2 1
+3 3
+4 2
+<SPLIT>
+5 6
+1 2 3 4 5
+1 1
+2 2
+3 3
+4 4
+5 5
+6 1
+<SPLIT>
+4 5
+10 5 7 3
+1 1
+2 2
+3 3
+4 4
+5 1
+<SPLIT>
+2 3
+100 200
+1 1
+2 2
+3 1
+<SPLIT>
+6 8
+5 4 3 2 1 6
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 1
+8 2
+</ans>",0,{}
+5,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+1 2
+2 3
+3 4
+4 5
+<SPLIT>
+7
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+<SPLIT>
+10
+1 2
+1 3
+2 4
+2 5
+3 6
+3 7
+4 8
+5 9
+6 10
+<SPLIT>
+8
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+<SPLIT>
+6
+1 2
+1 3
+1 4
+4 5
+4 6
+</ans>",0,{}
+6,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+7 4
+1 2 3 3 1 4 3
+3 1
+2 3
+2 4
+<SPLIT>
+5 3
+1 2 3 1 2
+2 1
+1 3
+<SPLIT>
+10 5
+1 2 3 4 5 1 2 3 4 5
+1 2
+3 4
+5 1
+2 3
+<SPLIT>
+8 4
+1 2 3 4 1 2 3 4
+1 2
+3 4
+1 3
+<SPLIT>
+6 3
+1 2 3 1 2 3
+1 2
+2 3
+</ans>",0,{}
+7,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 2
+0
+abc
+bcd
+1
+cde
+def
+2
+efg
+fgh
+<SPLIT>
+4 3
+0
+a
+ab
+abc
+1
+b
+bc
+bcd
+2
+c
+cd
+cde
+3
+d
+de
+def
+<SPLIT>
+2 4
+0
+wxyz
+xyz
+yz
+z
+1
+abcd
+bcd
+cd
+d
+<SPLIT>
+5 1
+0
+a
+1
+b
+2
+c
+3
+d
+4
+e
+<SPLIT>
+3 3
+0
+abc
+bca
+cab
+1
+acb
+bac
+cba
+2
+bca
+cab
+abc
+</ans>",0,{}
+8,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+3 3 3
+1 10 2
+2 1 1
+<SPLIT>
+5
+1 1 1
+2 2 2
+3 3 3
+4 4 4
+5 5 5
+<SPLIT>
+4
+10 10 10
+100 100 100
+1000 1000 1000
+10000 10000 10000
+<SPLIT>
+6
+1 2 3
+3 2 1
+2 3 1
+1 3 2
+3 1 2
+2 1 3
+<SPLIT>
+4
+1 1 1000000000
+1000000000 1 1
+1 1000000000 1
+1000000000 1000000000 1000000000
+</ans>",0,{}
+9,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 2
+1 3
+2 1
+<SPLIT>
+5 5
+3 3
+3 3
+<SPLIT>
+4 2
+2 3
+1 2
+<SPLIT>
+6 4
+3 2
+4 1
+<SPLIT>
+7 7
+2 5
+3 4
+</ans>",0,{}
+10,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 6
+3 4
+2 5
+<SPLIT>
+5
+1 10
+2 9
+3 8
+4 7
+5 6
+<SPLIT>
+4
+1 5
+2 4
+3 6
+7 8
+<SPLIT>
+6
+1 100000
+2 99999
+3 99998
+4 99997
+5 99996
+6 99995
+<SPLIT>
+7
+10 20
+30 40
+50 60
+70 80
+90 100
+15 25
+35 45
+</ans>",0,{}
+11,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+0 1
+1 2
+-1 3
+<SPLIT>
+4
+-5 10
+5 10
+0 15
+10 5
+<SPLIT>
+2
+1000000 1
+-1000000 1
+<SPLIT>
+5
+0 1
+1 1
+2 2
+3 3
+4 4
+<SPLIT>
+6
+-3 5
+-2 -4
+1 7
+4 -6
+6 3
+8 -2
+</ans>",0,{}
+12,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+3 9
+<SPLIT>
+5 15
+<SPLIT>
+2 10
+<SPLIT>
+7 28
+<SPLIT>
+1 100
+</ans>
+
+These test cases cover various scenarios:
+
+1. The example given in the problem statement (3 9)
+2. A case where x doesn't divide y evenly (5 15)
+3. A case with even x and y (2 10)
+4. A prime number x with a multiple of x as y (7 28)
+5. An edge case where x is 1 and y is a large number (1 100)
+
+Each of these inputs follows the format specified in the problem: two positive integers x and y (1 ≤ x, y ≤ 10^9), separated by a space.",0,{}
+13,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+3 1 4 2
+<SPLIT>
+5
+2 4 1 5 3
+<SPLIT>
+3
+1 2 3
+<SPLIT>
+6
+6 3 1 5 2 4
+<SPLIT>
+7
+4 2 6 1 7 3 5
+</ans>
+
+These test cases cover various scenarios:
+
+1. A small case with 4 elements, including some inversions.
+2. A medium case with 5 elements, testing different orderings.
+3. A sorted case to test the edge condition.
+4. A larger case with 6 elements, including more complex permutations.
+5. An even larger case with 7 elements, testing the algorithm's performance with more data points.
+
+Each test case follows the input format specified in the problem statement, with the first line containing N (the number of elements) and the second line containing the permutation P_1 to P_N.",0,{}
+14,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+1 1 2 2
+<SPLIT>
+1 1 10 10
+<SPLIT>
+100 100 200 200
+<SPLIT>
+1000 1000 2000 2000
+<SPLIT>
+1 1 1000000 1000000
+</ans>
+
+These test cases cover a range of scenarios:
+
+1. The sample input provided in the problem statement.
+2. A small-scale case with moderate coordinates.
+3. A medium-scale case with larger coordinates.
+4. A large-scale case with even larger coordinates.
+5. The maximum possible input according to the constraints.
+
+These inputs should help test the correctness and efficiency of the solution across different scales and edge cases.",0,{}
+15,"<ans>
+3 2
+2 1 2
+1 3
+
+<SPLIT>
+5 3
+2 1 2
+3 3 4 5
+1 1
+
+<SPLIT>
+4 3
+2 1 2
+2 3 4
+1 1
+
+<SPLIT>
+6 4
+3 1 2 3
+2 4 5
+1 6
+2 1 4
+
+<SPLIT>
+7 5
+3 1 2 3
+2 4 5
+1 6
+2 1 4
+3 5 6 7
+</ans>",0,{}
+16,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3
+1 2 3
+2 3 1
+<SPLIT>
+4 4
+2 1 4 3
+1 2 3 4
+<SPLIT>
+5 5
+1 2 3 4 5
+5 4 3 2 1
+<SPLIT>
+2 4
+1 2
+1 2 1 2
+<SPLIT>
+6 3
+1 2 3 4 5 6
+2 4 6
+</ans>",0,{}
+17,"Here are 5 groups of test case inputs for the given Battleship problem:
+
+<ans>
+4 3
+#..#
+#.#.
+....
+.###
+<SPLIT>
+5 2
+.....
+.#...
+.....
+...#.
+.....
+<SPLIT>
+6 4
+......
+..##..
+......
+......
+......
+......
+<SPLIT>
+7 5
+.......
+.......
+.......
+...#...
+.......
+.......
+.......
+<SPLIT>
+8 3
+........
+........
+........
+...#....
+....#...
+........
+........
+........
+</ans>",0,{}
+18,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 2
+1 3 2
+<SPLIT>
+5 4
+1 2 3 4 5
+<SPLIT>
+4 0
+1 1 2 2
+<SPLIT>
+6 7
+10 5 2 8 3 9
+<SPLIT>
+7 15
+20 10 5 25 30 15 35
+</ans>",0,{}
+19,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+2 1 0
+<SPLIT>
+5
+0 1 2 3 4
+<SPLIT>
+4
+3 2 1 0
+<SPLIT>
+6
+5 4 3 2 1 0
+<SPLIT>
+7
+1 3 5 0 2 4 6
+</ans>",0,{}
+20,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3 0
+<SPLIT>
+5 4 2
+<SPLIT>
+10 5 4
+<SPLIT>
+100 10 50
+<SPLIT>
+2000 2000 1999
+</ans>
+
+These test cases cover various scenarios:
+
+1. A small case with no color changes (k=0)
+2. A small case with some color changes
+3. A medium-sized case
+4. A larger case with many bricks and colors
+5. The maximum possible input values to test edge cases
+
+Each input follows the format of three integers n, m, and k, representing the number of bricks, number of colors, and number of color changes respectively, as specified in the problem statement.",0,{}
+21,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+7 3
+1 5 16 18 7 2 10
+baaaaca
+<SPLIT>
+10 2
+5 10 15 20 25 30 35 40 45 50
+abcdefghij
+<SPLIT>
+8 4
+100 200 300 400 500 600 700 800
+aaaabbbb
+<SPLIT>
+6 1
+10 20 30 40 50 60
+abcdef
+<SPLIT>
+12 5
+1 2 3 4 5 6 7 8 9 10 11 12
+aabbccddeeee
+</ans>",0,{}
+22,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+1 2 3 4 4
+<SPLIT>
+7
+3 2 1 4 5 6 6
+<SPLIT>
+8
+1 2 3 4 5 6 7 7
+<SPLIT>
+10
+1 2 3 4 5 6 7 8 9 9
+<SPLIT>
+6
+6 5 4 3 2 2
+</ans>
+
+These test cases cover various scenarios:
+
+1. A small array with one duplicate at the end
+2. A medium-sized array with one duplicate in the middle
+3. A larger array with one duplicate at the end
+4. A large array with one duplicate at the end
+5. A reversed array with one duplicate at the end
+
+These inputs should help test the function's ability to handle different array sizes and duplicate positions.",0,{}
+23,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+2 3 6 7
+<SPLIT>
+5
+6 15 35 77 22
+<SPLIT>
+5
+6 10 15 1000 75
+<SPLIT>
+6
+2 3 4 5 6 7
+<SPLIT>
+7
+11 13 17 19 23 29 31
+</ans>",0,{}
+24,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6 9 2 4
+<SPLIT>
+10 8 3 5
+<SPLIT>
+100 50 30 10
+<SPLIT>
+1000000 500000 250000 100
+<SPLIT>
+6 5 4 3
+</ans>",0,{}
+25,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 5 3
+1 2 3
+2 3 2
+3 4 1
+1 4 7
+2 4 4
+<SPLIT>
+5 7 6
+1 2 2
+2 3 3
+3 4 1
+4 5 4
+1 3 6
+2 4 5
+3 5 7
+<SPLIT>
+6 8 10
+1 2 1
+2 3 2
+3 4 3
+4 5 4
+5 6 5
+1 3 3
+2 4 5
+3 5 6
+<SPLIT>
+7 10 15
+1 2 2
+2 3 3
+3 4 4
+4 5 5
+5 6 6
+6 7 7
+1 3 4
+2 4 6
+3 5 8
+4 6 10
+<SPLIT>
+8 12 20
+1 2 1
+2 3 2
+3 4 3
+4 5 4
+5 6 5
+6 7 6
+7 8 7
+1 3 3
+2 4 5
+3 5 7
+4 6 9
+5 7 11
+</ans>",0,{}
+26,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+the quick brown fox jumps over the lazy dog.
+the quick brown fox jumps over the lazy dog again.
+<SPLIT>
+hello world!
+hello there, world!
+hello again, world!
+hello once more, world!
+<SPLIT>
+programming is fun.
+programming can be challenging.
+programming is rewarding.
+programming opens new possibilities.
+programming is a valuable skill.
+<SPLIT>
+a-b-c, d-e-f, g-h-i
+j-k-l, m-n-o, p-q-r
+s-t-u, v-w-x, y-z
+a-b-c, d-e-f, g-h-i
+<SPLIT>
+repetition is key to learning.
+repetition helps reinforce concepts.
+repetition aids in memory retention.
+repetition can improve skills over time.
+repetition is a fundamental learning technique.
+</ans>",True,{}
+27,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+1000
+<SPLIT>
+10000
+<SPLIT>
+100000
+<SPLIT>
+1000000
+<SPLIT>
+999999999
+</ans>
+
+These test cases cover a range of input values from small to large, including:
+
+1. A small value (1000) to test basic functionality
+2. A medium value (10000) to test more complex cases
+3. A larger value (100000) to test performance with more numbers
+4. An even larger value (1000000) to further stress test the algorithm
+5. The maximum possible input (999999999) to test edge cases and ensure the program can handle the upper limit of the constraint
+
+Each input is a single integer N, as specified in the problem description, representing the upper bound for counting Shichi-Go-San numbers.",0,{}
+28,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+0123456789
+<SPLIT>
+0000000000
+<SPLIT>
+0246802468024
+<SPLIT>
+0987654321098765432109876543210
+<SPLIT>
+0101010101
+</ans>",True,{}
+29,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 5
+4 2
+6 -1
+3 1
+<SPLIT>
+4 10
+8 -2
+5 3
+12 -4
+7 1
+<SPLIT>
+5 15
+10 -3
+8 2
+20 -5
+12 1
+6 -2
+<SPLIT>
+2 3
+4 -1
+2 2
+<SPLIT>
+6 20
+15 -4
+10 2
+25 -6
+18 3
+8 -1
+22 -5
+</ans>",0,{}
+30,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+10 20 30 40 50 60
+<SPLIT>
+4
+11 22 33 44 55 66 77 88
+<SPLIT>
+2
+15 25 35 45
+<SPLIT>
+5
+12 23 34 45 56 67 78 89 90 91
+<SPLIT>
+1
+99 10
+</ans>",0,{}
+31,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+abcdefghij
+5
+<SPLIT>
+aaabbbcccddd
+3
+<SPLIT>
+xyxyxyxyxy
+2
+<SPLIT>
+aaaaabbbbbccccc
+7
+<SPLIT>
+qwertyuiopasdfghjklzxcvbnm
+26
+</ans>
+
+These test cases cover various scenarios:
+
+1. A string with all unique characters and a medium-sized n.
+2. A string with repeated characters and a small n.
+3. A string with alternating characters and a very small n.
+4. A string with repeated characters in groups and a medium n.
+5. A string containing all lowercase letters and n equal to the alphabet size.
+
+These inputs should help test different aspects of the solution, including edge cases and typical scenarios.",0,{}
+32,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+2 1 3
+010
+100
+001
+<SPLIT>
+4
+3 2 1 4
+0110
+1001
+0001
+0100
+<SPLIT>
+5
+5 4 3 2 1
+01111
+10111
+11011
+11101
+11110
+<SPLIT>
+6
+2 4 6 1 3 5
+011111
+101111
+110111
+111011
+111101
+111110
+<SPLIT>
+7
+7 6 5 4 3 2 1
+0111111
+1011111
+1101111
+1110111
+1111011
+1111101
+1111110
+</ans>",0,{}
+33,"Here are 5 groups of test case inputs for the given boxing tournament problem:
+
+<ans>
+4
+3 9 1 -1
+<SPLIT>
+8
+11 -1 13 19 24 7 17 5
+<SPLIT>
+16
+10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 -1
+<SPLIT>
+32
+15 27 39 -1 51 63 75 87 99 111 123 135 147 159 171 183 195 207 219 231 243 255 267 279 291 303 315 327 339 351 363 375
+<SPLIT>
+64
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 -1
+</ans>",0,{}
+34,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+1 0 1 0 1
+1 2
+2 3
+3 4
+4 5
+<SPLIT>
+7
+1 1 0 0 1 1 0
+1 2
+1 3
+2 4
+2 5
+3 6
+3 7
+<SPLIT>
+6
+0 1 1 0 1 0
+1 2
+1 3
+2 4
+2 5
+3 6
+<SPLIT>
+8
+1 0 1 1 0 0 1 1
+1 2
+1 3
+2 4
+2 5
+3 6
+3 7
+4 8
+<SPLIT>
+10
+0 1 1 0 1 0 1 1 0 1
+1 2
+1 3
+2 4
+2 5
+3 6
+3 7
+4 8
+5 9
+6 10
+</ans>",0,{}
+35,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+2 4 6 3
+3 5 4
+<SPLIT>
+5
+10 8 6 4 2 1
+5 7 3 9 2
+<SPLIT>
+4
+1000000000 999999999 1000000000 1000000000 1
+1 1 1 1
+<SPLIT>
+2
+5 5 5
+10 10
+<SPLIT>
+6
+1 2 3 4 5 6 7
+7 6 5 4 3 2
+</ans>
+
+These test cases cover various scenarios:
+
+1. A small case with mixed values
+2. A medium-sized case with decreasing monster counts
+3. An edge case with maximum monster counts and minimum hero capacities
+4. A small case where heroes can defeat all monsters
+5. A larger case with increasing monster counts and decreasing hero capacities
+
+Each test case follows the input format specified in the problem statement, with the number of towns N on the first line, followed by N+1 monster counts, and then N hero capacities.",0,{}
+36,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+abcdefg
+gfedcba
+<SPLIT>
+xyzzyx
+xyzzy
+<SPLIT>
+aabbccddee
+abcde
+<SPLIT>
+qwertyuiop
+poiuytrewq
+<SPLIT>
+aaaabbbcccc
+abcabcabc
+</ans>",True,{}
+37,"Here are 5 groups of test case inputs for the given bracket sequence problem:
+
+<ans>
+3
+(
+)
+()
+<SPLIT>
+4
+((
+))
+(
+)
+<SPLIT>
+5
+(((
+)))
+(
+)
+()
+<SPLIT>
+6
+((
+))
+(((
+)))
+(
+)
+<SPLIT>
+7
+(
+)
+((
+))
+(((
+)))
+()
+</ans>
+
+These test cases cover various scenarios:
+
+1. A simple valid sequence
+2. A balanced set of opening and closing brackets
+3. A mix of single and multiple brackets
+4. Nested brackets with single brackets
+5. A combination of all previous types
+
+Each group tests different aspects of the problem, including edge cases and more complex arrangements of brackets.",0,{}
+38,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+5 2
+3 4
+7 1
+<SPLIT>
+5
+1 1
+2 2
+3 3
+4 4
+5 5
+<SPLIT>
+4
+10 10
+5 5
+8 8
+3 3
+<SPLIT>
+6
+1 10
+2 8
+3 6
+4 4
+5 2
+6 1
+<SPLIT>
+7
+7 1
+6 2
+5 3
+4 4
+3 5
+2 6
+1 7
+</ans>",0,{}
+39,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+7
+1010101
+1 2 3 4 5 6 7
+<SPLIT>
+10
+1111100000
+10 20 30 40 50 60 70 80 90 100
+<SPLIT>
+8
+11001100
+5 10 15 20 25 30 35 40
+<SPLIT>
+6
+101010
+100 200 300 400 500 600
+<SPLIT>
+9
+000111000
+1 10 100 1000 10000 100000 1000000 10000000 100000000
+</ans>
+
+These test cases cover various scenarios:
+
+1. Alternating 0s and 1s
+2. First half 1s, second half 0s
+3. Pairs of 1s and 0s
+4. Alternating 0s and 1s with increasing rewards
+5. Three groups with exponentially increasing rewards
+
+Each test case includes the length of the string, the string itself, and the array of rewards, formatted as required for standard input.",True,{}
+40,"<ans>
+4 3 7
+7 4 17
+3 0 8
+11 2 0
+13 3 5
+3 1
+2 1
+4 3
+<SPLIT>
+4 3 7
+7 4 17
+3 0 8
+11 2 0
+13 3 5
+3 1
+2 1
+4 1
+<SPLIT>
+4 3 7
+7 4 17
+3 0 8
+11 2 0
+14 3 5
+3 1
+2 1
+4 3
+<SPLIT>
+5 4 10
+5 2 10
+8 3 15
+6 1 5
+9 4 20
+7 2 12
+3 1
+4 2
+5 3
+5 1
+<SPLIT>
+3 2 5
+3 1 10
+4 2 15
+6 3 20
+2 1
+3 1
+</ans>",0,{}
+41,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 5
+2 4
+3 3
+<SPLIT>
+5
+1 10
+2 8
+3 6
+4 5
+7 9
+<SPLIT>
+4
+1 2
+3 4
+5 6
+7 8
+<SPLIT>
+6
+1 6
+2 5
+3 4
+7 9
+8 10
+11 12
+<SPLIT>
+7
+1 10
+2 9
+3 8
+4 7
+5 6
+11 15
+12 14
+</ans>",0,{}
+42,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 2 3 1 2 3
+<SPLIT>
+4
+1 2 3 4 1 2 3 4
+<SPLIT>
+5
+1 2 3 4 5 1 2 3 4 5
+<SPLIT>
+2
+1 2 1 2
+<SPLIT>
+6
+1 2 3 4 5 6 1 2 3 4 5 6
+</ans>
+
+These test cases cover various scenarios:
+
+1. A simple case with 3 tiers, where the tiers are arranged in order.
+2. A case with 4 tiers, also arranged in order.
+3. A larger case with 5 tiers, arranged in order to test scalability.
+4. The smallest possible case with 2 tiers.
+5. A larger case with 6 tiers to further test scalability and edge cases.
+
+Each test case follows the problem constraints:
+- The first line contains n (1 ≤ n ≤ 10^5)
+- The second line contains 2n integers, each between 1 and n
+- Each number from 1 to n appears exactly twice in the sequence
+
+These test cases should help in verifying the correctness and efficiency of the solution for various input sizes and arrangements.",0,{}
+43,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+0 0
+1 1
+0 3
+1 2
+<SPLIT>
+5
+0 0
+1 1
+2 2
+3 3
+4 4
+<SPLIT>
+6
+-1 -1
+0 0
+1 1
+2 2
+3 3
+4 4
+<SPLIT>
+7
+-3 -3
+-2 -2
+-1 -1
+0 0
+1 1
+2 2
+3 3
+<SPLIT>
+8
+-4 0
+-3 1
+-2 2
+-1 3
+0 4
+1 5
+2 6
+3 7
+</ans>",0,{}
+44,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2 3
+0 1 0
+1 0 1
+<SPLIT>
+3 3
+1 0 1
+0 1 0
+1 1 0
+<SPLIT>
+4 4
+0 0 1 1
+1 1 0 0
+0 1 0 1
+1 0 1 0
+<SPLIT>
+2 5
+1 1 1 0 0
+0 0 0 1 1
+<SPLIT>
+5 2
+0 1
+1 0
+0 0
+1 1
+0 1
+</ans>",0,{}
+45,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+0 0 0
+2 0 0
+2 2 0
+0 2 0
+4
+1 1 -1
+1 1 1
+1 3 1
+1 3 -1
+<SPLIT>
+3
+0 0 0
+1 0 0
+0 1 0
+3
+0 0 1
+1 0 1
+0 1 1
+<SPLIT>
+5
+0 0 0
+2 0 0
+2 2 0
+1 3 0
+0 2 0
+4
+1 1 -2
+1 1 2
+3 1 2
+3 1 -2
+<SPLIT>
+4
+-1 -1 -1
+1 -1 -1
+1 1 -1
+-1 1 -1
+4
+0 0 0
+0 0 2
+2 0 2
+2 0 0
+<SPLIT>
+6
+0 0 0
+2 0 0
+3 1 0
+2 2 0
+1 2 0
+0 1 0
+5
+1 1 -1
+1 1 1
+2 1 1
+2 1 -1
+1 2 0
+</ans>",0,{}
+46,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 3 5
+4
+2 4 6 8
+5
+1 3 5 7 9
+<SPLIT>
+2
+7 9
+3
+11 13 15
+4
+17 19 21 23
+<SPLIT>
+1
+2
+2
+4 6
+3
+8 10 12
+<SPLIT>
+4
+1 3 5 7
+5
+9 11 13 15 17
+6
+19 21 23 25 27 29
+<SPLIT>
+2
+1 1
+3
+3 3 3
+4
+5 5 5 5
+</ans>",0,{}
+47,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 2
+ab 5
+ba 3
+aa 2
+<SPLIT>
+4 3
+abc 10
+cba 8
+aaa -2
+bbb 5
+<SPLIT>
+5 1
+a 1
+b 2
+c -3
+d 4
+e 5
+<SPLIT>
+6 4
+abcd 10
+dcba 8
+aaaa 5
+bbbb -3
+cccc 7
+dddd -2
+<SPLIT>
+2 5
+abcde 1000
+edcba 2000
+</ans>",0,{}
+48,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+3
+5 2
+3 3
+7 4
+<SPLIT>
+4
+10 3
+8 2
+6 5
+12 4
+<SPLIT>
+2
+100 10
+200 20
+<SPLIT>
+5
+15 3
+20 4
+25 5
+30 6
+35 7
+<SPLIT>
+1
+1000000000 1
+</ans>",0,{}
+49,"Here are 5 groups of test case inputs for the given Pindows command line parsing problem:
+
+<ans>
+run.exe arg1 ""arg 2"" arg3 ""arg 4""
+<SPLIT>
+""quoted arg"" unquoted ""  spaces  "" """" empty
+<SPLIT>
+program.exe ""arg with """"quotes"""""" normal_arg ""spaced arg""
+<SPLIT>
+  leading_spaces   ""quoted with spaces""   trailing_spaces  
+<SPLIT>
+single_arg
+</ans>",0,{}
+50,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 10
+2 3 4 5 6
+<SPLIT>
+7 20
+1 2 3 4 5 6 7
+<SPLIT>
+10 50
+5 10 15 20 25 30 35 40 45 50
+<SPLIT>
+3 100
+80 90 100
+<SPLIT>
+8 30
+5 5 5 5 5 5 5 5
+</ans>",0,{}
+51,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6
+2 3 3 1 3 1
+<SPLIT>
+4
+1 2 3 4
+<SPLIT>
+5
+5 4 3 2 1
+<SPLIT>
+7
+1 1 1 1 1 1 1
+<SPLIT>
+10
+3 1 4 1 5 9 2 6 5 3
+</ans>",0,{}
+52,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+2 6 6
+<SPLIT>
+5
+10 20 30 40 50
+<SPLIT>
+4
+7 14 21 28
+<SPLIT>
+6
+1 2 3 4 5 6
+<SPLIT>
+7
+100 200 300 400 500 600 700
+</ans>
+
+These test cases cover various scenarios:
+
+1. The sample input provided in the problem statement.
+2. A case with 5 numbers in arithmetic progression.
+3. A case where all numbers are multiples of 7.
+4. A case with consecutive integers from 1 to 6.
+5. A case with larger numbers in arithmetic progression.
+
+Each test case follows the input format specified in the problem: the first line contains N (number of cards), and the second line contains N space-separated integers representing the numbers written on the cards.",0,{}
+53,"Here are 5 groups of test case inputs for the given Snacktower problem:
+
+<ans>
+5
+3 1 5 4 2
+<SPLIT>
+7
+4 2 6 3 1 7 5
+<SPLIT>
+3
+2 3 1
+<SPLIT>
+10
+10 9 8 7 6 5 4 3 2 1
+<SPLIT>
+8
+1 3 5 7 2 4 6 8
+</ans>",0,{}
+54,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3
+.#.
+###
+.#.
+<SPLIT>
+4 4
+####
+#..#
+#..#
+####
+<SPLIT>
+2 5
+#####
+#####
+<SPLIT>
+5 5
+.....
+.###.
+.#.#.
+.###.
+.....
+<SPLIT>
+1 1
+#
+</ans>
+
+These test cases cover various scenarios:
+
+1. The sample input provided in the problem statement.
+2. A larger square border pattern.
+3. A rectangular pattern with all black squares.
+4. A more complex pattern with a hollow square in the middle.
+5. The smallest possible input with a single black square.
+
+Each test case is designed to test different aspects of the solution, including edge cases and various patterns that may or may not be achievable by square1001's painting method.",0,{}
+55,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10 3
+1 1 5 5
+3 3 8 8
+6 6 10 10
+<SPLIT>
+5 2
+1 1 3 3
+3 3 5 5
+<SPLIT>
+100 4
+1 1 50 50
+25 25 75 75
+50 50 100 100
+1 1 100 100
+<SPLIT>
+1000000000 1
+1 1 1000000000 1000000000
+<SPLIT>
+20 5
+1 1 5 5
+6 6 10 10
+11 11 15 15
+16 16 20 20
+1 1 20 20
+</ans>
+
+These test cases cover various scenarios:
+
+1. Multiple overlapping rectangles
+2. Two non-overlapping rectangles
+3. Large grid with overlapping rectangles, including one covering the entire grid
+4. Maximum grid size with a single rectangle covering the entire area
+5. Multiple non-overlapping rectangles with one large rectangle covering all others
+
+Each test case is designed to test different aspects of the solution, including handling of overlaps, edge cases, and varying grid sizes.",0,{}
+56,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6 2
+1 2
+1 3
+2 4
+2 5
+4 6
+<SPLIT>
+13 3
+1 2
+3 2
+4 2
+5 2
+3 6
+10 6
+6 7
+6 13
+5 8
+5 9
+9 11
+11 12
+<SPLIT>
+3 5
+2 1
+3 1
+<SPLIT>
+10 4
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+<SPLIT>
+8 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+</ans>",0,{}
+57,"<ans>
+5 3 2
+1 2
+2 3
+3 4
+1 3
+2 4
+<SPLIT>
+4 2 2
+1 2
+3 4
+1 3
+2 4
+<SPLIT>
+6 3 3
+1 2
+3 4
+5 6
+1 3
+2 4
+3 5
+<SPLIT>
+7 4 3
+1 2
+2 3
+3 4
+4 5
+1 3
+3 5
+5 7
+<SPLIT>
+8 5 4
+1 2
+2 3
+3 4
+4 5
+5 6
+1 3
+3 5
+5 7
+7 8
+</ans>",0,{}
+58,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+3 1 4 2 5
+<SPLIT>
+7
+10 5 8 3 1 7 2
+<SPLIT>
+3
+1000000000 500000000 1
+<SPLIT>
+10
+9 7 5 3 1 2 4 6 8 10
+<SPLIT>
+6
+123456 234567 345678 456789 567890 678901
+</ans>",True,{}
+59,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 3
+aaa
+bbb
+ccb
+ddd
+<SPLIT>
+6 1
+a
+a
+b
+b
+c
+c
+<SPLIT>
+5 4
+abcd
+efgh
+ijkl
+mnop
+qrst
+<SPLIT>
+3 5
+aaaaa
+bbbbb
+ccccc
+<SPLIT>
+7 2
+ab
+cd
+ef
+gh
+ij
+kl
+mn
+</ans>",0,{}
+60,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+2
+1
+4
+5
+3
+<SPLIT>
+7
+10
+5
+8
+3
+6
+9
+1
+<SPLIT>
+10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+<SPLIT>
+8
+5
+2
+8
+1
+9
+3
+7
+4
+<SPLIT>
+6
+100000
+50000
+75000
+25000
+90000
+10000
+</ans>",0,{}
+61,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2 3
+abc
+cba
+<SPLIT>
+3 4
+abcd
+efgh
+hgfe
+<SPLIT>
+4 5
+abcde
+fghij
+jihgf
+edcba
+<SPLIT>
+1 6
+abcdef
+<SPLIT>
+5 2
+ab
+cd
+ef
+dc
+ba
+</ans>
+
+These test cases cover various scenarios:
+
+1. A simple 2x3 grid that can be made symmetric.
+2. A 3x4 grid that cannot be made symmetric.
+3. A 4x5 grid that is already symmetric.
+4. A 1x6 grid (edge case with only one row).
+5. A 5x2 grid (testing with more rows than columns).
+
+Each test case is separated by the <SPLIT> tag and the entire set is enclosed in <ans> tags as requested.",0,{}
+62,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3 3
+RGY
+GBR
+YBR
+1 1 3 3
+1 1 2 2
+2 2 3 3
+<SPLIT>
+4 4 4
+RGRG
+GRGR
+YBYB
+BYBY
+1 1 4 4
+1 1 3 3
+2 2 4 4
+1 2 4 3
+<SPLIT>
+5 5 5
+RRGGB
+RRGGB
+YYBBG
+YYBBR
+RGBYR
+1 1 5 5
+2 2 4 4
+1 1 3 3
+3 3 5 5
+1 3 5 5
+<SPLIT>
+6 6 6
+RRGGBB
+RRGGBB
+YYBBGG
+YYBBGG
+RRGGYY
+BBGGYY
+1 1 6 6
+2 2 5 5
+1 1 4 4
+3 3 6 6
+1 3 6 6
+2 1 5 4
+<SPLIT>
+7 7 7
+RRGGGBB
+RRGGGBB
+YYBBBRR
+YYBBBRR
+GGYYYBB
+GGYYYBB
+RRGGGBB
+1 1 7 7
+2 2 6 6
+3 3 7 7
+1 1 5 5
+2 3 6 7
+1 4 7 7
+3 1 7 4
+</ans>",0,{}
+63,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 6
+2 1 1
+5 2 6
+2 3 2
+3 4 3
+4 5 5
+1 5 4
+<SPLIT>
+4 5
+1 2 3
+2 3 2
+3 4 1
+4 1 4
+2 4 5
+<SPLIT>
+3 3
+1 2 1
+2 3 2
+3 1 3
+<SPLIT>
+6 8
+1 2 5
+2 3 3
+3 4 2
+4 5 1
+5 6 4
+6 1 3
+2 5 6
+4 1 2
+<SPLIT>
+7 10
+1 2 3
+2 3 2
+3 4 1
+4 5 5
+5 6 4
+6 7 2
+7 1 3
+2 5 6
+3 6 4
+4 7 1
+</ans>",0,{}
+64,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2 2 2 2 2 2
+6
+S
+M
+L
+XL
+XXL
+XXXL
+<SPLIT>
+1 1 1 1 1 1
+6
+S,M
+M,L
+L,XL
+XL,XXL
+XXL,XXXL
+S
+<SPLIT>
+3 3 3 3 3 3
+10
+S
+M
+L
+XL
+XXL
+XXXL
+S,M
+M,L
+L,XL
+XL,XXL
+<SPLIT>
+0 1 2 3 2 1
+9
+M
+L
+XL
+XL
+XL
+XXL
+XXL
+XXXL
+S,M
+<SPLIT>
+5 4 3 2 1 0
+10
+S
+S
+S
+S
+M
+M
+L
+L
+XL
+XL,XXL
+</ans>",0,{}
+65,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 4
+2 -2 3 1 2
+1 3
+4 5
+2 5
+1 3
+<SPLIT>
+5 4
+1 2 3 4 5
+1 2
+2 3
+3 4
+4 5
+<SPLIT>
+3 3
+10 20 30
+1 2
+2 3
+1 3
+<SPLIT>
+7 5
+1 -1 2 -2 3 -3 4
+1 3
+2 4
+3 5
+4 6
+5 7
+<SPLIT>
+1 0
+1000000
+</ans>",0,{}
+66,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+24
+<SPLIT>
+1000000000000
+<SPLIT>
+17
+<SPLIT>
+720
+<SPLIT>
+2147483647
+</ans>",0,{}
+67,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 ATCGA
+<SPLIT>
+10 ATCGATCGAT
+<SPLIT>
+15 AATTCCGGAATTCCG
+<SPLIT>
+20 AAAATTTTCCCCGGGGAAAA
+<SPLIT>
+25 ATCGATCGATCGATCGATCGATCGA
+</ans>
+
+These test cases cover various scenarios:
+
+1. A short string with all four characters.
+2. A medium-length string with a repeating pattern.
+3. A longer string with pairs of complementary bases.
+4. A string with groups of the same character.
+5. A long string with a repeating pattern of all four characters.
+
+Each test case follows the input format specified in the problem description, providing the length of the string N followed by the string S itself, consisting only of the characters A, T, C, and G.",0,{}
+68,"<ans>
+3 3 10
+1 2 20
+2 3 30
+1 3 45
+<SPLIT>
+4 5 5
+1 2 10
+2 3 15
+3 4 20
+1 3 25
+2 4 30
+<SPLIT>
+5 6 8
+1 2 12
+2 3 18
+3 4 24
+4 5 30
+1 3 22
+2 5 36
+<SPLIT>
+3 4 7
+1 2 15
+2 3 20
+1 3 25
+3 1 10
+<SPLIT>
+6 8 12
+1 2 20
+2 3 25
+3 4 30
+4 5 35
+5 6 40
+1 3 30
+2 4 35
+3 5 40
+</ans>",0,{}
+69,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+2 3
+<SPLIT>
+5 5
+<SPLIT>
+10 0
+<SPLIT>
+0 10
+<SPLIT>
+100 100
+</ans>",0,{}
+70,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 10
+100 1000
+1000000 1000000000
+<SPLIT>
+5
+1 1
+2 4
+5 8
+9 16
+17 32
+<SPLIT>
+4
+1 100
+101 1000
+1001 10000
+10001 100000
+<SPLIT>
+6
+1 1000000
+1000001 10000000
+10000001 100000000
+100000001 1000000000
+1000000001 10000000000
+10000000001 100000000000
+<SPLIT>
+4
+999999999999999999 1000000000000000000
+888888888888888888 999999999999999999
+777777777777777777 888888888888888888
+666666666666666666 777777777777777777
+</ans>",0,{}
+71,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6 2 3
+2 2 2 2 1 1
+<SPLIT>
+10 5 4
+1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+8 10 2
+5 5 5 5 5 5 5 5
+<SPLIT>
+3 100 1
+1 1 1
+<SPLIT>
+7 3 5
+10 9 8 7 6 5 4
+</ans>",0,{}
+72,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+2
+<SPLIT>
+3
+<SPLIT>
+10
+<SPLIT>
+5
+<SPLIT>
+100
+</ans>",0,{}
+73,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+7 2
+1 2
+1 3
+1 4
+3 5
+3 6
+3 7
+2 7
+<SPLIT>
+6 4
+1 2
+2 3
+2 4
+4 5
+4 6
+2 4 5 6
+<SPLIT>
+10 3
+1 2
+1 3
+2 4
+2 5
+3 6
+3 7
+4 8
+5 9
+6 10
+4 7 10
+<SPLIT>
+8 5
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+1 3 5 7 8
+<SPLIT>
+12 4
+1 2
+1 3
+2 4
+2 5
+3 6
+3 7
+4 8
+4 9
+5 10
+6 11
+7 12
+2 6 9 12
+</ans>",0,{}
+74,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 2 5 3
+1 2 3
+<SPLIT>
+4 2 6 4
+1 2 3 4
+<SPLIT>
+5 3 10 7
+1 2 3 4 5 1 2
+<SPLIT>
+2 1 8 6
+1 2 1 2 1 2
+<SPLIT>
+6 4 15 10
+1 2 3 4 5 6 1 2 3 4
+</ans>
+
+These test cases cover various scenarios:
+
+1. A small case with 3 candidates, 2 seats, and 3 votes cast.
+2. A case with 4 candidates, 2 seats, and all candidates receiving one vote each.
+3. A larger case with 5 candidates, 3 seats, and 7 out of 10 votes cast.
+4. A case with only 2 candidates competing for 1 seat, with 6 out of 8 votes cast.
+5. A larger case with 6 candidates, 4 seats, and 10 out of 15 votes cast.
+
+These inputs should help test different aspects of the solution, including tie-breaking, guaranteed seats, and candidates with no chance of winning.",0,{}
+75,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+5 4 3 2 1
+<SPLIT>
+6
+1 2 6 5 4 3
+<SPLIT>
+4
+2 3 1 4
+<SPLIT>
+7
+1 3 5 7 6 4 2
+<SPLIT>
+3
+2 1 3
+</ans>
+
+These test cases cover various scenarios:
+
+1. A completely reversed array that can be sorted by reversing the entire array.
+2. An array where a segment in the middle needs to be reversed.
+3. An array where reversing any segment won't sort it.
+4. A longer array with a segment that needs to be reversed.
+5. A small array where reversing a segment of two elements will sort it.
+
+Each test case is separated by the <SPLIT> tag as requested, and all inputs are enclosed within the <ans> tags.",True,{}
+76,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 -1
+-1 4
+-1 6
+<SPLIT>
+4
+1 -1
+2 -1
+3 -1
+-1 8
+<SPLIT>
+5
+1 6
+2 -1
+3 -1
+4 -1
+-1 10
+<SPLIT>
+2
+-1 -1
+-1 -1
+<SPLIT>
+6
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+-1 12
+</ans>",0,{}
+77,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 2
+1 2 3
+4 5 1
+<SPLIT>
+7 3
+1 2 3
+4 5 6
+7 1 2
+<SPLIT>
+6 4
+1 2 3
+4 5 6
+1 4 2
+3 5 6
+<SPLIT>
+9 5
+1 2 3
+4 5 6
+7 8 9
+1 4 7
+2 5 8
+<SPLIT>
+10 6
+1 2 3
+4 5 6
+7 8 9
+10 1 2
+3 4 5
+6 7 8
+</ans>",0,{}
+78,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6
+1 2 3 1 2 3
+<SPLIT>
+8
+1 2 3 4 5 1 2 3
+<SPLIT>
+10
+1 2 3 4 5 6 7 8 9 1
+<SPLIT>
+7
+1 1 2 2 3 3 4
+<SPLIT>
+9
+1 2 3 4 5 6 7 8 9
+</ans>",0,{}
+79,"<ans>
+3
+6 5 4 5
+2 3 2 3 1 3
+<SPLIT>
+1
+5 2 3 4
+10
+<SPLIT>
+4
+4 2 3 1
+8 10 8 5
+<SPLIT>
+2
+2 1 4 3
+8 5
+<SPLIT>
+5
+5 3 5 4
+9 2 10 7 6
+</ans>",0,{}
+80,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+1 1 2 3 1 0
+2 4 20
+<SPLIT>
+10 10 5 5 2 2
+15 15 100
+<SPLIT>
+1000000000000000 1000000000000000 2 2 0 0
+1000000000000001 1000000000000001 1000000000000000
+<SPLIT>
+1 1 100 100 0 0
+50 50 10000
+<SPLIT>
+123456789 987654321 3 4 5 6
+1000000000 1000000000 1000000000
+</ans>",0,{}
+81,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+1 1 1
+<SPLIT>
+2 2 2
+<SPLIT>
+3 4 5
+<SPLIT>
+1000 2000 3000
+<SPLIT>
+5000 5000 5000
+</ans>",0,{}
+82,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 2 3
+<SPLIT>
+5
+5 4 3 2 1
+<SPLIT>
+4
+10 20 30 40
+<SPLIT>
+6
+1 1 1 1 1 1
+<SPLIT>
+7
+100000000 200000000 300000000 400000000 500000000 600000000 700000000
+</ans>
+
+These test cases cover various scenarios:
+
+1. A small ascending sequence
+2. A descending sequence
+3. A sequence with larger gaps between numbers
+4. A sequence with all equal numbers
+5. A sequence with very large numbers (close to the upper limit of 10^9)
+
+Each test case follows the input format specified in the problem statement, with the first line containing N (the length of the sequence) and the second line containing N space-separated integers representing the sequence A.",0,{}
+83,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+abc
+a?b*c
+3
+abc
+abbc
+acbc
+<SPLIT>
+xy
+x*y?
+4
+xyyxy
+xy
+xabcy
+xzy
+<SPLIT>
+aeiou
+?e*u
+5
+aeiou
+beiou
+aeiu
+aeu
+aeioux
+<SPLIT>
+qwerty
+q?e*y
+4
+qwerty
+qwey
+qwertyu
+qaerty
+<SPLIT>
+z
+z*
+3
+z
+zzzz
+azzz
+</ans>",0,{}
+84,"Here are 5 groups of test case inputs for the given chess problem:
+
+<ans>
+3
+0 0
+R 0 5
+B 5 5
+Q -3 -3
+<SPLIT>
+4
+1 1
+R 1 5
+B 5 1
+Q 0 0
+R -2 1
+<SPLIT>
+2
+10 10
+B 8 8
+R 12 10
+<SPLIT>
+5
+-5 3
+Q -5 0
+R -5 6
+B -2 0
+B -8 6
+R -1 3
+<SPLIT>
+1
+100000 100000
+Q 99999 99999
+</ans>",0,{}
+85,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+AABBB
+<SPLIT>
+7
+AAABABB
+<SPLIT>
+10
+AABBAABBAA
+<SPLIT>
+15
+ABABABABABABABA
+<SPLIT>
+20
+AAAAABBBBBAAAAAABBBB
+</ans>
+
+These test cases cover various scenarios:
+
+1. The first example from the problem statement.
+2. The third example from the problem statement.
+3. A string with alternating pairs of A's and B's.
+4. A string with alternating single A's and B's.
+5. A longer string with groups of A's and B's.
+
+Each of these inputs follows the format specified in the problem: the first line contains an integer n (the length of the string), and the second line contains the string s consisting of only A's and B's.",0,{}
+86,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6 10
+5 6 7 9 4 5
+<SPLIT>
+8 20
+7 7 7 7 8 8 8 8
+<SPLIT>
+4 5
+4 2 1 10
+<SPLIT>
+10 15
+1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+12 100
+1 1 2 2 3 3 4 4 5 5 6 6
+</ans>
+
+These test cases cover various scenarios:
+
+1. A case similar to the first example, with a small number of cards and exchanges needed.
+2. A case similar to the second example, with repeated numbers and many exchanges needed.
+3. A case where no solution is possible (similar to the third example).
+4. A case with a larger number of cards, all unique, to test the algorithm's efficiency.
+5. A case with many repeated numbers and a large pool of available cards from Nikolay, to test the algorithm's ability to handle more complex scenarios.",0,{}
+87,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 100
+10 5
+50 10
+90 5
+<SPLIT>
+5 1000
+100 50
+300 100
+500 50
+700 100
+900 50
+<SPLIT>
+2 500
+1 0
+500 0
+<SPLIT>
+4 200
+25 10
+75 15
+125 20
+175 5
+<SPLIT>
+6 800
+50 20
+150 30
+250 10
+450 40
+650 25
+750 15
+</ans>",0,{}
+88,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 5
+0 0
+2 0
+2 2
+0 2
+1 1 3
+2 1
+2 2
+2 3
+2 4
+<SPLIT>
+5 6
+0 0
+2 0
+3 2
+1 3
+-1 2
+1 1 3
+2 1
+2 2
+1 3 4
+2 3
+2 5
+<SPLIT>
+3 4
+-1 0
+1 0
+0 2
+1 1 2
+2 1
+2 2
+2 3
+<SPLIT>
+6 7
+0 0
+2 0
+3 1
+2 3
+0 3
+-1 1
+1 1 3
+2 1
+2 3
+1 3 5
+2 2
+2 4
+2 6
+<SPLIT>
+4 8
+-1 -1
+1 -1
+1 1
+-1 1
+1 1 2
+2 1
+2 2
+1 2 3
+2 3
+2 4
+1 3 4
+2 1
+</ans>",0,{}
+89,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+20
+<SPLIT>
+5184
+<SPLIT>
+1000000
+<SPLIT>
+1024
+<SPLIT>
+720
+</ans>
+
+I've provided 5 different input values for the integer n, each separated by the <SPLIT> tag as requested. These test cases cover a range of scenarios:
+
+1. The first example given in the problem (n = 20)
+2. The second example given in the problem (n = 5184)
+3. The maximum possible input value (n = 1000000)
+4. A power of 2 (n = 1024)
+5. A number with multiple factors (n = 720)
+
+These test cases should help verify the correctness of the solution for various input sizes and types of numbers.",0,{}
+90,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 4 0
+2 4 1 3
+3 1 4 2
+1 3 2 4
+<SPLIT>
+2 5 1
+5 4 3 2 1
+1 2 3 4 5
+<SPLIT>
+4 3 0
+3 2 1
+2 1 3
+1 3 2
+3 1 2
+<SPLIT>
+1 6 1
+6 5 4 3 2 1
+<SPLIT>
+5 2 0
+2 1
+1 2
+2 1
+1 2
+2 1
+</ans>",0,{}
+91,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+0 1 0
+1 0 1
+7 3 15
+5 1 3
+<SPLIT>
+4
+1 0 1 0
+0 1 0 1
+10 5 12 7
+8 3 6 9
+<SPLIT>
+2
+1 1
+1 1
+3 2
+3 2
+<SPLIT>
+5
+0 1 0 1 0
+1 0 1 0 1
+15 7 31 63 127
+255 127 63 31 15
+<SPLIT>
+1
+0
+0
+18446744073709551615
+18446744073709551615
+</ans>
+
+These test cases cover various scenarios:
+
+1. A 3x3 matrix with mixed AND and OR operations for rows and columns.
+2. A 4x4 matrix with alternating AND and OR operations.
+3. A 2x2 matrix with all OR operations, testing edge cases.
+4. A 5x5 matrix with alternating operations and increasing values.
+5. A 1x1 matrix with AND operations and maximum possible value (2^64 - 1).
+
+Each test case follows the input format specified in the problem statement, providing values for N, S, T, U, and V arrays.",0,{}
+92,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 4 1
+<SPLIT>
+5
+2 5 1 3 4
+<SPLIT>
+4
+1 1 1 1
+<SPLIT>
+6
+10 5 8 3 6 2
+<SPLIT>
+7
+1 7 3 5 2 6 4
+</ans>",0,{}
+93,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+0 0
+3 0
+0 4
+<SPLIT>
+4
+0 0
+1000 0
+1000 1000
+0 1000
+<SPLIT>
+5
+100 100
+200 200
+300 300
+400 400
+500 500
+<SPLIT>
+6
+0 0
+10 0
+20 0
+0 10
+10 10
+20 10
+<SPLIT>
+7
+123 456
+789 101
+234 567
+890 123
+345 678
+901 234
+567 890
+</ans>
+
+These test cases cover various scenarios:
+
+1. A right-angled triangle
+2. A square at the extremes of the coordinate range
+3. Points along a diagonal line
+4. A rectangular grid of points
+5. Random points within the valid range
+
+Each test case adheres to the given constraints:
+- 2 ≤ N ≤ 50
+- 0 ≤ x_i ≤ 1000
+- 0 ≤ y_i ≤ 1000
+- All points are different
+- All values are integers",0,{}
+94,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+2 3
+1 1
+3 6
+<SPLIT>
+4
+6 8
+1 2
+4 1
+31235 6578234
+<SPLIT>
+5
+10 15
+20 30
+5 7
+100 99
+1000 2000
+<SPLIT>
+3
+1000000 1000001
+999999 1000000
+500000 750000
+<SPLIT>
+4
+1 10
+10 1
+100 100
+1000000000 1
+</ans>",0,{}
+95,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 4 6
+..*.
+.X*.
+....
+<SPLIT>
+4 4 8
+....
+.X..
+.*..
+....
+<SPLIT>
+5 5 10
+.....
+.X...
+..*..
+.....
+.....
+<SPLIT>
+3 3 4
+.X.
+...
+...
+<SPLIT>
+6 6 20
+......
+..X...
+...*..
+......
+......
+......
+</ans>
+
+These test cases cover various scenarios:
+
+1. A small maze with some obstacles and a short path
+2. A square maze with one obstacle and a moderate path length
+3. A larger maze with one obstacle and a longer path
+4. A small maze with no obstacles and a short path
+5. A larger maze with one obstacle and a long path
+
+Each test case includes different maze sizes, obstacle placements, and path lengths to test various aspects of the solution.",0,{}
+96,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 4 1 5
+1 2
+2 3
+3 4
+4 5
+<SPLIT>
+6 5 2 6
+1 2
+2 3
+3 4
+4 5
+5 6
+<SPLIT>
+7 8 1 7
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+1 3
+3 5
+<SPLIT>
+4 3 1 4
+1 2
+2 3
+3 4
+<SPLIT>
+8 10 3 6
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+1 8
+2 7
+3 6
+</ans>",0,{}
+97,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2 1
+<SPLIT>
+10 5
+<SPLIT>
+100 0
+<SPLIT>
+50000 -49999
+<SPLIT>
+100000 199999
+</ans>",0,{}
+98,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 5
+6 12 18
+<SPLIT>
+4 10
+15 25 35 45
+<SPLIT>
+5 20
+100 200 300 400 500
+<SPLIT>
+2 1000000000
+999999 1000000
+<SPLIT>
+6 50
+11 22 33 44 55 66
+</ans>
+
+These test cases cover various scenarios:
+
+1. A small set of numbers with a common divisor and limited operations.
+2. A slightly larger set with more operations allowed.
+3. A set of larger numbers with more elements and operations.
+4. The maximum possible values for A_i and K to test edge cases.
+5. A set of numbers with no obvious common divisor to test the algorithm's effectiveness.
+
+Each test case is within the given constraints and should provide a good test for the solution program.",0,{}
+99,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 3
+1 2
+2 3
+3 4
+2 2 10 5
+1 5 2
+4 3 1
+2 4
+3 2
+<SPLIT>
+5 5
+1 2
+2 3
+3 4
+4 5
+5 1
+3 3 8 7
+1 10 3
+3 8 2
+5 6 1
+2 7
+4 5
+5 4
+<SPLIT>
+6 6
+1 2
+2 3
+3 4
+4 5
+5 6
+6 1
+4 4 6 3
+1 5 2
+2 7 3
+4 4 1
+6 6 2
+1 3
+3 4
+4 5
+6 2
+<SPLIT>
+3 3
+1 2
+2 3
+1 3
+2 2 100 50
+1 10 1
+3 20 2
+2 15
+3 25
+<SPLIT>
+7 10
+1 2
+1 3
+2 4
+3 4
+3 5
+4 6
+5 6
+5 7
+6 7
+1 7
+5 5 20 15
+1 30 3
+2 25 2
+4 20 1
+5 15 2
+7 10 3
+1 10
+3 15
+4 25
+6 20
+7 30
+</ans>",True,{}
+100,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 2 3
+5 4 3
+<SPLIT>
+4
+5 5 5 5
+1 2 3 4
+<SPLIT>
+5
+1 1 1 1 1
+10 20 30 40 50
+<SPLIT>
+6
+10 10 10 10 10 10
+1 2 3 4 5 6
+<SPLIT>
+7
+3 3 3 3 3 3 3
+100 200 300 400 500 600 700
+</ans>",0,{}
+101,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+10 4
+13 9
+100 13
+<SPLIT>
+4
+123 456
+92 46
+7 3
+15 5
+<SPLIT>
+5
+1000000000 999999999
+999999999 1000000000
+1 1
+2 2
+3 3
+<SPLIT>
+3
+17 5
+23 7
+31 11
+<SPLIT>
+4
+50 10
+75 25
+100 30
+125 40
+</ans>",0,{}
+102,"Here are 5 groups of test case inputs for the given Python indentation problem:
+
+<ans>
+5
+f
+s
+f
+s
+s
+<SPLIT>
+6
+f
+f
+s
+s
+f
+s
+<SPLIT>
+7
+s
+f
+s
+f
+s
+f
+s
+<SPLIT>
+8
+f
+f
+f
+s
+s
+s
+f
+s
+<SPLIT>
+10
+f
+s
+f
+s
+f
+s
+f
+s
+f
+s
+</ans>",0,{}
+103,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 2
+1 4
+5 2
+<SPLIT>
+3 3
+1 2
+2 3
+1 3
+<SPLIT>
+3 2
+3 1
+3 2
+<SPLIT>
+6 3
+1 5
+2 6
+3 4
+<SPLIT>
+4 1
+2 3
+</ans>",0,{}
+104,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 10 1 3
+3 4 7
+<SPLIT>
+5 20 2 5
+4 7 11 15 18
+<SPLIT>
+4 15 3 4
+5 8 10 12
+<SPLIT>
+2 100 10 20
+30 70
+<SPLIT>
+6 50 5 10
+10 15 20 25 35 40
+</ans>
+
+These test cases cover various scenarios:
+
+1. A simple case with a few obstacles and short distances.
+2. A more complex case with more obstacles and longer distances.
+3. A case where the minimum sprint and maximum jump distances are close.
+4. A case with a very long track and widely spaced obstacles.
+5. A case with multiple obstacles spaced at regular intervals.
+
+Each test case follows the input format specified in the problem description, with the first line containing n, m, s, and d, and the second line containing the coordinates of the obstacles.",0,{}
+105,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+abc
+bcd
+cde
+<SPLIT>
+4
+apple
+banana
+cherry
+date
+<SPLIT>
+5
+zebra
+yak
+xylophone
+walrus
+vulture
+<SPLIT>
+6
+cat
+dog
+elephant
+fish
+giraffe
+horse
+<SPLIT>
+7
+alpha
+beta
+gamma
+delta
+epsilon
+zeta
+omega
+</ans>",0,{}
+106,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 3
+1 2
+3 4
+5 1
+<SPLIT>
+10 5
+1 2
+3 4
+5 6
+7 8
+9 10
+<SPLIT>
+8 7
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+<SPLIT>
+6 0
+<SPLIT>
+7 6
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+</ans>
+
+These test cases cover various scenarios:
+
+1. The sample input provided in the problem statement.
+2. A larger group with 10 persons and 5 friendships, creating 5 separate pairs.
+3. A chain of friendships connecting all 8 persons.
+4. An edge case with 6 persons and no friendships.
+5. A circular friendship chain connecting all 7 persons.
+
+Each test case is separated by the <SPLIT> tag as requested, and all inputs are enclosed within the <ans> and </ans> tags.",0,{}
+107,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+1
+1 3 4
+<SPLIT>
+2
+1 10 100
+23 34 45
+<SPLIT>
+3
+10000000000000000 10000000000000000 10000000000000000
+1000000000 2000000000 3000000000
+5 7 11
+<SPLIT>
+4
+100 200 300
+1 1 1000000000000000
+999999999999999 1 1
+50 60 70
+<SPLIT>
+5
+12345 67890 98765
+1000000000000000 1 1
+9876543210 1234567890 5555555555
+100000 200000 300000
+1 2 3
+</ans>",0,{}
+108,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+1011
+<SPLIT>
+1
+0
+<SPLIT>
+2
+11
+<SPLIT>
+3
+110
+<SPLIT>
+6
+110110
+</ans>
+
+These test cases cover various scenarios:
+
+1. The sample input provided in the problem statement.
+2. A single-character input with '0'.
+3. A two-character input that matches part of the repeating pattern.
+4. An input that exactly matches one repetition of the pattern.
+5. An input that matches two full repetitions of the pattern.
+
+Each test case is separated by the <SPLIT> tag, and all test cases are enclosed within <ans> tags as requested.",0,{}
+109,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+2
+3
+5
+7
+11
+<SPLIT>
+4
+4
+8
+16
+32
+<SPLIT>
+6
+15
+31
+63
+127
+255
+511
+<SPLIT>
+3
+1023
+2047
+4095
+<SPLIT>
+4
+33554431
+16777215
+8388607
+4194303
+</ans>",0,{}
+110,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+7
+1
+2
+3
+2000000000
+<SPLIT>
+10
+15
+20
+25
+30
+<SPLIT>
+100
+1000
+10000
+100000
+1000000
+<SPLIT>
+999999999
+1000000000
+1000000001
+1999999999
+2000000000
+<SPLIT>
+5
+6
+8
+9
+11
+</ans>",0,{}
+111,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+1.0 2.0 3.0
+<SPLIT>
+3.5 1.2 2.8
+<SPLIT>
+10.0 20.0 30.0
+<SPLIT>
+0.1 200.0 100.0
+<SPLIT>
+5.5 5.5 5.5
+</ans>",0,{}
+112,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+aabbccddee
+<SPLIT>
+abcdefghijklmnopqrstuvwxyz
+<SPLIT>
+aaabbbcccdddeeefffggg
+<SPLIT>
+abbaabbaabbaabba
+<SPLIT>
+zyxwvutsrqponmlkjihgfedcba
+</ans>",0,{}
+113,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 2 30 4
+6 14 25 48
+<SPLIT>
+123 1 2143435 4
+123 11 -5453 141245
+<SPLIT>
+123 1 2143435 4
+54343 -13 6 124
+<SPLIT>
+0 5 100 3
+0 25 50 75
+<SPLIT>
+10 -2 50 5
+-10 20 -40 80 -160
+</ans>
+
+These test cases cover various scenarios:
+
+1. A normal case with some terms written and some skipped
+2. A case where no terms are written due to the first term being ""bad""
+3. An infinite case where the same term is repeated indefinitely
+4. A case starting with 0 and having 0 as a ""bad"" number
+5. A case with negative common ratio and some terms being skipped
+
+Each group of inputs is separated by the <SPLIT> tag as requested, and all inputs are enclosed within the <ans> tags.",0,{}
+114,"Here are 5 groups of test case inputs for the given chess problem:
+
+<ans>
+3
+o.x
+.x.
+x.o
+<SPLIT>
+4
+o..x
+x..x
+x..x
+x..o
+<SPLIT>
+5
+oxxxx
+x...x
+x.o.x
+x...x
+xxxxo
+<SPLIT>
+6
+.x.x..
+x.x.x.
+.xo..x
+x..ox.
+.x.x.x
+..x.x.
+<SPLIT>
+7
+o......
+.x.x.x.
+..x.x..
+.x.o.x.
+..x.x..
+.x.x.x.
+......o
+</ans>",0,{}
+115,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+100
+1
+<SPLIT>
+1000
+2
+<SPLIT>
+9999999999
+3
+<SPLIT>
+123456789012345678901234567890
+2
+<SPLIT>
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+3
+</ans>
+
+These test cases cover a range of scenarios:
+
+1. A small number (100) with 1 non-zero digit
+2. A medium number (1000) with 2 non-zero digits
+3. A large number (9999999999) with 3 non-zero digits
+4. A very large number with 2 non-zero digits
+5. The maximum possible number (100 digits) with 3 non-zero digits
+
+Each test case is separated by the <SPLIT> tag as requested, and all inputs are enclosed in the <ans> tags.",0,{}
+116,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 5
+1 2 1
+1 3 2
+1 4 3
+2 3 4
+3 4 5
+<SPLIT>
+5 7
+1 2 3
+1 3 2
+1 4 4
+2 3 1
+2 5 5
+3 4 2
+4 5 1
+<SPLIT>
+3 3
+1 2 10
+2 3 20
+1 3 15
+<SPLIT>
+6 10
+1 2 5
+1 3 4
+1 4 2
+2 3 1
+2 5 3
+3 4 8
+3 6 6
+4 5 7
+4 6 9
+5 6 2
+<SPLIT>
+4 6
+1 2 1
+1 3 2
+1 4 3
+2 3 4
+2 4 5
+3 4 6
+</ans>
+
+These test cases cover various scenarios:
+
+1. A simple graph with 4 vertices and 5 edges.
+2. A larger graph with 5 vertices and 7 edges, including some longer paths.
+3. A minimal graph with 3 vertices and 3 edges, where one edge might not be part of any shortest path.
+4. A more complex graph with 6 vertices and 10 edges, testing the algorithm's ability to handle more connections.
+5. A fully connected graph with 4 vertices, testing the case where all possible edges exist.
+
+Each test case adheres to the given constraints and input format.",0,{}
+117,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 2
+2 3 4 1
+3 4 1 2
+<SPLIT>
+5 3
+3 1 5 2 4
+4 2 1 5 3
+<SPLIT>
+3 1
+2 3 1
+1 3 2
+<SPLIT>
+6 4
+4 2 6 1 5 3
+3 5 1 6 2 4
+<SPLIT>
+7 5
+3 5 1 7 2 6 4
+6 4 2 1 7 3 5
+</ans>",0,{}
+118,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 10
+1 100
+5 20
+<SPLIT>
+2 1000000000
+1000000000 1000000000
+4 8
+<SPLIT>
+10 50
+20 100
+3 15
+<SPLIT>
+7 35
+9 45
+6 30
+<SPLIT>
+1 1000000000
+100 500
+50 250
+</ans>",0,{}
+119,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+3 2 1 0 4
+<SPLIT>
+7
+1 2 3 4 5 6 7
+<SPLIT>
+10
+5 4 3 2 1 0 -1 -2 -3 -4
+<SPLIT>
+3
+1000000000 -1000000000 0
+<SPLIT>
+15
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+</ans>",0,{}
+120,"Here are 5 groups of test case inputs for the given fireworks problem:
+
+<ans>
+1
+5
+<SPLIT>
+3
+2 3 1
+<SPLIT>
+4
+1 1 1 1
+<SPLIT>
+5
+3 2 2 1 4
+<SPLIT>
+2
+5 5
+</ans>",0,{}
+121,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+1 2 3 2 1
+<SPLIT>
+3
+10 6 8
+<SPLIT>
+7
+5 3 8 2 6 4 1
+<SPLIT>
+4
+7 7 7 7
+<SPLIT>
+6
+1 3 5 4 2 6
+</ans>
+
+These test cases cover various scenarios:
+
+1. The example given in the problem statement with alternating heights.
+2. Another example from the problem statement with non-monotonic heights.
+3. A larger case with mixed heights to test more complex scenarios.
+4. A case where all skyscrapers have the same maximum height.
+5. A case with increasing then decreasing heights to test the algorithm's handling of peaks.
+
+Each test case includes the number of plots n on the first line, followed by n integers representing the maximum height limits for each plot.",0,{}
+122,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 4
+AAAA
+ABCA
+AAAA
+<SPLIT>
+4 4
+YYYR
+BYBY
+BBBY
+BBBY
+<SPLIT>
+5 5
+AAAAA
+ABBBA
+ABCBA
+ABBBA
+AAAAA
+<SPLIT>
+2 6
+AABBCC
+CCBBAA
+<SPLIT>
+6 6
+ABCDEF
+BCDEFG
+CDEFGH
+DEFGHI
+EFGHIJ
+FGHIJK
+</ans>",0,{}
+123,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+1
+<SPLIT>
+10
+<SPLIT>
+100
+<SPLIT>
+1000
+<SPLIT>
+10000
+</ans>
+
+These test cases cover a range of inputs from the smallest possible input (1) to the largest allowed input (10000), as well as some values in between. They will test the function's ability to handle different magnitudes of input and edge cases.",0,{}
+124,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10 50 2
+<SPLIT>
+1 1000000000000000000 10
+<SPLIT>
+100 200 1
+<SPLIT>
+1234567 7654321 3
+<SPLIT>
+999999999999999999 1000000000000000000 5
+</ans>",0,{}
+125,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 2
+1 2
+3 4
+<SPLIT>
+5 4
+1 2
+2 3
+3 4
+4 5
+<SPLIT>
+6 5
+1 2
+2 3
+3 4
+4 5
+5 6
+<SPLIT>
+7 0
+<SPLIT>
+8 7
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+</ans>",0,{}
+126,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 2 3 5
+-2 -1 4
+-1 2
+7 3
+<SPLIT>
+4 3 10 20
+-5 0 5 10
+-10 0 15
+15 12 8
+<SPLIT>
+5 4 100 200
+-100 -50 0 50 100
+-75 -25 25 75
+150 120 100 80
+<SPLIT>
+2 2 1000 2000
+-500 500
+-1000 1000
+3000 2500
+<SPLIT>
+6 5 50 100
+-30 -20 -10 10 20 30
+-25 -15 0 15 25
+120 110 100 110 120
+</ans>",0,{}
+127,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+1 2 3 4 5
+<SPLIT>
+6
+1 1 2 2 3 3
+<SPLIT>
+8
+1 1 1 8 8 8 4 4
+<SPLIT>
+10
+1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+7
+2 2 2 2 2 2 2
+</ans>",0,{}
+128,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+9
+<SPLIT>
+-15
+<SPLIT>
+0
+<SPLIT>
+1000000000
+<SPLIT>
+-1000000000
+</ans>
+
+These test cases cover various scenarios:
+
+1. A positive number (9)
+2. A negative number (-15)
+3. Zero (0)
+4. The maximum positive number in the constraint range (10^9)
+5. The minimum negative number in the constraint range (-10^9)
+
+These inputs will test the function's ability to handle different types of inputs within the given constraints, including edge cases and typical values.",0,{}
+129,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 3
+1 4
+3 3
+6 2
+8 1
+<SPLIT>
+5 4
+0 0
+2 2
+4 4
+6 6
+8 8
+<SPLIT>
+6 3
+-5 -5
+-3 -3
+0 0
+3 3
+5 5
+7 7
+<SPLIT>
+7 5
+-10 -10
+-5 -5
+0 0
+5 5
+10 10
+15 15
+20 20
+<SPLIT>
+8 6
+-1000000000 -1000000000
+-500000000 -500000000
+0 0
+500000000 500000000
+1000000000 1000000000
+-750000000 750000000
+750000000 -750000000
+250000000 -250000000
+</ans>",0,{}
+130,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+15 20
+<SPLIT>
+14 8
+<SPLIT>
+6 6
+<SPLIT>
+30 45
+<SPLIT>
+100 1000
+</ans>
+
+These test cases cover various scenarios:
+
+1. A case where the fox can make the pieces equal (as in the first example).
+2. A case where it's impossible to make the pieces equal (as in the second example).
+3. A case where the pieces are already equal (as in the third example).
+4. A case with larger numbers that are still divisible by 2, 3, and 5.
+5. A case with even larger numbers to test the program's efficiency with big inputs.",0,{}
+131,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 3
+2 4
+3 5
+<SPLIT>
+4
+1 2
+2 3
+3 4
+4 5
+<SPLIT>
+5
+1 10
+2 8
+3 6
+4 7
+5 9
+<SPLIT>
+2
+1 1000000000
+1 1000000000
+<SPLIT>
+6
+1 5
+2 6
+3 7
+4 8
+5 9
+6 10
+</ans>",0,{}
+132,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 2 3 4 5 6 7 8 9
+<SPLIT>
+4
+1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4
+<SPLIT>
+5
+1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5 6 6 6 6 7
+<SPLIT>
+2
+1 2 2 1
+<SPLIT>
+6
+1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5 6 6 6 6 7 7 7 7 8 8 8 8 9 9 9 9
+</ans>
+
+These test cases cover various scenarios:
+
+1. A 3x3 matrix with all different numbers
+2. A 4x4 matrix with four groups of four identical numbers
+3. A 5x5 matrix with six groups of four identical numbers and one single number
+4. A 2x2 matrix that is already palindromic
+5. A 6x6 matrix with nine groups of four identical numbers
+
+These inputs should help test different aspects of the solution, including odd and even sized matrices, matrices with repeated elements, and edge cases.",0,{}
+133,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6
+2 0 3 0 1 1
+<SPLIT>
+1
+0
+<SPLIT>
+6
+3 2 2 2 1 1
+<SPLIT>
+5
+1 2 1 0 1
+<SPLIT>
+8
+3 2 1 0 2 1 1 0
+</ans>",0,{}
+134,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 6
+3 8
+<SPLIT>
+10 12
+15 8
+<SPLIT>
+7 9
+21 3
+<SPLIT>
+100 200
+50 400
+<SPLIT>
+17 23
+13 30
+</ans>",0,{}
+135,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+5
+aabba
+<SPLIT>
+10
+abcdefghij
+<SPLIT>
+15
+aaabbbcccdddee
+<SPLIT>
+20
+aaaaabbbbccccddddee
+<SPLIT>
+8
+aaaaaaaa
+</ans>",0,{}
+136,"Here are 5 groups of test case inputs for the given polynomial problem:
+
+<ans>
+3
+
+<SPLIT>
+10
+
+<SPLIT>
+25
+
+<SPLIT>
+50
+
+<SPLIT>
+100
+</ans>",0,{}
+137,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3
+<SPLIT>
+5 4
+<SPLIT>
+10 5
+<SPLIT>
+20 10
+<SPLIT>
+2000 2000
+</ans>",0,{}
+138,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6 2 2
+1 1 2 2 1 1
+<SPLIT>
+7 3 2
+1 3 1 2 3 2 1
+<SPLIT>
+5 4 3
+1 2 4 2 1
+<SPLIT>
+10 5 3
+1 2 4 5 1 2 4 5 1 2
+<SPLIT>
+8 3 2
+1 3 1 3 2 1 3 1
+</ans>
+
+These test cases cover various scenarios:
+
+1. The example given in the problem statement.
+2. A case with more colors and a different insertion point.
+3. A case where inserting the ball doesn't cause any immediate destruction.
+4. A longer sequence with more colors and potential for chain reactions.
+5. A case where inserting the ball can cause multiple destructions in different directions.
+
+Each test case follows the input format specified in the problem: the first line contains n, k, and x, and the second line contains n space-separated integers representing the colors of the balls in the row.",0,{}
+139,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10 2 1
+1 1 1
+1 1 1
+1 1 1
+2 2 2
+2 2 2
+2 2 2
+<SPLIT>
+8 1 1
+2 2 1
+3 3 1
+3 1 3
+1 1 1
+2 1 1
+1 2 3
+<SPLIT>
+5 1 1
+1 2 2
+2 2 2
+2 2 2
+1 2 2
+2 2 2
+2 2 2
+<SPLIT>
+100 3 2
+1 2 3
+2 3 1
+3 1 2
+3 2 1
+1 3 2
+2 1 3
+<SPLIT>
+1000000000000000000 1 3
+2 3 1
+3 1 2
+1 2 3
+3 2 1
+1 3 2
+2 1 3
+</ans>",0,{}
+140,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+erasedreamerasereraserdreamer
+<SPLIT>
+dreamereraseraserdreameraser
+<SPLIT>
+eraserdreamereraseraserdream
+<SPLIT>
+dreameraserdreamerasererase
+<SPLIT>
+dreamerasereraserdreameraser
+</ans>
+
+These test cases cover various combinations of the allowed substrings (""dream"", ""dreamer"", ""erase"", ""eraser"") and should help test the solution's ability to correctly identify whether the input string can be formed using these substrings.",True,{}
+141,"<ans>
+5 4
+1 2 3 4 5
+2 3 4 5 1
+1 2
+2 3
+3 4
+4 5
+<SPLIT>
+3 2
+1 2 3
+3 2 1
+1 2
+2 3
+<SPLIT>
+4 3
+1 2 3 4
+4 3 2 1
+1 2
+2 3
+3 4
+<SPLIT>
+6 5
+1 2 3 4 5 6
+6 5 4 3 2 1
+1 2
+2 3
+3 4
+4 5
+5 6
+<SPLIT>
+2 1
+100 200
+200 100
+1 2
+</ans>",0,{}
+142,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+4 4
+1 1 2 1
+3 3 3 4
+4 2 4 3
+1 1 1 0
+<SPLIT>
+4
+5 5
+1 1 1 2
+2 3 3 3
+4 4 5 4
+5 1 5 2
+2 1 1 1
+<SPLIT>
+5
+6 6
+1 1 2 1
+3 3 3 4
+4 2 4 3
+5 5 6 5
+2 6 3 6
+2 2 2 1
+<SPLIT>
+2
+3 3
+1 1 1 2
+2 2 3 2
+0 1 1 0
+<SPLIT>
+6
+7 7
+1 1 2 1
+3 3 3 4
+4 2 4 3
+5 5 6 5
+2 6 3 6
+7 1 7 2
+3 2 2 2
+</ans>",0,{}
+143,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+racecar
+<SPLIT>
+abcba
+<SPLIT>
+aabbaa
+<SPLIT>
+abcdeedcba
+<SPLIT>
+aaaaa
+</ans>",True,{}
+144,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 2
+abcd
+bcde
+bcad
+bcde
+<SPLIT>
+5 3
+bwwwz
+hrhdh
+sepsp
+sqfaf
+ajbvw
+<SPLIT>
+7 6
+ypnxnnp
+pnxonpm
+nxanpou
+xnnpmud
+nhtdudu
+npmuduh
+pmutsnz
+<SPLIT>
+3 1
+abc
+def
+ghi
+<SPLIT>
+6 4
+zzzzzz
+yyyyyy
+xxxxxx
+wwwwww
+vvvvvv
+uuuuuu
+</ans>",0,{}
+145,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3 10
+5 6 7
+8 9 10
+<SPLIT>
+5 4 20
+2 3 4 5 6
+7 8 9 10
+<SPLIT>
+2 2 0
+5 5
+6 7
+<SPLIT>
+4 4 15
+3 4 5 6
+5 6 7 8
+<SPLIT>
+1 5 100
+10
+20 30 40 50 60
+</ans>
+
+These test cases cover various scenarios:
+
+1. Equal number of boys and bikes, with some shared budget
+2. More boys than bikes, with moderate shared budget
+3. No shared budget, testing personal money usage
+4. Equal number of boys and bikes, testing combination of shared and personal money
+5. One boy with many bike options and large shared budget
+
+Each test case follows the input format specified in the problem statement, providing values for n, m, a, followed by b_i values, and then p_j values.",0,{}
+146,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6
+hello
+world
+beautiful
+lyric
+amazing
+poetry
+<SPLIT>
+8
+cat
+dog
+rat
+bat
+hat
+mat
+pat
+sat
+<SPLIT>
+10
+apple
+banana
+orange
+grape
+melon
+cherry
+peach
+plum
+mango
+kiwi
+<SPLIT>
+12
+code
+forces
+programming
+contest
+algorithm
+data
+structure
+problem
+solving
+competitive
+coding
+challenge
+<SPLIT>
+15
+vowel
+consonant
+syllable
+phoneme
+morpheme
+syntax
+semantics
+pragmatics
+phonology
+morphology
+lexicon
+grammar
+phonetics
+linguistics
+language
+</ans>",0,{}
+147,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 7
+1 6 3
+<SPLIT>
+5 15
+2 4 6 8 10
+<SPLIT>
+4 1000000000000
+123456789 987654321 555555555 111111111
+<SPLIT>
+2 999999999999
+0 999999999999
+<SPLIT>
+10 1000000000000
+1 10 100 1000 10000 100000 1000000 10000000 100000000 1000000000
+</ans>
+
+These test cases cover various scenarios:
+
+1. The sample input provided in the problem statement.
+2. A case with 5 even numbers and a small K value.
+3. A case with 4 large numbers and a large K value.
+4. A case with the minimum and maximum possible values for A_i and a large K value.
+5. A case with 10 numbers (close to the maximum N) with powers of 10 and the maximum K value.
+
+These test cases should help evaluate the correctness and efficiency of the solution for different input sizes and edge cases.",True,{}
+148,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+1 2 3 4 5
+<SPLIT>
+6
+2 4 6 8 10 12
+<SPLIT>
+7
+1 2 3 4 5 6 7
+<SPLIT>
+4
+1 4 2 8
+<SPLIT>
+8
+3 6 9 12 15 18 21 24
+</ans>
+
+These test cases cover various scenarios:
+
+1. A mix of odd and even numbers
+2. All even numbers
+3. Odd number of elements with a mix of odd and even
+4. All multiples of 4 or 2
+5. All odd numbers except the last one
+
+These should help test different aspects of the solution, including edge cases and typical scenarios.",0,{}
+149,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+0 10 2
+<SPLIT>
+1 100 7
+<SPLIT>
+1000000000000000000 1000000000000000000 1000000000000000000
+<SPLIT>
+0 999999999999999999 3
+<SPLIT>
+123456789 987654321 10
+</ans>
+
+These test cases cover various scenarios:
+
+1. Small numbers with even divisor
+2. Moderate range with prime divisor
+3. Maximum possible values for all inputs
+4. Large range with small divisor
+5. Large numbers with common divisor
+
+Each test case is separated by the <SPLIT> tag and the entire set is enclosed in <ans> tags as requested.",0,{}
+150,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+100
+50
+50
+<SPLIT>
+200
+75
+25
+<SPLIT>
+150
+60
+40
+<SPLIT>
+300
+100
+50
+<SPLIT>
+180
+45
+55
+</ans>",0,{}
+151,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+1 2 5
+<SPLIT>
+-1 4 15
+<SPLIT>
+0 -1 5
+<SPLIT>
+-10 10 20
+<SPLIT>
+1000000000000000000 999999999999999999 1000000000000000000
+</ans>
+
+These test cases cover various scenarios:
+
+1. A case where operations are needed to reach the m-perfect pair.
+2. A case where multiple operations are needed.
+3. A case where it's impossible to reach an m-perfect pair.
+4. A case with a negative number and a positive number.
+5. A case with very large numbers to test the limits of the problem constraints.
+
+Each test case is separated by the <SPLIT> tag as requested, and all inputs are enclosed in the <ans> tags.",0,{}
+152,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 6
+abcde
+1 2
+2 3
+3 4
+4 5
+5 1
+1 3
+<SPLIT>
+7 8
+aaabbcc
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+1 7
+2 6
+<SPLIT>
+10 12
+abcdefghij
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+1 5
+3 7
+6 10
+<SPLIT>
+8 10
+aaaabbbb
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+1 8
+2 7
+3 6
+<SPLIT>
+6 7
+xxyyzz
+1 2
+2 3
+3 4
+4 5
+5 6
+1 6
+3 5
+</ans>",0,{}
+153,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 4 2
+<SPLIT>
+5 -1 3
+<SPLIT>
+10 100 -5
+<SPLIT>
+1 0 0
+<SPLIT>
+200000 -100000000 1
+</ans>",True,{}
+154,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+0 5 0 2 3
+<SPLIT>
+7
+1 0 0 5 0 0 2
+<SPLIT>
+10
+0 0 0 0 0 0 0 0 0 0
+<SPLIT>
+8
+1 2 3 4 5 6 7 8
+<SPLIT>
+6
+0 2 0 4 0 6
+</ans>",0,{}
+155,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+1 1 2
+3 2 1 1
+<SPLIT>
+5
+1 2 2 1
+4 3 2 1 1
+<SPLIT>
+3
+1 2
+5 3 2
+<SPLIT>
+6
+1 2 3 3 3
+6 5 4 3 2 1
+<SPLIT>
+7
+1 1 2 2 3 3
+7 6 5 4 3 2 1
+</ans>
+
+These test cases cover various scenarios:
+
+1. A simple tree with 4 nodes
+2. A slightly larger tree with 5 nodes and multiple levels
+3. A small tree where the solution might be impossible
+4. A tree with 6 nodes and multiple branches
+5. A larger tree with 7 nodes and a more complex structure
+
+Each test case follows the input format specified in the problem statement, with the number of nodes N on the first line, the parent list P_2 to P_N on the second line, and the X values X_1 to X_N on the third line. These inputs should help test different aspects of the solution program.",0,{}
+156,"<ans>
+4 2
+<SPLIT>
+10 3
+<SPLIT>
+100 5
+<SPLIT>
+1000000 10
+<SPLIT>
+999999999 999999999
+</ans>",0,{}
+157,"Here are 5 groups of test case inputs for the given chess puzzle problem:
+
+<ans>
+3
+1 9 3
+8 6 7
+4 2 5
+<SPLIT>
+4
+1 16 3 13
+5 11 10 8
+9 6 7 12
+4 2 14 15
+<SPLIT>
+5
+1 25 3 13 20
+5 11 10 8 22
+9 6 7 12 24
+4 2 14 15 21
+16 18 19 17 23
+<SPLIT>
+6
+1 36 3 13 20 30
+5 11 10 8 22 32
+9 6 7 12 24 34
+4 2 14 15 21 31
+16 18 19 17 23 33
+26 28 29 27 25 35
+<SPLIT>
+7
+1 49 3 13 20 30 40
+5 11 10 8 22 32 42
+9 6 7 12 24 34 44
+4 2 14 15 21 31 41
+16 18 19 17 23 33 43
+26 28 29 27 25 35 45
+36 38 39 37 47 46 48
+</ans>",0,{}
+158,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+1 2
+2 1
+3 4
+4 3
+<SPLIT>
+5
+1 1
+2 2
+3 3
+4 4
+5 5
+<SPLIT>
+3
+1 3
+2 2
+3 1
+<SPLIT>
+6
+1 6
+2 5
+3 4
+4 3
+5 2
+6 1
+<SPLIT>
+7
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 1
+</ans>",0,{}
+159,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 3
+0 1 W
+1 2 W
+5 3 B
+5 4 B
+<SPLIT>
+5 2
+0 0 B
+1 1 W
+2 2 B
+3 3 W
+4 4 B
+<SPLIT>
+6 4
+0 0 W
+1 1 B
+2 2 W
+3 3 B
+4 4 W
+5 5 B
+<SPLIT>
+3 5
+10 20 B
+30 40 W
+50 60 B
+<SPLIT>
+7 3
+0 0 W
+1 1 B
+2 2 W
+3 3 B
+4 4 W
+5 5 B
+6 6 W
+</ans>",0,{}
+160,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+127
+<SPLIT>
+1
+<SPLIT>
+100000
+<SPLIT>
+6561
+<SPLIT>
+7776
+</ans>
+
+Explanation of the test cases:
+
+1. 127: This is the sample input provided, which requires 4 operations.
+
+2. 1: The smallest possible input, requiring only 1 operation.
+
+3. 100000: The maximum allowed input according to the constraints.
+
+4. 6561: This is 9^4, which can be withdrawn in a single operation.
+
+5. 7776: This is 6^5, which can also be withdrawn in a single operation.
+
+These test cases cover various scenarios, including the minimum and maximum inputs, as well as numbers that can be withdrawn efficiently using powers of 6 or 9.",0,{}
+161,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+8
+8 7 3 1 7 0 9 4
+3
+1 8
+2 5
+7 7
+<SPLIT>
+16
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6
+4
+1 16
+1 8
+9 16
+5 12
+<SPLIT>
+4
+9 9 9 9
+2
+1 4
+2 3
+<SPLIT>
+32
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+5
+1 32
+1 16
+17 32
+9 24
+25 32
+<SPLIT>
+2
+5 5
+1
+1 2
+</ans>
+
+These test cases cover various scenarios:
+
+1. The example given in the problem statement.
+2. A larger input with 16 elements, testing different ranges.
+3. A small input with all 9's to test maximum candy scenarios.
+4. A large input with 32 elements, testing various ranges including full range, half ranges, and smaller ranges.
+5. The smallest possible input with only 2 elements.
+
+Each test case includes the sequence length, the sequence itself, the number of queries, and then the queries. The queries are designed to test different ranges and edge cases within the given sequences.",0,{}
+162,"Here are 5 groups of test case inputs for the Bus of Characters problem:
+
+<ans>
+3
+5 2 7
+000111
+
+<SPLIT>
+
+4
+10 8 6 12
+00001111
+
+<SPLIT>
+
+5
+3 1 4 2 5
+0000011111
+
+<SPLIT>
+
+6
+15 9 7 11 13 5
+010010011101
+
+<SPLIT>
+
+7
+20 18 16 22 24 14 26
+00001001110111
+</ans>",0,{}
+163,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 4 2
+1 3
+2 3 0
+3 4 0
+2 4 1
+2 1 2
+<SPLIT>
+5 5 3
+2 2 1
+1 2 0
+2 3 1
+3 4 2
+4 5 3
+5 1 4
+<SPLIT>
+6 6 2
+3 3
+1 2 0
+2 3 1
+3 4 0
+4 5 2
+5 6 0
+1 6 3
+<SPLIT>
+3 0 2
+1 2
+<SPLIT>
+7 8 3
+2 3 2
+1 2 0
+2 3 1
+3 4 2
+4 5 3
+5 6 0
+6 7 1
+1 7 5
+3 5 4
+</ans>",0,{}
+164,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3
+*.*
+.*.
+*.*
+<SPLIT>
+4 5
+**..*
+..***
+.*.*.
+*.*.*
+<SPLIT>
+5 5
+*****
+*...*
+*.*.*
+*...*
+*****
+<SPLIT>
+2 2
+**
+**
+<SPLIT>
+6 4
+*.*.
+.*.*
+*.*.
+.*.*
+*.*.
+.*.*
+</ans>",0,{}
+165,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+2 1 3
+3 3 6
+4 5 9
+<SPLIT>
+4
+3 1 5
+4 7 12
+5 10 15
+2 2 3
+<SPLIT>
+5
+4 1 13
+5 15 20
+3 2 7
+2 1 2
+6 25 30
+<SPLIT>
+3
+5 20 25
+4 10 14
+3 1 7
+<SPLIT>
+4
+6 30 36
+7 40 45
+2 1 3
+3 4 6
+</ans>",0,{}
+166,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+5 3
+1230
+3210
+4321
+1234
+3210
+<SPLIT>
+3 0
+10
+20
+30
+<SPLIT>
+4 5
+123456
+654321
+543210
+012345
+<SPLIT>
+6 9
+1234567890
+9876543210
+1029384756
+1357924680
+2468013579
+9876543210
+<SPLIT>
+2 1
+101
+11
+</ans>
+
+These test cases cover various scenarios:
+
+1. Mixed numbers with k=3
+2. Testing for k=0
+3. Testing for k=5 with some numbers not meeting the criteria
+4. Testing for k=9 (maximum value)
+5. Testing for k=1 with small numbers
+
+Each group of inputs follows the format specified in the problem description, with the first line containing n and k, followed by n lines of numbers.",0,{}
+167,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+7
+7 5 12345
+5 0 4
+10 5 15
+17 8 54321
+499999993 9 1000000000
+10 5 187
+2 0 999999999
+<SPLIT>
+5
+100 50 1000
+23 7 100
+9 3 50
+1000000 999999 1000000000
+2 1 1000000000
+<SPLIT>
+6
+3 2 10
+8 3 20
+15 7 100
+50 25 1000
+100 99 10000
+1000000000 999999999 1000000000
+<SPLIT>
+4
+5 3 20
+12 5 50
+30 10 100
+1000 500 10000
+<SPLIT>
+3
+7 6 100
+13 12 1000
+999999999 0 1000000000
+</ans>",0,{}
+168,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2 3 2
+..#
+###
+<SPLIT>
+3 4 5
+#.#.
+.##.
+##.#
+<SPLIT>
+4 5 7
+.#.#.
+##.##
+.###.
+#...#
+<SPLIT>
+5 6 10
+.#.#.#
+##.##.
+.###.#
+#...##
+.#.#.#
+<SPLIT>
+6 5 15
+#####
+#.#.#
+##.##
+.###.
+#...#
+.#.#.
+</ans>",0,{}
+169,"Here are 5 groups of test case inputs for the given program:
+
+<ans>
+1
+<SPLIT>
+15
+<SPLIT>
+22
+<SPLIT>
+33
+<SPLIT>
+40
+</ans>",0,{}
+170,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+abcde
+<SPLIT>
+zyxwv
+<SPLIT>
+aabaa
+<SPLIT>
+qwertyuiop
+<SPLIT>
+aaaaa
+</ans>",0,{}
+171,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 0 0 1 1
+SESNW
+<SPLIT>
+10 -3 2 1 -1
+EENSWWNSEE
+<SPLIT>
+8 5 5 2 2
+WWSSNNEE
+<SPLIT>
+15 -1000000 -1000000 1000000 1000000
+EENNSSWWEEENNSSWW
+<SPLIT>
+7 3 -2 3 -2
+NWSENES
+</ans>",0,{}
+172,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+1 1 2
+<SPLIT>
+3 4 5
+<SPLIT>
+4 1 1
+<SPLIT>
+2 2 2
+<SPLIT>
+6 6 6
+</ans>",0,{}
+173,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 5
+3 1 2 2 4
+<SPLIT>
+4 5
+2 3 4 5
+<SPLIT>
+6 10
+5 5 5 5 5 5
+<SPLIT>
+7 8
+10 8 6 4 2 1 1
+<SPLIT>
+3 100
+200000 150000 100000
+</ans>",0,{}
+174,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+........
+........
+......#.
+K..##..#
+.......#
+...##..#
+......#.
+K.......
+
+........
+........
+..#.....
+..#..#..
+..####..
+...##...
+........
+....K#K#
+<SPLIT>
+K.......
+........
+........
+........
+........
+........
+........
+.......K
+
+........
+........
+........
+........
+........
+........
+........
+........
+<SPLIT>
+K.......
+#.......
+#.......
+#.......
+#.......
+#.......
+#.......
+#......K
+
+........
+........
+........
+........
+........
+........
+........
+........
+<SPLIT>
+K.......
+........
+........
+........
+........
+........
+........
+.......K
+
+########
+########
+########
+###..###
+###..###
+########
+########
+########
+<SPLIT>
+K.......
+........
+........
+........
+........
+........
+........
+.......K
+
+#.#.#.#.
+.#.#.#.#
+#.#.#.#.
+.#.#.#.#
+#.#.#.#.
+.#.#.#.#
+#.#.#.#.
+.#.#.#.#
+</ans>",0,{}
+175,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 0 3
+0 2 0
+<SPLIT>
+5
+0 2 4 0 0
+1 3 0 5 0
+<SPLIT>
+7
+0 0 3 5 0 7 0
+1 2 0 4 0 6 0
+<SPLIT>
+4
+0 2 0 4
+1 0 3 0
+<SPLIT>
+6
+0 0 3 0 5 6
+1 2 0 4 0 0
+</ans>",0,{}
+176,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3
+1 2 1
+1 2
+2 3
+1 3
+<SPLIT>
+4 4
+2 2 2 2
+1 2
+2 3
+3 4
+4 1
+<SPLIT>
+5 5
+1 1 1 1 1
+1 2
+2 3
+3 4
+4 5
+5 1
+<SPLIT>
+3 2
+1 1 0
+1 2
+2 3
+<SPLIT>
+4 6
+3 3 3 3
+1 2
+2 3
+3 4
+4 1
+1 3
+2 4
+</ans>",0,{}
+177,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+3
+3
+6
+7
+<SPLIT>
+4
+21
+28
+15
+63
+<SPLIT>
+3
+999999999
+999999984
+999999993
+<SPLIT>
+5
+12
+24
+48
+96
+192
+<SPLIT>
+4
+31
+127
+511
+2047
+</ans>
+
+These test cases cover various scenarios:
+
+1. The first group includes the smallest possible inputs and some simple cases.
+2. The second group tests medium-sized inputs.
+3. The third group includes the largest possible inputs from the example and a large prime number.
+4. The fourth group tests a sequence of powers of 2 minus 1.
+5. The fifth group includes Mersenne numbers (2^n - 1) for different values of n.
+
+Each group should provide a good mix of different input sizes and types to thoroughly test the solution.",0,{}
+178,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+2 3 4
+<SPLIT>
+5
+7 6 5 4 3
+<SPLIT>
+4
+10 9 8 7
+<SPLIT>
+6
+12 11 10 9 8 7
+<SPLIT>
+7
+20 19 18 17 16 15 14
+</ans>
+
+These test cases cover various scenarios:
+
+1. A small case with 3 pens, where the second pen will run out first.
+2. A case with 5 pens of decreasing ink amounts.
+3. A case with 4 pens where the last pen will run out first.
+4. A larger case with 6 pens of decreasing ink amounts.
+5. A case with 7 pens, matching the weekly cycle, with decreasing ink amounts.
+
+Each test case follows the input format specified in the problem description, with the first line containing the number of pens (n) and the second line containing the ink amounts for each pen.",0,{}
+179,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+1500 2000 1600 3 2
+<SPLIT>
+1000 1000 900 5 5
+<SPLIT>
+3000 2500 2800 10 8
+<SPLIT>
+500 600 550 20 15
+<SPLIT>
+4000 4500 4200 100 100
+</ans>
+
+These test cases cover various scenarios:
+
+1. The sample input provided in the problem statement.
+2. A case where buying AB-pizzas is always cheaper.
+3. A case with larger numbers of pizzas needed and higher prices.
+4. A case with lower prices and a larger difference between X and Y.
+5. A case with very large numbers of pizzas needed and high prices.
+
+Each test case follows the format: A B C X Y, where:
+- A, B, C are the prices of A-pizza, B-pizza, and AB-pizza respectively
+- X is the number of A-pizzas needed
+- Y is the number of B-pizzas needed
+
+All values are within the constraints specified in the problem statement.",0,{}
+180,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3
+1 2 4
+2 3 3
+1 3 5
+<SPLIT>
+4 5
+1 2 10
+2 3 -5
+3 4 8
+1 3 2
+2 4 1
+<SPLIT>
+5 7
+1 2 3
+2 3 4
+3 4 5
+4 5 6
+1 3 10
+2 4 8
+3 5 12
+<SPLIT>
+6 8
+1 2 5
+2 3 -2
+3 4 3
+4 5 1
+5 6 4
+1 3 8
+2 4 6
+3 5 7
+<SPLIT>
+4 6
+1 2 2
+2 3 3
+3 4 4
+1 3 6
+2 4 8
+1 4 10
+</ans>",0,{}
+181,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+10 3
+8 7
+5 3
+<SPLIT>
+4
+100 4
+97 2
+3 10
+1000000000 9
+<SPLIT>
+2
+8 8
+1 1
+<SPLIT>
+5
+15 3
+20 4
+7 2
+11 5
+9 3
+<SPLIT>
+3
+1000000000 100
+999999999 99
+1000000001 101
+</ans>",0,{}
+182,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+abc
+abcdef
+def
+hello
+helloworld
+world
+xyz
+xyzabc
+abc
+<SPLIT>
+2
+cat
+catdog
+dog
+mouse
+elephant
+lephant
+<SPLIT>
+4
+a
+aaa
+aa
+bb
+bbaa
+aa
+ccc
+cccc
+c
+test
+testing
+ing
+<SPLIT>
+1
+programming
+programmingisfun
+isfun
+<SPLIT>
+5
+x
+xxx
+xx
+y
+yyy
+yy
+z
+zzz
+zz
+ab
+abcd
+cd
+empty
+notempty
+not
+</ans>",0,{}
+183,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+2
+2 1
+3 0
+1
+1 1
+2
+3 1
+4 0
+1
+2 1
+<SPLIT>
+5
+3
+2 1
+3 0
+4 1
+2
+1 0
+5 1
+1
+3 1
+2
+4 0
+5 1
+1
+2 0
+<SPLIT>
+3
+2
+2 0
+3 1
+2
+1 1
+3 0
+2
+1 0
+2 1
+<SPLIT>
+6
+3
+2 1
+3 0
+4 1
+2
+1 0
+5 1
+1
+6 0
+3
+2 1
+4 0
+5 1
+2
+1 1
+3 0
+1
+6 1
+<SPLIT>
+2
+1
+2 1
+1
+1 0
+</ans>",0,{}
+184,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+abba
+<SPLIT>
+6
+aabbcc
+<SPLIT>
+8
+aaaabbbb
+<SPLIT>
+10
+abcdefghij
+<SPLIT>
+12
+aabbccddeeee
+</ans>",0,{}
+185,"Here are 5 groups of test case inputs for the given problem:
+
+<ans>
+3 1 5
+<SPLIT>
+10 50 100
+<SPLIT>
+5 1000 2000
+<SPLIT>
+200000 1 1000000000
+<SPLIT>
+1 1 1000000000
+</ans>",0,{}
+186,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 10 20
+0 1 2 1 2
+<SPLIT>
+4 5 5
+2 2 2 2
+<SPLIT>
+3 100 100
+1 2 0
+<SPLIT>
+7 15 10
+0 2 1 2 1 2 0
+<SPLIT>
+6 50 30
+2 1 0 2 1 2
+</ans>",0,{}
+187,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 2 3
+<SPLIT>
+5
+10 20 30 40 50
+<SPLIT>
+2
+1000000000 999999999
+<SPLIT>
+4
+1 10 100 1000
+<SPLIT>
+6
+123456 234567 345678 456789 567890 678901
+</ans>
+
+These test cases cover various scenarios:
+
+1. A small case with 3 elements
+2. A medium case with 5 elements
+3. A case with large numbers close to the maximum constraint
+4. A case with increasing powers of 10
+5. A larger case with 6 elements and varied large numbers
+
+Each test case follows the input format specified in the problem description, with the first line containing N (the number of elements) and the second line containing N space-separated integers representing the C_i values.",0,{}
+188,"Here are 5 groups of test case inputs for the given Bishwock problem:
+
+<ans>
+000000
+000000
+<SPLIT>
+0X0X0X
+X0X0X0
+<SPLIT>
+0000XXXX
+XXXX0000
+<SPLIT>
+0X0X0X0X0X
+X0X0X0X0X0
+<SPLIT>
+00XX00XX00
+XX00XX00XX
+</ans>",True,{}
+189,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+a=b$c
+d=a^e
+res=d#f
+g=h&i
+<SPLIT>
+5
+x=y#z
+res=x
+w=v$u
+t=s^r
+q=p&o
+<SPLIT>
+3
+res=a1$b2
+c3=d4^e5
+f6=g7#h8
+<SPLIT>
+6
+var1=var2$var3
+var4=var5^var6
+var7=var8#var9
+res=var1
+var10=var11&var12
+var13=var14
+<SPLIT>
+2
+res=abcd
+efgh=ijkl^mnop
+</ans>",0,{}
+190,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+7 5 4 5 8
+7 5 4 5 2
+20 53 45 26 4
+<SPLIT>
+5
+10 10 2 2 10
+5 5 1 1 5
+3 3 3 3 2
+8 8 4 4 4
+1 1 1 1 1
+<SPLIT>
+4
+15 20 3 4 12
+30 40 5 8 15
+50 60 10 12 20
+100 100 25 25 8
+<SPLIT>
+3
+2 3 1 1 6
+4 5 2 1 4
+6 7 3 2 5
+<SPLIT>
+4
+9 11 3 2 7
+12 15 4 3 9
+18 22 6 4 11
+25 30 5 6 10
+</ans>",0,{}
+191,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 5 3
+1 2 3
+1 2 5
+2 3 2
+3 4 3
+1 4 4
+2 4 1
+<SPLIT>
+5 6 4
+1 2 3 5
+1 2 10
+2 3 5
+3 4 7
+4 5 6
+1 5 8
+2 4 4
+<SPLIT>
+6 7 3
+2 4 6
+1 2 3
+2 3 5
+3 4 2
+4 5 4
+5 6 1
+1 6 7
+3 5 6
+<SPLIT>
+7 8 5
+1 3 5 6 7
+1 2 10
+2 3 8
+3 4 6
+4 5 4
+5 6 7
+6 7 5
+1 7 9
+2 5 3
+<SPLIT>
+8 10 4
+2 4 6 8
+1 2 5
+2 3 7
+3 4 3
+4 5 6
+5 6 4
+6 7 8
+7 8 2
+1 8 9
+2 6 5
+3 7 4
+</ans>",0,{}
+192,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+5 2 1
+3 4 6
+<SPLIT>
+4
+1 2 3 4
+4 3 2 1
+<SPLIT>
+5
+10 20 30 40 50
+5 15 25 35 45
+<SPLIT>
+2
+100 100
+1 1
+<SPLIT>
+6
+7 3 9 2 5 1
+8 4 6 10 2 3
+</ans>",0,{}
+193,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+10 10 5
+5 7 2
+<SPLIT>
+5
+30 25 20 15 10
+9 10 12 4 13
+<SPLIT>
+4
+100 50 75 25
+10 20 15 5
+<SPLIT>
+6
+1000000000 500000000 250000000 125000000 62500000 31250000
+100000000 200000000 300000000 400000000 500000000 600000000
+<SPLIT>
+7
+1 2 3 4 5 6 7
+7 6 5 4 3 2 1
+</ans>",0,{}
+194,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2
+59 3
+1000000000000000000 10
+<SPLIT>
+3
+27 3
+100 2
+1000000000 5
+<SPLIT>
+4
+15 2
+20 3
+30 4
+40 5
+<SPLIT>
+3
+999999999999999999 2
+888888888888888888 3
+777777777777777777 4
+<SPLIT>
+5
+10 2
+100 3
+1000 4
+10000 5
+100000 6
+</ans>
+
+These test cases cover a range of scenarios:
+
+1. The example provided in the problem statement.
+2. A mix of small, medium, and large numbers with different divisors.
+3. Several medium-sized numbers with small divisors.
+4. Very large numbers (close to the upper limit) with small divisors.
+5. A progression of increasing numbers with increasing divisors.
+
+Each group is separated by the <SPLIT> tag as requested, and all inputs are within the specified constraints (1 ≤ n ≤ 10^18, 2 ≤ k ≤ 10^18).",0,{}
+195,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+2 6 8
+<SPLIT>
+5
+2 3 4 9 12
+<SPLIT>
+4
+5 7 2 9
+<SPLIT>
+6
+1 2 3 4 5 6
+<SPLIT>
+7
+10 20 30 40 50 60 70
+</ans>
+
+These test cases cover various scenarios:
+
+1. The first test case is the simple example given in the problem statement.
+2. The second test case is another example from the problem statement.
+3. The third test case is the example where no action can be taken.
+4. The fourth test case includes all numbers from 1 to 6, testing a case where there are many divisibility relationships.
+5. The fifth test case uses larger numbers, all multiples of 10, to test a different pattern of divisibility.
+
+Each of these should provide a good test for the solution program, covering different aspects of the problem's constraints and possible input variations.",0,{}
+196,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6
+ooxoox
+<SPLIT>
+3
+xxx
+<SPLIT>
+4
+oooo
+<SPLIT>
+5
+xoxox
+<SPLIT>
+7
+ooxoxoo
+</ans>
+
+These test cases cover various scenarios:
+
+1. A valid case with mixed sheep and wolves (as given in the sample input).
+2. The smallest possible input (N=3) with all animals saying their neighbors are different.
+3. A case where all animals say their neighbors are the same.
+4. An odd number of animals with alternating responses.
+5. A larger case with a mix of responses.
+
+Each test case is separated by the <SPLIT> tag as requested, and all inputs are enclosed within the <ans> tags. These inputs should provide a good range of scenarios to test the solution program.",0,{}
+197,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 2 3
+GWL
+<SPLIT>
+5
+10 5 7 3 8
+GWLWG
+<SPLIT>
+4
+100 50 75 25
+GWLW
+<SPLIT>
+6
+1000000000 1000000000 1000000000 1000000000 1000000000 1000000000
+GWLWGL
+<SPLIT>
+7
+123 456 789 101112 131415 161718 192021
+GWLWGLW
+</ans>",0,{}
+198,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+7 5 3
+<SPLIT>
+1000000000 1 2019
+<SPLIT>
+100 100000 1
+<SPLIT>
+6 4 5
+<SPLIT>
+999999999 99999 100000
+</ans>",0,{}

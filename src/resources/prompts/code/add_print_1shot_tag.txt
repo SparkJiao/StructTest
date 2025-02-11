@@ -1,0 +1,64 @@
+## Instruction
+
+I will show you a code snippet. Please add a print statement whenever a new variable is defined, following the format below:
+
+print(“X: ”, str(x), “Y: ”: str(Y), …)
+
+where `X` and `Y` should be the newly defined variables.
+
+### Notes:
+
+- If there is no newly defined variables, do not add any print statements.
+- If some variables that were initialized previously are assigned with new values, add print statements for these variables after the newest assignments, too.
+- Do not change any content of the other code
+- Overlook the temperature variables like those defined in for loops.
+
+### Response Format
+
+Please include your answer within <ans> and </ans> tags.
+
+### Example
+
+Here is an example for your reference:
+
+#### The code to add print statements
+
+```
+def get_last_checkpoint(folder):
+    content = os.listdir(folder)
+    checkpoints = [
+        path
+        for path in content
+        if _re_checkpoint.search(path) is not None and os.path.isdir(os.path.join(folder, path))
+    ]
+    if len(checkpoints) == 0:
+        return None
+    return os.path.join(folder, max(checkpoints, key=lambda x: int(_re_checkpoint.search(x).groups()[0])))
+```
+
+#### Response
+
+<ans>
+def get_last_checkpoint(folder):
+    content = os.listdir(folder)
+    print("content: ", str(content))
+    checkpoints = [
+        path
+        for path in content
+        if _re_checkpoint.search(path) is not None and os.path.isdir(os.path.join(folder, path))
+    ]
+    print("checkpoints: ", str(checkpoints))
+    if len(checkpoints) == 0:
+        return None
+    return os.path.join(folder, max(checkpoints, key=lambda x: int(_re_checkpoint.search(x).groups()[0])))
+</ans>
+
+Now, let's get started:
+
+#### The code to add print statements
+
+```
+[[code_snippet]]
+```
+
+#### Response

@@ -1,0 +1,240 @@
+{"idx": 8, "result": true, "generated": "<ans>\n[12]\n[212]\n[9]\n[0]\n[123]\n</ans>", "format_properties": {}}
+{"idx": 4, "result": true, "generated": "<ans>\n[5]\n[10]\n[0]\n[3.5]\n[-2]\n</ans>", "format_properties": {}}
+{"idx": 7, "result": true, "generated": "<ans>\n[1]\n[2]\n[3]\n[6]\n[16]\n</ans>", "format_properties": {}}
+{"idx": 3, "result": true, "generated": "<ans>\n[\"hello_world\"]\n[\"Hello_World\"]\n[\"hello_world_hello\"]\n[\"hello\"]\n[\"hello_World\"]\n</ans>", "format_properties": {}}
+{"idx": 5, "result": true, "generated": "<ans>\n[\"geeksforgeeks\", \"mask\"]\n[\"hello world\", \"world\"]\n[\"abcdefghijklmnopqrstuvwxyz\", \"aeiou\"]\n[\"\", \"abc\"]\n[\"abc\", \"\"]\n</ans>", "format_properties": {}}
+{"idx": 0, "result": true, "generated": "<ans>\n[\"hello\", \"l\"]\n[\"world\", \"o\"]\n[\"python\", \"p\"]\n[\"character\", \"r\"]\n[\"programming\", \"g\"]\n</ans>", "format_properties": {}}
+{"idx": 11, "result": true, "generated": "<ans>\n[1]\n[5]\n[10]\n[20]\n[50]\n</ans>", "format_properties": {}}
+{"idx": 2, "result": true, "generated": "<ans>\n[3, 4, 5]\n[10, 2, 8]\n[5, 5, 2]\n[1, 1, 1]\n[7, 3, 9]\n</ans>", "format_properties": {}}
+{"idx": 10, "result": true, "generated": "<ans>\n[1, -2]\n[-3, 4]\n[-5, -6]\n[0, 7]\n[-8, 0]\n</ans>", "format_properties": {}}
+{"idx": 12, "result": true, "generated": "<ans>\n[\"12321\", ]\n[\"00000\", ]\n[\"99999\", ]\n[\"123456\", ]\n[\"987654321\", ]\n</ans>", "format_properties": {}}
+{"idx": 9, "result": false, "generated": "<ans>\n[3, 5, 1, 2, 4]\n[9, 9, 9, 9]\n[1, 2, 3]\n[5, 5, 5]\n[0, 0, 0, 1]\n</ans>", "format_properties": {}}
+{"idx": 18, "result": true, "generated": "<ans>\n[1]\n[2]\n[3]\n[4]\n[5]\n</ans>", "format_properties": {}}
+{"idx": 6, "result": false, "generated": "<ans>\n[1, 2, 3, 4, 5]\n[1, 2, 2, 3, 4]\n[1, 1, 1, 1, 1]\n[1, 2, 3, 4, 5, 6, 7, 8, 9]\n[1, 1, 2, 2, 3, 3, 4, 4, 5, 5]\n</ans>", "format_properties": {}}
+{"idx": 13, "result": false, "generated": "<ans>\n[1, 2, 3, 4, 5]\n[-1, 0, 1, 2, 3]\n[10, 20, 30, 40, 50]\n[-10, -20, -30, -40, -50]\n[5, 5, 5, 5, 5]\n</ans>", "format_properties": {}}
+{"idx": 19, "result": false, "generated": "<ans>\n[1, 2, 2, 3]\n[6, 5, 4, 4]\n[1, 1, 1, 1]\n[1, 3, 2]\n[1, 2, 3, 2, 1]\n</ans>", "format_properties": {}}
+{"idx": 14, "result": false, "generated": "<ans>\n[(1, 5), (2, 4), (3, 6)]\n[(10, 15), (20, 25), (30, 35)]\n[(1, 1), (2, 2), (3, 3)]\n[(5, 10), (15, 20), (25, 30)]\n[(-5, 0), (-10, -5), (-15, -10)]\n</ans>", "format_properties": {}}
+{"idx": 17, "result": false, "generated": "<ans>\n[1, 2, 3, -4, -5]\n[0, 1, 2, 3, 4]\n[-1, -2, -3, -4, -5]\n[1, -2, 3, -4, 5]\n[0, 0, 0, 0, 0]\n</ans>", "format_properties": {}}
+{"idx": 16, "result": false, "generated": "<ans>\n[1, 2, [3, 4], 5]\n[[1, 2], [3, [4, 5]], 6]\n[1, [2, [3, [4, [5]]]]]\n[1, 2, 3, 4, 5]\n[10, [20, 30], [40, [50, 60]]]\n</ans>", "format_properties": {}}
+{"idx": 23, "result": true, "generated": "<ans>\n[10]\n[6]\n[25]\n[17]\n[8]\n</ans>", "format_properties": {}}
+{"idx": 26, "result": true, "generated": "<ans>\n[11]\n[22]\n[33]\n[121]\n[0]\n</ans>", "format_properties": {}}
+{"idx": 20, "result": true, "generated": "<ans>\n[[1, 2, 3, 4], [2, 3]]\n[[1, 2, 3, 4], [5, 6]]\n[[1, 2, 3, 4], []]\n[[1, 2, 3, 4], [1, 2, 3, 4]]\n[[1, 2, 3, 4], [1, 3, 5]]\n</ans>", "format_properties": {}}
+{"idx": 28, "result": true, "generated": "<ans>\n[1]\n[5]\n[10]\n[0]\n[-5]\n</ans>", "format_properties": {}}
+{"idx": 27, "result": true, "generated": "<ans>\n[\"hello\"]\n[\"world world\"]\n[\"python programming\"]\n[\"a\"]\n[\"abcdefghij\"]\n</ans>", "format_properties": {}}
+{"idx": 1, "result": false, "generated": "<ans>\n[[3, 1], [1, 3], [2, 2]]\n[[5, 5], [1, 1], [3, 3]]\n[[10, 2, 3], [1, 1, 1], [2, 2, 2]]\n[[1, 1, 1, 1], [2, 2, 2, 2], [3, 3, 3, 3], [4, 4, 4, 4]]\n[[1, 2, 3, 4, 5], [5, 4, 3, 2, 1], [2, 3, 4, 5, 1], [1, 1, 1, 1, 1], [5, 5, 5, 5, 5]]\n</ans>", "format_properties": {}}
+{"idx": 15, "result": false, "generated": "<ans>\n[('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]\n[('Maths', 97), ('Science', 90), ('English', 88), ('Social sciences', 82)]\n[('Maths', 97), ('Science', 90), ('English', 88)]\n[('Maths', 97), ('Science', 90), ('English', 88), ('Social sciences', 82), ('History', 85)]\n[('Maths', 97), ('Science', 90), ('English', 88), ('Social sciences', 82), ('History', 85), ('Geography', 92)]\n</ans>", "format_properties": {}}
+{"idx": 30, "result": true, "generated": "<ans>\n[1]\n[2]\n[3]\n[4]\n[5]\n</ans>", "format_properties": {}}
+{"idx": 31, "result": true, "generated": "<ans>\n[1]\n[2]\n[10]\n[100]\n[1000]\n</ans>", "format_properties": {}}
+{"idx": 29, "result": true, "generated": "<ans>\n['abc']\n['xyz']\n['abcdefghijklmnopqrstuvwxyz']\n['a']\n['bcdefghijklmnopqrstuvwxyz']\n</ans>", "format_properties": {}}
+{"idx": 22, "result": false, "generated": "<ans>\n[5, 3, 8, 4, 2]\n[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]\n[1, 1, 1, 1, 1]\n[-5, -3, 0, 3, 5]\n[1, 2, 3, 4, 5]\n</ans>", "format_properties": {}}
+{"idx": 21, "result": false, "generated": "<ans>\n[(1, 2, 3), (4, 5, 6), (7, 8, 9)]\n[(1, 2), (3, 4, 5), (6, 7)]\n[(1, 2, 3), (4, 5), (6, 7, 8)]\n[(), (), ()]\n[(1, 2, 3, 4), (5, 6, 7, 8), (9, 10, 11, 12)]\n</ans>", "format_properties": {}}
+{"idx": 34, "result": true, "generated": "<ans>\n[10]\n[5]\n[1]\n[0]\n[-5]\n</ans>", "format_properties": {}}
+{"idx": 37, "result": true, "generated": "<ans>\n[121]\n[1221]\n[12321]\n[1111]\n[10001]\n</ans>", "format_properties": {}}
+{"idx": 24, "result": true, "generated": "<ans>\n[\"red\", \"blue\", \"red\"], [\"a\", \"b\", \"a\"]\n[\"red\", \"blue\", \"green\"], [\"a\", \"b\", \"c\"]\n[\"red\", \"red\", \"red\"], [\"a\", \"a\", \"a\"]\n[\"red\", \"blue\", \"red\"], [\"a\", \"b\", \"b\"]\n[\"red\", \"blue\", \"green\", \"yellow\"], [\"a\", \"b\", \"c\", \"d\"]\n</ans>", "format_properties": {}}
+{"idx": 38, "result": true, "generated": "<ans>\n[2, 3]\n[0, 5]\n[5, 0]\n[10, 1]\n[-2, 4]\n</ans>", "format_properties": {}}
+{"idx": 35, "result": false, "generated": "<ans>\n[\"apple\", \"banana\", \"cherry\"]\n[\"a\", \"bb\", \"ccc\"]\n[\"hello\", \"world\"]\n[\"\", \"a\", \"bb\"]\n[\"abcdefghijklmnopqrstuvwxyz\", \"short\"]\n</ans>", "format_properties": {}}
+{"idx": 41, "result": true, "generated": "<ans>\n[10]\n[25]\n[100]\n[13]\n[37]\n</ans>", "format_properties": {}}
+{"idx": 36, "result": false, "generated": "<ans>\n[\"hello world\", \"world cup\"]\n[\"apple\", \"banana\", \"orange\"]\n[\"python programming\", \"java programming\", \"c++ programming\"], \"programming\"\n[\"test string\", \"another test string\"], \"string\"\n[\"single string\"], \"single\"\n</ans>", "format_properties": {}}
+{"idx": 43, "result": true, "generated": "<ans>\n[10]\n[25]\n[32]\n[1]\n[0]\n</ans>", "format_properties": {}}
+{"idx": 44, "result": true, "generated": "<ans>\n[9]\n[10]\n[123]\n[1000]\n[123456]\n</ans>", "format_properties": {}}
+{"idx": 33, "result": false, "generated": "<ans>\n[1, 2, 2, 3, 3, 3]\n[1, 1, 1, 1, 1]\n[1, 2, 3, 4, 5]\n['a', 'b', 'c', 'a', 'b', 'c']\n[1, 1, 2, 2, 3, 3, 3, 3]\n</ans>", "format_properties": {}}
+{"idx": 25, "result": true, "generated": "<ans>\n[(1, 2, 3), (4, 6, 8), (10, 15, 20)], 2\n[(2, 4, 6), (8, 10, 12), (14, 16, 18)], 2\n[(3, 6, 9), (12, 15, 18), (21, 24, 27)], 3\n[(1, 3, 5), (7, 9, 11), (13, 15, 17)], 2\n[(10, 20, 30), (40, 50, 60), (70, 80, 90)], 10\n</ans>", "format_properties": {}}
+{"idx": 46, "result": true, "generated": "<ans>\n[\"hello_world\"]\n[\"snake_case_string\"]\n[\"a_b_c_d_e_f_g\"]\n[\"_leading_underscore\"]\n[\"multiple___double__underscore\"]\n</ans>", "format_properties": {}}
+{"idx": 39, "result": false, "generated": "<ans>\n[(1, 2), (3, 1), (5, 3)]\n[(10, 5), (8, 3), (7, 1)]\n[(100, 50), (80, 30), (70, 10)]\n[('a', 2), ('b', 1), ('c', 3)]\n[(1, 1), (2, 2), (3, 3)]\n</ans>", "format_properties": {}}
+{"idx": 47, "result": true, "generated": "<ans>\n[4, 2]\n[5, 3]\n[3, 1]\n[2, 0]\n[6, 4]\n</ans>", "format_properties": {}}
+{"idx": 32, "result": false, "generated": "<ans>\n[{\"a\": 1, \"b\": 2}, {\"b\": 3, \"c\": 4}, {\"c\": 5, \"d\": 6}]\n[{\"x\": 10, \"y\": 20}, {\"y\": 30, \"z\": 40}, {\"z\": 50, \"w\": 60}]\n[{\"apple\": 1, \"banana\": 2}, {\"banana\": 3, \"orange\": 4}, {}]\n[{}, {}, {\"key\": \"value\"}]\n[{\"a\": 1, \"b\": 2}, {}, {\"b\": 3, \"c\": 4}]\n</ans>", "format_properties": {}}
+{"idx": 49, "result": false, "generated": "<ans>\n[True, False, True]\n[True, True, True, True]\n[False, False, False]\n[True, False, False, True, False]\n[True]\n</ans>", "format_properties": {}}
+{"idx": 53, "result": true, "generated": "<ans>\n[\"123\"]\n[\"+123\"]\n[\"-123\"]\n[\"123abc\"]\n[\"abc\"]\n</ans>", "format_properties": {}}
+{"idx": 40, "result": false, "generated": "<ans>\n[[1, 2, 3], [4, 5], [6, 7, 8, 9]]\n[[10], [20, 30], [40, 50, 60]]\n[[100, 200, 300], [400, 500]]\n[[1, 2, 3, 4, 5], [6, 7, 8, 9]]\n[[10, 20], [30, 40], [50, 60], [70, 80, 90]]\n</ans>", "format_properties": {}}
+{"idx": 45, "result": true, "generated": "<ans>\n[5, 2, 8, 12, 3], 2\n[10, 40, 30, 60, 50], 1\n[1, 2, 3, 4, 5], 5\n[10, 20, 30, 40, 50], 3\n[5, 10, 15, 20, 25], 4\n</ans>", "format_properties": {}}
+{"idx": 52, "result": true, "generated": "<ans>\n['1011', 4]\n['1101', 4]\n['1111', 4]\n['1001', 4]\n['1010', 4]\n</ans>", "format_properties": {}}
+{"idx": 54, "result": 0, "generated": "<ans>\n[{}, {}]\n[{a: 1}, {}]\n[{}, {b: 2}]\n[{c: 3}, {d: 4}]\n[{}] \n</ans>", "format_properties": {}}
+{"idx": 57, "result": true, "generated": "<ans>\n[\"Hello World\"]\n[\"This is a test string\"]\n[\"Single\"]\n[\"Multiple   spaces\"]\n[\"\"]\n</ans>", "format_properties": {}}
+{"idx": 48, "result": false, "generated": "<ans>\n[['cat', 'dog', 'elephant'], ['apple', 'banana', 'cherry']]\n[['xyz', 'abc', 'def'], ['ghi', 'jkl', 'mno']]\n[['aaa', 'bbb', 'ccc'], ['ddd', 'eee', 'fff']]\n[['123', '456', '789'], ['abc', 'def', 'ghi']]\n[['', 'a', 'aa'], ['bb', 'b', '']]\n</ans>", "format_properties": {}}
+{"idx": 50, "result": true, "generated": "<ans>\n[[1, 2, 3], (4, 5, 6)]\n[[7, 8, 9], (10, 11, 12)]\n[[13, 14], (15, 16, 17)]\n[[18, 19, 20, 21], (22, 23)]\n[[], (24, 25, 26)]\n</ans>", "format_properties": {}}
+{"idx": 42, "result": false, "generated": "<ans>\n[[1, 2, 2], [3, 4, 4], [5, 5, 5]]\n[[1, 1, 1], [2, 2, 2], [3, 3, 3]]\n[[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n[[1, 1, 1, 1], [2, 2, 2, 2], [3, 3, 3, 3], [4, 4, 4, 4]]\n[[1], [2], [3], [4], [5]]\n</ans>", "format_properties": {}}
+{"idx": 55, "result": false, "generated": "<ans>\n[1, 2, 3]\n[4, 5, 6, 7]\n[9, 9, 9]\n[1, 0, 1]\n[5, 4, 3, 2, 1]\n</ans>", "format_properties": {}}
+{"idx": 62, "result": true, "generated": "<ans>\n[12, 15]\n[10, 20]\n[7, 7]\n[25, 30]\n[18, 24]\n</ans>", "format_properties": {}}
+{"idx": 61, "result": true, "generated": "<ans>\n['11000010001']\n['11111111111']\n['00000000000']\n['10101010101']\n['1000000000001']\n</ans>", "format_properties": {}}
+{"idx": 51, "result": true, "generated": "<ans>\n[1, 3, 5], [2, 4, 6], [0, 7, 8]\n[], [1, 2, 3], [4, 5, 6]\n[1, 1, 1], [2, 2, 2], [3, 3, 3]\n[1, 3, 5], [2, 4, 6], []\n[10, 20, 30], [5, 15, 25], [1, 2, 3]\n</ans>", "format_properties": {}}
+{"idx": 63, "result": true, "generated": "<ans>\n[2, 3]\n[-4, 5]\n[0, 10]\n[7, 0]\n[-3, -2]\n</ans>", "format_properties": {}}
+{"idx": 58, "result": false, "generated": "<ans>\n[1, 1, 2, 1, 1]\n[2, 2, 3, 2, 2]\n[4, 4, 5, 4, 4]\n[1, 1, 1, 2, 1, 1, 1]\n[3, 3, 3, 3, 4, 3, 3, 3]\n</ans>", "format_properties": {}}
+{"idx": 59, "result": false, "generated": "<ans>\n[(1, 2), (3, 4), (5, 6)]\n[(10, 20), (-30, 40), (50, -60)]\n[(-10, -20), (30, -40), (-50, 60)]\n[(1, 1), (1, 1), (1, 1)]\n[(0, 0), (0, 0), (0, 0)]\n</ans>", "format_properties": {}}
+{"idx": 56, "result": false, "generated": "<ans>\n[['1', 'a'], ['2', 'b'], ['3', 'c']]\n[['1.2', 'a'], ['2.3', 'b'], ['3.4', 'c']]\n[['a', 'b'], ['c', 'd'], ['e', 'f']]\n[['1', '2'], ['3', '4'], ['5', '6']]\n[['1.2', '2.3'], ['3.4', '4.5'], ['5.6', '6.7']]\n</ans>", "format_properties": {}}
+{"idx": 60, "result": true, "generated": "<ans>\n[220]\n[1000]\n[10000]\n[5000]\n[2000]\n</ans>", "format_properties": {}}
+{"idx": 71, "result": true, "generated": "<ans>\n[10]\n[15]\n[8]\n[1]\n[0]\n</ans>", "format_properties": {}}
+{"idx": 70, "result": true, "generated": "<ans>\n[1]\n[10]\n[0]\n[-5]\n[20]\n</ans>", "format_properties": {}}
+{"idx": 67, "result": true, "generated": "<ans>\n[\"hello\"]\n[\"world\"]\n[\"AEIOU\"]\n[\"abcdefghijklmnopqrstuvwxyz\"]\n[\"A man, a plan, a canal: Panama\"]\n</ans>", "format_properties": {}}
+{"idx": 68, "result": true, "generated": "<ans>\n[('a', 'b', 'c')]\n[('1', '2', '3')]\n[('x', 'y', 'z')]\n[('A', 'B', 'C')]\n[('1', 'a', 'A')]\n</ans>", "format_properties": {}}
+{"idx": 64, "result": true, "generated": "<ans>\n[5, \"The quick brown fox jumps over the lazy dog\"]\n[10, \"Pack my box with five dozen liquor jugs\"]\n[3, \"I am a programmer\"]\n[7, \"Python is a popular programming language\"]\n[2, \"Hello world this is a test\"]\n</ans>", "format_properties": {}}
+{"idx": 69, "result": false, "generated": "<ans>\n[1, -2, 3, -4, 5]\n[-1, -2, -3, -4, -5]\n[1, 2, 3, 4, 5]\n[-1, 0, 1]\n[-10, -20, 30, -40, 50]\n</ans>", "format_properties": {}}
+{"idx": 72, "result": false, "generated": "<ans>\n[1, 2, 3]\n[3, 2, 1]\n[5, 4, 3, 2, 1]\n[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]\n[1, 5, 3, 2, 4]\n</ans>", "format_properties": {}}
+{"idx": 78, "result": true, "generated": "<ans>\n[10]\n[5]\n[1]\n[0]\n[-5]\n</ans>", "format_properties": {}}
+{"idx": 76, "result": true, "generated": "<ans>\n[1, 2, 3]\n[2, 4, 8]\n[3, 5, 7]\n[7, 11, 77]\n[10, 2, 21]\n</ans>", "format_properties": {}}
+{"idx": 75, "result": false, "generated": "<ans>\n[1, 2, 3, 4, 5]\n[5, 4, 3, 2, 1]\n[-1, 0, 1]\n[10, 20, 30, 40, 50]\n[-10, -20, -30, -40, -50]\n</ans>", "format_properties": {}}
+{"idx": 79, "result": true, "generated": "<ans>\n[12, 18]\n[15, 15]\n[10, 17]\n[20, 20]\n[7, 13]\n</ans>", "format_properties": {}}
+{"idx": 82, "result": true, "generated": "<ans>\n[1]\n[2]\n[3]\n[16]\n[1024]\n</ans>", "format_properties": {}}
+{"idx": 66, "result": false, "generated": "<ans>\n[1, 2, 2, 3, 3, 3]\n[4, 5, 5, 5, 6, 6, 6, 6]\n[1, 1, 1, 1, 1, 2, 2, 2, 2, 2]\n[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n[5, 5, 5, 5, 5, 5, 5, 5, 5, 5]\n</ans>", "format_properties": {}}
+{"idx": 65, "result": false, "generated": "<ans>\n[[2, 7, 6], [9, 5, 1], [4, 3, 8]]\n[[1, 1, 1], [1, 1, 1], [1, 1, 1]]\n[[5, 3, 4], [1, 5, 8], [6, 4, 2]]\n[[4, 9, 2], [3, 5, 7], [8, 1, 6]]\n[[8, 1, 6], [3, 5, 7], [4, 9, 2]]\n</ans>", "format_properties": {}}
+{"idx": 80, "result": 0, "generated": "<ans>\n['a', 'b', 'c']\n['A', 'B', 'C']\n['aBc', 'dEf', 'gHi']\n['', '', '']\n['abcdefghijklmnopqrstuvwxyz', '', '']\n['', '', 'abcdefghijklmnopqrstuvwxyz']\n</ans>", "format_properties": {}}
+{"idx": 85, "result": true, "generated": "<ans>\n[5]\n[10]\n[7.5]\n[2.5]\n[0]\n</ans>", "format_properties": {}}
+{"idx": 74, "result": false, "generated": "<ans>\n[1, 2, 3]\n[(1, 2, 3), (4, 5, 6)]\n[(1, 2, 3), (4, 5, 6), (7, 8, 9)]\n[(1, 2, 3), (4, 5, 6), (7, 8, 9), (10, 11, 12)]\n[(1, 2, 3), (4, 5, 6), (7, 8, 9), (10, 11, 12), (13, 14, 15)]\n</ans>", "format_properties": {}}
+{"idx": 73, "result": true, "generated": "<ans>\n[[1, 2, 3], [1, 2, 3], [1, 2, 3]]\n[[1, 2, 3], [1, 2, 4], [1, 2, 3]]\n[[1, 2, 3], [1, 2, 3], [1, 4, 3]]\n[[1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4]]\n[[1, 2, 3, 4, 5], [1, 2, 3, 4, 6], [1, 2, 3, 4, 5]]\n</ans>", "format_properties": {}}
+{"idx": 81, "result": false, "generated": "<ans>\n[1, 2, 3, 4]\n[1, 3, 5, 7]\n[2, 4, 6, 8]\n[10, 20, 30, 40, 50]\n[1, 1, 1, 1, 1]\n</ans>", "format_properties": {}}
+{"idx": 86, "result": true, "generated": "<ans>\n[\"hellostdworldstd\"]\n[\"stdstdstd\"]\n[\"abcdefg\"]\n[\"std\"]\n[\"\"]\n</ans>", "format_properties": {}}
+{"idx": 89, "result": true, "generated": "<ans>\n[15]\n[16]\n[7]\n[0]\n[255]\n</ans>", "format_properties": {}}
+{"idx": 77, "result": true, "generated": "<ans>\n[1, 2, 3, 4, 5], [2, 4]\n[1, 2, 3, 4, 5], [1, 3, 5]\n[1, 2, 3, 4, 5], []\n[1, 2, 3, 4, 5], [1, 2, 3, 4, 5]\n[1, 2, 2, 3, 3, 3], [2, 3]\n</ans>", "format_properties": {}}
+{"idx": 90, "result": true, "generated": "<ans>\n[\"HelloWorld\"]\n[\"PythonProgramming\"]\n[\"abcdefghijklmnopqrstuvwxyz\"]\n[\"\"]\n[\"a\"]\n</ans>", "format_properties": {}}
+{"idx": 87, "result": true, "generated": "<ans>\n[(1, 2, 3)]\n[(1, 'a', 3)]\n[(1.2, 2.3, 3.4)]\n[('a', 'b', 'c')]\n[(True, False, True)]\n</ans>", "format_properties": {}}
+{"idx": 88, "result": false, "generated": "<ans>\n[1, 2, 1]\n[1, 3, 1]\n[2, 5, 4]\n[3, 5, 1]\n[5, 9, 5]\n</ans>", "format_properties": {}}
+{"idx": 95, "result": true, "generated": "<ans>\n[1]\n[5]\n[10]\n[0]\n[-3]\n</ans>", "format_properties": {}}
+{"idx": 96, "result": true, "generated": "<ans>\n[10]\n[15]\n[7]\n[31]\n[0]\n</ans>", "format_properties": {}}
+{"idx": 91, "result": true, "generated": "<ans>\n[1, 2, 3]\n[10, 5, 15]\n[-5, 0, 5]\n[10, 10, 10]\n[-10, -20, -30]\n</ans>", "format_properties": {}}
+{"idx": 94, "result": true, "generated": "<ans>\n[\"Hello World\", \"-\"]\n[\"This is a test\", \"+\"]\n[\"   \", \"*\"]\n[\"\", \".\"]\n[\"No blanks here\", \"_\"]\n</ans>", "format_properties": {}}
+{"idx": 92, "result": true, "generated": "<ans>\n[15, 1, 3]\n[15, 2, 3]\n[15, 1, 4]\n[16, 1, 3]\n[0, 1, 3]\n</ans>", "format_properties": {}}
+{"idx": 98, "result": true, "generated": "<ans>\n[\"abc\"]\n[\"abcdef\"]\n[\"a\"]\n[\"\"]\n[\"abcdefghijklmnopqrstuvwxyz\"]\n</ans>", "format_properties": {}}
+{"idx": 84, "result": true, "generated": "<ans>\n[1, 2, 3, 4, 5], 1, 3\n[10, 20, 30, 40, 50], 0, 2\n[-1, -2, -3, -4, -5], 1, 4\n[1, 2, 3, 4, 5], 0, 4\n[10, 20, 30, 40, 50], 1, 1\n</ans>", "format_properties": {}}
+{"idx": 102, "result": true, "generated": "<ans>\n[1]\n[2]\n[9]\n[25]\n[99]\n</ans>", "format_properties": {}}
+{"idx": 99, "result": true, "generated": "<ans>\n[10, 2]\n[5, 3]\n[20, 1]\n[8, 4]\n[15, 3]\n</ans>", "format_properties": {}}
+{"idx": 101, "result": true, "generated": "<ans>\n[\"Hello, World!\"]\n[\"\"]\n[\"a\"]\n[\"abcdefghijklmnopqrstuvwxyz\"]\n[\"This is a test string with multiple words.\"]\n</ans>", "format_properties": {}}
+{"idx": 104, "result": true, "generated": "<ans>\n[\"abcba\"]\n[\"abcd\"]\n[\"a\"]\n[\"abba\"]\n[\"abcdefgh\"]\n</ans>", "format_properties": {}}
+{"idx": 83, "result": true, "generated": "<ans>\n[1, 2, 2, 2, 3, 3, 3, 3, 3], 3\n[1, 2, 2, 2, 3, 3, 3, 3, 3], 2\n[1, 2, 2, 2, 3, 3, 3, 3, 3], 1\n[1, 1, 1, 1, 1, 1, 1, 1, 1], 1\n[1, 2, 3, 4, 5, 6, 7, 8, 9], 5\n</ans>", "format_properties": {}}
+{"idx": 93, "result": true, "generated": "<ans>\n[1, -2, 3, -4, 5], 5\n[-1, 2, -3, 4, -5], 5\n[1, 2, 3, 4, 5], 5\n[-1, -2, -3, -4, -5], 5\n[1, -2, 3, -4, 5, 6, 7], 5\n</ans>", "format_properties": {}}
+{"idx": 111, "result": true, "generated": "<ans>\n[10]\n[20]\n[0]\n[1]\n[100]\n</ans>", "format_properties": {}}
+{"idx": 108, "result": true, "generated": "<ans>\n[1 + 2j]\n[3 - 4j]\n[-1 + 1j]\n[0 + 0j]\n[5 + 0j]\n</ans>", "format_properties": {}}
+{"idx": 100, "result": true, "generated": "<ans>\n[[1, 2, 3], [4, 5]]\n[[1, 2, 3], [4, 5, 6, 7]]\n[[1, 2, 3], []]\n[[1], [2, 3, 4]]\n[[1, 2, 3, 4, 5], [6]]\n</ans>", "format_properties": {}}
+{"idx": 107, "result": true, "generated": "<ans>\n[[1, 2, 3], 4]\n[['a', 'b', 'c'], 'd']\n[[1, 2, 3], [4, 5]]\n[['a'], 'b']\n[[], 1]\n</ans>", "format_properties": {}}
+{"idx": 103, "result": false, "generated": "<ans>\n[1, 15, 51, 45, 33, 100, 12, 18, 9]\n[1, 2, 3, 4, 5]\n[5, 4, 3, 2, 1]\n[10, 20, 30, 40, 50, 60]\n[1, 1, 1, 1, 1]\n</ans>", "format_properties": {}}
+{"idx": 110, "result": true, "generated": "<ans>\n['a', 'b', 'c'], 2\n['apple', 'banana', 'orange'], 1\n[1, 2, 3], 3\n['red', 'green', 'blue'], 0\n['dog', 'cat', 'bird'], 2\n</ans>", "format_properties": {}}
+{"idx": 114, "result": true, "generated": "<ans>\n[0]\n[1]\n[2]\n[3]\n[10]\n</ans>", "format_properties": {}}
+{"idx": 105, "result": true, "generated": "<ans>\n[1, 2, 3], [2, 3, 4]\n[4, 5, 6], [5, 6, 7]\n[1, 1, 2], [1, 1, 2]\n[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]\n[], [1, 2, 3]\n</ans>", "format_properties": {}}
+{"idx": 112, "result": true, "generated": "<ans>\n[1, 2]\n[10, 20]\n[-5, 0]\n[100, 200]\n[0, 0]\n</ans>", "format_properties": {}}
+{"idx": 109, "result": false, "generated": "<ans>\n[1, 2, 'a', 3.5, 4]\n[1, 2, 3, 4, 5]\n['a', 'b', 'c', 1, 2]\n[1.2, 2.3, 3.4, 4.5, 5.6]\n[1, 2, 3, 'a', None]\n</ans>", "format_properties": {}}
+{"idx": 117, "result": false, "generated": "<ans>\n[0]\n[-1]\n[1]\n[2]\n[10]\n</ans>", "format_properties": {}}
+{"idx": 106, "result": true, "generated": "<ans>\n[(1, 2, 3, 1, 2, 3), 1]\n[(1, 2, 3, 1, 2, 3), 2]\n[(1, 2, 3, 1, 2, 3), 3]\n[('a', 'b', 'c', 'a', 'b', 'c'), 'a']\n[('apple', 'banana', 'apple', 'orange', 'banana', 'apple'), 'banana']\n</ans>", "format_properties": {}}
+{"idx": 119, "result": true, "generated": "<ans>\n[1]\n[5]\n[10]\n[0]\n[2.5]\n</ans>", "format_properties": {}}
+{"idx": 120, "result": true, "generated": "<ans>\n[1]\n[2]\n[3]\n[10]\n[0]\n</ans>", "format_properties": {}}
+{"idx": 121, "result": true, "generated": "<ans>\n[1]\n[2]\n[3]\n[10]\n[100]\n</ans>", "format_properties": {}}
+{"idx": 122, "result": true, "generated": "<ans>\n['a']\n['A']\n['0']\n['Z']\n['!']\n</ans>", "format_properties": {}}
+{"idx": 124, "result": true, "generated": "<ans>\n[1]\n[2]\n[3]\n[5]\n[10]\n</ans>", "format_properties": {}}
+{"idx": 97, "result": true, "generated": "<ans>\n[[(1, 2), (3, 4), (1, 2), (5, 6)]]\n[[(1, 2), (3, 4), (5, 6), (7, 8), (1, 2), (3, 4)]]\n[[(1, 2), (2, 1), (3, 4), (4, 3), (1, 2), (2, 1)]]\n[[(1, 2), (3, 4), (5, 6), (7, 8), (9, 10), (1, 2), (3, 4), (5, 6)]]\n[[(1, 1), (2, 2), (3, 3), (1, 1), (2, 2), (3, 3)]]\n</ans>", "format_properties": {}}
+{"idx": 113, "result": false, "generated": "<ans>\n[(1, 2, 3), (4, 5, 6)]\n[(10, 20, 30), (40, 50, 60)]\n[(100, 200, 300), (400, 500, 600)]\n[(1, 2), (3, 4, 5)]\n[(10, 20), (30, 40, 50)]\n</ans>", "format_properties": {}}
+{"idx": 115, "result": true, "generated": "<ans>\n[(1, 2, 3), (1, 2, 3)]\n[(4, 8, 12), (2, 2, 3)]\n[(10, 20, 30), (5, 4, 5)]\n[(7, 0, 9), (1, 8, 3)]\n[(15, 25, 35), (5, 5, 7)]\n</ans>", "format_properties": {}}
+{"idx": 127, "result": true, "generated": "<ans>\n[1]\n[2]\n[3]\n[10]\n[20]\n</ans>", "format_properties": {}}
+{"idx": 123, "result": false, "generated": "<ans>\n[2, 4, 6, 8, 10]\n[1, 3, 5, 7, 9]\n[10, 20, 30, 40, 50]\n[2, 4, 6, 7, 10]\n[1, 2, 3, 4, 5, 6]\n</ans>", "format_properties": {}}
+{"idx": 116, "result": true, "generated": "<ans>\n[1, 2, 3, 4, 5], 2\n</ans>\n\n<ans>\n['a', 'b', 'c', 'd'], 3\n</ans>\n\n<ans>\n[10, 20, 30, 40, 50, 60], 4\n</ans>\n\n<ans>\n['apple', 'banana', 'cherry', 'date', 'elderberry'], 1\n</ans>\n\n<ans>\n[1.5, 2.5, 3.5, 4.5, 5.5, 6.5], 5\n</ans>", "format_properties": {}}
+{"idx": 118, "result": true, "generated": "<ans>\n[1, 2, 3, 4, 5, 6], 2\n[1, 2, 3, 4, 5, 6, 7, 8, 9], 3\n['a', 'b', 'c', 'd', 'e', 'f'], 2\n[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 5\n['apple', 'banana', 'cherry', 'date', 'elderberry'], 1\n</ans>", "format_properties": {}}
+{"idx": 126, "result": true, "generated": "<ans>\n[(1, 2, 3), (1, 1, 1)]\n[(10, 20, 30), (5, 5, 5)]\n[(100, 200, 300), (50, 100, 150)]\n[(1, 1, 1), (0, 0, 0)]\n[(5, 10, 15), (2, 4, 6)]\n</ans>", "format_properties": {}}
+{"idx": 125, "result": true, "generated": "<ans>\n[([1, 2, 3], [4, 5, 6], [7, 8, 9])]\n[([10, 20], [30, 40], [50, 60])]\n[([1, 2], [3, 4], [5, 6], [7, 8])]\n[([1, 2, 3, 4], [5, 6, 7, 8])]\n[([1], [2], [3], [4], [5])]\n</ans>", "format_properties": {}}
+{"idx": 134, "result": true, "generated": "<ans>\n[1]\n[12]\n[123]\n[111]\n[1221]\n</ans>", "format_properties": {}}
+{"idx": 136, "result": true, "generated": "<ans>\n['abbb']\n['abbc']\n['abbbd']\n['ab']\n['abb']\n</ans>", "format_properties": {}}
+{"idx": 130, "result": true, "generated": "<ans>\n[1]\n[10]\n[100]\n[1000]\n[10000]\n</ans>", "format_properties": {}}
+{"idx": 138, "result": true, "generated": "<ans>\n[1]\n[2]\n[5]\n[10]\n[0]\n</ans>", "format_properties": {}}
+{"idx": 135, "result": true, "generated": "<ans>\n[[1, 1, 1], 1]\n[[1, 2, 1], 1]\n[[1, 1, 1, 1], 1]\n[[1, 'a', 1], 1]\n[['a', 'a', 'a'], 'a']\n</ans>", "format_properties": {}}
+{"idx": 140, "result": false, "generated": "<ans>\n[3, 2]\n[4, 3]\n[5, 2]\n[1, 1]\n[2, 10]\n</ans>", "format_properties": {}}
+{"idx": 132, "result": false, "generated": "<ans>\n[1, 2, 3, 4, 5]\n[1, 2, 2, 3, 4]\n['a', 'b', 'c', 'd']\n['apple', 'banana', 'apple', 'orange']\n[1, 1, 1, 1, 1]\n</ans>", "format_properties": {}}
+{"idx": 131, "result": true, "generated": "<ans>\n[1, 2, 3, 4, 5], 1\n[1, 2, 3, 4, 5], 6\n[], 1\n[1, 2, 3, 4, 5], 5\n[1, 1, 1, 1, 1], 1\n</ans>", "format_properties": {}}
+{"idx": 129, "result": true, "generated": "<ans>\n[(1, 2, 3, (4, 5))]\n[(1, 2, (3, 4), 5, 6)]\n[(1, (2, 3), 4, 5)]\n[(1, 2, 3, 4, (5, 6))]\n[(1, 2, 3, 4, 5, 6, (7, 8))]\n</ans>", "format_properties": {}}
+{"idx": 133, "result": true, "generated": "<ans>\n[1, 2, 3], [4, 5, 6]\n[10, 20, 30], [5, 5, 5]\n[1, 1, 1], [1, 1, 1]\n[5, 5, 5], [1, 2, 3]\n[10, 20, 30], [10, 20, 30]\n</ans>", "format_properties": {}}
+{"idx": 137, "result": true, "generated": "<ans>\n[1, 2, 3], 3, 2\n[1, -2, 1, 3, 4, -1], 6, 3\n[-1, -2, -3, -4], 4, 2\n[1, 2], 2, 1\n[1, -1, 1, -1], 4, 2\n</ans>", "format_properties": {}}
+{"idx": 141, "result": true, "generated": "<ans>\n[10, 2]\n[7, 3]\n[17, 5]\n[-13, 2]\n[0, 5]\n</ans>", "format_properties": {}}
+{"idx": 144, "result": true, "generated": "<ans>\n[10]\n[25]\n[36]\n[48]\n[100]\n</ans>", "format_properties": {}}
+{"idx": 142, "result": true, "generated": "<ans>\n[3, 4]\n[5, 12]\n[8, 15]\n[10, 24]\n[7, 24]\n</ans>", "format_properties": {}}
+{"idx": 128, "result": true, "generated": "<ans>\n[{\"a\": 1, \"b\": 2, \"c\": 3}, 2]\n[{\"apple\": 5, \"banana\": 10, \"orange\": 3}, 4]\n[{\"x\": 10, \"y\": 20, \"z\": 30}, 15]\n[{\"dog\": 5, \"cat\": 3, \"bird\": 7}, 4]\n[{\"car\": 100, \"bike\": 50, \"train\": 200}, 75]\n</ans>", "format_properties": {}}
+{"idx": 145, "result": false, "generated": "<ans>\n[1, 3, 2]\n[4, 3, 2, 1]\n[1, 2, 3, 4, 5]\n[5, 4, 3, 2, 1]\n[1, 1, 1, 1, 1]\n</ans>", "format_properties": {}}
+{"idx": 143, "result": false, "generated": "<ans>\n[1, 2, 3, 'a', 'b']\n[10, 20, 30, 'apple', 'banana']\n[-1, -2, -3, 'dog', 'cat']\n[5, 10, 15, 20, 25]\n[100, 200, 300, 'x', 'y', 'z']\n</ans>", "format_properties": {}}
+{"idx": 139, "result": false, "generated": "<ans>\n[[1, 2, 3], [4, 5], [6, 7, 8, 9]]\n[[1, 2, 3], [4, 5, 6], [7, 8]]\n[[1], [2, 3], [4, 5, 6]]\n[[1, 2, 3, 4], [5, 6], [7, 8, 9]]\n[[1, 2], [3, 4, 5], [6, 7, 8, 9, 10]]\n</ans>", "format_properties": {}}
+{"idx": 150, "result": false, "generated": "<ans>\n[\"Perfectly Pink\", \"Purple\", \"Pineapple\"]\n[\"Pink Panther\", \"Purple\", \"Pineapple\"]\n[\"Pink Panther\", \"Pink\", \"Pineapple\"]\n[\"Pink Panther\", \"Pink\", \"Pineapple\", \"Purple\"]\n[\"Pink Panther\", \"Pink\", \"Pineapple\", \"Purple\", \"Peach\"]\n</ans>", "format_properties": {}}
+{"idx": 148, "result": true, "generated": "<ans>\n[{\"a\": 1, \"b\": {\"c\": 2, \"d\": {\"e\": 3}}}]\n[{\"a\": 1, \"b\": {\"c\": 2}}]\n[{\"a\": 1}]\n[{}]\n[{\"a\": 1, \"b\": {\"c\": 2, \"d\": {\"e\": 3, \"f\": {\"g\": 4}}}}]\n</ans>", "format_properties": {}}
+{"idx": 155, "result": true, "generated": "<ans>\n[\"Hello World\"]\n[\"Python Programming\"]\n[\"   Test   String   \"]\n[\"Single\"]\n[\"\"]\n</ans>", "format_properties": {}}
+{"idx": 146, "result": false, "generated": "<ans>\n[[1, 2, [3, 4]], [5, [6, 7]]]\n[1, [2, [3, [4, [5]]]]]\n[[1, 2], [3, 4], [5, 6]]\n[1, 2, 3, 4, 5]\n[[1, [2, 3]], 4, [5, [6, [7, 8]]]]\n</ans>", "format_properties": {}}
+{"idx": 154, "result": true, "generated": "<ans>\n[5, 10]\n[10, 5]\n[-5, 0]\n[10, 10]\n[-10, -5]\n</ans>", "format_properties": {}}
+{"idx": 152, "result": false, "generated": "<ans>\n[([1, 2, 3], 0, 4)]\n[([1, 2, 3], 1, 4)]\n[([1, 2, 3], 2, 4)]\n[([1, 2, 3], 3, 4)]\n[([1, 2, 3], 0, 5)]\n</ans>", "format_properties": {}}
+{"idx": 156, "result": true, "generated": "<ans>\n[18]\n[9]\n[7]\n[15]\n[0]\n</ans>", "format_properties": {}}
+{"idx": 157, "result": true, "generated": "<ans>\n[10]\n[18]\n[1]\n[0]\n[25]\n</ans>", "format_properties": {}}
+{"idx": 158, "result": true, "generated": "<ans>\n[0]\n[1]\n[2]\n[5]\n[10]\n</ans>", "format_properties": {}}
+{"idx": 161, "result": true, "generated": "<ans>\n[1]\n[2]\n[3]\n[10]\n[100]\n</ans>", "format_properties": {}}
+{"idx": 151, "result": false, "generated": "<ans>\n[[1, 101, 2, 3, 100], 4, 3]\n[[1, 2, 3, 4, 5], 2, 4]\n[[10, 5, 4, 3, 2, 1], 3, 5]\n[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 5, 9]\n[[5, 4, 3, 2, 1], 2, 4]\n</ans>", "format_properties": {}}
+{"idx": 164, "result": true, "generated": "<ans>\n['abcde']\n['aabbcc']\n['abcdea']\n['aaaaaa']\n['']\n</ans>", "format_properties": {}}
+{"idx": 165, "result": true, "generated": "<ans>\n['a']\n['abcba']\n['abcd']\n['abba']\n['xyzzyx']\n</ans>", "format_properties": {}}
+{"idx": 147, "result": false, "generated": "<ans>\n[('Alice', 90), ('Bob', 80), ('Alice', 95)]\n[('John', 70), ('Emma', 85), ('John', 75), ('Emma', 90)]\n[('Michael', 60), ('Sophia', 65), ('Michael', 70), ('Sophia', 75), ('Michael', 80)]\n[('William', 50), ('Olivia', 55), ('William', 60), ('Olivia', 65), ('William', 70), ('Olivia', 75)]\n[('James', 40), ('Ava', 45), ('James', 50), ('Ava', 55), ('James', 60), ('Ava', 65), ('James', 70), ('Ava', 75)]\n</ans>", "format_properties": {}}
+{"idx": 163, "result": true, "generated": "<ans>\n[(1, 2, 3)]\n[(1, 1, 2)]\n[(1, 'a', 2, 'b')]\n[(1, 1, 1, 1)]\n[()]\n</ans>", "format_properties": {}}
+{"idx": 159, "result": true, "generated": "<ans>\n[1, 2, 3], \"{}\"\n[1, 2, 3], \"{:.2f}\"\n[\"a\", \"b\", \"c\"], \"{}_suffix\"\n[1, 2, 3], \"{:03d}\"\n[\"apple\", \"banana\", \"cherry\"], \"{} is a fruit\"\n</ans>", "format_properties": {}}
+{"idx": 149, "result": true, "generated": "<ans>\n[[1, 2, 3, 4, 5], [[0, 2], [0, 3]], 2, 3]\n[[1, 2, 3, 4, 5], [[0, 4], [1, 3]], 2, 2]\n[[1, 2, 3, 4, 5], [[0, 1], [2, 4]], 2, 0]\n[[1, 2, 3, 4, 5, 6, 7], [[0, 2], [3, 6]], 2, 5]\n[[1, 2, 3, 4, 5], [[0, 4], [0, 4]], 2, 4]\n</ans>", "format_properties": {}}
+{"idx": 153, "result": true, "generated": "<ans>\n[[1, 2, 3], [4, 5, 6], 3]\n[[10, 20, 30], [40, 50, 60], 2]\n[[1, 1, 1], [1, 1, 1], 3]\n[[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], 5]\n[[10, 100, 1000], [10000, 100000, 1000000], 3]\n</ans>", "format_properties": {}}
+{"idx": 166, "result": true, "generated": "<ans>\n[1, 2, 3]\n[5, 5, 5]\n[-1, 0, 1]\n[10, 20, 30]\n[100, 50, 200]\n</ans>", "format_properties": {}}
+{"idx": 171, "result": true, "generated": "<ans>\n[5, 10]\n[-5, 0]\n[10, 5]\n[0, 0]\n[-10, -5]\n</ans>", "format_properties": {}}
+{"idx": 173, "result": true, "generated": "<ans>\n[1]\n[2]\n[3]\n[10]\n[2147483647]\n</ans>", "format_properties": {}}
+{"idx": 174, "result": true, "generated": "<ans>\n[1234]\n[10987]\n[12]\n[21]\n[5347]\n</ans>", "format_properties": {}}
+{"idx": 167, "result": false, "generated": "<ans>\n[123, 456, 789]\n[100, 200, 300]\n[1, 2, 3, 4, 5]\n[10, 20, 30, 40, 50]\n[1000, 2000, 3000, 4000, 5000]\n</ans>", "format_properties": {}}
+{"idx": 162, "result": false, "generated": "<ans>\n[[1, 2, 3], [4, 5], [6, 7, 8, 9]]\n[[1, 2], [3, 4, 5], [6]]\n[[1], [2, 3], [4, 5, 6]]\n[[1, 2, 3, 4], [5, 6], [7, 8]]\n[['a', 'b'], ['c', 'd', 'e'], ['f']]\n</ans>", "format_properties": {}}
+{"idx": 172, "result": true, "generated": "<ans>\n[(1, 2, 3), 2]\n[(1, 2, 3), 4]\n[('a', 'b', 'c'), 'b']\n[('a', 'b', 'c'), 'd']\n[(1, 2, 3, 4, 5), 5]\n</ans>", "format_properties": {}}
+{"idx": 168, "result": true, "generated": "<ans>\n[(1, 2, 3), (3, 2, 1)]\n[(10, 20, 30), (10, 20, 30)]\n[(5, 5, 5), (0, 0, 0)]\n[(1, 1, 1, 1), (0, 1, 0, 1)]\n[(255, 255), (255, 255)]\n</ans>", "format_properties": {}}
+{"idx": 178, "result": true, "generated": "<ans>\n[\"hello_world\"]\n[\"snake_case_string\"]\n[\"a_b_c_d\"]\n[\"_leading_underscore\"]\n[\"multiple___underscores\"]\n</ans>", "format_properties": {}}
+{"idx": 160, "result": true, "generated": "<ans>\n[1, 2, 3], [4, 5, 6], [7, 8, 9]\n</ans>\n\n<ans>\n['a', 'b', 'c'], [1, 2, 3], ['x', 'y', 'z']\n</ans>\n\n<ans>\n[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]\n</ans>\n\n<ans>\n['apple', 'banana', 'cherry'], [1, 2, 3], ['red', 'yellow', 'pink']\n</ans>\n\n<ans>\n[10, 20, 30], [100, 200, 300], [1000, 2000, 3000]\n</ans>", "format_properties": {}}
+{"idx": 177, "result": false, "generated": "<ans>\n[1, 2, 3, 'a', 'b']\n[10, 20, 30, 'c', 'd']\n[-1, -2, -3, 'e', 'f']\n[5, 10, 15, 20, 'g']\n[100, 200, 300, 400, 500]\n</ans>", "format_properties": {}}
+{"idx": 175, "result": true, "generated": "<ans>\n[[1, 1], [1, 1], 1]\n[[1, 3], [2, 3], 3]\n[[1, 1], [1, 1, 2], 2]\n[[1, 7, 11], [2, 4, 6], 3]\n[[1, 3, 5], [2, 4, 6], 10]\n</ans>", "format_properties": {}}
+{"idx": 176, "result": false, "generated": "<ans>\n[(1, 2), (3, 4), (5, 6)]\n[(10, 20), (30, 40), (50, 60)]\n[(-1, 2), (3, -4), (5, 6)]\n[(1, 1), (1, 1), (1, 1)]\n[(0, 5), (0, 10), (0, 15)]\n</ans>", "format_properties": {}}
+{"idx": 179, "result": false, "generated": "<ans>\n[1, 2, 3, 4, 5]\n[2, 4, 6, 8, 10]\n[1, 3, 5, 7, 9]\n[10, 8, 6, 4, 2]\n[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n</ans>", "format_properties": {}}
+{"idx": 186, "result": true, "generated": "<ans>\n[1]\n[2]\n[3]\n[5]\n[10]\n</ans>", "format_properties": {}}
+{"idx": 181, "result": true, "generated": "<ans>\n[[1, 2, 3], [3, 4, 5]]\n[[1, 2, 3], [4, 5, 6]]\n[[1, 2, 3], []]\n[[], [1, 2, 3]]\n[[1, 2, 3], [1, 2, 3]]\n</ans>", "format_properties": {}}
+{"idx": 170, "result": true, "generated": "<ans>\n[(1, 2, 3), (4, 5, 6)], [(7, 8, 9), (10, 11, 12)]\n[(1, 2), (3, 4)], [(5, 6), (7, 8)]\n[(1, 2, 3, 4), (5, 6, 7, 8)], [(9, 10, 11, 12), (13, 14, 15, 16)]\n[(1,), (2,)], [(3,), (4,)]\n[(1, 2, 3, 4, 5), (6, 7, 8, 9, 10)], [(11, 12, 13, 14, 15), (16, 17, 18, 19, 20)]\n</ans>", "format_properties": {}}
+{"idx": 188, "result": true, "generated": "<ans>\n[1]\n[2]\n[5]\n[10]\n[100]\n</ans>", "format_properties": {}}
+{"idx": 182, "result": false, "generated": "<ans>\n[1, 2, 3, 4, 5]\n[-1, -2, -3, -4, -5]\n[1, 2, 3, 4, -5]\n[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n[-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10]\n</ans>", "format_properties": {}}
+{"idx": 180, "result": true, "generated": "<ans>\n[[(1, 2, 3), (4, 5, 6), (7, 8, 9)], 1]\n[[(10, 20, 30), (40, 50, 60)], 2]\n[[(100, 200), (300, 400), (500, 600)], 0]\n[[(1, 2, 3, 4), (5, 6, 7, 8), (9, 10, 11, 12)], 3]\n[[(1, 2), (3, 4), (5, 6), (7, 8)], 1]\n</ans>", "format_properties": {}}
+{"idx": 187, "result": true, "generated": "<ans>\n[(1, 2, 3, 4),]\n[(\"a\", \"b\", \"c\"),]\n[(1, \"a\", 2, \"b\"),]\n[(\"apple\", \"banana\", \"cherry\"),]\n[(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),]\n</ans>", "format_properties": {}}
+{"idx": 183, "result": false, "generated": "<ans>\n[(1, 2, 3), (1, 4, 5), (2, 6, 7)]\n[(1, 2), (1, 3), (1, 4)]\n[(1, 2, 3), (2, 4, 5), (3, 6, 7)]\n[(1, 2, 3, 4), (1, 5, 6, 7), (1, 8, 9, 10)]\n[(1, 2), (2, 3), (3, 4), (4, 5)]\n</ans>", "format_properties": {}}
+{"idx": 185, "result": false, "generated": "<ans>\n[1.2, 2.5, 3.7]\n[10.1, 20.2, 30.3, 40.4]\n[0.5, 1.5, 2.5, 3.5, 4.5]\n[-1.2, -2.5, -3.7]\n[1.0, 2.0, 3.0, 4.0, 5.0]\n</ans>", "format_properties": {}}
+{"idx": 184, "result": false, "generated": "<ans>\n[[1, 2, 3], [4, 5], [6, 7, 8, 9]]\n[['apple', 'banana', 'cherry'], ['orange'], ['grape', 'mango']]\n[[1, 2], [3, 4, 5], [6, 7, 8, 9]]\n[['a'], ['b', 'c'], ['d', 'e', 'f', 'g']]\n[['x', 'y', 'z'], ['p', 'q'], ['r', 's']]\n</ans>", "format_properties": {}}
+{"idx": 191, "result": false, "generated": "<ans>\n[1, 2, 3, 4, 5]\n[10, 20, 30, 40, 50]\n[1, 3, 5, 7, 9]\n[2, 4, 6, 8, 10]\n[-1, -2, -3, -4, -5]\n</ans>", "format_properties": {}}
+{"idx": 169, "result": false, "generated": "<ans>\n[[[1, 2], [3, 4]], [[2, 1], [4, 3]], [[1, 2], [3, 4]]]\n[[[1, 2], [3, 4]], [[2, 1], [4, 3]], [[1, 2], [3, 4]], [[5, 6], [7, 8]]]\n[[[1, 2], [3, 4]], [[2, 1], [4, 3]], [[1, 2], [3, 4]], [[5, 6], [7, 8]], [[9, 10], [11, 12]]]\n[[[1, 2], [3, 4]], [[2, 1], [4, 3]], [[1, 2], [3, 4]], [[5, 6], [7, 8]], [[9, 10], [11, 12]], [[13, 14], [15, 16]]]\n[[[1, 2], [3, 4]], [[2, 1], [4, 3]], [[1, 2], [3, 4]], [[5, 6], [7, 8]], [[9, 10], [11, 12]], [[13, 14], [15, 16]], [[17, 18], [19, 20]]]\n</ans>", "format_properties": {}}
+{"idx": 189, "result": false, "generated": "<ans>\n[(\"apple\", \"banana\", \"cherry\"), (\"dog\", \"cat\", \"bird\"), (\"red\", \"blue\", \"green\")]\n[(\"hello\", \"world\"), (\"foo\", \"bar\"), (\"abc\", \"def\")]\n[(\"a\", \"b\", \"c\"), (\"d\", \"e\", \"f\"), (\"g\", \"h\", \"i\")]\n[(\"1\", \"2\", \"3\"), (\"4\", \"5\", \"6\"), (\"7\", \"8\", \"9\")]\n[(\"x\", \"y\", \"z\"), (\"p\", \"q\", \"r\"), (\"s\", \"t\", \"u\")]\n</ans>", "format_properties": {}}
+{"idx": 190, "result": 0, "generated": "<ans>\n[[1, 2, 3], [2, 3, 4], [3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8], [7, 8, 9], [8, 9, 10], [9, 10, 11], [10, 11, 12]], 3]\n[[1, 2, 3], [2, 3, 4], [3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8], [7, 8, 9], [8, 9, 10], [9, 10, 11], [10, 11, 12]], 12]\n[[1, 2, 3], [2, 3, 4], [3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8], [7, 8, 9], [8, 9, 10], [9, 10, 11], [10, 11, 12]], 1]\n[[1, 2, 3], [2, 3, 4], [3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8], [7, 8, 9], [8, 9, 10], [9, 10, 11], [10, 11, 12]], 6]\n[[1, 2, 3], [2, 3, 4], [3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8], [7, 8, 9], [8, 9, 10], [9, 10, 11], [10, 11, 12]], 8]\n</ans>", "format_properties": {}}
+{"idx": 199, "result": true, "generated": "<ans>\n[\"ab\"]\n[\"abb\"]\n[\"bba\"]\n[\"a\"]\n[\"abbbbc\"]\n</ans>", "format_properties": {}}
+{"idx": 200, "result": true, "generated": "<ans>\n[10]\n[12345]\n[9876543210]\n[5]\n[0]\n</ans>", "format_properties": {}}
+{"idx": 192, "result": true, "generated": "<ans>\n[\"2022-07-25\"]\n[\"1999-12-31\"]\n[\"2024-02-29\"]\n[\"2000-01-01\"]\n[\"2023-08-15\"]\n</ans>", "format_properties": {}}
+{"idx": 202, "result": true, "generated": "<ans>\n[\"abcdefgh\"]\n[\"abcdefghi\"]\n[\"a\"]\n[\"\"]\n[\"ab\"]\n</ans>", "format_properties": {}}
+{"idx": 197, "result": true, "generated": "<ans>\n[10, 20, 5]\n[5, 15, 10]\n[8, 12, 6]\n[20, 30, 8]\n[15, 25, 12]\n</ans>", "format_properties": {}}
+{"idx": 195, "result": true, "generated": "<ans>\n[1, 2, 3]\n[-1, 0, 4]\n[2, 1, 5]\n[-3, 2, 1]\n[0.5, 1, 2]\n</ans>", "format_properties": {}}
+{"idx": 198, "result": true, "generated": "<ans>\n[[1, 2, 3], 4]\n[[5, 6, 7], 3]\n[[10, 20, 30], 25]\n[[1, 1, 1], 1]\n[[10, 5, 2], 11]\n</ans>", "format_properties": {}}
+{"idx": 206, "result": true, "generated": "<ans>\n[1]\n[5]\n[10]\n[0]\n[2.5]\n</ans>", "format_properties": {}}
+{"idx": 196, "result": true, "generated": "<ans>\n[[1, 2, 3], [3, 4, 5]]\n[[1, 2, 3], [4, 5, 6]]\n[[1, 2, 3], [1, 4, 5]]\n[[1, 2, 3], []]\n[[], [1, 2, 3]]\n</ans>", "format_properties": {}}
+{"idx": 193, "result": false, "generated": "<ans>\n[5, 2, 8, 1, 9]\n[10, 7, 8, 9, 1, 5]\n[1, 1, 1, 1, 1]\n[5, 4, 3, 2, 1]\n[-1, 5, 3, 2, 4]\n</ans>", "format_properties": {}}
+{"idx": 201, "result": false, "generated": "<ans>\n[1, -2, 3, -4, 5]\n[-1, -2, -3, -4, -5]\n[1, 2, 3, 4, 5]\n[-1, 0, 1, -2, 2]\n[0, -1, 1, -2, 2, -3, 3]\n</ans>", "format_properties": {}}
+{"idx": 194, "result": true, "generated": "<ans>\n[(1, 2, 3), (1, 1, 1)]\n[(15, 20, 25), (5, 4, 5)]\n[(0, 0, 0), (1, 1, 1)]\n[(10, 20, 30), (2, 4, 8)]\n[(7, 8, 9), (1, 0, 1)]\n</ans>", "format_properties": {}}
+{"idx": 205, "result": true, "generated": "<ans>\n[\"The sun rises slowly in the east.\"]\n[\"She sings beautifully.\"]\n[\"He drives carefully.\"]\n[\"The dog runs quickly around the corner.\"]\n[\"The baby laughs happily and plays energetically.\"]\n</ans>", "format_properties": {}}
+{"idx": 204, "result": false, "generated": "<ans>\n[1, 2, 3]\n[4, 5, 6, 7]\n[9, 0, 1]\n[1, 0, 0, 1]\n[5, 3, 2, 1, 9]\n</ans>", "format_properties": {}}
+{"idx": 213, "result": true, "generated": "<ans>\n[0]\n[1]\n[2]\n[5]\n[10]\n</ans>", "format_properties": {}}
+{"idx": 207, "result": false, "generated": "<ans>\n[1, 2, 3, -4, -5]\n[1, -2, 3, -4, 5, 6]\n[-1, -2, -3, -4, -5]\n[1, 2, 3, 4, 5]\n[0, 0, 0, 0, 0]\n</ans>", "format_properties": {}}
+{"idx": 203, "result": false, "generated": "<ans>\n[(1, 2), (2, 1), (3, 4)]\n[(1, 2), (2, 3), (3, 1)]\n[(1, 1), (1, 2), (2, 1)]\n[(1, 2), (2, 3), (3, 4), (4, 1)]\n[(1, 2), (2, 1), (1, 2), (2, 1)]\n</ans>", "format_properties": {}}
+{"idx": 208, "result": false, "generated": "<ans>\n[-1, -2, -3, -4, -5]\n[-10, -20, -30, -40, -50]\n[-5, -10, 0, 5, 10]\n[-1, 0, 1, 2, 3]\n[-100, -200, -300, 0, 400]\n</ans>", "format_properties": {}}
+{"idx": 215, "result": true, "generated": "<ans>\n[\"Hello World\"]\n[\"   This is a test string   \"]\n[\"This is   a   test string\"]\n[\"   \"]\n[\"ThisIsATestString\"]\n</ans>", "format_properties": {}}
+{"idx": 216, "result": true, "generated": "<ans>\n[100, 80]\n[100, 120]\n[50, 50]\n[200, 150]\n[300, 500]\n</ans>", "format_properties": {}}
+{"idx": 212, "result": false, "generated": "<ans>\n[1, 2, 3]\n[-1, 0, 1]\n[5]\n[1, 1, 1, 1]\n[-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]\n</ans>", "format_properties": {}}
+{"idx": 217, "result": true, "generated": "<ans>\n[10]\n[20]\n[8]\n[16]\n[24]\n</ans>", "format_properties": {}}
+{"idx": 218, "result": true, "generated": "<ans>\n[1]\n[2]\n[12]\n[7]\n[4]\n</ans>", "format_properties": {}}
+{"idx": 224, "result": true, "generated": "<ans>\n[\"HelloWorld\"]\n[\"\"]\n[\"abcdefghijklmnopqrstuvwxyz\"]\n[\"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"]\n[\"Hello123World\"]\n</ans>", "format_properties": {}}
+{"idx": 211, "result": true, "generated": "<ans>\n[(1, 2, 3, 4, 5), [1, 2, 3]]\n[(1, 2, 2, 3, 4), [2, 4]]\n[('apple', 'banana', 'cherry'), ['apple', 'banana']]\n[(1, 2, 3, 4, 5), [6, 7, 8]]\n[('dog', 'cat', 'bird'), ['dog', 'cat', 'bird']]\n</ans>", "format_properties": {}}
+{"idx": 222, "result": true, "generated": "<ans>\n[\"HelloWORLD\", ]\n[\"HELLOworld\", ]\n[\"HelloWORLDHello\", ]\n[\"123ABC456\", ]\n[\"\", ]\n</ans>", "format_properties": {}}
+{"idx": 221, "result": true, "generated": "<ans>\n[5, 3]\n[10, 2]\n[0, 4]\n[8, 9]\n[-3, 4]\n</ans>", "format_properties": {}}
+{"idx": 214, "result": true, "generated": "<ans>\n[\"apple\", \"banana\", \"cherry\", \"date\", \"elderberry\"], 5\n[\"apple\", \"banana\", \"cherry\", \"date\", \"elderberry\"], 6\n[\"a\", \"bb\", \"ccc\", \"dddd\", \"eeeee\"], 1\n[\"a\", \"bb\", \"ccc\", \"dddd\", \"eeeee\"], 3\n[\"\", \"a\", \"bb\", \"ccc\", \"dddd\", \"eeeee\"], 0\n</ans>", "format_properties": {}}
+{"idx": 219, "result": false, "generated": "<ans>\n[\"hello\", \"world\"]\n[\"apple\", \"banana\", \"cherry\"]\n[\"a\", \"b\", \"c\", \"d\", \"e\"]\n[\"\", \"test\", \"case\"]\n[\"python\", \"programming\", \"language\", \"test\", \"case\", \"example\"]\n</ans>", "format_properties": {}}
+{"idx": 209, "result": false, "generated": "<ans>\n[([1, 2, 3, 4, 5], 1)]\n[([1, 2, 3, 4, 5], 2)]\n[([1, 2, 3, 4, 5], 0)]\n[([(1, 2, 3), (4, 5, 6), (7, 8, 9)], 1)]\n[([(1, 2, 3, 4, 5), (6, 7, 8, 9, 10)], 2)]\n</ans>", "format_properties": {}}
+{"idx": 225, "result": false, "generated": "<ans>\n[]\n[1]\n[1, 2]\n[1, 2, 3]\n['a', 'b', 'c']\n</ans>", "format_properties": {}}
+{"idx": 226, "result": false, "generated": "<ans>\n[2, 3, -2, 4]\n[-2, 0, -1]\n[0, 2]\n[1, -9, 2, 5, 7, 2]\n[-1, -2, -3, -4]\n</ans>", "format_properties": {}}
+{"idx": 220, "result": false, "generated": "<ans>\n[[1, 2, 3], [4, 5], [6, 7, 8, 9]]\n[[1, 2, 3], [4, 5, 6], [7, 8]]\n[[1], [2, 3], [4, 5, 6]]\n[[1, 2, 3, 4], [5, 6, 7, 8, 9]]\n[['a', 'b'], ['c', 'd', 'e'], ['f']]\n</ans>", "format_properties": {}}
+{"idx": 223, "result": false, "generated": "<ans>\n[[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n[[10], [20], [30]]\n[[1, 2], [3, 4], [5, 6], [7, 8]]\n[[1, 2, 3], [4, 5, 6]]\n[['a', 'b', 'c'], ['d', 'e', 'f']]\n</ans>", "format_properties": {}}
+{"idx": 229, "result": false, "generated": "<ans>\n[1, 2, 3, 4]\n[4, 3, 2, 1]\n[1, 3, 5, 2, 4]\n[5, 1, 3, 4, 2]\n[10, 20, 30, 40, 50]\n</ans>", "format_properties": {}}
+{"idx": 230, "result": false, "generated": "<ans>\n(1, 2, 3, 4, 5)\n(10, 20, 30, 40, 50)\n(1, 1, 1, 1, 1)\n(5, 4, 3, 2, 1)\n(1, 2, 3)\n</ans>", "format_properties": {}}
+{"idx": 231, "result": true, "generated": "<ans>\n[[1, 2, 3], 5]\n[[7, 8, 9], 10]\n[[10, 20, 30], 11]\n[[4, 5, 6, 7], 8]\n[[15, 20, 25, 30, 35], 12]\n</ans>", "format_properties": {}}
+{"idx": 228, "result": true, "generated": "<ans>\n[{\"a\": 1, \"b\": None, \"c\": 3}]\n[{\"x\": None, \"y\": None, \"z\": None}]\n[{\"apple\": \"fruit\", \"carrot\": None, \"broccoli\": \"vegetable\"}]\n[{\"name\": \"John\", \"age\": None, \"city\": \"New York\"}]\n[{\"key1\": 1, \"key2\": 2, \"key3\": 3}]\n</ans>", "format_properties": {}}
+{"idx": 210, "result": false, "generated": "<ans>\n[( (1, 2, 3), (4, 5, 6) ), ( (7, 8, 9), (10, 11, 12) )]\n[( (1, 2), (3, 4) ), ( (5, 6), (7, 8) ), ( (9, 10), (11, 12) )]\n[( (1, 2, 3, 4), (5, 6, 7, 8) )]\n[( (1, 2, 3), (4, 5, 6) ), ( (7, 8, 9), (10, 11, 12) ), ( (13, 14, 15), (16, 17, 18) )]\n[( (1, 2), (3, 4) ), ( (5, 6), (7, 8) ), ( (9, 10), (11, 12) ), ( (13, 14), (15, 16) )]\n</ans>", "format_properties": {}}
+{"idx": 237, "result": true, "generated": "<ans>\n[\"Hello\"]\n[\"WORLD\"]\n[\"123\"]\n[\"Hello123\"]\n[\"\"]\n</ans>", "format_properties": {}}
+{"idx": 232, "result": false, "generated": "<ans>\n[1, 2, 3, 4, 5]\n[5, 1, 2, 3, 4]\n[1, 2, 4, 5]\n[1, 1, 2, 3, 4]\n[10, 11, 12, 13, 14]\n</ans>", "format_properties": {}}
+{"idx": 238, "result": true, "generated": "<ans>\n[\"HelloWorld\"]\n[\"Hello123\"]\n[\"HELLOworld\"]\n[\"helloWORLD\"]\n[\"123HelloWorld\"]\n</ans>", "format_properties": {}}
+{"idx": 234, "result": true, "generated": "<ans>\n[\"hello world\", \"o\", \"0\"]\n[\"python programming\", \"o\", \"1\"]\n[\"replace characters\", \"e\", \"E\"]\n[\"test string\", \"t\", \"T\"]\n[\"function to replace\", \"\", \" \"]\n</ans>", "format_properties": {}}
+{"idx": 227, "result": true, "generated": "<ans>\n[{\"a\": 1, \"b\": 1, \"c\": 1}, 1]\n[{\"a\": 1, \"b\": 2, \"c\": 1}, 1]\n[{\"a\": 2, \"b\": 2, \"c\": 2}, 2]\n[{\"a\": 1, \"b\": 1, \"c\": 1, \"d\": 1}, 1]\n[{\"a\": 1, \"b\": 1, \"c\": 2, \"d\": 1}, 1]\n</ans>", "format_properties": {}}
+{"idx": 239, "result": true, "generated": "<ans>\n[12345]\n[987654321]\n[100000000]\n[9]\n[12345678901234567890]\n</ans>", "format_properties": {}}
+{"idx": 236, "result": false, "generated": "<ans>\n[1, 2, 3, 4, 5]\n[-1, 0, 1, 2, 3]\n[10, 20, 30, 40, 50]\n[-10, -20, -30, -40, -50]\n[5, 5, 5, 5, 5]\n</ans>", "format_properties": {}}
+{"idx": 235, "result": true, "generated": "<ans>\n[{'a': 1, 'b': 2, 'c': 3}]\n[{'apple': 5, 'banana': 10, 'orange': 15}]\n[{'dog': 1, 'cat': 2, 'bird': 3, 'fish': 4}]\n[{'x': 10, 'y': 20, 'z': 30, 'a': 40, 'b': 50}]\n[{'hello': 1, 'world': 2, 'python': 3, 'programming': 4, 'language': 5}]\n</ans>", "format_properties": {}}
+{"idx": 233, "result": true, "generated": "<ans>\n[([1, 2], [2, 1]), ([1, 2, 3], [3, 2, 1])]\n[([1, 2, 3], [4, 5, 6]), ([7, 8, 9], [4, 5, 6])]\n[([1, 2], [1, 2]), ([1, 2], [1, 2])]\n[([1, 2, 3, 4], [4, 3, 2, 1]), ([1, 2, 3, 4], [4, 3, 2, 1])]\n[([1, 2, 3], [1, 2, 3, 4]), ([1, 2, 3], [1, 2, 3, 4])]\n</ans>", "format_properties": {}}

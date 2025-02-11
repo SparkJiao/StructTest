@@ -1,0 +1,23 @@
+### Instruction
+
+I will show you a code snippet. Please add a print statement whenever a new variable is defined, following the format below:
+
+print(“X: ”, str(x), “Y: ”: str(Y), …)
+
+where `X` and `Y` should be the newly defined variables.
+
+#### Notes:
+
+- If there is no newly defined variables, do not add any print statements.
+- If some variables that were initialized previously are assigned with new values, add print statements for these variables after the newest assignments, too.
+- Do not change any content of the other code
+
+#### Response Format
+
+Please include your answer within <code> and </code> tags.
+
+### The code to add print statements
+
+[[code_snippet]]
+
+### Response

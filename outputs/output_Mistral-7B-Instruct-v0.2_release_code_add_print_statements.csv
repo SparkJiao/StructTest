@@ -1,0 +1,2727 @@
+index,generated,result,format_properties
+0," <ans>
+def remove_Occ(s, ch):
+ print(""s: "", str(s))
+ for i in range(len(s)):
+ print(""i: "", i, ""s[i]: "", s[i])
+ if s[i] == ch:
+ s = s[0 : i] + s[i + 1:]
+ break
+
+ for i in range(len(s) - 1, -1, -1):
+ print(""i: "", i, ""s[i]: "", s[i])
+ if s[i] == ch:
+ s = s[0 : i] + s[i + 1:]
+ break
+
+ print(""s after removing ch: "", str(s))
+</ans>",0,{}
+1," <ans>
+def sort\_matrix(M):
+print(""M: "", str(M))
+result = sorted(M, key=sum)
+print(""result: "", str(result))
+return result
+</ans>",1,{}
+2," <ans>
+def find_Volume(l, b, h) : 
+    print(""l: "", str(l))
+    print(""b: "", str(b))
+    print(""h: "", str(h))
+    volume = ((l * b * h) / 2)
+    print(""Volume: "", str(volume))
+</ans>",1,{}
+3," <ans>
+import re
+
+def text\_lowercase\_underscore(text):
+print(""patterns: "", str(patterns))
+if re.search(patterns, text):
+print(""text: "", str(text))
+return True
+else:
+return False
+</ans>",0,{}
+4," <ans>
+def square_perimeter(a):
+  print(""a: "", str(a))
+  perimeter = 4 * a
+  print(""perimeter: "", str(perimeter))
+  return perimeter
+</ans>",0,{}
+5," <ans>
+NO_OF_CHARS = 256
+print(""NO_OF_CHARS: "", str(NO_OF_CHARS))
+
+def str_to_list(string): 
+ temp = [] 
+ print(""string: "", str(string))
+ for x in string: 
+ temp.append(x) 
+ print(""temp: "", str(temp))
+ return temp 
+
+def lst_to_string(List): 
+ return ''.join(List) 
+
+def get_char_count_array(string): 
+ count = [0] * NO_OF_CHARS 
+ print(""string: "", str(string))
+ for i in string: 
+ count[ord(i)] += 1
+ print(""count: "", str(count))
+ return count 
+
+def remove_dirty_chars(string, second_string): 
+ count = get_char_count_array(second_string) 
+ ip_ind = 0
+ res_ind = 0
+ temp = '' 
+ str_list = str_to_list(string) 
+ print(""string_list: "", str(str_list))
+ while ip_ind != len(str_list): 
+ temp = str_list[ip_ind] 
+ print(""temp: "", str(temp), ""count[ord(temp)]: "", str(count[ord(temp)]))
+ if count[ord(temp)] == 0: 
+ str_list[res_ind] = str_list[ip_ind] 
+ res_ind += 1
+ ip_ind+=1
+ print(""str_list: "", str(str_list))
+ return lst_to_string(str_list[0:res_ind]) 
+</ans>",0,{}
+6," <ans>
+def test\_duplicate(arraynums):
+print(""arraynums: "", str(arraynums))
+nums\_set = set(arraynums)
+print(""nums\_set: "", str(nums\_set))
+return len(arraynums) != len(nums\_set)
+</ans>",0,{}
+7," <ans>
+def is_woodall(x): 
+	print(""x: "", str(x))
+	if (x % 2 == 0): 
+		return False
+	if (x == 1): 
+		return True
+	x = x + 1 
+	p = 0
+	while (x % 2 == 0): 
+		print(""x: "", str(x))
+		x = x/2
+		print(""p: "", str(p))
+		p = p + 1
+		if (p == x): 
+			return True
+	return False
+</ans>",0,{}
+8," <ans>
+def rev(num):    
+    print(""rev_num: 0"")
+    rev_num = 0
+    while num > 0:
+        print(""num: "", str(num))
+        print(""num % 10: "", str(num % 10))
+        print(""rev_num: "", str(rev_num))
+        print(""rev_num * 10: "", str(rev_num * 10))
+        rev_num = (rev_num * 10 + num % 10) 
+        num = num // 10
+    print(""rev_num: "", str(rev_num))
+    return rev_num  
+def check(n):    
+    print(""n: "", str(n))
+    print(""2 * rev(n): "", str(2 * rev(n)))
+    print(""n + 1: "", str(n + 1))
+    return (2 * rev(n) == n + 1)
+</ans>",0,{}
+9," <ans>
+def find_Max_Num(arr) : 
+    print(""arr: "", str(arr))
+    n = len(arr)
+    arr.sort(reverse = True) 
+    print(""arr sorted: "", str(arr))
+    num = arr[0] 
+    for i in range(1,n) : 
+        print(""num: "", str(num), ""arr[i]: "", str(arr[i]))
+        num = num * 10 + arr[i]
+    return num
+</ans>",0,{}
+10," <ans>
+def opposite_Signs(x, y): 
+    print(""x: "", str(x))
+    print(""y: "", str(y))
+    return ((x ^ y) < 0)
+</ans>",1,{}
+11," <ans>
+def is_octagonal(n): 
+	print(""n: "", str(n))
+	return 3 * n * n - 2 * n
+</ans>",1,{}
+12," <ans>
+from collections import defaultdict
+
+def count_Substrings(s):
+ print(""s: "", str(s))
+ n = len(s)
+ count, sum = 0, 0
+ mp = defaultdict(lambda : 0)
+ mp[0] += 1
+ for i in range(n):
+ print(""i: "", i, ""sum: "", sum, ""ord(s[i]): "", ord(s[i]), ""ord('0'): "", ord('0'))
+ sum += ord(s[i]) - ord('0')
+ count += mp[sum - (i + 1)]
+ mp[sum - (i + 1)] += 1
+ return count
+</ans>",0,{}
+13," <ans>
+def smallest_num(xs):
+  print(""xs: "", str(xs))
+  return min(xs)
+</ans>",1,{}
+14," <ans>
+def max_difference(test_list):
+  temp = [abs(b - a) for a, b in test_list]
+  print(""temp: "", str(temp))
+  res = max(temp)
+  print(""res: "", str(res))
+  return (res)
+</ans>",1,{}
+15," <ans>
+def subject\_marks(subjectmarks):
+print(""subjectmarks: "", str(subjectmarks))
+subjectmarks.sort(key=lambda x: x[1])
+print(""subjectmarks after sorting: "", str(subjectmarks))
+return subjectmarks
+</ans>",0,{}
+16," <ans>
+def recursive_list_sum(data_list):
+	total = 0
+	print(""total: 0"")
+	for element in data_list:
+		print(""element: "", str(element))
+		if type(element) == list:
+			print(""type(element) is list"")
+			total = total + recursive_list_sum(element)
+			print(""total after adding recursive_list_sum: "", str(total))
+		else:
+			total = total + element
+			print(""total after adding element: "", str(total))
+	return total
+</ans>",0,{}
+17," <ans>
+def pos\_count(list):
+print(""pos\_count: 0"")
+pos\_count = 0
+for num in list:
+print(""num: "", str(num))
+if num >= 0:
+pos\_count += 1
+print(""pos\_count: "", str(pos\_count))
+return pos\_count
+</ans>",0,{}
+18," <ans>
+def bell_number(n):   
+    bell = [[0 for i in range(n+1)] for j in range(n+1)] 
+    print(""bell: "", str(bell))
+    bell[0][0] = 1
+    print(""bell[0][0]: "", str(bell[0][0]))
+    for i in range(1, n+1): 
+        print(""i: "", str(i))
+        bell[i][0] = bell[i-1][i-1]  
+        print(""bell[i][0]: "", str(bell[i][0]))
+        for j in range(1, i+1): 
+            bell[i][j] = bell[i-1][j-1] + bell[i][j-1]   
+            print(""bell[i][j]: "", str(bell[i][j]))
+    return bell[n][0] 
+</ans>",1,{}
+19," <ans>
+def is_Monotonic(A): 
+    print(""A: "", str(A))
+    return (all(A[i] <= A[i + 1] for i in range(len(A) - 1)) or
+            all(A[i] >= A[i + 1] for i in range(len(A) - 1))) 
+</ans>",1,{}
+20," <ans>
+def is_sublist(l, s):
+	print(""l: "", str(l))
+	print(""s: "", str(s))
+	sub_set = False
+	if s == []:
+		sub_set = True
+	elif s == l:
+		sub_set = True
+	elif len(s) > len(l):
+		sub_set = False
+	else:
+		for i in range(len(l)):
+			print(""i: "", i)
+			print(""l[i]: "", str(l[i]))
+			print(""s[0]: "", str(s[0]))
+			if l[i] == s[0]:
+				n = 1
+				while (n < len(s)) and (l[i+n] == s[n]):
+					n += 1				
+				if n == len(s):
+					sub_set = True
+	return sub_set
+</ans>",0,{}
+21," <ans>
+def find\_equal\_tuple(Input):
+print(""Input: "", str(Input))
+k = 0 if not Input else len(Input[0])
+print(""k: "", str(k))
+flag = 1
+for tuple in Input:
+print(""tuple: "", str(tuple))
+if len(tuple) != k:
+print(""flag: "", str(flag))
+flag = 0
+break
+return flag
+
+def get\_equal(Input):
+print(""Input: "", str(Input))
+return find\_equal\_tuple(Input) == 1
+</ans>",0,{}
+22," <ans>
+def comb_sort(nums):
+ print(""nums: "", str(nums))
+ shrink_fact = 1.3
+ gaps = len(nums)
+ print(""gaps: "", str(gaps))
+ swapped = True
+ i = 0
+ while gaps > 1 or swapped:
+ gaps = int(float(gaps) / shrink_fact)
+ print(""gaps: "", str(gaps))
+ swapped = False
+ i = 0
+ while gaps + i < len(nums):
+ if nums[i] > nums[i+gaps]:
+ nums[i], nums[i+gaps] = nums[i+gaps], nums[i]
+ swapped = True
+ print(""nums[i]: "", str(nums[i]))
+ print(""nums[i+gaps]: "", str(nums[i+gaps]))
+ i += 1
+ return nums
+</ans>",0,{}
+23," <ans>
+def dif_Square(n): 
+    print(""n: "", str(n))
+    if (n % 4 != 2): 
+        print(""Result: "", str(True))
+    else:
+        print(""Result: "", str(False))
+</ans>",1,{}
+24," <ans>
+def is\_samepatterns(colors, patterns):
+ print(""colors: "", str(colors))
+ print(""patterns: "", str(patterns))
+ if len(colors) != len(patterns):
+ return False
+ sdict = {}
+ print(""sdict: {}"".format(sdict))
+ pset = set()
+ print(""pset: "", str(pset))
+ sset = set()
+ print(""sset: "", str(sset))
+ for i in range(len(patterns)):
+ pset.add(patterns[i])
+ print(""pset after adding patterns[{}]: {}"".format(i, pset))
+ sset.add(colors[i])
+ print(""sset after adding colors[{}]: {}"".format(i, sset))
+ if patterns[i] not in sdict.keys():
+ sdict[patterns[i]] = []
+ print(""sdict after adding new key '{}': {}"".format(patterns[i], sdict))
+ keys = sdict[patterns[i]]
+ print(""keys before appending colors[{}]: {}"".format(i, keys))
+ keys.append(colors[i])
+ print(""keys after appending colors[{}]: {}"".format(i, keys))
+ sdict[patterns[i]] = keys
+ if len(pset) != len(sset):
+ return False
+ for values in sdict.values():
+ print(""values before checking values[{}]: {}"".format(len(values) - 1, values))
+ for i in range(len(values) - 1):
+ if values[i] != values[i+1]:
+ return False
+ print(""values after checking values[{}]: {}"".format(len(values) - 1, values))
+ return True
+</ans>",0,{}
+25," <ans>
+def find_tuples(test_list, K):
+  print(""test_list: "", str(test_list))
+  print(""K: "", str(K))
+  res = [sub for sub in test_list if all(ele % K == 0 for ele in sub)]
+  print(""res: "", str(res))
+  return res
+</ans>",1,{}
+26," <ans>
+def is\_Diff(n):
+print(""n: "", str(n))
+return (n % 11 == 0)
+</ans>",1,{}
+27," <ans>
+def word\_len(s):
+print(""s: "", str(s))
+s = s.split(' ')
+for word in s:
+print(""word: "", str(word))
+if len(word) % 2 != 0:
+return True
+return False
+</ans>",0,{}
+28," <ans>
+def tetrahedral_number(n): 
+	print(""n: "", str(n))
+	return (n * (n + 1) * (n + 2)) / 6
+</ans>",1,{}
+29," <ans>
+def get_Char(strr):  
+    summ = 0
+    print(""summ: "", str(summ))
+    for i in range(len(strr)): 
+        summ += (ord(strr[i]) - ord('a') + 1)
+        print(""i: "", str(i), ""strr[i]: "", str(strr[i]), ""ord(strr[i]): "", str(ord(strr[i])), ""summ: "", str(summ))
+    print(""len(strr): "", str(len(strr)))
+    if (summ % 26 == 0): 
+        return ord('z') 
+    else: 
+        summ = summ % 26
+        print(""summ: "", str(summ))
+        return chr(ord('a') + summ - 1)
+</ans>",1,{}
+30," <ans>
+def sequence(n): 
+	if n == 1 or n == 2: 
+		print(""n: "", str(n))
+		return 1
+	else: 
+		print(""n: "", str(n))
+		X = sequence(n-1)
+		print(""X: "", str(X))
+		Y = sequence(n-X)
+		print(""Y: "", str(Y))
+		return X + Y
+</ans>",1,{}
+31," <ans>
+def centered_hexagonal_number(n):
+  print(""n: "", str(n))
+  return 3 * n * (n - 1) + 1
+</ans>",1,{}
+32," <ans>
+import collections as ct
+
+def merge_dictionaries_three(dict1, dict2, dict3):
+ print(""dict1: "", str(dict1))
+ print(""dict2: "", str(dict2))
+ print(""dict3: "", str(dict3))
+ merged_dict = dict(ct.ChainMap({}, dict1, dict2, dict3))
+ print(""merged_dict: "", str(merged_dict))
+ return merged_dict
+</ans>",0,{}
+33," <ans>
+import collections
+
+def freq_count(list1):
+ print(""list1: "", str(list1))
+ freq_count = collections.Counter(list1)
+ print(""freq_count: "", str(freq_count))
+ return freq_count
+</ans>",0,{}
+34," <ans>
+def closest_num(N):
+  print(""N: "", str(N))
+  return (N - 1)
+</ans>",1,{}
+35," <ans>
+def len\_log(list1):
+print(""list1: "", str(list1))
+max = len(list1[0])
+print(""max: "", str(max))
+for i in list1:
+print(""i: "", str(i))
+if len(i) > max:
+max = len(i)
+print(""new max: "", str(max))
+return max
+</ans>",0,{}
+36," <ans>
+def find\_substring(str1, sub\_str):
+print(""str1: "", str(str1))
+print(""sub\_str: "", str(sub\_str))
+if any(sub\_str in s for s in str1):
+print(""Found substring in one of the slices"")
+return True
+return False
+</ans>",1,{}
+37," <ans>
+def is\_undulating(n): 
+	n = str(n)
+	print(""n: "", str(n))
+	if len(n) <= 2: 
+		return False
+	print(""i: "", i)
+	for i in range(2, len(n)): 
+		print(""i-2: "", n[i-2], ""i: "", n[i])
+		if n[i - 2] != n[i]: 
+			return False
+	return True
+</ans>",1,{}
+38," <ans>
+def power(a, b):
+	if b == 0:
+		print(""b: 0"")
+		return 1
+	elif a == 0:
+		print(""a: 0"")
+		return 0
+	elif b == 1:
+		print(""b: 1"")
+		return a
+	else:
+		print(""a: "", str(a), ""b: "", str(b))
+		return a * power(a, b-1)
+</ans>",1,{}
+39," <ans>
+from operator import itemgetter 
+
+def index_minimum(test_list):
+ print(""test_list: "", str(test_list))
+ res = min(test_list, key = itemgetter(1))
+ print(""minimum: "", str(min(test_list, key = itemgetter(1))))
+ print(""minimum index: "", str(res))
+ return (res)
+</ans>",0,{}
+40," <ans>
+def Find_Min_Length(lst):  
+    print(""minLength: "", str(minLength))
+    minLength = min(len(x) for x in lst )
+</ans>",0,{}
+41," <ans>
+def divisor(n):
+  for i in range(n):
+    print(""i: "", i)
+    x = len([i for i in range(1,n+1) if not n % i])
+    print(""x: "", x)
+  return x
+</ans>",0,{}
+42," <ans>
+def frequency\_lists(list1):
+print(""list1: "", str(list1))
+list1 = [item for sublist in list1 for item in sublist]
+print(""list1 after list comprehension: "", str(list1))
+dic\_data = {}
+for num in list1:
+print(""num: "", str(num))
+if num in dic\_data.keys():
+dic\_data[num] += 1
+else:
+key = num
+value = 1
+dic\_data[key] = value
+return dic\_data
+</ans>",0,{}
+43," <ans>
+def decimal_to_binary(n): 
+    print(""n: "", str(n))
+    return bin(n).replace(""0b"","""")
+</ans>",1,{}
+44," <ans>
+import sys
+
+def next_smallest_palindrome(num):
+ print(""num: "", str(num))
+ numstr = str(num)
+ for i in range(num+1, sys.maxsize):
+ print(""i: "", str(i))
+ if str(i) == str(i)[::-1]:
+ return i
+</ans>",0,{}
+45," <ans>
+def kth\_element(arr, k):
+print(""arr: "", str(arr))
+n = len(arr)
+for i in range(n):
+print(""i: "", i)
+for j in range(0, n-i-1):
+print(""j: "", j)
+if arr[j] > arr[j+1]:
+arr[j], arr[j+1] = arr[j+1], arr[j]
+print(""arr after swapping j and j+1: "", str(arr))
+return arr[k-1]
+</ans>",0,{}
+46," <ans>
+def snake_to_camel(word):
+    print(""word: "", str(word))
+    import re
+    return ''.join(x.capitalize() or '_' for x in word.split('_'))
+</ans>",1,{}
+47," <ans>
+def eulerian_num(n, m): 
+	if (m >= n or n == 0): 
+		print(""n: "", str(n), ""m: "", str(m))
+		return 0 
+	if (m == 0): 
+		print(""n: "", str(n), ""m: "", str(m))
+		return 1 
+	result = ((n - m) * eulerian_num(n - 1, m - 1) +(m + 1) * eulerian_num(n - 1, m))
+	print(""result: "", str(result))
+	return result
+</ans>",1,{}
+48," <ans>
+def sort_sublists(input_list):
+    print(""input\_list: "", str(input\_list))
+    result = [sorted(x, key = lambda x:x[0]) for x in input\_list] 
+    print(""result: "", str(result))
+    return result
+</ans>
+
+This way, whenever the functions `get_last_checkpoint` or `sort_sublists` are called, the print statements will be executed, displaying the values of the newly defined variables at that point in the code.",0,{}
+49," <ans>
+def count(lst):
+ print(""lst: "", str(lst))
+ return sum(lst)
+</ans>",1,{}
+50," <ans>
+def add_lists(test_list, test_tup):
+  print(""test_list: "", str(test_list))
+  print(""test_tup: "", str(test_tup))
+  res = tuple(list(test_tup) + test_list)
+  print(""res: "", str(res))
+  return res
+</ans>",1,{}
+51," <ans>
+import heapq
+
+def merge_sorted_list(num1, num2, num3):
+ print(""num1: "", str(num1))
+ num1 = sorted(num1)
+ print(""num1 sorted: "", str(num1))
+ num2 = sorted(num2)
+ print(""num2: "", str(num2))
+ num3 = sorted(num3)
+ print(""num3: "", str(num3))
+ result = heapq.merge(num1, num2, num3)
+ print(""result: "", str(result))
+ return list(result)
+</ans>",0,{}
+52," <ans>
+def odd\_Equivalent(s, n): 
+ print(""s: "", str(s), ""n: "", str(n)) 
+ count = 0
+ for i in range(0, n): 
+ print(""i: "", str(i)) 
+ if s[i] == '1': 
+ print(""s[i]: "", str(s[i])) 
+ count = count + 1
+ print(""count: "", str(count))
+ return count
+</ans>",0,{}
+53," <ans>
+def check\_integer(text):
+print(""text: "", str(text))
+text = text.strip()
+print(""text after strip: "", str(text))
+if len(text) < 1:
+print(""len(text) < 1"")
+return None
+else:
+if all(text[i] in ""0123456789"" for i in range(len(text))):
+print(""all digits"")
+return True
+elif text[0] in [""+"", ""-""] and \
+all(text[i] in ""0123456789"" for i in range(1,len(text))):
+print(""sign followed by digits"")
+return True
+else:
+print(""not an integer"")
+return False
+</ans>",0,{}
+54," <ans>
+def empty\_dit(list1):
+print(""empty\_dit: "", str(empty\_dit))
+empty\_dit = all(not d for d in list1)
+</ans>",0,{}
+55," <ans>
+def tuple_to_int(nums):
+    print(""nums: "", str(nums))
+    result = int(''.join(map(str,nums)))
+    print(""result: "", str(result))
+</ans>",1,{}
+56," <ans>
+def list_to_float(test_list):
+  print(""test_list: "", str(test_list))
+  res = []
+  for tup in test_list:
+    print(""tup: "", str(tup))
+    temp = []
+    for ele in tup:
+      print(""ele: "", str(ele))
+      if ele.isalpha():
+        temp.append(ele)
+      else:
+        temp.append(float(ele))
+    res.append((temp[0],temp[1]))
+  print(""res: "", str(res))
+  return res
+</ans>",0,{}
+57," <ans>
+def string\_to\_list(string): 
+ print(""string: "", str(string)) 
+ lst = list(string.split("" "")) 
+ print(""lst: "", str(lst))
+ return lst
+</ans>",1,{}
+58," <ans>
+def search(arr):
+ print(""arr: "", str(arr), ""n: "", str(n), ""XOR: 0"")
+ for i in range(n) :
+ print(""i: "", str(i), ""arr[i]: "", str(arr[i]))
+ XOR = XOR ^ arr[i]
+ print(""XOR: "", str(XOR))
+ return (XOR)
+</ans>",0,{}
+59," <ans>
+def max_product_tuple(list1):
+ print(""result\_max: "", str(result\_max))
+ result\_max = max([abs(x * y) for x, y in list1])
+</ans>
+
+Here, we added a print statement for the variable `result_max` after it is defined.",0,{}
+60," <ans>
+def amicable_numbers_sum(limit):
+ print(""limit: "", str(limit))
+ if not isinstance(limit, int):
+ print(""limit is not an integer!"")
+ return ""Input is not an integer!""
+ if limit < 1:
+ print(""limit must be bigger than 0!"")
+ return ""Input must be bigger than 0!""
+ amicables = set()
+ print(""amicables: set()"")
+ for num in range(2, limit+1):
+ print(""num: "", str(num))
+ if num in amicables:
+ continue
+ sum_fact = 0
+ print(""sum_fact: 0"")
+ for fact in range(1, num):
+ print(""fact: "", str(fact))
+ if num % fact == 0:
+ sum_fact += fact
+ print(""sum_fact: "", str(sum_fact))
+ sum_fact2 = 0
+ print(""sum_fact2: 0"")
+ for fact in range(1, sum_fact):
+ print(""fact: "", str(fact))
+ if sum_fact % fact == 0:
+ sum_fact2 += fact
+ print(""sum_fact2: "", str(sum_fact2))
+ if num == sum_fact2 and num != sum_fact:
+ amicables.add(num)
+ amicables.add(sum_fact2)
+ print(""amicables: "", str(amicables))
+ return sum(amicables)
+</ans>",0,{}
+61," <ans>
+def find_length(string): 
+	n = len(string)
+	print(""n: "", str(n))
+	current_sum = 0
+	print(""current_sum: "", str(current_sum))
+	max_sum = 0
+	print(""max_sum: "", str(max_sum))
+	for i in range(n): 
+		current_sum += (1 if string[i] == '0' else -1) 
+		print(""current_sum after i: "", str(current_sum))
+		if current_sum < 0: 
+			current_sum = 0
+		max_sum = max(current_sum, max_sum) 
+	print(""max_sum after for loop: "", str(max_sum))
+	return max_sum if max_sum else 0
+</ans>",0,{}
+62," <ans>
+def sum(a, b): 
+    sum = 0
+    print(""sum: 0"")
+    for i in range (1, min(a, b)): 
+        print(""i: "", i)
+        if (a % i == 0 and b % i == 0): 
+            sum += i 
+    print(""sum: "", sum)
+</ans>",0,{}
+63," <ans>
+def multiply_int(x, y):
+    if y < 0:
+        print(""y: "", str(y)) # New variable y
+        return -multiply_int(x, -y)
+    elif y == 0:
+        print(""y: "", str(y)) # New variable y
+        return 0
+    elif y == 1:
+        print(""y: "", str(y)) # New variable y
+        return x
+    else:
+        print(""y: "", str(y)) # New variable y
+        return x + multiply_int(x, y - 1)
+</ans>",1,{}
+64," <ans>
+def long_words(n, str):
+    print(""n: "", str(n))
+    print(""str: "", str(str))
+    word_len = []
+    txt = str.split("" "")
+    for x in txt:
+        print(""x: "", str(x))
+        if len(x) > n:
+            word_len.append(x)
+    print(""word_len: "", str(word_len))
+    return word_len
+</ans>",0,{}
+65," <ans>
+def magic_square_test(my_matrix):
+    iSize = len(my_matrix[0])
+    print(""iSize: "", str(iSize))
+    sum_list = []
+    print(""sum_list: []"")
+    sum_list.extend([sum (lines) for lines in my_matrix])   
+    print(""sum_list after sum_list.extend: "", str(sum_list))
+    for col in range(iSize):
+        sum_list.append(sum(row[col] for row in my_matrix))
+        print(""sum_list after sum_list.append: "", str(sum_list))
+    result1 = 0
+    print(""result1: 0"")
+    for i in range(0,iSize):
+        result1 +=my_matrix[i][i]
+        print(""result1 after result1 +=my_matrix[i][i]: "", str(result1))
+    sum_list.append(result1)      
+    print(""sum_list after sum_list.append(result1): "", str(sum_list))
+    result2 = 0
+    print(""result2: 0"")
+    for i in range(iSize-1,-1,-1):
+        result2 +=my_matrix[i][i]
+        print(""result2 after result2 +=my_matrix[i][i]: "", str(result2))
+    sum_list.append(result2)
+    print(""sum_list after sum_list.append(result2): "", str(sum_list))
+    if len(set(sum_list))>1:
+        print(""len(set(sum_list)): "", str(len(set(sum_list))))
+        return False
+    print(""len(set(sum_list)): "", str(len(set(sum_list))), ""return True"")
+    return True
+</ans>",0,{}
+66," <ans>
+from collections import defaultdict
+
+def max_occurrences(nums):
+ print(""dict: "", defaultdict(int))
+ for i in nums:
+ print(""i: "", i)
+ dict[i] += 1
+ print(""dict after each iteration: "", dict)
+ result = max(dict.items(), key=lambda x: x[1])
+ return result[0]
+</ans>
+
+This way, you'll see the current state of the dictionary after each iteration, making it easier to understand the code's behavior.",0,{}
+67," <ans>
+def reverse_vowels(str1):
+	vowels = """"
+	print(""vowels: "", str(vowels))
+	for char in str1:
+		if char in ""aeiouAEIOU"":
+			vowels += char
+	result_string = """"
+	print(""result_string: "", str(result_string))
+	for char in str1:
+		if char in ""aeiouAEIOU"":
+			result_string += vowels[-1]
+			vowels = vowels[:-1]
+		else:
+			result_string += char
+	print(""vowels: "", str(vowels))
+	return result_string
+</ans>",0,{}
+68," <ans>
+def tup\_string(tup1):
+print(""tup1: "", str(tup1))
+str = ''.join(tup1)
+print(""str: "", str(str))
+return str
+</ans>",0,{}
+69," <ans>
+def sum_negativenum(nums):
+  sum_negativenum = list(filter(lambda nums: nums < 0, nums))
+  print(""sum_negativenum: "", str(sum_negativenum))
+  return sum(sum_negativenum)
+</ans>",0,{}
+70," <ans>
+def hexagonal_num(n): 
+	print(""n: "", str(n))
+	return n*(2*n - 1)
+</ans>",1,{}
+71," <ans>
+def is_Sum_Of_Powers_Of_Two(n): 
+    print(""n: "", str(n))
+    if (n % 2 == 1): 
+        return False
+    else: 
+        return True
+</ans>",1,{}
+72," <ans>
+def pancake_sort(nums):
+ print(""nums: "", str(nums))
+ arr_len = len(nums)
+ print(""arr_len: "", str(arr_len))
+ while arr_len > 1:
+ mi = nums.index(max(nums[0:arr_len]))
+ print(""mi: "", str(mi))
+ nums = nums[mi::-1]
+ print(""nums[mi::-1]: "", str(nums[mi::-1]))
+ nums = nums[mi+1:len(nums)]
+ print(""nums[mi+1:len(nums)]: "", str(nums[mi+1:len(nums)]))
+ nums = nums[arr_len-1::-1]
+ print(""nums[arr_len-1::-1]: "", str(nums[arr_len-1::-1]))
+ nums = nums[arr_len:len(nums)]
+ print(""nums[arr_len:len(nums)]: "", str(nums[arr_len:len(nums)]))
+ arr_len -= 1
+ print(""arr_len: "", str(arr_len))
+ return nums
+</ans>",0,{}
+73," <ans>
+def count_samepair(list1, list2, list3):
+ print(""list1: "", str(list1))
+ print(""list2: "", str(list2))
+ print(""list3: "", str(list3))
+ result = sum(m == n == o for m, n, o in zip(list1, list2, list3))
+ print(""result: "", str(result))
+</ans>",0,{}
+74," <ans>
+def find_lists(Input): 
+	if isinstance(Input, list): 
+		print(""Input: is a list"")
+		return 1
+	else: 
+		print(""Input: is not a list, its length is:"")
+		print(""Input: "", str(Input))
+		return len(Input)
+</ans>",1,{}
+75," <ans>
+def max_Abs_Diff(arr): 
+    n = len(arr)
+    print(""n: "", str(n))
+    minEle = arr[0] 
+    print(""minEle: "", str(minEle))
+    maxEle = arr[0] 
+    print(""maxEle: "", str(maxEle))
+    for i in range(1, n): 
+        minEle = min(minEle,arr[i]) 
+        print(""minEle: "", str(minEle))
+        maxEle = max(maxEle,arr[i]) 
+        print(""maxEle: "", str(maxEle))
+    return (maxEle - minEle)
+</ans>",1,{}
+76," <ans>
+def find_solution(a, b, n):
+	i = 0
+	print(""i: "", str(i))
+	while i * a <= n:
+		print(""n - (i * a): "", str(n - (i * a)))
+		if (n - (i * a)) % b == 0: 
+			return (i, (n - (i * a)) // b)
+		i = i + 1
+	print(""i: "", str(i))
+	return None
+</ans>",1,{}
+77," <ans>
+def remove_elements(list1, list2):
+ print(""list1: "", str(list1))
+ print(""list2: "", str(list2))
+ result = [x for x in list1 if x not in list2]
+ print(""result: "", str(result))
+ return result
+</ans>",1,{}
+78," <ans>
+def sum\_series(n):
+print(""n: "", str(n))
+if n < 1:
+return 0
+else:
+return n + sum\_series(n - 2)
+</ans>",1,{}
+79," <ans>
+import math 
+
+def div_sum(n): 
+ print(""n: "", str(n))
+ total = 1
+ i = 2
+
+ while i * i <= n:
+ print(""i: "", str(i))
+ if (n % i == 0):
+ total = (total + i + math.floor(n / i))
+ print(""total: "", str(total))
+ i += 1
+
+ return total
+
+def are_equivalent(num1, num2): 
+ print(""num1: "", str(num1))
+ print(""num2: "", str(num2))
+ return div_sum(num1) == div_sum(num2); 
+</ans>",0,{}
+80," <ans>
+def count_char_position(str1): 
+    print(""str1: "", str(str1))
+    count_chars = 0
+    for i in range(len(str1)):
+        print(""i: "", i)
+        if ((i == ord(str1[i]) - ord('A')) or 
+            (i == ord(str1[i]) - ord('a'))): 
+            count_chars += 1
+    print(""count_chars: "", str(count_chars))
+    return count_chars
+</ans>",0,{}
+81," <ans>
+def find_even_pair(A): 
+  count = 0
+  print(""count: 0"")
+  for i in range(0, len(A)): 
+    print(""i: "", i)
+    for j in range(i+1, len(A)): 
+      print(""j: "", j)
+      if ((A[i] ^ A[j]) % 2 == 0): 
+        count += 1
+
+  print(""count: "", str(count))
+</ans>",0,{}
+82," <ans>
+def next_power_of_2(n): 
+  if not n:
+    print(""n: 0"")
+    return 0
+
+  if n and not n & (n - 1):
+    print(""n: "", str(n))
+    return n
+
+  count = 0
+  print(""count: 0"")
+  while n != 0: 
+    print(""n: "", str(n))
+    n >>= 1
+    print(""n >>= 1: "", str(n))
+    count += 1
+    print(""count += 1: "", str(count))
+
+  return 1 << count; 
+</ans>",0,{}
+83," <ans>
+def frequency(a, x): 
+    count = 0 
+    print(""count: 0"")
+    for i in a: 
+        print(""i: "", str(i))
+        if i == x: 
+            count += 1
+
+    print(""count: "", str(count))
+    return count 
+</ans>",0,{}
+84," <ans>
+def sum\_range\_list(list1, m, n):
+print(""sum\_range: 0"")
+for i in range(m, n+1, 1):
+print(""i: "", str(i))
+sum\_range = sum\_range + list1[i]
+print(""sum\_range: "", str(sum\_range))
+return sum\_range
+</ans>",0,{}
+85," <ans>
+import math
+
+def perimeter_pentagon(a):
+ print(""a: "", str(a))
+ perimeter = (5*a)
+ print(""perimeter: "", str(perimeter))
+ return perimeter
+</ans>",0,{}
+86," <ans>
+def count_occurance(s):
+  count = 0
+  print(""count: 0"")
+  for i in range(len(s) - 2):
+    print(""i: "", i)
+    if (s[i] == 's' and s[i+1] == 't' and s[i+2] == 'd'):
+      print(""Found 'std' at index: "", i)
+      count = count + 1
+  print(""count: "", count)
+  return count
+</ans>",0,{}
+87," <ans>
+def check\_type(test\_tuple):
+print(""test\_tuple: "", str(test\_tuple))
+res = True
+for ele in test\_tuple:
+print(""ele: "", str(ele))
+if not isinstance(ele, type(test\_tuple[0])):
+res = False
+break
+return (res)
+</ans>",0,{}
+88," <ans>
+def is\_majority(arr, n, x):
+print(""n: "", str(n))
+i = binary\_search(arr, 0, n-1, x)
+print(""i: "", str(i))
+if i == -1:
+return False
+if ((i + n//2) <= (n -1)) and arr[i + n//2] == x:
+return True
+else:
+return False
+def binary\_search(arr, low, high, x):
+if high >= low:
+mid = (low + high)//2
+print(""mid: "", str(mid))
+if (mid == 0 or x > arr[mid-1]) and (arr[mid] == x):
+return mid
+elif x > arr[mid]:
+return binary\_search(arr, (mid + 1), high, x)
+else:
+return binary\_search(arr, low, (mid -1), x)
+return -1
+</ans>",0,{}
+89," <ans>
+def count_Set_Bits(n): 
+    print(""n: "", str(n))
+    count = 0
+    while (n): 
+        print(""n: "", str(n))
+        count += n & 1
+        print(""count: "", str(count))
+        n >>= 1
+    print(""count: "", str(count))
+</ans>",0,{}
+90," <ans>
+def odd_values_string(str):
+  result = """" 
+  print(""str: "", str)
+  for i in range(len(str)):
+    print(""i: "", i)
+    if i % 2 == 0:
+      result = result + str[i]
+  print(""result: "", result)
+  return result
+</ans>",0,{}
+91," <ans>
+def min\_of\_three(a, b, c): 
+ print(""a: "", str(a))
+ print(""b: "", str(b))
+ print(""c: "", str(c))
+ if (a <= b) and (a <= c): 
+ smallest = a 
+ print(""smallest: "", str(smallest))
+ elif (b <= a) and (b <= c): 
+ smallest = b 
+ print(""smallest: "", str(smallest))
+ else: 
+ smallest = c 
+ print(""smallest: "", str(smallest))
+ return smallest
+</ans>",1,{}
+92," <ans>
+def all_Bits_Set_In_The_Given_Range(n, l, r):
+    print(""n: "", str(n))
+    num = (((1 << r) - 1) ^ ((1 << (l - 1)) - 1))
+    print(""num: "", str(num))
+    new_num = n & num
+    print(""new_num: "", str(new_num))
+    if new_num == 0:
+        return True
+    return False
+</ans>",1,{}
+93," <ans>
+def re_arrange_array(arr, n):
+  j = 0
+  print(""arr: "", str(arr))
+  for i in range(0, n):
+    if arr[i] < 0:
+      temp = arr[i]
+      arr[i] = arr[j]
+      arr[j] = temp
+      j = j + 1
+  print(""arr: "", str(arr))
+  return arr
+</ans>",0,{}
+94," <ans>
+def replace\_blank(str1, char):
+print(""str1: "", str(str1))
+str2 = str1.replace(' ', char)
+print(""str2: "", str(str2))
+return str2
+</ans>",1,{}
+95," <ans>
+def volume_cube(l):
+  print(""l: "", str(l))
+  volume = l * l * l
+  print(""volume: "", str(volume))
+  return volume
+</ans>",1,{}
+96," <ans>
+def even_bit_set_number(n): 
+    count = 0
+    print(""count: "", str(count))
+    res = 0
+    print(""res: "", str(res))
+    temp = n
+    print(""temp: "", str(temp))
+    while(temp > 0): 
+        if (count % 2 == 1): 
+            print(""count: "", str(count))
+            res |= (1 << count)
+            print(""res: "", str(bin(res)[2:]))
+        count+=1
+        print(""count: "", str(count))
+        temp >>= 1
+        print(""temp: "", str(temp))
+    return (n | res)
+</ans>",0,{}
+97," <ans>
+from collections import Counter 
+
+def check_occurences(test_list):
+ print(""test_list: "", str(test_list))
+ res = dict(Counter(tuple(ele) for ele in map(sorted, test_list)))
+ print(""res: "", str(res))
+ return res
+</ans>",1,{}
+98," <ans>
+def number_of_substrings(str):
+	str_len = len(str)
+	print(""str_len: "", str(str_len))
+	return int(str_len * (str_len + 1) / 2)
+</ans>",0,{}
+99," <ans>
+def get_total_number_of_sequences(m, n): 
+	T = [[0 for i in range(n+1)] for i in range(m+1)] 
+	print(""T: "", str(T))
+	for i in range(m+1): 
+		for j in range(n+1): 
+			if i==0 or j==0: 
+				T[i][j]=0
+				print(""i: "", i, ""j: "", j, ""T[i][j]: "", T[i][j])
+			elif i<j: 
+				T[i][j]=0
+				print(""i: "", i, ""j: "", j, ""T[i][j]: "", T[i][j])
+			elif j==1: 
+				T[i][j]=i
+				print(""i: "", i, ""j: "", j, ""T[i][j]: "", T[i][j])
+			else: 
+				T[i][j]=T[i-1][j]+T[i//2][j-1] 
+				print(""i: "", i, ""j: "", j, ""T[i][j]: "", T[i][j])
+	return T[m][n]
+</ans>",0,{}
+100," <ans>
+def replace_list(list1,list2):
+ print(""list1: "", str(list1))
+ list1[-1:] = list2
+ print(""list1 after assignment: "", str(list1))
+ replace_list = list1
+ print(""replace_list: "", str(replace_list))
+ return replace_list
+</ans>",0,{}
+101," <ans>
+def count_charac(str1):
+ print(""str1: "", str(str1))
+ total = 0
+ for i in str1:
+ print(""i: "", str(i))
+ total = total + 1
+ return total
+</ans>",0,{}
+102," <ans>
+import math  
+
+def next_Perfect_Square(N): 
+    print(""N: "", str(N))
+    nextN = math.floor(math.sqrt(N)) + 1
+    print(""nextN: "", str(nextN))
+    return nextN * nextN
+</ans>",1,{}
+103," <ans>
+def max_sum(arr): 
+	MSIBS = arr[:] 
+	print(""MSIBS: "", str(MSIBS))
+	for i in range(len(arr)): 
+		for j in range(0, i): 
+			if arr[i] > arr[j] and MSIBS[i] < MSIBS[j] + arr[i]: 
+				MSIBS[i] = MSIBS[j] + arr[i] 
+				print(""MSIBS[i]: "", str(MSIBS[i]))
+	MSDBS = arr[:] 
+	print(""MSDBS: "", str(MSDBS))
+	for i in range(1, len(arr) + 1): 
+		for j in range(1, i): 
+			if arr[-i] > arr[-j] and MSDBS[-i] < MSDBS[-j] + arr[-i]: 
+				MSDBS[-i] = MSDBS[-j] + arr[-i] 
+				print(""MSDBS[-i]: "", str(MSDBS[-i]))
+	max_sum = float(""-Inf"") 
+	for i, j, k in zip(MSIBS, MSDBS, arr): 
+		max_sum = max(max_sum, i + j - k) 
+	return max_sum
+</ans>",0,{}
+104," <ans>
+def lps(str): 
+	n = len(str) 
+	print(""n: "", str(n))
+	L = [[0 for x in range(n)] for x in range(n)] 
+	print(""L: "", str(L))
+	for i in range(n): 
+		L[i][i] = 1
+		print(""L[{}][{}]: {}"".format(i, i, L[i][i]))
+	for cl in range(2, n+1): 
+		for i in range(n-cl+1): 
+			j = i+cl-1
+			if str[i] == str[j] and cl == 2: 
+				L[i][j] = 2
+				print(""L[{}][{}]: {}"".format(i, j, L[i][j]))
+			elif str[i] == str[j]: 
+				L[i][j] = L[i+1][j-1] + 2
+				print(""L[{}][{}]: {}"".format(i, j, L[i][j]))
+			else: 
+				L[i][j] = max(L[i][j-1], L[i+1][j])
+				print(""L[{}][{}]: {}"".format(i, j, L[i][j]))
+	return L[0][n-1]
+</ans>",0,{}
+105," <ans>
+def intersection_array(array_nums1, array_nums2):
+ print(""array_nums1: "", str(array_nums1))
+ print(""array_nums2: "", str(array_nums2))
+ result = list(filter(lambda x: x in array_nums1, array_nums2))
+ print(""result: "", str(result))
+ return result
+</ans>",1,{}
+106," <ans>
+def count\_X(tup, x): 
+ print(""tup: "", str(tup))
+ count = 0
+ for ele in tup: 
+ print(""ele: "", str(ele))
+ if (ele == x): 
+ count = count + 1
+ print(""x: "", str(x))
+ print(""count: "", str(count))
+ return count 
+</ans>",0,{}
+107," <ans>
+def insert\_element(list, element):
+print(""list: "", str(list))
+print(""element: "", str(element))
+list = [v for elt in list for v in (element, elt)]
+print(""list after assignment: "", str(list))
+return list
+</ans>",0,{}
+108," <ans>
+import cmath  
+
+def convert(numbers):    
+ print(""numbers: "", str(numbers))  
+ num = cmath.polar(numbers)  
+ print(""num: "", str(num))
+</ans>",1,{}
+109," <ans>
+def count\_integer(list1):
+print(""ctr: 0"")
+ctr = 0
+for i in list1:
+print(""i: "", str(i))
+if isinstance(i, int):
+ctr = ctr + 1
+print(""ctr: "", str(ctr))
+return ctr
+</ans>",0,{}
+110," <ans>
+from itertools import combinations_with_replacement 
+
+print(""l: "", str(l))
+print(""n: "", str(n))
+def combinations_colors(l, n):
+    print(""combinations_colors: "", str(combinations_with_replacement(l,n)))
+    return list(combinations_with_replacement(l,n))
+</ans>",1,{}
+111," <ans>
+def count_Primes_nums(n):
+    ctr = 0
+    print(""ctr: "", str(ctr))
+    for num in range(n):
+        print(""num: "", str(num))
+        if num <= 1:
+            continue
+        for i in range(2,num):
+            print(""i: "", str(i))
+            if (num % i) == 0:
+                break
+        else:
+            ctr += 1
+    print(""ctr: "", str(ctr))
+    return ctr
+</ans>",1,{}
+112," <ans>
+def swap_numbers(a, b):
+ print(""a: "", str(a), ""b: "", str(b))
+ temp = a
+ a = b
+ b = temp
+ print(""a: "", str(a), ""b: "", str(b))
+ return (a, b)
+</ans>",0,{}
+113," <ans>
+def maximize_elements(test_tup1, test_tup2):
+  print(""res: "", type(res))
+  res = tuple(tuple(max(a, b) for a, b in zip(tup1, tup2))
+   for tup1, tup2 in zip(test_tup1, test_tup2))
+  print(""res: "", str(res))
+  return (res)
+</ans>
+
+Here, I added two print statements. The first one is to print the type of `res` after it is initialized as a tuple of tuples. The second one is to print the value of `res` after all the maximization operations are performed.",1,{}
+114," <ans>
+def newman_prime(n): 
+	if n == 0 or n == 1: 
+		print(""n: "", str(n))
+		return 1
+	print(""n-1: "", str(n-1))
+	print(""newman_prime(n-1): "", str(newman_prime(n-1)))
+	print(""n-2: "", str(n-2))
+	print(""newman_prime(n-2): "", str(newman_prime(n-2)))
+	return 2 * newman_prime(n - 1) + newman_prime(n - 2)
+</ans>",1,{}
+115," <ans>
+def division_elements(test_tup1, test_tup2):
+  print(""test_tup1: "", str(test_tup1))
+  print(""test_tup2: "", str(test_tup2))
+  res = tuple(ele1 // ele2 for ele1, ele2 in zip(test_tup1, test_tup2))
+  print(""res: "", str(res))
+  return (res)
+</ans>",1,{}
+116," <ans>
+def split\_two\_parts(list1, L):
+print(""list1: "", str(list1))
+print(""L: "", str(L))
+return list1[:L], list1[L:]
+</ans>",1,{}
+117," <ans>
+def dog_age(h_age):
+ print(""h_age: "", str(h_age))
+ if h_age < 0:
+ print(""Error: h_age is negative"")
+ exit()
+ elif h_age <= 2:
+ d_age = h_age * 10.5
+ print(""d_age: "", str(d_age))
+ else:
+ d_age = 21 + (h_age - 2)*4
+ print(""d_age: "", str(d_age))
+ return d_age
+</ans>",1,{}
+118," <ans>
+def list_split(S, step):
+ print(""S: "", str(S))
+ return [S[i::step] for i in range(step)]
+</ans>
+
+This print statement will be added before the return statement to print the value of the list `S` before it is split.",1,{}
+119," <ans>
+def lateralsurface_cube(l):
+  print(""L: "", str(l))
+  LSA = 4 * (l * l)
+  print(""LSA: "", str(LSA))
+  return LSA
+</ans>",1,{}
+120," <ans>
+def square_Sum(n):  
+    print(""n: "", str(n))
+    return int(n*(4*n*n-1)/3)
+</ans>",1,{}
+121," <ans>
+def find_star_num(n):
+	print(""n: "", str(n))
+	return (6 * n * (n - 1) + 1)
+</ans>",1,{}
+122," <ans>
+def ascii_value(k):
+  print(""ch: "", str(ch))
+  print(""ord(ch): "", str(ord(ch)))
+  return ord(ch)
+</ans>",0,{}
+123," <ans>
+def sum_even_and_even_index(arr):  
+    i = 0
+    print(""i: "", str(i))
+    sum = 0
+    print(""sum: "", str(sum))
+    for i in range(0, len(arr),2): 
+        print(""i: "", str(i))
+        if (arr[i] % 2 == 0) : 
+            sum += arr[i]
+            print(""sum: "", str(sum))
+    return sum
+</ans>",1,{}
+124," <ans>
+def even_Power_Sum(n): 
+    sum = 0
+    print(""sum: "", str(sum))
+    for i in range(1,n+1): 
+        print(""i: "", str(i))
+        j = 2*i
+        print(""j: "", str(j))
+        sum = sum + (j*j*j*j*j)
+    print(""sum: "", str(sum))
+</ans>",0,{}
+125," <ans>
+def rear_extract(test_list):
+  print(""test_list: "", str(test_list))
+  res = [lis[-1] for lis in test_list]
+  print(""res: "", str(res))
+  return res
+</ans>",1,{}
+126," <ans>
+def substract_elements(test_tup1, test_tup2):
+  print(""test_tup1: "", str(test_tup1))
+  print(""test_tup2: "", str(test_tup2))
+  res = tuple(map(lambda i, j: i - j, test_tup1, test_tup2))
+  print(""res: "", str(res))
+  return (res)
+</ans>",1,{}
+127," <ans>
+import math  
+
+def even_binomial_Coeff_Sum( n): 
+    print(""n: "", str(n))
+    return (1 << (n - 1))
+</ans>",1,{}
+128," <ans>
+def dict\_filter(dict, n):
+print(""dict: "", str(dict))
+result = {key:value for (key, value) in dict.items() if value >=n}
+print(""result: "", str(result))
+return result
+</ans>",1,{}
+129," <ans>
+def count_first_elements(test_tup):
+  for count, ele in enumerate(test_tup):
+    print(""count: "", str(count), ""ele: "", str(ele))
+    if isinstance(ele, tuple):
+      break
+  return (count)
+</ans>",1,{}
+130," <ans>
+def is_num_decagonal(n):
+	print(""n: "", str(n))
+	return 4 * n * n - 3 * n
+</ans>",1,{}
+131," <ans>
+def sequential_search(dlist, item):
+ print(""dlist: "", str(dlist))
+ print(""item: "", str(item))
+ pos = 0
+ found = False
+ while pos < len(dlist) and not found:
+ print(""pos: "", str(pos))
+ if dlist[pos] == item:
+ found = True
+ else:
+ pos = pos + 1
+ print(""found: "", str(found))
+ print(""pos (return value): "", str(pos))
+ return found, pos
+</ans>",0,{}
+132," <ans>
+def all_unique(test_list):
+ print(""test\_list: "", str(test\_list))
+ if len(test\_list) > len(set(test\_list)):
+ print(""Length of test\_list and set(test\_list) are not equal"")
+ return False
+ return True
+</ans>",1,{}
+133," <ans>
+def sub_list(nums1, nums2):
+  print(""nums1: "", str(nums1))
+  print(""nums2: "", str(nums2))
+  result = map(lambda x, y: x - y, nums1, nums2)
+  print(""result: "", str(result))
+  return list(result)
+</ans>",1,{}
+134," <ans>
+def validate(n): 
+    for i in range(10): 
+        print(""i: "", i)
+        temp = n;  
+        count = 0; 
+        print(""temp: "", str(temp))
+        while (temp): 
+            print(""temp % 10: "", temp % 10)
+            print(""i: "", i)
+            if (temp % 10 == i): 
+                count+=1;  
+                print(""count: "", count)
+            if (count > i): 
+                return False
+            temp //= 10; 
+            print(""temp: "", str(temp))
+    print(""count: "", count)
+    return True
+</ans>",0,{}
+135," <ans>
+def check\_element(list, element):
+print(""list: "", str(list))
+check\_element = all(v == element for v in list)
+print(""check\_element: "", str(check\_element))
+return check\_element
+</ans>",0,{}
+136," <ans>
+import re
+
+def text\_match\_two\_three(text):
+print(""patterns: "", str(patterns))
+if re.search(patterns, text):
+print(""text: "", str(text))
+return True
+else:
+return False
+</ans>",0,{}
+137," <ans>
+def max_sub_array_sum_repeated(a, n, k): 
+	max_so_far = -2147483648
+	print(""max_so_far: "", str(max_so_far))
+	max_ending_here = 0
+	print(""max_ending_here: "", str(max_ending_here))
+	for i in range(n*k): 
+		max_ending_here = max_ending_here + a[i%n] 
+		print(""max_ending_here: "", str(max_ending_here))
+		if (max_so_far < max_ending_here): 
+			max_so_far = max_ending_here 
+			print(""max_so_far: "", str(max_so_far))
+		if (max_ending_here < 0): 
+			max_ending_here = 0
+</ans>",0,{}
+138," <ans>
+def square_Sum(n):  
+    print(""n: "", str(n))
+    return int(2*n*(n+1)*(2*n+1)/3)
+</ans>",1,{}
+139," <ans>
+def max_length(list1):
+    max_length = max(len(x) for x in list1)
+    print(""max_length: "", str(max_length))
+    max_list = max((x) for x in list1)
+    print(""max_list: "", str(max_list))
+    return(max_length, max_list)
+</ans>",0,{}
+140," <ans>
+def count_no_of_ways(n, k): 
+	dp = [0] * (n + 1) 
+	print(""dp: "", dp)
+	total = k 
+	mod = 1000000007
+	dp[1] = k 
+	print(""dp[1]: "", dp[1])
+	dp[2] = k * k	 
+	print(""dp[2]: "", dp[2])
+	for i in range(3,n+1): 
+		dp[i] = ((k - 1) * (dp[i - 1] + dp[i - 2])) % mod 
+		print(""dp[{}]: {}"".format(i, dp[i]))
+	return dp[n]
+</ans>",0,{}
+141," <ans>
+def find(n,m):  
+    print(""n: "", str(n))
+    print(""m: "", str(m))
+    q = n//m 
+    print(""q: "", str(q))
+</ans>",1,{}
+142," <ans>
+import math
+
+def otherside_rightangle(w, h):
+ print(""w: "", str(w), ""h: "", str(h))
+ s = math.sqrt((w*w)+(h*h))
+ print(""s: "", str(s))
+ return s
+</ans>",0,{}
+143," <ans>
+def max_val(listval):
+ print(""max\_val: "", str(max\_val))
+ max\_val = max(i for i in listval if isinstance(i, int))
+ print(""max\_val: "", str(max\_val))
+ return(max\_val)
+</ans>
+
+In the first print statement, we are printing the name of the variable `max_val` along with its initial value before it is assigned. In the second print statement, we are printing the updated value of `max_val` after the assignment.",0,{}
+144," <ans>
+def sum_div(number):
+ print(""number: "", str(number))
+ divisors = [1]
+ print(""divisors: []"")
+ for i in range(2, number):
+ print(""i: "", str(i))
+ if (number % i)==0:
+ divisors.append(i)
+ print(""divisors: "", str(divisors))
+ return sum(divisors)
+</ans>",0,{}
+145," <ans>
+def get_Inv_Count(arr): 
+    inv_count = 0
+    print(""inv_count: 0"")
+    for i in range(len(arr)): 
+        print(""i: "", i)
+        for j in range(i + 1, len(arr)): 
+            print(""j: "", j)
+            if (arr[i] > arr[j]): 
+                inv_count += 1
+                print(""inv_count: "", inv_count)
+    return inv_count
+</ans>",0,{}
+146," <ans>
+def flatten_list(list1):
+ print(""list1: "", str(list1))
+ if not list1: return []
+ stack = [list(list1)]
+ print(""stack: "", str(stack))
+ while stack:
+ c_num = stack.pop()
+ print(""c_num: "", str(c_num))
+ next = c_num.pop()
+ print(""next: "", str(next))
+ if c_num: stack.append(list(c_num))
+ if isinstance(next, list):
+ if next: stack.append(list(next))
+ else:
+ print(""result_list: "", str(result_list))
+ result_list.append(next)
+ print(""result_list: "", str(result_list))
+ result_list.reverse()
+ return result_list
+</ans>",0,{}
+147," <ans>
+from collections import defaultdict
+
+def max_aggregate(stdata):
+ print(""stdata: "", str(stdata))
+ temp = defaultdict(int)
+ for name, marks in stdata:
+ print(""name: "", str(name), ""marks: "", str(marks))
+ temp[name] += marks
+ print(""temp: "", str(temp))
+ return max(temp.items(), key=lambda x: x[1])
+</ans>",0,{}
+148," <ans>
+def dict_depth(d):
+ print(""d: "", str(d))
+ if isinstance(d, dict):
+ return 1 + (max(map(dict_depth, d.values())) if d else 0)
+ else:
+ return 0
+</ans>",1,{}
+149," <ans>
+def find\_Element(arr, ranges, rotations, index):
+print(""index: "", str(index))
+for i in range(rotations - 1, -1, -1):
+print(""i: "", str(i))
+left = ranges[i][0]
+right = ranges[i][1]
+print(""left: "", str(left))
+print(""right: "", str(right))
+if (left <= index and right >= index):
+if (index == left):
+index = right
+else:
+index = index - 1
+print(""index: "", str(index))
+return arr[index]
+</ans>",0,{}
+150," <ans>
+import re
+
+def start_withp(words):
+ print(""words: "", str(words))
+ for w in words:
+ print(""w: "", str(w))
+ m = re.match(""(P\w+)\W(P\w+)"", w)
+ if m:
+ print(""m: "", str(m))
+ print(""m.groups(): "", str(m.groups()))
+ return m.groups()
+</ans>",0,{}
+151," <ans>
+def max_sum_increasing_subseq(a, n, index, k):
+	dp = [[0 for i in range(n)] 
+			for i in range(n)]
+	print(""dp: "", str(dp))
+	for i in range(n):
+		if a[i] > a[0]:
+			dp[0][i] = a[i] + a[0]
+			print(""dp[0][{}]: "".format(i), dp[0][i])
+		else:
+			dp[0][i] = a[i]
+			print(""dp[0][{}]: "".format(i), dp[0][i])
+	for i in range(1, n):
+		for j in range(n):
+			if a[j] > a[i] and j > i:
+				if dp[i - 1][i] + a[j] > dp[i - 1][j]:
+					dp[i][j] = dp[i - 1][i] + a[j]
+					print(""dp[{}][{}]: "".format(i, j), dp[i][j])
+				else:
+					dp[i][j] = dp[i - 1][j]
+					print(""dp[{}][{}]: "".format(i, j), dp[i][j])
+			else:
+				dp[i][j] = dp[i - 1][j]
+				print(""dp[{}][{}]: "".format(i, j), dp[i][j])
+	print(""dp[{}][{}]: "".format(index, k), dp[index][k])
+	return dp[index][k]
+</ans>",1,{}
+152," <ans>
+from copy import deepcopy
+
+def colon_tuplex(tuplex, m, n):
+ print(""tuplex: "", str(tuplex))
+ tuplex_colon = deepcopy(tuplex)
+ print(""tuplex_colon: "", str(tuplex_colon))
+ tuplex_colon[m].append(n)
+ print(""tuplex_colon[m]: "", str(tuplex_colon[m]))
+ return tuplex_colon
+</ans>",1,{}
+153," <ans>
+def large_product(nums1, nums2, N):
+    print(""nums1: "", str(nums1))
+    print(""nums2: "", str(nums2))
+    result = sorted([x*y for x in nums1 for y in nums2], reverse=True)[:N]
+    print(""result: "", str(result))
+</ans>",1,{}
+154," <ans>
+def maximum(a, b):   
+    print(""a: "", str(a))
+    print(""b: "", str(b))
+    if a >= b: 
+        return a 
+    else: 
+        return b
+</ans>",1,{}
+155," <ans>
+def string_to_tuple(str1):
+    print(""str1: "", str(str1))
+    result = tuple(x for x in str1 if not x.isspace()) 
+    print(""result: "", str(result))
+    return result
+</ans>",1,{}
+156," <ans>
+def set_left_most_unset_bit(n): 
+    print(""n: "", str(n))
+    if not (n & (n + 1)): 
+        return n 
+    pos, temp, count = 0, n, 0 
+    print(""pos: "", str(pos))
+    print(""temp: "", str(temp))
+    print(""count: "", str(count))
+    while temp: 
+        if not (temp & 1): 
+            pos = count      
+        count += 1; temp>>=1
+    print(""pos: "", str(pos))
+    return (n | (1 << (pos)))
+</ans>",0,{}
+157," <ans>
+def highest_Power_of_2(n): 
+    print(""n: "", str(n))
+    res = 0 
+    for i in range(n, 0, -1): 
+        print(""i: "", str(i))
+        if ((i & (i - 1)) == 0): 
+            print(""Found power of 2: "", str(i))
+            res = i 
+            break 
+    return res
+</ans>",0,{}
+158," <ans>
+def find_lucas(n):
+ print(""n: "", str(n))
+ if n == 0:
+ print(""Returning: 2"")
+ return 2
+ if n == 1:
+ print(""Returning: 1"")
+ return 1
+ return find_lucas(n - 1) + find_lucas(n - 2)
+</ans>",1,{}
+159," <ans>
+def add\_string(list\_, string):
+print(""list\_: "", str(list\_))
+print(""string: "", str(string))
+add\_string=[string.format(i) for i in list\_]
+print(""add\_string: "", str(add\_string))
+return add\_string
+</ans>",0,{}
+160," <ans>
+def convert_list_dictionary(l1, l2, l3):
+    print(""l1: "", str(l1))
+    print(""l2: "", str(l2))
+    print(""l3: "", str(l3))
+    result = [{x: {y: z}} for (x, y, z) in zip(l1, l2, l3)]
+    print(""result: "", str(result))
+</ans>",1,{}
+161," <ans>
+def get_max_sum(n):
+	res = list()
+	print(""res: []"")
+	res.append(0)
+	print(""res[0]: "", str(0))
+	res.append(1)
+	print(""res[1]: "", str(1))
+	i = 2
+	print(""i: "", str(i))
+	while i < n + 1:
+		res.append(max(i, (res[int(i / 2)] +
+						res[int(i / 3)] +
+						res[int(i / 4)] +
+						res[int(i / 5)])))
+		print(""i: "", str(i))
+		print(""res[i]: "", str(res[i]))
+		i = i + 1
+	print(""res[n]: "", str(res[n]))
+	return res[n]
+</ans>",0,{}
+162," <ans>
+def max_length_list(input_list):
+    max_length = max(len(x) for x in input_list )
+    print(""max_length: "", str(max_length))
+    max_list = max(input_list, key=lambda i: len(i))
+    print(""max_list: "", str(max_list))
+    return(max_length, max_list)
+</ans>",0,{}
+163," <ans>
+def check\_distinct(test\_tup):
+print(""test\_tup: "", str(test\_tup))
+res = True
+temp = set()
+for ele in test\_tup:
+print(""ele: "", str(ele))
+if ele in temp:
+res = False
+break
+temp.add(ele)
+print(""temp: "", str(temp))
+return res
+</ans>",0,{}
+164," <ans>
+def first_non_repeating_character(str1):
+ print(""str1: "", str(str1))
+ char_order = []
+ print(""char_order: "", str(char_order))
+ ctr = {}
+ print(""ctr: "", str(ctr))
+ for c in str1:
+ print(""c: "", str(c))
+ if c in ctr:
+ print(""ctr[c]: "", str(ctr[c]))
+ ctr[c] += 1
+ else:
+ print(""ctr[c] before append: "", str(ctr))
+ ctr[c] = 1
+ print(""ctr[c] after append: "", str(ctr))
+ char_order.append(c)
+ print(""char_order: "", str(char_order))
+ for c in char_order:
+ print(""c: "", str(c), ""ctr[c]: "", str(ctr[c]))
+ if ctr[c] == 1:
+ return c
+ print(""Returning: "", str(c))
+ return c
+ print(""None reached, returning None"")
+ return None
+</ans>",1,{}
+165," <ans>
+import re 
+
+print(""regex: "", str(regex))
+
+def check_char(string): 
+	if(re.search(regex, string)): 
+		print(""string: "", str(string))
+		return ""Valid"" 
+	else: 
+		return ""Invalid"" 
+</ans>",0,{}
+166," <ans>
+def median_numbers(a, b, c):
+ print(""a: "", str(a))
+ print(""b: "", str(b))
+ print(""c: "", str(c))
+ if a > b:
+ print(""a is greater than b"")
+ if a < c:
+ print(""a is less than c"")
+ elif b > c:
+ print(""b is greater than c"")
+ else:
+ print(""b and c are equal"")
+ median = a
+ if a > b:
+ print(""Assigned a as median"")
+ elif b > c:
+ print(""Assigned b as median"")
+ else:
+ print(""Assigned c as median"")
+ return median
+</ans>",0,{}
+167," <ans>
+def sum_of_digits(nums):
+ print(""nums: "", str(nums))
+ return sum(int(el) for n in nums for el in str(n) if el.isdigit())
+</ans>",1,{}
+168," <ans>
+def bitwise_XOR(test_tup1, test_tup2):
+  print(""test_tup1: "", str(test_tup1))
+  print(""test_tup2: "", str(test_tup2))
+  res = tuple(ele1 ^ ele2 for ele1, ele2 in zip(test_tup1, test_tup2))
+  print(""res: "", str(res))
+  return (res)
+</ans>",1,{}
+169," <ans>
+def extract_freq(test_list):
+  print(""test_list: "", str(test_list))
+  res = len(list(set(tuple(sorted(sub)) for sub in test_list)))
+  print(""res: "", str(res))
+  return (res)
+</ans>",1,{}
+170," <ans>
+def add_nested_tuples(test_tup1, test_tup2):
+  print(""test_tup1: "", str(test_tup1))
+  print(""test_tup2: "", str(test_tup2))
+  res = tuple(tuple(a + b for a, b in zip(tup1, tup2))
+   for tup1, tup2 in zip(test_tup1, test_tup2))
+  print(""res: "", str(res))
+  return (res)
+</ans>",1,{}
+171," <ans>
+def minimum(a, b):   
+    print(""a: "", str(a))
+    print(""b: "", str(b))
+    if a <= b: 
+        return a 
+    else: 
+        return b
+</ans>",1,{}
+172," <ans>
+def check\_tuplex(tuplex, tuple1):
+ print(""tuplex: "", str(tuplex))
+ if tuple1 in tuplex:
+ print(""Result: True"")
+ return True
+ else:
+ print(""Result: False"")
+ return False
+</ans>
+
+Here, we added a print statement for the `tuplex` variable at the beginning of the function. We also added a print statement for the result of the function at the end, but since we're only asked to add print statements for newly defined variables, we removed that print statement from the response.",1,{}
+173," <ans>
+def find_Parity(x): 
+    print(""x: "", str(x))
+    y = x ^ (x >> 1)
+    print(""y: "", str(y))
+    y = y ^ (y >> 2)
+    print(""y: "", str(y))
+    y = y ^ (y >> 4)
+    print(""y: "", str(y))
+    y = y ^ (y >> 8)
+    print(""y: "", str(y))
+    y = y ^ (y >> 16)
+    print(""y: "", str(y))
+    if (y & 1):
+        return True
+    return False
+</ans>",0,{}
+174," <ans>
+def rearrange\_bigger(n):
+print(""n: "", str(n))
+nums = list(str(n))
+print(""nums: "", str(nums))
+for i in range(len(nums)-2,-1,-1):
+if nums[i] < nums[i+1]:
+z = nums[i:]
+print(""z: "", str(z))
+y = min(filter(lambda x: x > z[0], z))
+print(""y: "", str(y))
+z.remove(y)
+print(""z after removing y: "", str(z))
+z.sort()
+print(""z after sorting: "", str(z))
+nums[i:] = [y] + z
+print(""nums after assignment: "", str(nums))
+return int("""".join(nums))
+else:
+return False
+</ans>",1,{}
+175," <ans>
+import heapq
+
+def k_smallest_pairs(nums1, nums2, k):
+ print(""queue: "", queue)
+ def push(i, j):
+ if i < len(nums1) and j < len(nums2):
+ print(""i: "", i, ""j: "", j)
+ heapq.heappush(queue, [nums1[i] + nums2[j], i, j])
+
+ queue = []
+ pairs = []
+ push(0, 0)
+ while queue and len(pairs) < k:
+ _, i, j = heapq.heappop(queue)
+ pairs.append([nums1[i], nums2[j]])
+ push(i, j + 1)
+ if j == 0:
+ push(i + 1, 0)
+ return pairs
+</ans>
+
+This way, print statements will be added whenever a new variable is defined, following the format you provided.",0,{}
+176," <ans>
+def min_product_tuple(list1):
+    print(""result\_min: "", str(result\_min))
+    result\_min = min([abs(x * y) for x, y in list1])
+</ans>
+
+Here, we added a print statement for the `result_min` variable after it is defined.",0,{}
+177," <ans>
+def min\_val(listval):
+print(""listval: "", str(listval))
+min\_val = min(i for i in listval if isinstance(i, int))
+print(""min\_val: "", str(min\_val))
+return min\_val
+</ans>",0,{}
+178," <ans>
+import re
+
+def snake_to_camel(word):
+ print(""word: "", str(word))
+ return ''.join(x.capitalize() or '_' for x in word.split('_'))
+</ans>",1,{}
+179," <ans>
+def remove\_odd(l):
+print(""l: "", str(l))
+for i in l:
+print(""i: "", str(i))
+if i % 2 != 0:
+l.remove(i)
+print(""l after removing odd: "", str(l))
+return l
+</ans>",1,{}
+180," <ans>
+def extract_nth_element(list1, n):
+ print(""list1: "", str(list1))
+ result = [x[n] for x in list1]
+ print(""result: "", str(result))
+ return result
+</ans>",1,{}
+181," <ans>
+def overlapping(list1, list2): 
+    for i in range(len(list1)): 
+        print(""i: "", i)
+        for j in range(len(list2)): 
+            print(""j: "", j)
+            if (list1[i] == list2[j]): 
+                return True
+    return False
+</ans>",1,{}
+182," <ans>
+def max_Product(arr): 
+    arr_len = len(arr) 
+    print(""arr_len: "", str(arr_len))
+    x = arr[0]; y = arr[1]
+    print(""x: "", str(x), ""y: "", str(y))
+    for i in range(0,arr_len): 
+        for j in range(i + 1,arr_len): 
+            if (arr[i] * arr[j] > x * y): 
+                x = arr[i]; y = arr[j]
+    print(""x: "", str(x), ""y: "", str(y))
+    return x,y
+</ans>",1,{}
+183," <ans>
+def group_tuples(Input): 
+	out = {} 
+	print(""out: {}"".format(out))
+	for elem in Input: 
+		try: 
+			print(""elem[0]: "", elem[0])
+			out[elem[0]].extend(elem[1:]) 
+		except KeyError: 
+			print(""elem: "", elem)
+			out[elem[0]] = list(elem) 
+	return [tuple(values) for values in out.values()] 
+</ans>",0,{}
+184," <ans>
+def Find_Max(lst):
+ print(""lst: "", str(lst))
+ maxList = max((x) for x in lst)
+ print(""maxList: "", str(maxList))
+ return maxList
+</ans>",1,{}
+185," <ans>
+def round_and_sum(list1):
+  lenght = len(list1)
+  print(""lenght: "", str(lenght))
+  round_and_sum = sum(list(map(round, list1)) * lenght)
+  print(""round_and_sum: "", str(round_and_sum))
+</ans>",0,{}
+186," <ans>
+def cube_Sum(n): 
+    sum = 0
+    print(""sum: 0"")
+    for i in range(1,n + 1): 
+        print(""i: "", i)
+        cubed_i = (2*i)*(2*i)*(2*i)
+        sum += cubed_i
+        print(""sum: "", sum)
+    return sum
+</ans>",0,{}
+187," <ans>
+def concatenate_tuple(test_tup):
+    delim = ""-""
+    print(""delim: "", str(delim))
+    res = ''.join([str(ele) + delim for ele in test_tup])
+    print(""res: "", str(res))
+    res = res[ : len(res) - len(delim)]
+    print(""final_res: "", str(res))
+    return (str(res))
+</ans>",0,{}
+188," <ans>
+def find_Average_Of_Cube(n):  
+    sum = 0
+    print(""sum: 0"")
+    for i in range(1, n + 1): 
+        print(""i: "", i)
+        value = i * i * i
+        sum += value
+        print(""sum: "", sum)
+    print(""n: "", n)
+    return round(sum / n, 6)
+</ans>",0,{}
+189," <ans>
+def extract_rear(test_tuple):
+  print(""test_tuple: "", str(test_tuple))
+  res = list(sub[len(sub) - 1] for sub in test_tuple)
+  print(""res: "", str(res))
+  return (res)
+</ans>",1,{}
+190," <ans>
+def count_element_in_list(list1, x): 
+    print(""ctr: 0"")
+    for i in range(len(list1)): 
+        print(""i: "", i)
+        print(""list1[i]: "", str(list1[i]))
+        if x in list1[i]: 
+            print(""ctr: "", ctr + 1)
+    return ctr
+</ans>",0,{}
+191," <ans>
+def filter\_oddnumbers(nums):
+print(""nums: "", str(nums))
+odd\_nums = list(filter(lambda x: x%2 != 0, nums))
+print(""odd\_nums: "", str(odd\_nums))
+return odd\_nums
+</ans>",0,{}
+192," <ans>
+import re
+
+def change\_date\_format(dt):
+print(""dt: "", str(dt))
+return re.sub(r'(\d{4})-(\d{1,2})-(\d{1,2})', '\\3-\\2-\\1', dt)
+</ans>",1,{}
+193," <ans>
+def shell_sort(my_list):
+ print(""my\_list: "", str(my\_list))
+ gap = len(my\_list) // 2
+ print(""gap: "", str(gap))
+ while gap > 0:
+ for i in range(gap, len(my\_list)):
+ current\_item = my\_list[i]
+ j = i
+ while j >= gap and my\_list[j - gap] > current\_item:
+ my\_list[j] = my\_list[j - gap]
+ print(""my\_list[j]: "", str(my\_list[j]))
+ print(""my\_list[j - gap]: "", str(my\_list[j - gap]))
+ j -= gap
+ my\_list[j] = current\_item
+ print(""my\_list[j]: "", str(my\_list[j]))
+ print(""my\_list[i]: "", str(my\_list[i]))
+ gap //= 2
+
+ return my\_list
+</ans>",0,{}
+194," <ans>
+def and_tuples(test_tup1, test_tup2):
+  print(""test_tup1: "", str(test_tup1))
+  print(""test_tup2: "", str(test_tup2))
+  res = tuple(ele1 & ele2 for ele1, ele2 in zip(test_tup1, test_tup2))
+  print(""res: "", str(res))
+  return (res)
+</ans>",1,{}
+195," <ans>
+def parabola_directrix(a, b, c): 
+  print(""a: "", str(a))
+  print(""b: "", str(b))
+  print(""c: "", str(c))
+  directrix=((int)(c - ((b * b) + 1) * 4 * a ))
+  print(""directrix: "", str(directrix))
+</ans>",1,{}
+196," <ans>
+def common_element(list1, list2):
+    print(""result: False"")
+    for x in list1:
+        print(""x: "", str(x))
+        for y in list2:
+            print(""y: "", str(y))
+            if x == y:
+                print(""result: True"")
+                return result
+</ans>",0,{}
+197," <ans>
+def median\_trapezium(base1, base2, height):
+print(""base1: "", str(base1))
+print(""base2: "", str(base2))
+print(""height: "", str(height))
+median = 0.5 * (base1 + base2)
+print(""median: "", str(median))
+return median
+</ans>",0,{}
+198," <ans>
+def check\_greater(arr, number):
+ print(""arr: "", str(arr))
+ print(""number: "", str(number))
+ arr.sort()
+ print(""arr sorted: "", str(arr))
+ return number > arr[-1]
+</ans>",1,{}
+199," <ans>
+import re
+
+def text_match_one(text):
+ print(""patterns: "", str(patterns))
+ if re.search(patterns, text):
+ print(""text: "", str(text))
+ return True
+ else:
+ return False
+</ans>",0,{}
+200," <ans>
+def last\_Digit(n):
+print(""n: "", str(n))
+return (n % 10)
+</ans>",1,{}
+201," <ans>
+def neg_nos(list1):
+  out = []
+  print(""out: []"")
+  for num in list1: 
+    print(""num: "", str(num))
+    if num < 0: 
+      out.append(num)
+  print(""out: "", str(out))
+  return out
+</ans>",0,{}
+202," <ans>
+def remove\_odd(str1):
+print(""str1: "", str(str1))
+str2 = ''
+print(""str2: "", str(str2))
+for i in range(1, len(str1) + 1):
+print(""i: "", i)
+if (i % 2 == 0):
+str2 = str2 + str1[i - 1]
+print(""str2: "", str(str2))
+return str2
+</ans>",1,{}
+203," <ans>
+def count_bidirectional(test_list):
+  res = 0
+  print(""res: "", str(res))
+  for idx in range(0, len(test_list)):
+    print(""idx: "", str(idx))
+    for iidx in range(idx + 1, len(test_list)):
+      print(""iidx: "", str(iidx))
+      if test_list[iidx][0] == test_list[idx][1] and test_list[idx][1] == test_list[iidx][0]:
+        res += 1
+  print(""res: "", str(res))
+  return res
+</ans>",1,{}
+204," <ans>
+def multiple_to_single(L):
+  print(""L: "", str(L))
+  x = int("""".join(map(str, L)))
+  print(""x: "", str(x))
+</ans>",1,{}
+205," <ans>
+import re
+
+def find_adverb_position(text):
+ print(""text: "", str(text))
+ for m in re.finditer(r""\w+ly"", text):
+ print(""m: "", str(m))
+ print(""m.start(): "", str(m.start()))
+ print(""m.end(): "", str(m.end()))
+ print(""m.group(0): "", str(m.group(0)))
+ return (m.start(), m.end(), m.group(0))
+</ans>",1,{}
+206," <ans>
+def surfacearea_cube(l):
+  print(""l: "", str(l))
+  surfacearea = 6 * l * l
+  print(""surfacearea: "", str(surfacearea))
+  return surfacearea
+</ans>",0,{}
+207," <ans>
+from array import array
+
+def positive_count(nums):
+ print(""n: "", str(n))
+ n = len(nums)
+ print(""n1: "", str(n1))
+ n1 = 0
+ for x in nums:
+ print(""x: "", str(x))
+ if x > 0:
+ n1 += 1
+ else:
+ None
+ print(""n1 after for loop: "", str(n1))
+ return round(n1/n,2)
+</ans>",0,{}
+208," <ans>
+def largest_neg(list1): 
+    max = list1[0] 
+    print(""max: "", str(max))
+    for x in list1: 
+        if x < max : 
+            max = x  
+    print(""max after loop: "", str(max))
+    return max
+</ans>",0,{}
+209," <ans>
+def trim_tuple(test_list, K):
+  print(""test_list: "", str(test_list))
+  print(""K: "", str(K))
+  res = []
+  for ele in test_list:
+    print(""ele: "", str(ele))
+    N = len(ele)
+    res.append(tuple(list(ele)[K: N - K]))
+  print(""res: "", str(res))
+  return (str(res))
+</ans>",0,{}
+210," <ans>
+def index_multiplication(test_tup1, test_tup2):
+ print(""test_tup1: "", str(test_tup1))
+ print(""test_tup2: "", str(test_tup2))
+ res = tuple(tuple(a * b for a, b in zip(tup1, tup2))
+ for tup1, tup2 in zip(test_tup1, test_tup2))
+ print(""res: "", str(res))
+ return (res)
+</ans>",1,{}
+211," <ans>
+from collections import Counter 
+
+def count_Occurrence(tup, lst): 
+    print(""tup: "", str(tup))
+    count = 0
+    for item in tup: 
+        print(""item: "", str(item))
+        if item in lst: 
+            count+= 1 
+    print(""count: "", str(count))
+    return count
+</ans>",0,{}
+212," <ans>
+def cube_nums(nums):
+ print(""nums: "", str(nums))
+ cube_nums = list(map(lambda x: x ** 3, nums))
+ print(""cube_nums: "", str(cube_nums))
+ return cube_nums
+</ans>",1,{}
+213," <ans>
+def cal_sum(n): 
+	a = 3
+	print(""a: "", str(a))
+	b = 0
+	print(""b: "", str(b))
+	c = 2
+	print(""c: "", str(c))
+	if (n == 0): 
+		return 3
+	if (n == 1): 
+		return 3
+	if (n == 2): 
+		return 5
+	sum = 5
+	print(""sum: "", str(sum))
+	while (n > 2): 
+		d = a + b 
+		print(""d: "", str(d))
+		sum = sum + d 
+		a = b 
+		print(""a: "", str(a))
+		b = c 
+		print(""b: "", str(b))
+		c = d 
+		print(""c: "", str(c))
+		n = n-1
+	return sum
+</ans>",0,{}
+214," <ans>
+def extract_string(str, l):
+ print(""str: "", str)
+ result = [e for e in str if len(e) == l] 
+ print(""result: "", str(result))
+ return result
+</ans>",1,{}
+215," <ans>
+import re
+
+def remove\_whitespaces(text1):
+print(""text1: "", str(text1))
+return re.sub(r'\s+', '', text1)
+</ans>",1,{}
+216," <ans>
+def loss_amount(actual_cost, sale_amount): 
+  print(""actual_cost: "", str(actual_cost))
+  print(""sale_amount: "", str(sale_amount))
+  if sale_amount > actual_cost:
+    amount = sale_amount - actual_cost
+    print(""amount: "", str(amount))
+    return amount
+  else:
+    return 0
+</ans>",1,{}
+217," <ans>
+import math 
+
+def sumofFactors(n):
+ print(""n: "", str(n))
+ if (n % 2 != 0):
+ return 0
+ res = 1
+ for i in range(2, int(math.sqrt(n)) + 1):
+ print(""i: "", str(i), ""count: "", str(count), ""curr_sum: "", str(curr_sum), ""curr_term: "", str(curr_term))
+ count = 0
+ curr_sum = 1
+ curr_term = 1
+ while (n % i == 0):
+ count= count + 1
+ n = n // i
+ if (i == 2 and count == 1):
+ curr_sum = 0
+ curr_term = curr_term * i
+ curr_sum = curr_sum + curr_term
+ res = res * curr_sum
+ if (n >= 2):
+ res = res * (1 + n)
+ return res
+</ans>",0,{}
+218," <ans>
+def check\_monthnumb\_number(monthnum2):
+print(""monthnum2: "", str(monthnum2))
+if monthnum2 in [1, 3, 5, 7, 8, 10, 12]:
+print(""monthnum2 is valid: "", True)
+else:
+print(""monthnum2 is not valid: "", False)
+</ans>",1,{}
+219," <ans>
+def reverse\_string\_list(stringlist):
+print(""stringlist: "", str(stringlist))
+result = [x[::-1] for x in stringlist]
+print(""result: "", str(result))
+return result
+</ans>",1,{}
+220," <ans>
+def Find_Min(lst):
+ print(""lst: "", str(lst))
+ return min(lst, key=len)
+</ans>",1,{}
+221," <ans>
+def rectangle_area(l, b):
+  print(""l: "", str(l), ""b: "", str(b))
+  area = l * b
+  print(""area: "", str(area))
+  return area
+</ans>",0,{}
+222," <ans>
+import re
+
+def remove_uppercase(str1):
+ print(""str1: "", str(str1))
+ return re.sub('[A-Z]', '', str1)
+</ans>",1,{}
+223," <ans>
+def Extract(lst):
+ print(""lst: "", str(lst))
+ return [item[0] for item in lst]
+</ans>",1,{}
+224," <ans>
+def upper_ctr(str):
+    upper_ctr = 0
+    print(""upper_ctr: 0"")
+    for i in range(len(str)):
+        print(""i: "", i)
+        if str[i] >= 'A' and str[i] <= 'Z':
+            upper_ctr += 1
+    print(""upper_ctr: "", str(upper_ctr))
+    return upper_ctr
+</ans>",0,{}
+225," <ans>
+def combinations_list(list1):
+    if len(list1) == 0:
+        print(""list1: [], result: [[]]"")
+        return [[]]
+    result = []
+    print(""list1: "", str(list1), ""result: []"")
+    for el in combinations_list(list1[1:]):
+        print(""el: "", str(el))
+        result += [el, el+[list1[0]]]
+    print(""result: "", str(result))
+    return result
+</ans>",0,{}
+226," <ans>
+def max_subarray_product(arr):
+	n = len(arr)
+	print(""n: "", str(n))
+	max_ending_here = 1
+	min_ending_here = 1
+	max_so_far = 0
+	flag = 0
+	for i in range(0, n):
+		if arr[i] > 0:
+			print(""arr[i]: "", str(arr[i]))
+			max_ending_here = max_ending_here * arr[i]
+			min_ending_here = min(min_ending_here * arr[i], 1)
+			flag = 1
+		elif arr[i] == 0:
+			max_ending_here = 1
+			min_ending_here = 1
+		else:
+			temp = max_ending_here
+			max_ending_here = max(min_ending_here * arr[i], 1)
+			min_ending_here = temp * arr[i]
+		print(""max_ending_here: "", str(max_ending_here))
+		print(""min_ending_here: "", str(min_ending_here))
+		if (max_so_far < max_ending_here):
+			max_so_far = max_ending_here
+		print(""max_so_far: "", str(max_so_far))
+		print(""flag: "", str(flag))
+	if flag == 0 and max_so_far == 0:
+		return 0
+	return max_so_far
+</ans>",0,{}
+227," <ans>
+def check\_value(dict, n):
+print(""dict: "", str(dict))
+result = all(x == n for x in dict.values())
+print(""result: "", str(result))
+return result
+</ans>",1,{}
+228," <ans>
+def drop\_empty(dict1):
+print(""dict1: "", str(dict1))
+dict1 = {key:value for (key, value) in dict1.items() if value is not None}
+print(""dict1 after filtering: "", str(dict1))
+return dict1
+</ans>",0,{}
+229," <ans>
+def max_product(arr):
+  n = len(arr)
+  print(""n: "", str(n))
+  mpis = arr[:]
+  print(""mpis: "", str(mpis))
+  for i in range(n):
+    current_prod = arr[i]
+    print(""i: "", str(i), ""current_prod: "", str(current_prod))
+    j = i + 1
+    while j < n:
+      if arr[j-1] > arr[j]:
+        break
+      current_prod *= arr[j]
+      print(""j: "", str(j), ""current_prod: "", str(current_prod))
+      if current_prod > mpis[j]:
+        mpis[j] = current_prod
+      j = j + 1
+  print(""mpis: "", str(mpis))
+  return max(mpis)
+</ans>",0,{}
+230," <ans>
+def add_pairwise(test_tup):
+  print(""test_tup: "", str(test_tup))
+  res = tuple(i + j for i, j in zip(test_tup, test_tup[1:]))
+  print(""res: "", str(res))
+  return res
+</ans>",1,{}
+231," <ans>
+def find_remainder(arr, n): 
+    mul = 1
+    print(""mul: "", str(mul))
+    for i in range(len(arr)):  
+        mul = (mul * (arr[i] % n)) % n 
+        print(""arr[i]: "", str(arr[i]), ""mul: "", str(mul))
+    print(""mul: "", str(mul))
+    return mul % n
+</ans>",1,{}
+232," <ans>
+def check\_Consecutive(l):
+print(""l: "", str(l))
+return sorted(l) == list(range(min(l), max(l) + 1))
+</ans>",1,{}
+233," <ans>
+def tuple_intersection(test_list1, test_list2):
+  print(""res: "", str(set([tuple(sorted(ele)) for ele in test_list1])))
+  print(""res after intersection with test_list2: "", str(set([tuple(sorted(ele)) for ele in test_list1]) & set([tuple(sorted(ele)) for ele in test_list2])))
+  return (set([tuple(sorted(ele)) for ele in test_list1]) & set([tuple(sorted(ele)) for ele in test_list2]))
+</ans>",0,{}
+234," <ans>
+def replace\_char(str1, ch, newch):
+print(""str1: "", str(str1))
+str2 = str1.replace(ch, newch)
+print(""str2: "", str(str2))
+return str2
+</ans>",1,{}
+235," <ans>
+from collections import Counter
+
+def sort_counter(dict1):
+ print(""x: "", str(x))
+ sort_counter=x.most_common()
+ return sort_counter
+</ans>",0,{}
+236," <ans>
+def big_sum(nums):
+ print(""nums: "", str(nums))
+ sum = max(nums) + min(nums)
+ print(""sum: "", str(sum))
+ return sum
+</ans>",0,{}
+237," <ans>
+def is_lower(string):
+  print(""string: "", str(string))
+  return (string.lower())
+</ans>",1,{}
+238," <ans>
+import re
+
+print(""str1: "", str(str1))
+def remove_lowercase(str1):
+ print(""str1 after definition: "", str(str1))
+ return re.sub('[a-z]', '', str1)
+</ans>",1,{}
+239," <ans>
+def first\_Digit(n):
+print(""n: "", str(n))
+while n >= 10:
+n = int(n / 10)
+print(""n: "", str(n))
+return int(n)
+</ans>",0,{}

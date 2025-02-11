@@ -1,0 +1,171 @@
+## Instruction
+
+You are an expert programmer. I will show you a programming problem as well as one solution program. Please help me to generate **5** groups of test case inputs to this function.
+
+## Program Format
+
+There will be two kinds of programming problems. One type of problem accepts standard input-output stream. As a result, the test case inputs should contain only the inputs text stream.
+
+Another kind of problem is based on function calling, which shows a segment of starter code to illustrate the function head, defining the name of the arguments to be accepted. In this case, you should return me the inputs as described by the function, wrapped by Python list to be used as `func(*[inputs])`.
+
+## Response Format
+
+### For Standard Input-Output Stream
+
+1. Your test case inputs are in valid string format as the standard input stream.
+2. Separate each group of test case inputs by <SPLIT> tag.
+3. Include all the generated test case inputs within `<ans>` and `</ans>` tags.
+
+### For Function Calling
+
+1. Your test case inputs should be in the correct python object format so that we can initialize them into an argument list by calling `func(*eval(inputs))`.
+2. Separate each group of test case inputs simply by new lines.
+3. Include all the generated test case inputs within `<ans>` and `</ans>` tags.
+
+## Examples for Standard Input-Output and Function Calling.
+
+### Standard Input-Output Stream
+
+Note that due to the space limit, I will not show you exactly **5** groups of inputs. But you should return **5** groups of inputs to me at last.
+
+#### Programming Problem
+
+Polycarp has $n$ different binary words. A word called binary if it contains only characters '0' and '1'. For example, these words are binary: "0001", "11", "0" and "0011100".
+
+Polycarp wants to offer his set of $n$ binary words to play a game "words". In this game, players name words and each next word (starting from the second) must start with the last character of the previous word. The first word can be any. For example, these sequence of words can be named during the game: "0101", "1", "10", "00", "00001".
+
+Word reversal is the operation of reversing the order of the characters. For example, the word "0111" after the reversal becomes "1110", the word "11010" after the reversal becomes "01011".
+
+Probably, Polycarp has such a set of words that there is no way to put them in the order correspondent to the game rules. In this situation, he wants to reverse some words from his set so that:  the final set of $n$ words still contains different words (i.e. all words are unique);  there is a way to put all words of the final set of words in the order so that the final sequence of $n$ words is consistent with the game rules.
+
+Polycarp wants to reverse minimal number of words. Please, help him.
+
+
+-----Input-----
+
+The first line of the input contains one integer $t$ ($1 \le t \le 10^4$) — the number of test cases in the input. Then $t$ test cases follow.
+
+The first line of a test case contains one integer $n$ ($1 \le n \le 2\cdot10^5$) — the number of words in the Polycarp's set. Next $n$ lines contain these words. All of $n$ words aren't empty and contains only characters '0' and '1'. The sum of word lengths doesn't exceed $4\cdot10^6$. All words are different.
+
+Guaranteed, that the sum of $n$ for all test cases in the input doesn't exceed $2\cdot10^5$. Also, guaranteed that the sum of word lengths for all test cases in the input doesn't exceed $4\cdot10^6$.
+
+
+-----Output-----
+
+Print answer for all of $t$ test cases in the order they appear.
+
+If there is no answer for the test case, print -1. Otherwise, the first line of the output should contain $k$ ($0 \le k \le n$) — the minimal number of words in the set which should be reversed. The second line of the output should contain $k$ distinct integers — the indexes of the words in the set which should be reversed. Words are numerated from $1$ to $n$ in the order they appear. If $k=0$ you can skip this line (or you can print an empty line). If there are many answers you can print any of them.
+
+
+-----Example-----
+Input
+4
+4
+0001
+1000
+0011
+0111
+3
+010
+101
+0
+2
+00000
+00001
+4
+01
+001
+0001
+00001
+
+Output
+1
+3
+-1
+0
+
+2
+1 2
+
+#### Response
+
+<ans>
+3
+3
+101
+110
+011
+2
+01
+10
+4
+0001
+1000
+0011
+0111
+<SPLIT>
+2
+2
+01
+10
+3
+000
+111
+110
+<SPLIT>
+...
+</ans>
+
+### Function Calling
+
+#### Programming Problem
+
+Your music player contains N different songs and she wants to listen to L (not necessarily different) songs during your trip.  You create a playlist so that:
+
+Every song is played at least once
+A song can only be played again only if K other songs have been played
+
+Return the number of possible playlists.  As the answer can be very large, return it modulo 10^9 + 7.
+
+#### Solution program
+
+```
+def numMusicPlaylists(N: int, L: int, K: int) -> int:
+    s=0
+    c=0
+    r=0
+    x=math.factorial(N)
+    while(True):
+        c=x*((N-r-K)**(L-K))*(-1)**(r)//(math.factorial(N-r-K)*math.factorial(r))
+        if(c!=0):
+            s=(s+c)%(10**9+7)
+            r+=1
+        else:
+            return s
+```
+
+#### Response
+
+<ans>
+[3, 3, 1]
+[2, 3, 0]
+[2, 3, 1]
+[4, 3, 1]
+[4, 2, 2]
+</ans>
+
+## Get Started
+
+Note that in the above examples, I omit some test case inputs. You should return **5** groups of inputs to me in the requested format.
+
+#### Programming Problem
+
+[[problem]]
+
+#### Solution program
+
+```
+[[code_snippet]]
+```
+
+#### Response

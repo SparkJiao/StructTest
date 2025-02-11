@@ -1,0 +1,1170 @@
+index,generated,result,format_results,acc_results,format_properties
+0,"## 1. Determine the total number of eggs laid daily
+
+- Janet’s ducks lay 16 eggs per day.
+
+## 2. Calculate the number of eggs Janet consumes daily
+
+- Janet eats 3 eggs for breakfast.
+- Janet uses 4 eggs for baking muffins.
+- Total eggs consumed by Janet daily: 3 + 4 = 7 eggs.
+
+## 3. Calculate the number of eggs available for sale
+
+- Subtract the number of eggs Janet consumes from the total number of eggs laid.
+- Eggs available for sale: 16 - 7 = 9 eggs.
+
+## 4. Determine the selling price per egg
+
+- Each egg is sold for $2 at the farmers' market.
+
+## 5. Calculate the total revenue from selling the eggs
+
+- Multiply the number of eggs available for sale by the price per egg.
+- Total revenue: 9 eggs * $2/egg = $18.
+
+Final result: 18",0,False,True,{'math_format_name': 'BulletPoints7MathFormat'}
+1,"```json
+{
+    ""1"": ""A robe requires 2 bolts of blue fiber."",
+    ""2"": ""The problem states that the amount of white fiber needed is half of the blue fiber."",
+    ""3"": ""Since the blue fiber needed is 2 bolts, half of that is 1 bolt of white fiber."",
+    ""4"": ""To find the total number of bolts needed, add the bolts of blue fiber and white fiber together."",
+    ""5"": ""The total number of bolts is 2 bolts of blue fiber plus 1 bolt of white fiber.""
+}
+```
+\boxed{3}",1,True,True,{'math_format_name': 'BulletPoints20MathFormat'}
+2,"```json
+[
+    ""Josh buys the house for $80,000."",
+    ""He invests an additional $50,000 in repairs."",
+    ""The total investment in the house is $80,000 + $50,000 = $130,000."",
+    ""The repairs increase the value of the house by 150%."",
+    ""The original value of the house before the increase is $80,000."",
+    ""A 150% increase on $80,000 is calculated as $80,000 * 1.5 = $120,000."",
+    ""The new value of the house after the increase is $80,000 + $120,000 = $200,000."",
+    ""The profit is calculated as the new value of the house minus the total investment: $200,000 - $130,000 = $70,000.""
+]
+```
+Final result: 70000",1,True,True,{'math_format_name': 'BulletPoints15MathFormat'}
+3,"**Step 1** Determine the number of sprints James runs in one session.
+
+- James runs 3 sprints in one session.
+
+**Step 2** Calculate the total distance James runs in one session.
+
+- Each sprint is 60 meters.
+- Total distance per session = 3 sprints × 60 meters/sprint = 180 meters.
+
+**Step 3** Determine the number of sessions James runs in a week.
+
+- James runs 3 times a week.
+
+**Step 4** Calculate the total distance James runs in a week.
+
+- Total distance per week = 180 meters/session × 3 sessions/week = 540 meters.
+
+Final result: 540",1,True,True,{'math_format_name': 'BulletPoints11MathFormat'}
+4,"To solve this problem, we need to determine how many cups of feed Wendi needs to give her chickens in the final meal of the day. Let's break it down step by step:
+
+### 1. Determine Total Daily Feed Requirement
+
+- Each chicken requires 3 cups of feed per day.
+- Wendi has 20 chickens.
+- Therefore, the total daily feed requirement is \( 20 \text{ chickens} \times 3 \text{ cups/chicken} = 60 \text{ cups} \).
+
+### 2. Calculate Feed Given in the Morning
+
+- Wendi gives her chickens 15 cups of feed in the morning.
+
+### 3. Calculate Feed Given in the Afternoon
+
+- Wendi gives her chickens 25 cups of feed in the afternoon.
+
+### 4. Calculate Total Feed Given Before Final Meal
+
+- The total feed given before the final meal is \( 15 \text{ cups (morning)} + 25 \text{ cups (afternoon)} = 40 \text{ cups} \).
+
+### 5. Determine Remaining Feed Needed for the Day
+
+- The total daily feed requirement is 60 cups.
+- Wendi has already given 40 cups.
+- Therefore, the remaining feed needed for the final meal is \( 60 \text{ cups (total)} - 40 \text{ cups (already given)} = 20 \text{ cups} \).
+
+\[
+\boxed{20}
+\]",0,False,True,{'math_format_name': 'BulletPoints8MathFormat'}
+5,"# 1. Determine the cost of a single glass
+
+- The cost of one glass is $5.
+
+# 2. Calculate the cost of every second glass
+
+- Every second glass costs 60% of the original price.
+- 60% of $5 is calculated as \(0.6 \times 5 = 3\).
+- Therefore, every second glass costs $3.
+
+# 3. Identify the pattern of pricing for 16 glasses
+
+- The pricing pattern alternates between $5 for the first glass and $3 for the second glass.
+- This pattern repeats for every pair of glasses.
+
+# 4. Calculate the number of pairs of glasses
+
+- Kylar wants to buy 16 glasses.
+- Since the pricing alternates every two glasses, there are \(16 \div 2 = 8\) pairs of glasses.
+
+# 5. Calculate the total cost for one pair of glasses
+
+- The cost for one pair (one full-price glass and one discounted glass) is \(5 + 3 = 8\).
+
+# 6. Calculate the total cost for 8 pairs of glasses
+
+- Multiply the cost of one pair by the number of pairs: \(8 \times 8 = 64\).
+
+# 7. State the final result
+
+- Final result: 64",0,False,True,{'math_format_name': 'BulletPoints7MathFormat'}
+6,"```json
+{
+    ""1"": ""Seattle has 20 sheep."",
+    ""2"": ""Charleston has 4 times as many sheep as Seattle."",
+    ""3"": ""Therefore, Charleston has 4 * 20 = 80 sheep."",
+    ""4"": ""Toulouse has twice as many sheep as Charleston."",
+    ""5"": ""Therefore, Toulouse has 2 * 80 = 160 sheep."",
+    ""6"": ""To find the total number of sheep in Toulouse, Charleston, and Seattle, add the number of sheep in each city."",
+    ""7"": ""Total sheep = 20 (Seattle) + 80 (Charleston) + 160 (Toulouse).""
+}
+```
+Final result: 260",1,True,True,{'math_format_name': 'BulletPoints19MathFormat'}
+7,"**Step 1** Calculate the initial download time before the restart.
+
+- Carla can download 2 GB per minute.
+- She downloads 40% of the 200 GB file before the restart.
+- 40% of 200 GB is 80 GB.
+- Time taken to download 80 GB at 2 GB/minute is \( \frac{80 \text{ GB}}{2 \text{ GB/min}} = 40 \text{ minutes} \).
+
+**Step 2** Account for the time taken by the Windows restart.
+
+- The Windows restart takes 20 minutes.
+- Add this time to the initial download time: \( 40 \text{ minutes} + 20 \text{ minutes} = 60 \text{ minutes} \).
+
+**Step 3** Calculate the time to download the entire file after the restart.
+
+- After the restart, Carla has to download the entire 200 GB file again.
+- Time taken to download 200 GB at 2 GB/minute is \( \frac{200 \text{ GB}}{2 \text{ GB/min}} = 100 \text{ minutes} \).
+
+**Step 4** Calculate the total time taken for the entire process.
+
+- Add the time taken before the restart, the restart time, and the time to download the file again: \( 40 \text{ minutes} + 20 \text{ minutes} + 100 \text{ minutes} = 160 \text{ minutes} \).
+
+Final result: 160",1,True,True,{'math_format_name': 'BulletPoints11MathFormat'}
+8,"**Step 1** Calculate the distance John traveled in the first 3 hours.
+
+- John drives for 3 hours at a speed of 60 mph.
+- Distance = Speed × Time = 60 mph × 3 hours = 180 miles.
+
+**Step 2** Determine the time spent in standstill traffic on the return trip.
+
+- John spends the first 2 hours in standstill traffic.
+- During this time, he does not cover any distance.
+
+**Step 3** Calculate the distance John travels in the next half-hour at 30 mph.
+
+- John drives for 0.5 hours at a speed of 30 mph.
+- Distance = Speed × Time = 30 mph × 0.5 hours = 15 miles.
+
+**Step 4** Calculate the remaining time John has to drive after the standstill and half-hour drive.
+
+- Total return trip time is 4 hours.
+- Time spent in standstill traffic and driving at 30 mph = 2 hours + 0.5 hours = 2.5 hours.
+- Remaining time = 4 hours - 2.5 hours = 1.5 hours.
+
+**Step 5** Calculate the distance John travels in the remaining 1.5 hours at 80 mph.
+
+- John drives for 1.5 hours at a speed of 80 mph.
+- Distance = Speed × Time = 80 mph × 1.5 hours = 120 miles.
+
+**Step 6** Calculate the total distance John travels on the return trip.
+
+- Total distance on return trip = Distance in standstill traffic + Distance at 30 mph + Distance at 80 mph.
+- Total distance = 0 miles + 15 miles + 120 miles = 135 miles.
+
+**Step 7** Determine how far John is from home at the end of the 4 hours.
+
+- John initially traveled 180 miles away from home.
+- On the return trip, he covered 135 miles.
+- Distance from home = Initial distance - Return distance = 180 miles - 135 miles = 45 miles.
+
+Final result: 45",1,True,True,{'math_format_name': 'BulletPoints11MathFormat'}
+9,"### 1
+
+Calculate Eliza's regular earnings for the first 40 hours. Her regular hourly rate is $10.
+
+\[
+\text{Regular earnings} = 40 \times 10 = 400
+\]
+
+### 2
+
+Determine the number of overtime hours Eliza worked. She worked a total of 45 hours, so the overtime hours are:
+
+\[
+\text{Overtime hours} = 45 - 40 = 5
+\]
+
+### 3
+
+Calculate Eliza's overtime hourly rate. Her overtime pay is 1.2 times her regular hourly rate.
+
+\[
+\text{Overtime rate} = 1.2 \times 10 = 12
+\]
+
+### 4
+
+Calculate Eliza's earnings from overtime work. Multiply the overtime hours by the overtime rate.
+
+\[
+\text{Overtime earnings} = 5 \times 12 = 60
+\]
+
+### 5
+
+Add Eliza's regular earnings and overtime earnings to find her total earnings for the week.
+
+\[
+\text{Total earnings} = 400 + 60 = 460
+\]
+
+\[
+\boxed{460}
+\]",1,True,True,{'math_format_name': 'BulletPoints4MathFormat'}
+10,"To find the total number of downloads over the three months, we can break down the problem into a series of steps:
+
+### 1. First Month Downloads
+
+- The program had 60 downloads in the first month.
+
+### 2. Second Month Downloads
+
+- The number of downloads in the second month was three times the number of downloads in the first month.
+- Calculate the second month's downloads: \( 60 \times 3 = 180 \).
+
+### 3. Third Month Downloads
+
+- The number of downloads in the third month was reduced by 30% compared to the second month.
+- Calculate the reduction: \( 180 \times 0.30 = 54 \).
+- Subtract the reduction from the second month's downloads to find the third month's downloads: \( 180 - 54 = 126 \).
+
+### 4. Total Downloads Over Three Months
+
+- Add the downloads from all three months: \( 60 + 180 + 126 \).
+
+### 5. Final Calculation
+
+- Perform the addition: \( 60 + 180 + 126 = 366 \).
+
+Thus, the total number of downloads over the three months is \(\boxed{366}\).",0,False,True,{'math_format_name': 'BulletPoints8MathFormat'}
+11,"### 1
+
+Calculate the cost of the donuts. Toula bought 3 dozen donuts, and each dozen costs $68.
+
+\[ \text{Cost of donuts} = 3 \times 68 = 204 \]
+
+### 2
+
+Calculate the cost of the mini cupcakes. Toula bought 2 dozen mini cupcakes, and each dozen costs $80.
+
+\[ \text{Cost of mini cupcakes} = 2 \times 80 = 160 \]
+
+### 3
+
+Calculate the cost of the mini cheesecakes. Toula bought 6 dozen mini cheesecakes, and each dozen costs $55.
+
+\[ \text{Cost of mini cheesecakes} = 6 \times 55 = 330 \]
+
+### 4
+
+Add up the costs of all the pastries to find the total cost. 
+
+\[ \text{Total cost} = 204 + 160 + 330 \]
+
+### 5
+
+Perform the addition to find the total cost.
+
+\[ \text{Total cost} = 694 \]
+
+Final result: 694",1,True,True,{'math_format_name': 'BulletPoints3MathFormat'}
+12,"### 1
+
+Calculate the annual revenue from selling lemons.  
+- Each year, the lemon tree produces 7 lemons.  
+- Each lemon is sold for $1.5.  
+- Therefore, the annual revenue from selling lemons is \(7 \times 1.5 = 10.5\) dollars.
+
+### 2
+
+Calculate the annual cost of maintaining the lemon tree.  
+- The cost to water and feed the tree each year is $3.  
+- Therefore, the annual cost is $3.
+
+### 3
+
+Determine the annual profit from the lemon tree.  
+- Annual profit is calculated as the annual revenue minus the annual cost.  
+- Therefore, the annual profit is \(10.5 - 3 = 7.5\) dollars.
+
+### 4
+
+Calculate the initial investment cost.  
+- The initial cost to plant the lemon tree is $90.
+
+### 5
+
+Determine how many years it will take to recover the initial investment.  
+- To find out how many years it will take to recover the $90 investment, divide the initial cost by the annual profit.  
+- Therefore, the number of years is \( \frac{90}{7.5} = 12\).
+
+### 6
+
+Conclude when Carlos will start earning money.  
+- Carlos will start earning money after he has recovered his initial investment.  
+- Since it takes 12 years to recover the investment, he will start earning money in the 13th year.
+
+#### 13",1,True,True,{'math_format_name': 'BulletPoints2MathFormat'}
+13,"To solve this problem, we need to work backwards from the information given. Let's break it down step by step.
+
+**Step 1**: Define the initial number of vacuum cleaners.
+
+- Let \( x \) be the total number of vacuum cleaners Melanie started with.
+
+**Step 2**: Calculate the number of vacuum cleaners sold at the green house.
+
+- Melanie sold a third of her vacuum cleaners at the green house, which is \( \frac{x}{3} \).
+
+**Step 3**: Determine the number of vacuum cleaners remaining after the green house.
+
+- After selling a third at the green house, she has \( x - \frac{x}{3} = \frac{2x}{3} \) vacuum cleaners left.
+
+**Step 4**: Calculate the number of vacuum cleaners sold at the red house.
+
+- Melanie sold 2 more vacuum cleaners to the red house.
+
+**Step 5**: Determine the number of vacuum cleaners remaining after the red house.
+
+- After selling 2 more at the red house, she has \( \frac{2x}{3} - 2 \) vacuum cleaners left.
+
+**Step 6**: Calculate the number of vacuum cleaners sold at the orange house.
+
+- She sold half of what was left at the orange house, which is \( \frac{1}{2} \left( \frac{2x}{3} - 2 \right) \).
+
+**Step 7**: Determine the number of vacuum cleaners remaining after the orange house.
+
+- After selling half at the orange house, she has \( \frac{1}{2} \left( \frac{2x}{3} - 2 \right) \) remaining, which equals 5 vacuum cleaners.
+
+**Step 8**: Set up the equation and solve for \( x \).
+
+- We have the equation: 
+  \[
+  \frac{1}{2} \left( \frac{2x}{3} - 2 \right) = 5
+  \]
+
+- Multiply both sides by 2 to eliminate the fraction:
+  \[
+  \frac{2x}{3} - 2 = 10
+  \]
+
+- Add 2 to both sides:
+  \[
+  \frac{2x}{3} = 12
+  \]
+
+- Multiply both sides by 3 to solve for \( 2x \):
+  \[
+  2x = 36
+  \]
+
+- Divide by 2 to solve for \( x \):
+  \[
+  x = 18
+  \]
+
+Thus, the number of vacuum cleaners Melanie started with is \(\boxed{18}\).",0,False,True,{'math_format_name': 'BulletPoints12MathFormat'}
+14,"1. **Calculate the number of students enrolled in contemporary dance.**
+
+   - 20% of 20 students enrolled in contemporary dance.
+   - \( 20\% \times 20 = 0.2 \times 20 = 4 \) students.
+
+2. **Determine the number of students remaining after contemporary dance enrollment.**
+
+   - Total students = 20.
+   - Students in contemporary dance = 4.
+   - Remaining students = \( 20 - 4 = 16 \).
+
+3. **Calculate the number of students enrolled in jazz dance.**
+
+   - 25% of the remaining 16 students enrolled in jazz dance.
+   - \( 25\% \times 16 = 0.25 \times 16 = 4 \) students.
+
+4. **Determine the number of students enrolled in hip-hop dance.**
+
+   - Remaining students after jazz dance enrollment = 16 - 4 = 12 students.
+
+5. **Calculate the percentage of the entire class enrolled in hip-hop dance.**
+
+   - Total students = 20.
+   - Students in hip-hop dance = 12.
+   - Percentage = \( \left(\frac{12}{20}\right) \times 100 = 60\% \).
+
+#### 60%",1,True,False,{'math_format_name': 'BulletPoints6MathFormat'}
+15,"### 1
+
+Calculate the expected increase in value for the jewelry purchase.
+
+- The jewelry is worth $5,000.
+- The expected market increase for jewelry is 2.5%.
+- Calculate the increase: \( 5000 \times 0.025 = 125 \).
+
+### 2
+
+Calculate the total value of the jewelry after the market increase.
+
+- Add the increase to the original value: \( 5000 + 125 = 5125 \).
+
+### 3
+
+Calculate the expected increase in value for the electronic gadgets purchase.
+
+- The electronic gadgets are worth $8,000.
+- The expected market increase for electronic gadgets is 1.2%.
+- Calculate the increase: \( 8000 \times 0.012 = 96 \).
+
+### 4
+
+Calculate the total value of the electronic gadgets after the market increase.
+
+- Add the increase to the original value: \( 8000 + 96 = 8096 \).
+
+### 5
+
+Determine the profit for each purchase option.
+
+- Jewelry profit: \( 5125 - 5000 = 125 \).
+- Electronic gadgets profit: \( 8096 - 8000 = 96 \).
+
+### 6
+
+Compare the profits to determine which purchase maximizes profit.
+
+- Jewelry profit is $125.
+- Electronic gadgets profit is $96.
+- The jewelry purchase yields a higher profit.
+
+#### 125",1,True,True,{'math_format_name': 'BulletPoints2MathFormat'}
+16,"### 1
+
+- Both trains start their journey from San Rafael and travel westward.
+- On the first day, each train covers a distance of 80 miles heading west.
+
+### 2
+
+- On the second day, both trains change direction and travel northwards.
+- Each train covers a distance of 150 miles heading north on the second day.
+
+### 3
+
+- To find the total distance covered by each train over the two days, we need to add the distances traveled on each day.
+- The distance covered on the first day is 80 miles.
+- The distance covered on the second day is 150 miles.
+
+### 4
+
+- Add the distances from both days to find the total distance covered by each train.
+- Total distance = Distance on the first day + Distance on the second day.
+
+### 5
+
+- Calculate the total distance: 80 miles (westward) + 150 miles (northward).
+
+The answer is: 230",1,True,True,{'math_format_name': 'BulletPoints1MathFormat'}
+17,"**Step 1** Calculate Jill's weekly earnings from teaching.
+
+- Jill earns $20 per hour as a teacher.
+- She works 35 hours per week teaching.
+- Her weekly earnings from teaching are calculated as follows: 
+  \[
+  20 \, \text{dollars/hour} \times 35 \, \text{hours/week} = 700 \, \text{dollars/week}
+  \]
+
+**Step 2** Calculate Jill's weekly earnings from coaching.
+
+- Jill earns $30 per hour as a cheerleading coach.
+- She works 15 hours per week coaching.
+- Her weekly earnings from coaching are calculated as follows:
+  \[
+  30 \, \text{dollars/hour} \times 15 \, \text{hours/week} = 450 \, \text{dollars/week}
+  \]
+
+**Step 3** Calculate Jill's total weekly earnings.
+
+- Add her weekly earnings from teaching and coaching:
+  \[
+  700 \, \text{dollars/week} + 450 \, \text{dollars/week} = 1150 \, \text{dollars/week}
+  \]
+
+**Step 4** Calculate Jill's annual salary.
+
+- Jill works 50 weeks per year.
+- Her annual salary is calculated by multiplying her total weekly earnings by the number of weeks she works per year:
+  \[
+  1150 \, \text{dollars/week} \times 50 \, \text{weeks/year} = 57500 \, \text{dollars/year}
+  \]
+
+\[
+\boxed{57500}
+\]",1,True,True,{'math_format_name': 'BulletPoints12MathFormat'}
+18,"To determine how many dozens of eggs Claire will eat in 4 weeks, we can break down the problem into a series of logical steps:
+
+**Step 1** Determine the number of days in 4 weeks.
+
+- There are 7 days in a week.
+- Therefore, in 4 weeks, there are \(4 \times 7 = 28\) days.
+
+**Step 2** Calculate the total number of eggs Claire uses in 28 days.
+
+- Claire uses 3 eggs per day for her omelet.
+- Over 28 days, she will use \(3 \times 28 = 84\) eggs.
+
+**Step 3** Convert the total number of eggs into dozens.
+
+- A dozen is equal to 12 eggs.
+- To find out how many dozens 84 eggs are, divide 84 by 12: \(\frac{84}{12} = 7\).
+
+**Step 4** State the final result.
+
+- Claire will eat \(\boxed{7}\) dozens of eggs in 4 weeks.",1,True,True,{'math_format_name': 'BulletPoints12MathFormat'}
+19,"```json
+{
+    ""1"": ""Marissa has already walked 6 miles in 2 hours."",
+    ""2"": ""Her current average speed is 6 miles / 2 hours = 3 miles per hour."",
+    ""3"": ""The total distance of the trail is 12 miles."",
+    ""4"": ""She has 12 miles - 6 miles = 6 miles remaining to hike."",
+    ""5"": ""She wants her average speed for the entire 12 miles to be 4 miles per hour."",
+    ""6"": ""To find the total time she should take, use the formula: total distance / desired average speed = total time."",
+    ""7"": ""Total time = 12 miles / 4 miles per hour = 3 hours."",
+    ""8"": ""She has already used 2 hours, so she has 3 hours - 2 hours = 1 hour left to complete the remaining 6 miles."",
+    ""9"": ""To find the required speed for the remaining distance, use the formula: remaining distance / remaining time."",
+    ""10"": ""Required speed = 6 miles / 1 hour = 6 miles per hour.""
+}
+```
+The answer is: 6",1,True,True,{'math_format_name': 'BulletPoints17MathFormat'}
+20,"**Step 1** Calculate the amount of water in the original 10 liters of orange drink.
+
+- The orange drink is two-thirds water.
+- Therefore, the amount of water in the orange drink is \( \frac{2}{3} \times 10 = \frac{20}{3} \approx 6.67 \) liters.
+
+**Step 2** Account for the spill of 1 liter of orange drink.
+
+- Since 1 liter of the orange drink is spilled, the remaining orange drink is 9 liters.
+- The amount of water in the remaining 9 liters of orange drink is \( \frac{2}{3} \times 9 = 6 \) liters.
+
+**Step 3** Calculate the amount of water in the 15 liters of pineapple drink.
+
+- The pineapple drink is three-fifths water.
+- Therefore, the amount of water in the pineapple drink is \( \frac{3}{5} \times 15 = 9 \) liters.
+
+**Step 4** Add the water from the remaining orange drink to the water in the pineapple drink.
+
+- The total amount of water is the sum of the water from the remaining orange drink and the pineapple drink.
+- Total water = 6 liters (from orange drink) + 9 liters (from pineapple drink) = 15 liters.
+
+#### 15",1,True,True,{'math_format_name': 'BulletPoints10MathFormat'}
+21,"```json
+[
+    ""Samantha is currently 31 years old."",
+    ""Raymond was born 6 years before Samantha, so Raymond is 31 + 6 = 37 years old now."",
+    ""Raymond had a son when he was 23 years old."",
+    ""Since Raymond is currently 37 years old, the number of years since he had his son is 37 - 23 = 14 years."",
+    ""Therefore, Raymond's son was born 14 years ago.""
+]
+```
+\boxed{14}",1,True,True,{'math_format_name': 'BulletPoints16MathFormat'}
+22,"```json
+[
+    ""Billy has a total of 8 customers on Tuesday."",
+    ""The first 3 customers each buy 1 DVD, so they buy a total of 3 DVDs (1 DVD per customer * 3 customers)."",
+    ""The next 2 customers each buy 2 DVDs, so they buy a total of 4 DVDs (2 DVDs per customer * 2 customers)."",
+    ""The last 3 customers do not buy any DVDs, contributing 0 DVDs to the total."",
+    ""To find the total number of DVDs sold, add the DVDs bought by each group of customers: 3 DVDs + 4 DVDs + 0 DVDs."",
+    ""The total number of DVDs sold is 7.""
+]
+Final result: 7
+```",0,False,False,{'math_format_name': 'BulletPoints15MathFormat'}
+23,"```json
+[
+    ""The candle burns from 1:00 PM to 5:00 PM."",
+    ""The total time the candle burns is from 1:00 PM to 5:00 PM, which is 4 hours."",
+    ""The candle melts by 2 centimeters every hour."",
+    ""To find out how much the candle melts in total, multiply the number of hours it burns by the rate at which it melts."",
+    ""Calculate: 4 hours * 2 centimeters/hour = 8 centimeters.""
+]
+```
+Final result: 8",1,True,True,{'math_format_name': 'BulletPoints15MathFormat'}
+24,"```json
+{
+    ""1"": ""The price Kyle paid for the book is $19.50, which includes a 25% discount."",
+    ""2"": ""A 25% discount means Kyle paid 75% of the original price."",
+    ""3"": ""Let the original price be represented by 'P'."",
+    ""4"": ""Since Kyle paid 75% of the original price, we can express this as 0.75 * P = $19.50."",
+    ""5"": ""To find the original price, divide $19.50 by 0.75."",
+    ""6"": ""Performing the division gives P = $19.50 / 0.75.""
+}
+```
+Final result: 26",1,True,True,{'math_format_name': 'BulletPoints19MathFormat'}
+25,"**Step 1** Calculate the total cost of the chicken meal.
+
+- The chicken meal costs $12.
+
+**Step 2** Calculate the total cost of the milk packs.
+
+- Each pack of milk costs $3.
+- Marie ordered 5 packs of milk.
+- Total cost for milk = \(5 \times 3 = 15\).
+
+**Step 3** Calculate the total cost of the apples.
+
+- Each apple costs $1.50.
+- Marie ordered 4 apples.
+- Total cost for apples = \(4 \times 1.50 = 6\).
+
+**Step 4** Calculate the total cost of the items excluding the pizza.
+
+- Total cost for chicken meal = $12.
+- Total cost for milk = $15.
+- Total cost for apples = $6.
+- Total cost excluding pizza = \(12 + 15 + 6 = 33\).
+
+**Step 5** Determine the remaining amount spent on pizza.
+
+- Marie paid a total of $50.
+- Amount spent on pizza = Total paid - Total cost excluding pizza = \(50 - 33 = 17\).
+
+**Step 6** Calculate the number of boxes of pizza ordered.
+
+- Each box of pizza costs $8.50.
+- Let \(x\) be the number of boxes of pizza.
+- Total cost for pizza = \(8.50 \times x = 17\).
+- Solve for \(x\): \(x = \frac{17}{8.50} = 2\).
+
+\[
+\boxed{2}
+\]",1,True,True,{'math_format_name': 'BulletPoints12MathFormat'}
+26,"```json
+{
+    ""1"": ""Mishka bought 3 pairs of shorts, each costing $16.50."",
+    ""2"": ""The total cost for the shorts is calculated as 3 pairs * $16.50 per pair."",
+    ""3"": ""3 * $16.50 = $49.50 is the total cost for the shorts."",
+    ""4"": ""Mishka bought 3 pairs of pants, each costing $22.50."",
+    ""5"": ""The total cost for the pants is calculated as 3 pairs * $22.50 per pair."",
+    ""6"": ""3 * $22.50 = $67.50 is the total cost for the pants."",
+    ""7"": ""Mishka bought 3 pairs of shoes, each costing $42."",
+    ""8"": ""The total cost for the shoes is calculated as 3 pairs * $42 per pair."",
+    ""9"": ""3 * $42 = $126 is the total cost for the shoes."",
+    ""10"": ""The total amount Mishka spent is the sum of the costs for shorts, pants, and shoes: $49.50 + $67.50 + $126.""
+}
+```
+\boxed{243}",1,True,True,{'math_format_name': 'BulletPoints20MathFormat'}
+27,"### 1
+
+Determine the number of servings Cynthia consumes in 60 days. Since she eats one serving per night, the total number of servings is equal to the number of days.
+
+\[ \text{Total servings} = 60 \]
+
+### 2
+
+Calculate the number of cartons Cynthia needs to buy. Each carton contains 15 servings, so divide the total number of servings by the number of servings per carton.
+
+\[ \text{Number of cartons} = \frac{60}{15} = 4 \]
+
+### 3
+
+Determine the cost of one carton of ice cream. The problem states that each carton costs $4.00.
+
+### 4
+
+Calculate the total cost for the cartons Cynthia needs. Multiply the number of cartons by the cost per carton.
+
+\[ \text{Total cost} = 4 \text{ cartons} \times 4 \text{ dollars/carton} = 16 \text{ dollars} \]
+
+### Final result:
+
+16",1,True,True,{'math_format_name': 'BulletPoints3MathFormat'}
+28,"1. **Identify the total distance of the trip.**
+
+   - The total distance of Henry's bike trip is 60 miles.
+
+2. **Determine the distance to the first stop.**
+
+   - Henry made his first stop after traveling 20 miles.
+
+3. **Calculate the distance to the second stop.**
+
+   - The second stop was 15 miles before the end of the trip. Since the total trip is 60 miles, the second stop was at 60 - 15 = 45 miles.
+
+4. **Calculate the distance between the first and second stops.**
+
+   - The distance between the first stop (20 miles) and the second stop (45 miles) is 45 - 20 = 25 miles.
+
+The answer is: 25",1,True,True,{'math_format_name': 'BulletPoints5MathFormat'}
+29,"```json
+{
+    ""1"": ""Let the cost of the boots be B dollars."",
+    ""2"": ""The cost of the first pair of heels is $33."",
+    ""3"": ""The cost of the second pair of heels is twice the cost of the first pair, which is 2 * $33 = $66."",
+    ""4"": ""The total cost of the two pairs of heels is $33 + $66 = $99."",
+    ""5"": ""The problem states that the two pairs of heels together cost five dollars less than the boots."",
+    ""6"": ""Therefore, the equation is: B = $99 + $5."",
+    ""7"": ""Solving the equation gives B = $104.""
+}
+```
+Final result: 104",1,True,True,{'math_format_name': 'BulletPoints19MathFormat'}
+30,"To find Allen's age 10 years from now, we need to follow these steps:
+
+### 1. Define the variables
+
+- Let Darrell's age be \(7x\).
+- Let Allen's age be \(11x\).
+
+### 2. Set up the equation for their total age
+
+- According to the problem, the total age of Darrell and Allen is 162.
+- Therefore, the equation is:  
+  \[
+  7x + 11x = 162
+  \]
+
+### 3. Simplify the equation
+
+- Combine like terms:  
+  \[
+  18x = 162
+  \]
+
+### 4. Solve for \(x\)
+
+- Divide both sides by 18 to find \(x\):  
+  \[
+  x = \frac{162}{18} = 9
+  \]
+
+### 5. Calculate Allen's current age
+
+- Allen's age is \(11x\).
+- Substitute \(x = 9\) into the expression for Allen's age:  
+  \[
+  11 \times 9 = 99
+  \]
+
+### 6. Calculate Allen's age 10 years from now
+
+- Add 10 years to Allen's current age:  
+  \[
+  99 + 10 = 109
+  \]
+
+Final result: 109",0,False,True,{'math_format_name': 'BulletPoints7MathFormat'}
+31,"**Step 1** Determine the first friend's guess.
+
+- The first friend guesses 80 jelly beans.
+
+**Step 2** Calculate the second friend's guess.
+
+- The second friend guesses 20 more than half of the first friend's guess.
+- Half of 80 is 40.
+- Adding 20 to 40 gives 60.
+
+**Step 3** Calculate the third friend's guess.
+
+- The third friend guesses 25% more than the first friend's guess.
+- 25% of 80 is 20.
+- Adding 20 to 80 gives 100.
+
+**Step 4** Calculate the total of all guesses.
+
+- Add the guesses: 80 (first friend) + 60 (second friend) + 100 (third friend) = 240.
+
+**Step 5** Calculate the average of the guesses.
+
+- There are 3 guesses in total.
+- Divide the total of the guesses by the number of guesses: 240 / 3 = 80.
+
+The answer is: 80",1,True,True,{'math_format_name': 'BulletPoints9MathFormat'}
+32,"# 1. Determine daily time spent per dog
+
+- Each dog requires 0.5 hours of care per day.
+
+# 2. Calculate total daily time for all dogs
+
+- John takes care of 10 dogs.
+- Total daily time = 10 dogs * 0.5 hours/dog = 5 hours.
+
+# 3. Calculate weekly time spent
+
+- There are 7 days in a week.
+- Total weekly time = 5 hours/day * 7 days/week.
+
+# 4. Compute the final result
+
+- Total weekly time = 35 hours.
+
+Final result: 35",0,False,True,{'math_format_name': 'BulletPoints7MathFormat'}
+33,"```json
+{
+    ""1"": ""Let the number of silver coins be S."",
+    ""2"": ""According to the problem, the number of gold coins is 30 more than the number of silver coins."",
+    ""3"": ""Therefore, the number of gold coins can be expressed as S + 30."",
+    ""4"": ""The total number of coins is given as 110."",
+    ""5"": ""The equation representing the total number of coins is S (silver coins) + (S + 30) (gold coins) = 110."",
+    ""6"": ""Simplifying the equation: S + S + 30 = 110."",
+    ""7"": ""Combine like terms: 2S + 30 = 110."",
+    ""8"": ""Subtract 30 from both sides to isolate the terms with S: 2S = 80."",
+    ""9"": ""Divide both sides by 2 to solve for S: S = 40."",
+    ""10"": ""Substitute S = 40 back into the expression for gold coins: S + 30 = 40 + 30.""
+}
+```
+#### 70",1,True,True,{'math_format_name': 'BulletPoints18MathFormat'}
+34,"To solve the problem, we need to determine how many jewels Siobhan has based on the information given about Aaron and Raymond's jewels. Let's break it down step by step.
+
+### 1
+
+First, identify the number of jewels Raymond has. According to the problem, Raymond has 40 jewels.
+
+### 2
+
+Next, determine how many jewels Aaron has. The problem states that Aaron has 5 more jewels than half of Raymond's jewels. 
+
+- Calculate half of Raymond's jewels: \( \frac{40}{2} = 20 \).
+- Add 5 to this amount to find the number of jewels Aaron has: \( 20 + 5 = 25 \).
+
+### 3
+
+Now, calculate the number of jewels Siobhan has. The problem states that Siobhan has 2 fewer jewels than Aaron.
+
+- Subtract 2 from the number of jewels Aaron has: \( 25 - 2 = 23 \).
+
+### 4
+
+Finally, conclude with the number of jewels Siobhan has. Based on the calculations, Siobhan has \(\boxed{23}\) jewels.",1,True,True,{'math_format_name': 'BulletPoints4MathFormat'}
+35,"```json
+[
+    ""Mike plays ping pong for a total of 40 minutes, divided into two 20-minute halves."",
+    ""In the first 20 minutes, Mike scores 4 points."",
+    ""In the second 20 minutes, Mike scores 25% more points than he did in the first 20 minutes."",
+    ""To find 25% of 4 points, calculate 0.25 * 4 = 1 point."",
+    ""Add the additional 25% to the original 4 points: 4 + 1 = 5 points scored in the second 20 minutes."",
+    ""Add the points from both halves: 4 points (first half) + 5 points (second half) = 9 points."",
+    ""Therefore, the total number of points Mike scored is 9.""
+]
+```
+#### 9",1,True,True,{'math_format_name': 'BulletPoints14MathFormat'}
+36,"```json
+{
+    ""1"": ""Terry eats 2 yogurts a day."",
+    ""2"": ""Over 30 days, Terry will eat 2 yogurts/day * 30 days = 60 yogurts."",
+    ""3"": ""Yogurts are on sale at 4 yogurts for $5.00."",
+    ""4"": ""To find out how many sets of 4 yogurts Terry needs, divide 60 yogurts by 4 yogurts/set."",
+    ""5"": ""60 yogurts / 4 yogurts/set = 15 sets."",
+    ""6"": ""Each set costs $5.00."",
+    ""7"": ""The total cost is 15 sets * $5.00/set = $75.00.""
+}
+```
+#### 75.00",1,True,False,{'math_format_name': 'BulletPoints18MathFormat'}
+37,"**Step 1** Calculate the total amount of money John earns from selling his lego sets.
+
+- John sells each lego set for $15.
+- He has 13 lego sets.
+- Total money from selling all lego sets = 13 sets * $15/set = $195.
+
+**Step 2** Calculate the total cost of the video games John buys.
+
+- John buys 8 video games.
+- Each video game costs $20.
+- Total cost for video games = 8 games * $20/game = $160.
+
+**Step 3** Determine the amount of money John has left after buying the video games.
+
+- John has $5 left after buying the video games.
+
+**Step 4** Calculate the total amount of money John should have after buying the video games and having $5 left.
+
+- Total money spent on video games + money left = $160 + $5 = $165.
+
+**Step 5** Determine how much money John actually used from selling the lego sets.
+
+- John used $165 from the money he earned by selling lego sets.
+
+**Step 6** Calculate how many lego sets John sold to get $165.
+
+- Each lego set is sold for $15.
+- Number of lego sets sold = $165 / $15 per set = 11 sets.
+
+**Step 7** Calculate how many lego sets John still has.
+
+- John originally had 13 lego sets.
+- He sold 11 lego sets.
+- Lego sets remaining = 13 - 11 = 2.
+
+The answer is: 2",1,True,True,{'math_format_name': 'BulletPoints9MathFormat'}
+38,"### 1
+
+- John runs a total of 60 miles each week.
+
+### 2
+
+- He runs 3 days a week.
+
+### 3
+
+- On the first day, John runs for 3 hours.
+
+### 4
+
+- On the other two days, he runs half as much time as he does on the first day. Therefore, he runs for \( \frac{3}{2} = 1.5 \) hours on each of these two days.
+
+### 5
+
+- Calculate the total time John spends running in a week:  
+  - First day: 3 hours  
+  - Second day: 1.5 hours  
+  - Third day: 1.5 hours  
+  - Total time = \( 3 + 1.5 + 1.5 = 6 \) hours
+
+### 6
+
+- John runs 60 miles in 6 hours.
+
+### 7
+
+- To find his running speed, divide the total distance by the total time:  
+  - Speed = \( \frac{60 \text{ miles}}{6 \text{ hours}} = 10 \text{ miles per hour} \)
+
+#### 10",1,True,True,{'math_format_name': 'BulletPoints2MathFormat'}
+39,"```json
+{
+    ""1"": ""Dana can skip at 3 miles per hour."",
+    ""2"": ""Since skipping is half as fast as running, Dana's running speed is 3 * 2 = 6 miles per hour."",
+    ""3"": ""Dana's running speed is four times her walking speed, so her walking speed is 6 / 4 = 1.5 miles per hour."",
+    ""4"": ""Dana spends one-third of the time running, which is 6 / 3 = 2 hours."",
+    ""5"": ""Dana spends two-thirds of the time walking, which is 6 * (2/3) = 4 hours."",
+    ""6"": ""In 2 hours of running at 6 miles per hour, Dana covers 2 * 6 = 12 miles."",
+    ""7"": ""In 4 hours of walking at 1.5 miles per hour, Dana covers 4 * 1.5 = 6 miles."",
+    ""8"": ""The total distance Dana travels is 12 miles (running) + 6 miles (walking) = 18 miles.""
+}
+```
+\boxed{18}",1,True,True,{'math_format_name': 'BulletPoints20MathFormat'}
+40,"```json
+[
+    ""Suzy's iPhone is 1 year old."",
+    ""Ben's iPhone is two times older than Suzy's iPhone."",
+    ""Since Suzy's iPhone is 1 year old, Ben's iPhone is 2 * 1 = 2 years old."",
+    ""Brandon's iPhone is four times as old as Ben's iPhone."",
+    ""Since Ben's iPhone is 2 years old, Brandon's iPhone is 4 * 2 = 8 years old.""
+]
+```
+Final result: 8",1,True,True,{'math_format_name': 'BulletPoints15MathFormat'}
+41,"
+# 1. Determine Polly's throwing distance with the gemstone
+
+- Polly can throw the gold javelin 400 feet without the gemstone.
+- Holding the sapphire gemstone allows Polly to throw the javelin three times farther.
+- Therefore, with the gemstone, Polly can throw the javelin \(400 \times 3 = 1200\) feet.
+
+# 2. Calculate the safe distance from the dragon's flames
+
+- The dragon's flames reach a distance of 1000 feet.
+- Polly can throw the javelin 1200 feet with the gemstone.
+- To be outside the reach of the dragon's flames and still hit the dragon, Polly needs to stand at a distance where the javelin can still reach the dragon.
+
+# 3. Calculate the maximum safe distance Polly can stand
+
+- Polly can throw the javelin 1200 feet, and the dragon's flames reach 1000 feet.
+- The difference between Polly's throwing distance and the dragon's flame reach is \(1200 - 1000 = 200\) feet.
+
+# 4. Determine the final result
+
+- Polly can stand 200 feet outside the reach of the dragon's flames and still hit the dragon with the javelin.
+
+Final result: 200",0,False,True,{'math_format_name': 'BulletPoints7MathFormat'}
+42,"**Step 1** Determine the total number of pieces from all pies.
+
+- Grandma Jones baked 5 apple pies.
+- Each pie was cut into 8 pieces.
+- Therefore, the total number of pieces is calculated as follows:  
+  \[
+  5 \text{ pies} \times 8 \text{ pieces per pie} = 40 \text{ pieces}
+  \]
+
+**Step 2** Identify the number of pieces remaining after the event.
+
+- At the end of the evening, there were 14 pieces of pie remaining.
+
+**Step 3** Calculate the number of pieces taken by the guests.
+
+- To find out how many pieces were taken, subtract the number of pieces remaining from the total number of pieces:  
+  \[
+  40 \text{ total pieces} - 14 \text{ remaining pieces} = 26 \text{ pieces taken}
+  \]
+
+\[
+\boxed{26}
+\]",1,True,True,{'math_format_name': 'BulletPoints12MathFormat'}
+43,"To solve this problem, we need to determine how many grams of chips you can eat without exceeding your remaining calorie allowance for the day. Let's break it down step by step:
+
+### 1. Calculate Remaining Calorie Allowance
+
+- You have a daily calorie target of 2000 calories.
+- You have already consumed 1800 calories.
+- Therefore, your remaining calorie allowance is \(2000 - 1800 = 200\) calories.
+
+### 2. Determine Calories per Gram of Chips
+
+- The bag of chips has 5 servings, and each serving contains 250 calories.
+- Therefore, the entire bag contains \(5 \times 250 = 1250\) calories.
+- The bag weighs 300 grams.
+- Thus, the calories per gram of chips is \(\frac{1250}{300}\).
+
+### 3. Calculate Calories per Gram
+
+- \(\frac{1250}{300} \approx 4.1667\) calories per gram.
+
+### 4. Determine How Many Grams You Can Eat
+
+- You have 200 calories remaining.
+- To find out how many grams you can eat, divide the remaining calories by the calories per gram: \(\frac{200}{4.1667}\).
+
+### 5. Calculate Grams You Can Eat
+
+- \(\frac{200}{4.1667} \approx 48\) grams.
+
+### Final Result
+
+\[
+\boxed{48}
+\]",0,False,True,{'math_format_name': 'BulletPoints8MathFormat'}
+44,"```json
+[
+    ""Charlie can make 10 tapered candles from one pound of beeswax."",
+    ""The cost of supplies for one pound of beeswax and the wicks is $10.00."",
+    ""Charlie sells each candle for $2.00."",
+    ""If Charlie makes and sells 20 candles, he needs 2 pounds of beeswax."",
+    ""The cost of supplies for 2 pounds of beeswax is 2 * $10.00 = $20.00."",
+    ""The revenue from selling 20 candles at $2.00 each is 20 * $2.00 = $40.00."",
+    ""The net profit is calculated as revenue minus the cost of supplies."",
+    ""Net profit = $40.00 (revenue) - $20.00 (cost) = $20.00.""
+]
+Final result: 20.00
+```",0,False,False,{'math_format_name': 'BulletPoints15MathFormat'}
+45,"### 1
+
+- Meredith wrote 5 articles on Monday.
+
+### 2
+
+- On Tuesday, she wrote \( \frac{2}{5} \) times more articles than on Monday.
+- Calculate the number of articles written on Tuesday:  
+  \[
+  \text{Articles on Tuesday} = 5 + \left(\frac{2}{5} \times 5\right) = 5 + 2 = 7
+  \]
+
+### 3
+
+- On Wednesday, she wrote twice the number of articles she wrote on Tuesday.
+- Calculate the number of articles written on Wednesday:  
+  \[
+  \text{Articles on Wednesday} = 2 \times 7 = 14
+  \]
+
+### 4
+
+- Calculate the total number of articles written over the three days:  
+  \[
+  \text{Total articles} = 5 + 7 + 14 = 26
+  \]
+
+### 5
+
+- Each article takes 4 hours to research and write.
+- Calculate the total number of hours spent writing:  
+  \[
+  \text{Total hours} = 26 \times 4 = 104
+  \]
+
+Final result: 104",1,True,True,{'math_format_name': 'BulletPoints3MathFormat'}
+46,"```json
+[
+    ""Candice started with 80 post-it notes in her purse."",
+    ""She used 1 post-it note for each of the 220 cups of coffee, totaling 220 post-it notes used."",
+    ""After using the post-it notes, she had 23 post-it notes remaining."",
+    ""Let x be the number of post-it notes in the package she purchased."",
+    ""The equation representing the situation is: 80 + x - 220 = 23."",
+    ""Simplifying the equation: 80 + x = 243."",
+    ""Solving for x gives: x = 243 - 80."",
+    ""Therefore, x = 163.""
+]
+```
+#### 163",1,True,True,{'math_format_name': 'BulletPoints14MathFormat'}
+47,"```json
+{
+    ""1"": ""Determine the number of blue ties John bought by dividing the total amount spent on blue ties by the cost per blue tie."",
+    ""2"": ""Calculate the number of blue ties: $200 / $40 = 5 blue ties."",
+    ""3"": ""Since John buys twice as many red ties as blue ties, calculate the number of red ties: 5 blue ties * 2 = 10 red ties."",
+    ""4"": ""Determine the cost of one red tie, which is 50% more than a blue tie: $40 + ($40 * 0.5) = $60."",
+    ""5"": ""Calculate the total amount spent on red ties by multiplying the number of red ties by the cost per red tie: 10 red ties * $60 = $600."",
+    ""6"": ""Calculate the total amount spent on all ties by adding the amount spent on blue ties and red ties: $200 + $600 = $800.""
+}
+```
+The answer is: 800",1,True,True,{'math_format_name': 'BulletPoints17MathFormat'}
+48,"To solve this problem, we need to determine how many 6-inch pieces can be obtained from a 4-foot long wire. Let's break down the solution into clear steps:
+
+### 1
+
+First, convert the total length of the wire from feet to inches. Since there are 12 inches in a foot, multiply the number of feet by 12 to get the total length in inches.
+
+\[ 4 \text{ feet} \times 12 \text{ inches/foot} = 48 \text{ inches} \]
+
+### 2
+
+Next, determine how many 6-inch pieces can be obtained from the 48-inch wire. This is done by dividing the total length of the wire in inches by the length of each piece.
+
+\[ \frac{48 \text{ inches}}{6 \text{ inches/piece}} = 8 \text{ pieces} \]
+
+### 3
+
+Verify the calculation to ensure accuracy. Multiply the number of pieces by the length of each piece to check if it equals the total length of the wire.
+
+\[ 8 \text{ pieces} \times 6 \text{ inches/piece} = 48 \text{ inches} \]
+
+The calculation is correct, confirming that the number of pieces is accurate.
+
+### 4
+
+Conclude the solution by stating the final result. Tracy obtained a total of 8 pieces from the wire.
+
+\[
+\boxed{8}
+\]",1,True,True,{'math_format_name': 'BulletPoints4MathFormat'}
+49,"```json
+{
+    ""1"": ""Calculate the total number of units in the building by multiplying the number of floors by the number of units per floor."",
+    ""2"": ""There are 15 floors and each floor has 8 units, so the total number of units is 15 * 8."",
+    ""3"": ""15 * 8 equals 120, so there are 120 units in the building."",
+    ""4"": ""Determine the number of occupied units by calculating 3/4 of the total units."",
+    ""5"": ""3/4 of 120 is calculated as (3/4) * 120."",
+    ""6"": ""(3/4) * 120 equals 90, so there are 90 occupied units."",
+    ""7"": ""Calculate the number of unoccupied units by subtracting the number of occupied units from the total number of units."",
+    ""8"": ""120 total units minus 90 occupied units equals 30 unoccupied units.""
+}
+```
+#### 30",1,True,True,{'math_format_name': 'BulletPoints18MathFormat'}

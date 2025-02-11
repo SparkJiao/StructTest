@@ -1,0 +1,2039 @@
+index,generated,result,format_properties
+0,"<ans>
+[""hello"", ""l""]
+[""abracadabra"", ""a""]
+[""mississippi"", ""s""]
+[""programming"", ""m""]
+[""banana"", ""n""]
+</ans>",True,{}
+1,"<ans>
+[[[1, 2, 3], [4, 5, 6], [7, 8, 9]]]
+[[[9, 8, 7], [6, 5, 4], [3, 2, 1]]]
+[[[1, 1, 1], [2, 2, 2], [3, 3, 3]]]
+[[[10], [5], [20], [1]]]
+[[[0, 0], [0, 0], [0, 0]]]
+</ans>",True,{}
+2,"<ans>
+[3, 4, 5]
+[10, 20, 30]
+[1, 1, 1]
+[7, 8, 9]
+[0.5, 0.5, 0.5]
+</ans>",True,{}
+3,"<ans>
+""'hello_world'""
+""'python_programming'""
+""'test_case'""
+""'invalidInput'""
+""'no_underscore'""
+</ans>",True,{}
+4,"<ans>
+[5]
+[10]
+[0]
+[25]
+[100]
+</ans>
+
+These test cases cover various scenarios, including:
+1. A small positive side length (5).
+2. A larger positive side length (10).
+3. A side length of 0, which should return a perimeter of 0.
+4. A medium-sized side length (25).
+5. A very large side length (100).",True,{}
+5,"<ans>
+[""hello world"", ""lo""]
+[""abcdef"", ""xyz""]
+[""programming"", ""gram""]
+[""test case"", ""es""]
+[""remove characters"", ""aeiou""]
+</ans>",True,{}
+6,"<ans>
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 1]
+[10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+[5, 5, 5, 5, 5]
+[1, 1, 2, 2, 3, 3, 4, 4, 5, 5]
+</ans>",0,{}
+7,"<ans>
+[1]
+[3]
+[7]
+[15]
+[31]
+</ans>
+
+These test cases cover various scenarios for the `is_woodall` function:
+
+1. `[1]` - The smallest Woodall number, which should return `True`.
+2. `[3]` - Another Woodall number (2 * 2^1 - 1), which should return `True`.
+3. `[7]` - A Woodall number (3 * 2^2 - 1), which should return `True`.
+4. `[15]` - A Woodall number (4 * 2^3 - 1), which should return `True`.
+5. `[31]` - A Woodall number (5 * 2^4 - 1), which should return `True`.
+
+These test cases are designed to verify that the function correctly identifies Woodall numbers, which are numbers of the form `n * 2^n - 1`.",True,{}
+8,"<ans>
+[13]
+[21]
+[37]
+[73]
+[123]
+</ans>
+
+### Explanation of Test Cases:
+1. **13**: The reverse of 13 is 31. Twice the reverse is 62, which is one more than 61 (not 13). This should return `False`.
+2. **21**: The reverse of 21 is 12. Twice the reverse is 24, which is one more than 23 (not 21). This should return `False`.
+3. **37**: The reverse of 37 is 73. Twice the reverse is 146, which is one more than 147 (not 37). This should return `False`.
+4. **73**: The reverse of 73 is 37. Twice the reverse is 74, which is one more than 73. This should return `True`.
+5. **123**: The reverse of 123 is 321. Twice the reverse is 642, which is one more than 643 (not 123). This should return `False`.
+
+These test cases cover a variety of scenarios, including numbers that satisfy the condition and those that do not.",True,{}
+9,"<ans>
+[1, 2, 3, 4, 5]
+[9, 8, 7, 6, 5]
+[0, 1, 2, 3, 4]
+[5, 5, 5, 5, 5]
+[9, 0, 9, 0, 9]
+</ans>",0,{}
+10,"<ans>
+[5, -3]
+[-10, 20]
+[0, 0]
+[15, 15]
+[-7, -8]
+</ans>",True,{}
+11,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>
+
+These test cases cover the first 5 octagonal numbers, which are 1, 8, 21, 40, and 65 respectively. The function `is_octagonal(n)` calculates the nth octagonal number using the formula \(3n^2 - 2n\). The test cases are simple and cover the basic functionality of the function.",True,{}
+12,"<ans>
+""123""
+""111""
+""000""
+""1010""
+""12345""
+</ans>
+
+These test cases cover a variety of scenarios:
+1. ""123"" - A simple case with increasing digits.
+2. ""111"" - A case where all digits are the same.
+3. ""000"" - A case where all digits are zero.
+4. ""1010"" - A case with alternating digits.
+5. ""12345"" - A longer string with increasing digits.",True,{}
+13,"<ans>
+[1, 2, 3, 4, 5]
+[-1, -2, -3, -4, -5]
+[0, 0, 0, 0, 0]
+[100, 200, 50, 300, 150]
+[5]
+</ans>",0,{}
+14,"<ans>
+[(1, 2), (3, 5), (7, 10)]
+[(10, 20), (30, 40), (50, 60)]
+[(0, 0), (0, 0), (0, 0)]
+[(-5, 5), (-10, 10), (-15, 15)]
+[(100, 200), (300, 400), (500, 600)]
+</ans>",0,{}
+15,"<ans>
+[('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]
+[('Maths', 95), ('Physics', 85), ('Chemistry', 90)]
+[('History', 75), ('Geography', 80), ('Economics', 78)]
+[('Biology', 92), ('Computer Science', 88), ('Mathematics', 91)]
+[('Art', 70), ('Music', 85), ('Drama', 65)]
+</ans>",0,{}
+16,"<ans>
+[1, 2, 3, 4, 5]
+[[1, 2], [3, 4], [5]]
+[1, [2, [3, [4, [5]]]]]
+[[1, [2, 3]], [4, 5]]
+[[[1]], [[2], [3, 4]], [5]]
+</ans>",0,{}
+17,"<ans>
+[1, 2, 3, 4, 5]
+[-1, -2, -3, -4, -5]
+[0, 0, 0, 0, 0]
+[-1, 2, -3, 4, -5]
+[10, -20, 30, -40, 50, 60]
+</ans>",0,{}
+18,"<ans>
+[0]
+[1]
+[2]
+[3]
+[5]
+</ans>
+
+### Explanation:
+- The function `bell_number(n)` computes the Bell number for a given integer `n`, which represents the number of ways to partition a set of size `n`.
+- The test cases provided cover a range of inputs, including the base case (`n = 0`), small values (`n = 1, 2, 3`), and a slightly larger value (`n = 5`) to ensure the function works correctly across different scenarios.",True,{}
+19,"<ans>
+[1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1]
+[1, 1, 1, 1, 1]
+[1, 3, 2, 4, 5]
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+</ans>",0,{}
+20,"<ans>
+[ [1, 2, 3, 4, 5], [2, 3] ]
+[ [1, 2, 3, 4, 5], [6, 7] ]
+[ [1, 2, 3, 4, 5], [] ]
+[ [1, 2, 3, 4, 5], [1, 2, 3, 4, 5] ]
+[ [1, 2, 3, 4, 5], [3, 4, 6] ]
+</ans>",True,{}
+21,"<ans>
+[()]
+[((1,), (2,), (3,))]
+[((1, 2), (3, 4), (5, 6))]
+[((1, 2, 3), (4, 5), (6, 7, 8))]
+[((1,), (2, 3), (4, 5, 6))]
+</ans>",True,{}
+22,"<ans>
+[5, 3, 8, 1, 2]
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+[1, 2, 3, 4, 5]
+[42]
+[3, 6, 1, 9, 4, 7, 2, 8, 5]
+</ans>",0,{}
+23,"<ans>
+[4]
+[6]
+[8]
+[10]
+[12]
+</ans>
+
+These test cases cover various scenarios:
+1. `4` can be represented as \(2^2 - 0^2\).
+2. `6` cannot be represented as the difference of two squares (since \(6 \% 4 = 2\)).
+3. `8` can be represented as \(3^2 - 1^2\).
+4. `10` cannot be represented as the difference of two squares (since \(10 \% 4 = 2\)).
+5. `12` can be represented as \(4^2 - 2^2\).
+
+These test cases help verify the correctness of the function by checking both cases where the number can and cannot be represented as the difference of two squares.",True,{}
+24,"<ans>
+[""red"", ""blue"", ""red""], [""a"", ""b"", ""a""]
+[""green"", ""green"", ""blue""], [""x"", ""x"", ""y""]
+[""yellow"", ""yellow"", ""yellow""], [""a"", ""a"", ""a""]
+[""black"", ""white"", ""black"", ""white""], [""1"", ""2"", ""1"", ""2""]
+[""orange"", ""purple"", ""orange"", ""purple"", ""orange""], [""x"", ""y"", ""x"", ""y"", ""x""]
+</ans>",True,{}
+25,"<ans>
+[[(2, 4, 6), (3, 6, 9), (4, 8, 12)], 2]
+[[(1, 2, 3), (4, 5, 6), (7, 8, 9)], 3]
+[[(10, 20, 30), (15, 25, 35), (40, 50, 60)], 5]
+[[(12, 24, 36), (13, 26, 39), (14, 28, 42)], 12]
+[[(100, 200, 300), (150, 250, 350), (400, 500, 600)], 50]
+</ans>",True,{}
+26,"<ans>
+[121]
+[123]
+[0]
+[22]
+[1001]
+</ans>",True,{}
+27,"<ans>
+[""hello""]
+[""world""]
+[""python programming""]
+[""test case""]
+[""odd length""]
+</ans>",True,{}
+28,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>
+
+These test cases cover small values of `n` to verify the correctness of the function for the first few tetrahedral numbers. The expected outputs for these inputs are:
+
+1. `n = 1` → 1
+2. `n = 2` → 4
+3. `n = 3` → 10
+4. `n = 4` → 20
+5. `n = 5` → 35
+
+These test cases ensure the function works correctly for the initial values of `n`.",True,{}
+29,"<ans>
+[""abc""]
+[""xyz""]
+[""hello""]
+[""programming""]
+[""testcase""]
+</ans>",True,{}
+30,"<ans>
+[1]
+[2]
+[3]
+[4]
+[10]
+</ans>
+
+These test cases cover the base cases (1 and 2), small values (3 and 4), and a slightly larger value (10) to test the recursive nature of the function.",True,{}
+31,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>
+
+These test cases cover the first 5 centered hexagonal numbers, which are 1, 7, 19, 37, and 61 respectively. This will help verify the correctness of the function for small values of `n`.",True,{}
+32,"<ans>
+[{'a': 1, 'b': 2}, {'c': 3, 'd': 4}, {'e': 5, 'f': 6}]
+[{'x': 10}, {'y': 20, 'z': 30}, {'a': 40}]
+[{'name': 'Alice'}, {'age': 25}, {'city': 'New York'}]
+[{}, {}, {}]
+[{'key1': 'value1'}, {'key1': 'value2'}, {'key1': 'value3'}]
+</ans>",0,{}
+33,"<ans>
+[1, 2, 2, 3, 3, 3]
+[4, 4, 4, 4]
+[1, 1, 1, 1, 1]
+[5, 6, 7, 8, 9]
+[]
+</ans>
+
+### Explanation of Test Cases:
+1. `[1, 2, 2, 3, 3, 3]`: A list with repeated elements to check if the function correctly counts frequencies.
+2. `[4, 4, 4, 4]`: A list with all identical elements to test if the function handles uniform lists correctly.
+3. `[1, 1, 1, 1, 1]`: Another list with all identical elements but with a different value to ensure the function works for different values.
+4. `[5, 6, 7, 8, 9]`: A list with all unique elements to test if the function correctly identifies that each element appears once.
+5. `[]`: An empty list to test if the function handles edge cases where there are no elements to count.",0,{}
+34,"<ans>
+[5]
+[10]
+[1]
+[100]
+[0]
+</ans>",True,{}
+35,"<ans>
+[""apple"", ""banana"", ""cherry""]
+[""hello"", ""world"", ""python"", ""programming""]
+[""a"", ""ab"", ""abc"", ""abcd""]
+[""short"", ""longer"", ""longest""]
+[""one"", ""two"", ""three"", ""four"", ""five""]
+</ans>",0,{}
+36,"<ans>
+[""hello world"", ""hello""]
+[""python programming"", ""pro""]
+[""data science"", ""data""]
+[""machine learning"", ""learn""]
+[""artificial intelligence"", ""intel""]
+</ans>",True,{}
+37,"<ans>
+[121]
+[12321]
+[123123]
+[123456]
+[111]
+</ans>",True,{}
+38,"<ans>
+[2, 3]
+[5, 0]
+[0, 5]
+[1, 10]
+[3, 4]
+</ans>",True,{}
+39,"<ans>
+[(3, 5), (1, 2), (4, 1), (2, 3)]
+[(10, 20), (15, 10), (5, 30)]
+[(7, 3), (8, 3), (9, 3)]
+[(100, 1), (200, 2), (300, 3), (400, 4)]
+[(1, 100), (2, 200), (3, 300), (4, 400), (5, 500)]
+</ans>",0,{}
+40,"<ans>
+[[[1, 2, 3], [4, 5], [6]]]
+[[[1], [2, 3, 4], [5, 6, 7, 8]]]
+[[[1, 2], [3, 4], [5, 6], [7, 8, 9]]]
+[[[1, 2, 3, 4], [5], [6, 7]]]
+[[[], [1, 2], [3, 4, 5]]]
+</ans>",True,{}
+41,"<ans>
+[1]
+[2]
+[10]
+[25]
+[100]
+</ans>
+
+### Explanation:
+1. `[1]`: The number 1 has only one divisor, which is itself.
+2. `[2]`: The number 2 has two divisors: 1 and 2.
+3. `[10]`: The number 10 has four divisors: 1, 2, 5, and 10.
+4. `[25]`: The number 25 has three divisors: 1, 5, and 25.
+5. `[100]`: The number 100 has nine divisors: 1, 2, 4, 5, 10, 20, 25, 50, and 100.
+
+These test cases cover a range of inputs, including the smallest positive integer, a prime number, a composite number, and a perfect square.",True,{}
+42,"<ans>
+[[[1, 2, 3], [4, 5, 6], [7, 8, 9]]]
+[[[1, 1, 2], [2, 3, 3], [4, 4, 4]]]
+[[[10], [10], [10], [10]]]
+[[[1], [2], [3], [4], [5]]]
+[[[1, 2], [2, 3], [3, 4], [4, 5], [5, 6]]]
+</ans>",True,{}
+43,"<ans>
+[0]
+[1]
+[2]
+[10]
+[255]
+</ans>",True,{}
+44,"<ans>
+[123]
+[999]
+[12321]
+[1001]
+[1991]
+</ans>
+
+These test cases cover a variety of scenarios:
+1. A number that is not a palindrome and needs to find the next smallest palindrome.
+2. A number that is already a palindrome (999) and should return the next palindrome.
+3. A palindrome number (12321) to check if it returns the next palindrome.
+4. A palindrome number (1001) to check if it returns the next palindrome.
+5. A palindrome number (1991) to check if it returns the next palindrome.",True,{}
+45,"<ans>
+[ [3, 1, 2], 2 ]
+[ [5, 4, 3, 2, 1], 3 ]
+[ [10, 20, 30, 40, 50], 1 ]
+[ [7, 8, 9, 10, 11, 12], 6 ]
+[ [1, 1, 1, 1, 1], 3 ]
+</ans>",True,{}
+46,"<ans>
+""hello_world""
+""this_is_a_test""
+""snake_case_to_camel_case""
+""python_programming""
+""convert_snake_to_camel""
+</ans>",True,{}
+47,"<ans>
+[1, 0]
+[2, 1]
+[3, 1]
+[4, 2]
+[5, 3]
+</ans>",True,{}
+48,"<ans>
+[[[""apple"", ""banana"", ""cherry""], [""date"", ""elderberry"", ""fig""]]]
+[[[""zebra"", ""yak"", ""xylophone""], [""walrus"", ""vulture"", ""unicorn""]]]
+[[[""cat"", ""bat"", ""ant""], [""dog"", ""elephant"", ""frog""]]]
+[[[""grape"", ""fig"", ""elderberry""], [""date"", ""cherry"", ""banana""]]]
+[[[""orange"", ""mango"", ""lemon""], [""kiwi"", ""jackfruit"", ""honeydew""]]]
+</ans>",True,{}
+49,"<ans>
+[[]]
+[[False, False, False]]
+[[True, True, True]]
+[[False, True, False, True]]
+[[True, False, True, False, True]]
+</ans>",True,{}
+50,"<ans>
+[[1, 2, 3], (4, 5, 6)]
+[[], (1, 2, 3)]
+[[7, 8], ()]
+[[9], (10, 11, 12, 13)]
+[[14, 15, 16], (17,)]
+</ans>",True,{}
+51,"<ans>
+[[1, 4, 7], [2, 5, 8], [3, 6, 9]]
+[[], [1, 2, 3], [4, 5, 6]]
+[[10, 20, 30], [15, 25, 35], [5, 15, 25]]
+[[-1, 0, 1], [-2, 0, 2], [-3, 0, 3]]
+[[1, 1, 1], [2, 2, 2], [3, 3, 3]]
+</ans>",True,{}
+52,"<ans>
+[""101"", 3]
+[""1111"", 4]
+[""0000"", 2]
+[""101010"", 6]
+[""1001"", 4]
+</ans>",True,{}
+53,"<ans>
+[""123""]
+[""-456""]
+[""+789""]
+[""abc""]
+[""12a34""]
+</ans>",True,{}
+54,"<ans>
+[[]]
+[[{}]]
+[[{}, {}, {}]]
+[[{'a': 1}, {}, {}]]
+[[{}, {'b': 2}, {}]]
+</ans>",True,{}
+55,"<ans>
+(1, 2, 3)
+(9, 9, 9)
+(0, 1, 0)
+(5,)
+(1, 0, 0, 0)
+</ans>",0,{}
+56,"<ans>
+[['123', '456'], ['789', '101112']]
+[['abc', 'def'], ['ghi', 'jkl']]
+[['123', 'abc'], ['456', 'def']]
+[['1.23', '4.56'], ['7.89', '10.11']]
+[['1.23', 'abc'], ['4.56', 'def'], ['7.89', 'ghi']]
+</ans>",0,{}
+57,"<ans>
+""Hello World""
+""Python Programming is Fun""
+""One Two Three Four Five""
+""""
+""  Leading and trailing spaces  ""
+</ans>",True,{}
+58,"<ans>
+[1, 1, 2, 2, 3]
+[1, 2, 2, 3, 3]
+[4, 4, 5, 5, 6]
+[7, 7, 8, 8, 9, 9, 10]
+[11, 11, 12, 12, 13, 13, 14, 14, 15]
+</ans>",0,{}
+59,"<ans>
+[(1, 2), (3, 4), (-1, -2)]
+[(0, 0), (5, -5), (10, 10)]
+[(-3, -4), (-1, 1), (2, 2)]
+[(100, -100), (50, 50), (-25, 25)]
+[(1, 1), (1, -1), (-1, -1)]
+</ans>",0,{}
+60,"<ans>
+[10]
+[100]
+[284]
+[1000]
+[5000]
+</ans>
+
+### Explanation of Test Cases:
+1. **[10]**: Tests the function with a small limit. The only amicable pair in this range is (6, 6), but since a number cannot be amicable with itself, the expected result is 0.
+2. **[100]**: Tests the function with a slightly larger limit. The amicable pairs in this range are (220, 284), so the expected result is 504.
+3. **[284]**: Tests the function with a limit that includes one of the numbers in the smallest amicable pair. The expected result is 504 (220 + 284).
+4. **[1000]**: Tests the function with a larger limit. The amicable pairs in this range are (220, 284) and (1184, 1210), so the expected result is 2898.
+5. **[5000]**: Tests the function with an even larger limit. The amicable pairs in this range are (220, 284), (1184, 1210), and (2620, 2924), so the expected result is 8442.",True,{}
+61,"<ans>
+""010101""
+""000111""
+""111000""
+""1010101""
+""0000000""
+</ans>",True,{}
+62,"<ans>
+[12, 18]
+[24, 36]
+[7, 13]
+[100, 200]
+[17, 19]
+</ans>",True,{}
+63,"<ans>
+[5, 3]
+[0, 7]
+[-4, 6]
+[10, -2]
+[-3, -5]
+</ans>",True,{}
+64,"<ans>
+[3, ""hello world this is a test""]
+[5, ""programming is fun and challenging""]
+[2, ""short words are easy to find""]
+[4, ""longer words require more effort""]
+[6, ""this sentence contains some very long words""]
+</ans>",True,{}
+65,"<ans>
+[[[2, 7, 6], [9, 5, 1], [4, 3, 8]]]
+[[[4, 9, 2], [3, 5, 7], [8, 1, 6]]]
+[[[1, 1, 1], [1, 1, 1], [1, 1, 1]]]
+[[[2, 7, 6], [9, 5, 1], [4, 3, 7]]]
+[[[1, 2, 3], [4, 5, 6], [7, 8, 9]]]
+</ans>",True,{}
+66,"<ans>
+[1, 2, 2, 3, 3, 3]
+[5, 5, 5, 5, 5]
+[10, 20, 30, 40, 50]
+[1, 1, 2, 2, 2, 3, 3, 3, 3]
+[7, 7, 7, 8, 8, 9, 9, 9, 9, 9]
+</ans>",0,{}
+67,"<ans>
+""hello""
+""leetcode""
+""aA""
+""race car""
+""xyz""
+</ans>
+
+These test cases cover various scenarios:
+1. A simple word with vowels to reverse.
+2. A word with multiple vowels in different positions.
+3. A string with both lowercase and uppercase vowels.
+4. A string with spaces and vowels.
+5. A string with no vowels at all.",True,{}
+68,"<ans>
+(""a"", ""b"", ""c"")
+(""1"", ""2"", ""3"", ""4"")
+(""x"", ""y"", ""z"", ""w"", ""v"")
+(""hello"", ""world"")
+(""p"", ""y"", ""t"", ""h"", ""o"", ""n"")
+</ans>",0,{}
+69,"<ans>
+[1, 2, 3, 4, 5]
+[-1, -2, -3, -4, -5]
+[0, -1, 2, -3, 4]
+[-10, 20, -30, 40, -50]
+[0, 0, 0, 0, 0]
+</ans>",0,{}
+70,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>
+
+These test cases cover the first 5 hexagonal numbers, which are 1, 6, 15, 28, and 45 respectively. This will help verify the correctness of the function for small values of `n`.",True,{}
+71,"<ans>
+[2]
+[4]
+[6]
+[8]
+[10]
+</ans>
+
+These test cases cover various even numbers, which should return `True` since they can be represented as the sum of non-zero powers of 2. The function should return `False` for odd numbers, but since the problem specifically asks for numbers that can be represented as the sum of non-zero powers of 2, the test cases focus on even numbers.",True,{}
+72,"<ans>
+[3, 2, 1]
+[1, 2, 3]
+[5, 4, 3, 2, 1]
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+[1, 3, 2, 4, 5]
+</ans>",0,{}
+73,"<ans>
+[1, 2, 3], [1, 2, 3], [1, 2, 3]
+[1, 2, 3], [4, 5, 6], [7, 8, 9]
+[1, 2, 3], [1, 2, 4], [1, 2, 5]
+[10, 20, 30], [10, 20, 30], [10, 20, 30]
+[1, 1, 1], [1, 1, 1], [1, 1, 1]
+</ans>",True,{}
+74,"<ans>
+[([1, 2, 3],)]
+[(1, 2, 3)]
+[([1, 2], [3, 4], [5, 6])]
+[([1], 2, [3, 4], [5])]
+[([], [1], [2, 3], [4, 5, 6])]
+</ans>",True,{}
+75,"<ans>
+[1, 2, 3, 4, 5]
+[10, 20, 30, 40, 50]
+[-1, -2, -3, -4, -5]
+[5, 5, 5, 5, 5]
+[100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+</ans>",0,{}
+76,"<ans>
+[2, 3, 10]
+[5, 7, 24]
+[3, 4, 11]
+[6, 8, 20]
+[1, 1, 5]
+</ans>",True,{}
+77,"<ans>
+[1, 2, 3, 4, 5], [2, 4]
+[10, 20, 30, 40, 50], [10, 30, 50]
+[5, 5, 5, 5], [5]
+[1, 3, 5, 7, 9], [2, 4, 6, 8]
+[], [1, 2, 3]
+</ans>",True,{}
+78,"<ans>
+[5]
+[10]
+[1]
+[0]
+[7]
+</ans>
+
+### Explanation of Test Cases:
+1. `[5]`: This tests a small positive integer. The expected sum is 5 + 3 + 1 = 9.
+2. `[10]`: This tests a larger positive integer. The expected sum is 10 + 8 + 6 + 4 + 2 = 30.
+3. `[1]`: This tests the smallest positive integer. The expected sum is 1.
+4. `[0]`: This tests the edge case where the input is 0. The expected sum is 0.
+5. `[7]`: This tests an odd positive integer. The expected sum is 7 + 5 + 3 + 1 = 16.",True,{}
+79,"<ans>
+[6, 6]
+[28, 28]
+[220, 284]
+[12, 18]
+[14, 15]
+</ans>
+
+### Explanation:
+1. **[6, 6]**: Both numbers are the same, and their sum of divisors is equal (1 + 2 + 3 + 6 = 12).
+2. **[28, 28]**: Both numbers are the same, and their sum of divisors is equal (1 + 2 + 4 + 7 + 14 + 28 = 56).
+3. **[220, 284]**: These are amicable numbers, where the sum of divisors of 220 is 284, and the sum of divisors of 284 is 220.
+4. **[12, 18]**: Both numbers have the same sum of divisors (1 + 2 + 3 + 4 + 6 + 12 = 28 and 1 + 2 + 3 + 6 + 9 + 18 = 39), but they are not equal, so this tests the function's ability to handle non-equivalent sums.
+5. **[14, 15]**: Both numbers have different sums of divisors (1 + 2 + 7 + 14 = 24 and 1 + 3 + 5 + 15 = 24), so this tests the function's ability to handle equivalent sums for different numbers.",True,{}
+80,"<ans>
+[""abc""]
+[""AbC""]
+[""xyz""]
+[""aBcDeFgHiJkLmNoPqRsTuVwXyZ""]
+[""HelloWorld""]
+</ans>",True,{}
+81,"<ans>
+[1, 2, 3, 4]
+[5, 6, 7, 8, 9]
+[10, 11, 12, 13, 14, 15]
+[0, 0, 0, 0, 0]
+[1, 3, 5, 7, 9, 11]
+</ans>",0,{}
+82,"<ans>
+[0]
+[1]
+[2]
+[3]
+[15]
+[16]
+[17]
+[1023]
+[1024]
+[1025]
+</ans>
+
+These test cases cover a variety of scenarios, including edge cases like 0 and 1, powers of 2 themselves (e.g., 2, 16, 1024), and numbers just below and above powers of 2 (e.g., 3, 15, 17, 1023, 1025). This ensures the function is tested for correctness across different ranges and edge conditions.",0,{}
+83,"<ans>
+[[1, 2, 3, 4, 5], 3]
+[[1, 1, 1, 1, 1], 1]
+[[5, 5, 5, 5, 5], 5]
+[[10, 20, 30, 40, 50], 100]
+[[], 1]
+</ans>",True,{}
+84,"<ans>
+[ [1, 2, 3, 4, 5], 1, 3 ]
+[ [10, 20, 30, 40, 50], 0, 4 ]
+[ [5, 10, 15, 20, 25, 30], 2, 5 ]
+[ [100, 200, 300, 400, 500], 1, 2 ]
+[ [0, 0, 0, 0, 0], 0, 4 ]
+</ans>",True,{}
+85,"<ans>
+[5]
+[10]
+[2.5]
+[7]
+[12.3]
+</ans>",True,{}
+86,"<ans>
+""'stdstdstd'""
+""'ssttdd'""
+""'stdsdtstd'""
+""'stdstdstdstd'""
+""'sstdtdstd'""
+</ans>",True,{}
+87,"<ans>
+(1, 2, 3, 4)
+(1, 'a', 3.5, True)
+('a', 'b', 'c', 'd')
+([1, 2], [3, 4], [5, 6])
+(1.0, 2.0, 3.0, 4.0)
+</ans>",0,{}
+88,"<ans>
+[1, 1, 1]
+[1, 2, 3, 3, 3, 3, 10], 7, 3
+[1, 1, 2, 2, 2, 2, 2, 2, 3, 4, 5], 11, 2
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 10, 5
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 20, 1
+</ans>",0,{}
+89,"<ans>
+[0]
+[1]
+[15]
+[255]
+[1023]
+</ans>
+
+### Explanation of Test Cases:
+1. **`[0]`**: The number 0 has no set bits (binary representation is `0`), so the expected output is 0.
+2. **`[1]`**: The number 1 has one set bit (binary representation is `1`), so the expected output is 1.
+3. **`[15]`**: The number 15 has four set bits (binary representation is `1111`), so the expected output is 4.
+4. **`[255]`**: The number 255 has eight set bits (binary representation is `11111111`), so the expected output is 8.
+5. **`[1023]`**: The number 1023 has ten set bits (binary representation is `1111111111`), so the expected output is 10.
+
+These test cases cover edge cases (0 and 1), as well as numbers with varying numbers of set bits to ensure the function works correctly across different scenarios.",True,{}
+90,"<ans>
+""abcdef""
+""hello""
+""python""
+""1234567890""
+""a1b2c3d4""
+</ans>
+
+### Explanation of Test Cases:
+1. `""abcdef""`: A simple string with even and odd indices. The expected output is `""ace""`.
+2. `""hello""`: A string with repeated characters. The expected output is `""hlo""`.
+3. `""python""`: A string with mixed characters. The expected output is `""pto""`.
+4. `""1234567890""`: A string with numbers. The expected output is `""13579""`.
+5. `""a1b2c3d4""`: A string with alternating letters and numbers. The expected output is `""abcd""`.
+
+These test cases cover a variety of scenarios, including strings with letters, numbers, and mixed characters, ensuring the function works correctly for different types of input.",True,{}
+91,"<ans>
+[1, 2, 3]
+[3, 2, 1]
+[2, 2, 2]
+[-1, 0, 1]
+[10, 5, 7]
+</ans>",True,{}
+92,"<ans>
+[15, 2, 3]
+[31, 1, 5]
+[7, 1, 3]
+[255, 4, 6]
+[1023, 5, 8]
+</ans>
+
+### Explanation of Test Cases:
+1. **[15, 2, 3]**: Binary of 15 is `1111`. Checking bits from position 2 to 3 (1-based index), the bits are `11`, which are set. So, the function should return `False`.
+2. **[31, 1, 5]**: Binary of 31 is `11111`. Checking bits from position 1 to 5, all bits are set. So, the function should return `False`.
+3. **[7, 1, 3]**: Binary of 7 is `0111`. Checking bits from position 1 to 3, all bits are set. So, the function should return `False`.
+4. **[255, 4, 6]**: Binary of 255 is `11111111`. Checking bits from position 4 to 6, all bits are set. So, the function should return `False`.
+5. **[1023, 5, 8]**: Binary of 1023 is `1111111111`. Checking bits from position 5 to 8, all bits are set. So, the function should return `False`.
+
+These test cases cover various scenarios, including checking bits in different ranges and ensuring the function correctly identifies whether all bits in the given range are unset or not.",True,{}
+93,"<ans>
+[[-1, 2, -3, 4, -5], 5]
+[[1, -2, 3, -4, 5], 5]
+[[-1, -2, -3, -4, -5], 5]
+[[1, 2, 3, 4, 5], 5]
+[[-1, 2, -3, 4, -5, 6, -7, 8, -9, 10], 10]
+</ans>",True,{}
+94,"<ans>
+[""Hello World"", ""-""]
+[""This is a test"", ""*""]
+[""Replace all spaces"", ""@""]
+[""NoSpacesHere"", ""!""]
+[""   Multiple   Spaces   "", ""#""]
+</ans>",True,{}
+95,"<ans>
+[5]
+[10]
+[2.5]
+[0]
+[7.3]
+</ans>",True,{}
+96,"<ans>
+[0]
+[1]
+[2]
+[10]
+[255]
+</ans>
+
+### Explanation of Test Cases:
+1. **Input: 0**  
+   - Binary: `0`  
+   - Expected Output: `0` (No even bits to set, so the number remains unchanged).
+
+2. **Input: 1**  
+   - Binary: `1`  
+   - Expected Output: `1` (No even bits to set, so the number remains unchanged).
+
+3. **Input: 2**  
+   - Binary: `10`  
+   - Expected Output: `3` (The even bit at position 1 is set, resulting in `11`).
+
+4. **Input: 10**  
+   - Binary: `1010`  
+   - Expected Output: `15` (The even bits at positions 1 and 3 are set, resulting in `1111`).
+
+5. **Input: 255**  
+   - Binary: `11111111`  
+   - Expected Output: `255` (All bits are already set, so the number remains unchanged).",True,{}
+97,"<ans>
+[(1, 2, 3), (2, 3, 1), (3, 1, 2), (4, 5), (5, 4)]
+[(1, 1, 2), (2, 1, 1), (1, 2, 1), (3, 3), (3, 3)]
+[(10,), (10,), (20,), (20,), (20,)]
+[(1, 2), (2, 1), (3, 4), (4, 3), (5, 6)]
+[(7, 8, 9), (8, 9, 7), (9, 7, 8), (10, 11), (11, 10)]
+</ans>",0,{}
+98,"<ans>
+[""a""]
+[""abc""]
+[""aaaa""]
+[""abab""]
+[""abcdefgh""]
+</ans>",True,{}
+99,"<ans>
+[5, 3]
+[10, 2]
+[7, 4]
+[15, 3]
+[20, 5]
+</ans>",True,{}
+100,"<ans>
+[ [1, 2, 3], [4, 5] ]
+[ [10, 20, 30, 40], [50, 60, 70] ]
+[ [5], [6, 7, 8] ]
+[ [1, 2, 3, 4, 5], [10] ]
+[ [100, 200], [300, 400, 500, 600] ]
+</ans>",True,{}
+101,"<ans>
+[""hello""]
+[""12345""]
+["" ""]
+[""@#$%^&*""]
+[""This is a test string.""]
+</ans>",True,{}
+102,"<ans>
+[0]
+[1]
+[2]
+[15]
+[100]
+</ans>
+
+These test cases cover a range of scenarios:
+1. `[0]`: The smallest possible input, where the next perfect square is 1.
+2. `[1]`: The input is already a perfect square, so the next perfect square is 4.
+3. `[2]`: The input is not a perfect square, and the next perfect square is 4.
+4. `[15]`: A larger input that is not a perfect square, with the next perfect square being 16.
+5. `[100]`: The input is a perfect square, so the next perfect square is 121.",True,{}
+103,"<ans>
+[1, 15, 51, 45, 33, 100, 12, 18, 9]
+[10, 20, 30, 40, 50, 60, 70, 80, 90]
+[5, 4, 3, 2, 1]
+[1, 2, 3, 4, 5, 4, 3, 2, 1]
+[100, 200, 300, 400, 500, 400, 300, 200, 100]
+</ans>",0,{}
+104,"<ans>
+""babad""
+""cbbd""
+""a""
+""abacdfgdcaba""
+""racecar""
+</ans>",True,{}
+105,"<ans>
+[[1, 2, 3], [2, 3, 4]]
+[[5, 6, 7], [7, 8, 9]]
+[[10, 20, 30], [30, 40, 50]]
+[[1, 1, 2, 2], [2, 2, 3, 3]]
+[[], [1, 2, 3]]
+</ans>",True,{}
+106,"<ans>
+([1, 2, 3, 4, 2, 2], 2)
+([], 5)
+([1, 1, 1, 1], 1)
+([5, 10, 15, 20], 10)
+([1, 2, 3, 4, 5], 6)
+</ans>",True,{}
+107,"<ans>
+[[1, 2, 3], 0]
+[[], 5]
+[[""a"", ""b"", ""c""], ""x""]
+[[True, False], None]
+[[1.5, 2.5, 3.5], 0.5]
+</ans>",True,{}
+108,"<ans>
+[3+4j]
+[1+1j]
+[-2-2j]
+[0+5j]
+[5+0j]
+</ans>
+
+These test cases cover a variety of scenarios:
+1. A typical complex number with both real and imaginary parts.
+2. A complex number with equal real and imaginary parts.
+3. A complex number with negative real and imaginary parts.
+4. A purely imaginary number.
+5. A purely real number.",True,{}
+109,"<ans>
+[1, 2, 3, 4, 5]
+[1, 2.5, 3, 4.7, 5]
+[1, ""a"", 3, ""b"", 5]
+[1, [2, 3], 4, 5]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+</ans>",0,{}
+110,"<ans>
+[['red', 'green', 'blue'], 2]
+[['a', 'b', 'c', 'd'], 3]
+[['x', 'y'], 1]
+[['apple', 'banana'], 2]
+[['cat', 'dog', 'bird'], 0]
+</ans>",True,{}
+111,"<ans>
+[0]
+[1]
+[2]
+[10]
+[20]
+</ans>",True,{}
+112,"<ans>
+[5, 10]
+[0, 0]
+[-3, 7]
+[100, -50]
+[123456789, 987654321]
+</ans>",True,{}
+113,"<ans>
+([(1, 2), (3, 4)], [(5, 6), (7, 8)])
+([(10, 20), (30, 40)], [(15, 25), (35, 45)])
+([(0, 0), (0, 0)], [(1, 1), (1, 1)])
+([(9, 8), (7, 6)], [(5, 4), (3, 2)])
+([(100, 200), (300, 400)], [(50, 250), (350, 450)])
+</ans>",True,{}
+114,"<ans>
+[0]
+[1]
+[2]
+[3]
+[4]
+</ans>
+
+These test cases cover the base cases (0 and 1) and the first few recursive cases (2, 3, and 4) to ensure the function works correctly for small values of `n`.",True,{}
+115,"<ans>
+[(10, 20, 30), (2, 4, 5)]
+[(15, 25, 35), (3, 5, 7)]
+[(100, 200, 300), (10, 20, 30)]
+[(7, 14, 21), (1, 2, 3)]
+[(0, 0, 0), (1, 1, 1)]
+</ans>",True,{}
+116,"<ans>
+[1, 2, 3, 4, 5], 2
+[10, 20, 30, 40, 50, 60], 3
+[7, 8, 9], 0
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 5
+[100, 200, 300, 400], 4
+</ans>",True,{}
+117,"<ans>
+[0]
+[1]
+[2]
+[3]
+[5]
+</ans>
+
+These test cases cover various scenarios for the `dog_age` function:
+1. `[0]`: Tests the edge case where the human age is 0.
+2. `[1]`: Tests the case where the human age is 1, which falls under the first condition (`h_age <= 2`).
+3. `[2]`: Tests the boundary case where the human age is exactly 2, which is the last age that falls under the first condition.
+4. `[3]`: Tests the case where the human age is 3, which falls under the second condition (`h_age > 2`).
+5. `[5]`: Tests a higher human age to ensure the function correctly calculates the dog's age for ages greater than 2.",True,{}
+118,"<ans>
+[ [1, 2, 3, 4, 5, 6, 7, 8, 9], 3 ]
+[ [10, 20, 30, 40, 50], 2 ]
+[ [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 5 ]
+[ [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], 4 ]
+[ [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 5 ]
+</ans>",True,{}
+119,"<ans>
+[5]
+[10]
+[2.5]
+[0]
+[7.3]
+</ans>",True,{}
+120,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>
+
+### Explanation:
+- The function `square_Sum(n)` calculates the sum of the squares of the first `n` odd natural numbers. The formula used is `n*(4*n*n-1)/3`.
+- The test cases are designed to cover small values of `n` to ensure the function works correctly for basic inputs.
+- The test cases are:
+  1. `[1]`: The sum of the squares of the first 1 odd natural number (1) is 1.
+  2. `[2]`: The sum of the squares of the first 2 odd natural numbers (1 and 3) is 1 + 9 = 10.
+  3. `[3]`: The sum of the squares of the first 3 odd natural numbers (1, 3, and 5) is 1 + 9 + 25 = 35.
+  4. `[4]`: The sum of the squares of the first 4 odd natural numbers (1, 3, 5, and 7) is 1 + 9 + 25 + 49 = 84.
+  5. `[5]`: The sum of the squares of the first 5 odd natural numbers (1, 3, 5, 7, and 9) is 1 + 9 + 25 + 49 + 81 = 165.",True,{}
+121,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>
+
+These test cases cover the first 5 star numbers, which are 1, 13, 37, 73, and 121 respectively. This will help verify the correctness of the function for small values of `n`.",True,{}
+122,"<ans>
+['A']
+['a']
+['1']
+['@']
+[' ']
+</ans>",True,{}
+123,"<ans>
+[1, 2, 3, 4, 5, 6]
+[2, 4, 6, 8, 10]
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+[11, 22, 33, 44, 55, 66, 77, 88, 99]
+</ans>",0,{}
+124,"<ans>
+[1]
+[2]
+[5]
+[10]
+[20]
+</ans>
+
+These test cases cover a range of inputs, including the smallest possible value (1), a few intermediate values (2, 5, 10), and a larger value (20) to ensure the function works correctly across different scales.",True,{}
+125,"<ans>
+[(1, 2, 3), (4, 5, 6), (7, 8, 9)]
+[(10,), (20,), (30,)]
+[(100, 200), (300, 400), (500, 600)]
+[(1,), (2,), (3,), (4,), (5,)]
+[(1, 2), (3, 4), (5, 6), (7, 8), (9, 10)]
+</ans>",0,{}
+126,"<ans>
+(5, 10, 15), (2, 3, 5)
+(0, 0, 0), (0, 0, 0)
+(-1, -2, -3), (1, 2, 3)
+(100, 200, 300), (50, 100, 150)
+(7, 14, 21), (7, 14, 21)
+</ans>",True,{}
+127,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>
+
+These test cases cover a range of small positive integers, which will help verify the correctness of the function for different values of `n`. The function `even_binomial_Coeff_Sum` calculates the sum of even-indexed binomial coefficients, which is equivalent to `2^(n-1)`. The test cases provided will help ensure that the function behaves as expected for these inputs.",True,{}
+128,"<ans>
+[{'a': 5, 'b': 3, 'c': 8}, 4]
+[{'x': 10, 'y': 2, 'z': 7}, 5]
+[{'p': 1, 'q': 9, 'r': 6}, 6]
+[{'m': 3, 'n': 4, 'o': 5}, 3]
+[{'s': 7, 't': 8, 'u': 9}, 8]
+</ans>",True,{}
+129,"<ans>
+[1, 2, 3, (4, 5), 6, 7]
+[(1, 2), 3, 4, 5]
+[1, 2, 3, 4, 5, (6, 7, 8)]
+[1, (2,), 3, 4, 5]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, (10, 11)]
+</ans>",0,{}
+130,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>
+
+### Explanation:
+The function `is_num_decagonal(n)` calculates the nth decagonal number using the formula `4 * n * n - 3 * n`. The test cases provided are simple inputs for `n` starting from 1 to 5, which will help verify the correctness of the function for small values of `n`.",True,{}
+131,"<ans>
+[[1, 2, 3, 4, 5], 3]
+[[10, 20, 30, 40, 50], 60]
+[[], 5]
+[[5, 5, 5, 5, 5], 5]
+[[1, 3, 5, 7, 9, 11, 13, 15], 7]
+</ans>",True,{}
+132,"<ans>
+[1, 2, 3, 4, 5]
+[1, 1, 2, 3, 4]
+[]
+[10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+[5, 5, 5, 5, 5]
+</ans>",0,{}
+133,"<ans>
+[1, 2, 3], [4, 5, 6]
+[10, 20, 30], [1, 2, 3]
+[0, 0, 0], [0, 0, 0]
+[-1, -2, -3], [1, 2, 3]
+[100, 200, 300], [50, 150, 250]
+</ans>",True,{}
+134,"<ans>
+[123]
+[112233]
+[55555]
+[1010101]
+[987654321]
+</ans>",True,{}
+135,"<ans>
+[[1, 1, 1], 1]
+[[2, 2, 2], 3]
+[[5, 5, 5, 5, 5], 5]
+[[10, 10, 10], 10]
+[[7, 7, 7, 7], 8]
+</ans>",True,{}
+136,"<ans>
+""'ab'""
+""'abb'""
+""'abbb'""
+""'abbbb'""
+""'acbb'""
+</ans>",True,{}
+137,"<ans>
+[[1, 2, 3], 3, 2]
+[[-1, -2, -3], 3, 1]
+[[1, -2, 3], 3, 3]
+[[0, 0, 0], 3, 5]
+[[-1, 2, -3, 4], 4, 2]
+</ans>",True,{}
+138,"<ans>
+[1]
+[2]
+[3]
+[4]
+[5]
+</ans>
+
+These test cases cover small values of `n` to verify the correctness of the function for the sum of squares of the first `n` even natural numbers. The function should return the correct sum for each case:
+
+- For `n = 1`, the sum is \(2^2 = 4\).
+- For `n = 2`, the sum is \(2^2 + 4^2 = 4 + 16 = 20\).
+- For `n = 3`, the sum is \(2^2 + 4^2 + 6^2 = 4 + 16 + 36 = 56\).
+- For `n = 4`, the sum is \(2^2 + 4^2 + 6^2 + 8^2 = 4 + 16 + 36 + 64 = 120\).
+- For `n = 5`, the sum is \(2^2 + 4^2 + 6^2 + 8^2 + 10^2 = 4 + 16 + 36 + 64 + 100 = 220\).",True,{}
+139,"<ans>
+[[[1, 2, 3], [4, 5], [6, 7, 8, 9]]]
+[[[1], [2, 3], [4, 5, 6], [7, 8, 9, 10]]]
+[[[1, 2], [3, 4, 5], [6, 7, 8, 9, 10]]]
+[[[1, 2, 3, 4], [5, 6], [7, 8, 9]]]
+[[[1], [2], [3], [4], [5]]]
+</ans>",True,{}
+140,"<ans>
+[1, 1]
+[2, 2]
+[3, 3]
+[4, 2]
+[5, 4]
+</ans>",0,{}
+141,"<ans>
+[10, 2]
+[15, 4]
+[20, 3]
+[7, 3]
+[100, 7]
+</ans>",True,{}
+142,"<ans>
+[3, 4]
+[5, 12]
+[7, 24]
+[8, 15]
+[9, 40]
+</ans>",True,{}
+143,"<ans>
+[[1, 2, 3, 4, 5]]
+[[10, 20, ""a"", 30, ""b""]]
+[[-1, -2, -3, -4, -5]]
+[[100, ""x"", 200, ""y"", 300]]
+[[0, ""zero"", 1, ""one"", 2, ""two""]]
+</ans>",True,{}
+144,"<ans>
+[1]
+[2]
+[6]
+[12]
+[28]
+</ans>
+
+### Explanation of Test Cases:
+1. **Input: [1]**  
+   - The number is 1. The only divisor is 1 itself. The expected output is 1.
+
+2. **Input: [2]**  
+   - The number is 2. The divisors are 1 and 2. The expected output is 1 + 2 = 3.
+
+3. **Input: [6]**  
+   - The number is 6. The divisors are 1, 2, 3, and 6. The expected output is 1 + 2 + 3 + 6 = 12.
+
+4. **Input: [12]**  
+   - The number is 12. The divisors are 1, 2, 3, 4, 6, and 12. The expected output is 1 + 2 + 3 + 4 + 6 + 12 = 28.
+
+5. **Input: [28]**  
+   - The number is 28. The divisors are 1, 2, 4, 7, 14, and 28. The expected output is 1 + 2 + 4 + 7 + 14 + 28 = 56.",True,{}
+145,"<ans>
+[1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1]
+[2, 4, 1, 3, 5]
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+[1, 3, 5, 2, 4, 6]
+</ans>",0,{}
+146,"<ans>
+[[]]
+[[1, 2, 3]]
+[[1, [2, [3, 4], 5], 6]]
+[[[1, 2], [3, [4, 5]], [6, [7, [8, 9]]]]]
+[[1, [2, [3, [4, [5]]]]]]
+</ans>",True,{}
+147,"<ans>
+[ [(""Alice"", 80), (""Bob"", 90), (""Alice"", 85), (""Bob"", 95)] ]
+[ [(""Charlie"", 70), (""David"", 80), (""Charlie"", 75), (""David"", 85)] ]
+[ [(""Eve"", 60), (""Frank"", 70), (""Eve"", 65), (""Frank"", 75)] ]
+[ [(""Grace"", 50), (""Hank"", 60), (""Grace"", 55), (""Hank"", 65)] ]
+[ [(""Ivy"", 40), (""Jack"", 50), (""Ivy"", 45), (""Jack"", 55)] ]
+</ans>",True,{}
+148,"<ans>
+[{}]
+[{'a': 1}]
+[{'a': {'b': {'c': {}}}}]
+[{'a': 1, 'b': {'c': 2, 'd': {'e': 3}}}]
+[{'a': {'b': {'c': {'d': {'e': {'f': {}}}}}}}]
+</ans>",True,{}
+149,"<ans>
+[ [1, 2, 3, 4, 5], [[0, 2], [1, 3]], 2, 1 ]
+[ [10, 20, 30, 40, 50], [[0, 4], [1, 3]], 1, 2 ]
+[ [5, 10, 15, 20, 25], [[1, 3], [0, 2]], 3, 4 ]
+[ [1, 3, 5, 7, 9], [[0, 1], [2, 4]], 2, 3 ]
+[ [2, 4, 6, 8, 10], [[0, 2], [1, 4]], 2, 2 ]
+</ans>",0,{}
+150,"<ans>
+[""Python Programming"", ""Pandas Dataframe"", ""Pytest Framework""]
+[""Pineapple Pizza"", ""Purple Paint"", ""Penguin Parade""]
+[""Perfect Plan"", ""Precious Pearl"", ""Polar Path""]
+[""Pumpkin Pie"", ""Peanut Butter"", ""Pinecone Place""]
+[""Piano Practice"", ""Puzzle Pieces"", ""Pond Pathway""]
+</ans>",0,{}
+151,"<ans>
+[ [1, 2, 3, 4, 5], 5, 2, 4 ]
+[ [5, 4, 3, 2, 1], 5, 1, 3 ]
+[ [10, 22, 9, 33, 21, 50, 41, 60], 8, 3, 6 ]
+[ [3, 10, 2, 1, 20], 5, 1, 4 ]
+[ [1, 101, 2, 3, 100, 4, 5], 7, 2, 5 ]
+</ans>",True,{}
+152,"<ans>
+([1, 2, [3, 4], 5], 2, 6)
+([], 0, 1)
+([1, [2], 3], 1, 4)
+([1, 2, 3], 0, 0)
+([1, [2, [3, 4]], 5], 1, 5)
+</ans>",0,{}
+153,"<ans>
+[ [1, 2, 3], [4, 5, 6], 3 ]
+[ [10, 20], [30, 40], 2 ]
+[ [-1, -2, -3], [-4, -5, -6], 2 ]
+[ [0, 1, 2], [3, 4, 5], 1 ]
+[ [100, 200], [300, 400], 4 ]
+</ans>",True,{}
+154,"<ans>
+[5, 3]
+[-1, -2]
+[0, 0]
+[100, 200]
+[-10, 10]
+</ans>",True,{}
+155,"<ans>
+""hello""
+""python programming""
+""12345""
+""a b c d e""
+""""
+</ans>
+
+These test cases cover a variety of scenarios:
+1. A simple string with no spaces.
+2. A string with spaces that should be removed.
+3. A string consisting of numbers.
+4. A string with alternating characters and spaces.
+5. An empty string to test edge cases.",True,{}
+156,"<ans>
+[0]
+[1]
+[2]
+[5]
+[10]
+</ans>
+
+### Explanation of Test Cases:
+1. **Input: `[0]`**  
+   - Binary representation: `0`  
+   - The leftmost unset bit is the first bit. Setting it results in `1`.  
+   - Expected output: `1`.
+
+2. **Input: `[1]`**  
+   - Binary representation: `1`  
+   - All bits are set, so the function should return the same number.  
+   - Expected output: `1`.
+
+3. **Input: `[2]`**  
+   - Binary representation: `10`  
+   - The leftmost unset bit is the second bit. Setting it results in `11` (which is `3` in decimal).  
+   - Expected output: `3`.
+
+4. **Input: `[5]`**  
+   - Binary representation: `101`  
+   - The leftmost unset bit is the second bit. Setting it results in `111` (which is `7` in decimal).  
+   - Expected output: `7`.
+
+5. **Input: `[10]`**  
+   - Binary representation: `1010`  
+   - The leftmost unset bit is the third bit. Setting it results in `1110` (which is `14` in decimal).  
+   - Expected output: `14`.",True,{}
+157,"<ans>
+[1]
+[2]
+[5]
+[10]
+[16]
+</ans>
+
+These test cases cover a range of inputs, including the smallest possible value (1), a power of 2 (2 and 16), and non-powers of 2 (5 and 10). This ensures that the function is tested for edge cases, typical cases, and cases where the input is exactly a power of 2.",True,{}
+158,"<ans>
+[0]
+[1]
+[2]
+[5]
+[10]
+</ans>",True,{}
+159,"<ans>
+[[""apple"", ""banana"", ""cherry""], ""I like {}""]
+[[1, 2, 3, 4], ""Number: {}""]
+[[True, False, True], ""Value: {}""]
+[[""hello"", ""world""], ""{}!""]
+[[], ""Empty: {}""]
+</ans>",True,{}
+160,"<ans>
+[['a', 'b', 'c'], [1, 2, 3], ['x', 'y', 'z']]
+[['name', 'age', 'city'], ['Alice', '25', 'New York'], ['Bob', '30', 'Los Angeles']]
+[['fruit', 'color', 'taste'], ['apple', 'red', 'sweet'], ['banana', 'yellow', 'sweet']]
+[['id', 'name', 'role'], [101, 'John', 'Developer'], [102, 'Jane', 'Designer']]
+[['key1', 'key2', 'key3'], ['value1', 'value2', 'value3'], ['nested1', 'nested2', 'nested3']]
+</ans>",True,{}
+161,"<ans>
+[1]
+[2]
+[5]
+[10]
+[20]
+</ans>
+
+These test cases cover a range of inputs, including the smallest possible value (1), small values (2, 5), and larger values (10, 20). This will help verify the correctness and robustness of the function.",True,{}
+162,"<ans>
+[[[1, 2, 3], [4, 5], [6]]]
+[[[1], [2, 3, 4, 5], [6, 7]]]
+[[[1, 2], [3, 4], [5, 6], [7, 8, 9]]]
+[[[1, 2, 3, 4], [5, 6], [7, 8, 9, 10]]]
+[[[1], [2], [3], [4], [5], [6], [7], [8], [9], [10]]]
+</ans>",True,{}
+163,"<ans>
+(1, 2, 3, 4, 5)
+(1, 1, 2, 3, 4)
+(5, 4, 3, 2, 1)
+(10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10)
+</ans>",0,{}
+164,"<ans>
+[""aabbcc""]
+[""abcabc""]
+[""xyzxyzx""]
+[""hello""]
+[""swiss""]
+</ans>",True,{}
+165,"<ans>
+[""a""]
+[""abcda""]
+[""hello""]
+[""xylophonex""]
+[""z""]
+</ans>
+
+These test cases cover various scenarios:
+1. A single character string, which should be valid.
+2. A string that starts and ends with the same character, which should be valid.
+3. A string that does not start and end with the same character, which should be invalid.
+4. A longer string that starts and ends with the same character, which should be valid.
+5. Another single character string, which should be valid.",True,{}
+166,"<ans>
+[1, 2, 3]
+[3, 2, 1]
+[2, 3, 1]
+[5, 1, 9]
+[7, 7, 7]
+</ans>",True,{}
+167,"<ans>
+[[123, 456, 789]]
+[[0, 1, 2, 3]]
+[[10, 20, 30, 40, 50]]
+[[-123, 456, -789]]
+[[1001, 2002, 3003, 4004]]
+</ans>",True,{}
+168,"<ans>
+[(1, 2, 3), (4, 5, 6)]
+[(10, 20, 30), (40, 50, 60)]
+[(0, 0, 0), (255, 255, 255)]
+[(7, 8, 9), (1, 2, 3)]
+[(15, 16, 17), (18, 19, 20)]
+</ans>",True,{}
+169,"<ans>
+[[(1, 2), (2, 1), (3, 4), (4, 3)]]
+[[(1, 1), (1, 1), (1, 1)]]
+[[(5, 6), (6, 5), (7, 8), (8, 7), (5, 6)]]
+[[(10, 20), (20, 10), (30, 40), (40, 30), (10, 20), (20, 10)]]
+[[(1, 2, 3), (3, 2, 1), (4, 5, 6), (6, 5, 4), (1, 2, 3)]]
+</ans>",True,{}
+170,"<ans>
+((1, 2), (3, 4)), ((5, 6), (7, 8))
+((10, 20), (30, 40)), ((50, 60), (70, 80))
+((0, 0), (0, 0)), ((0, 0), (0, 0))
+((-1, -2), (-3, -4)), ((1, 2), (3, 4))
+((100, 200), (300, 400)), ((-100, -200), (-300, -400))
+</ans>",True,{}
+171,"<ans>
+[5, 10]
+[-3, 2]
+[0, 0]
+[100, 100]
+[-7, -5]
+</ans>",True,{}
+172,"<ans>
+[(1, 2, 3), (2,)]
+[(1, 2, 3), (4,)]
+[('a', 'b', 'c'), ('b',)]
+[('a', 'b', 'c'), ('d',)]
+[(True, False, True), (False,)]
+</ans>",True,{}
+173,"<ans>
+[0]
+[1]
+[2]
+[3]
+[15]
+</ans>",True,{}
+174,"<ans>
+[123]
+[321]
+[12]
+[230241]
+[534976]
+</ans>
+
+These test cases cover a variety of scenarios:
+1. A number with digits in ascending order (123), which should return the next permutation (132).
+2. A number with digits in descending order (321), which should return `False` since no larger number can be formed.
+3. A two-digit number (12), which should return the next permutation (21).
+4. A larger number with a more complex permutation (230241), which should return the next bigger number (230412).
+5. A number with repeated digits (534976), which should return the next bigger number (536479).",True,{}
+175,"<ans>
+[1, 2, 3], [4, 5, 6], 3
+[1, 7, 11], [2, 4, 6], 4
+[1, 1, 2], [1, 2, 3], 2
+[1, 2], [3], 1
+[1, 2, 3, 4], [1, 2, 3, 4], 5
+</ans>",True,{}
+176,"<ans>
+[(1, 2), (3, 4), (5, 6)]
+[(-1, 2), (-3, 4), (-5, 6)]
+[(0, 0), (1, 1), (2, 2)]
+[(10, -10), (20, -20), (30, -30)]
+[(-1, -1), (-2, -2), (-3, -3)]
+</ans>",0,{}
+177,"<ans>
+[[1, 2, 3, 4, 5]]
+[[10, 20, 30, 40, 50]]
+[[5, 10, 15, 20, 25]]
+[[100, 200, 300, 400, 500]]
+[[-1, -2, -3, -4, -5]]
+</ans>",True,{}
+178,"<ans>
+""hello_world""
+""this_is_a_test""
+""snake_case_to_camel_case""
+""python_programming""
+""convert_snake_to_camel""
+</ans>",True,{}
+179,"<ans>
+[1, 2, 3, 4, 5]
+[10, 11, 12, 13, 14]
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+[100, 101, 102, 103, 104, 105, 106, 107, 108, 109]
+</ans>",0,{}
+180,"<ans>
+[[(1, 2, 3), (4, 5, 6), (7, 8, 9)], 1]
+[[('a', 'b', 'c'), ('d', 'e', 'f'), ('g', 'h', 'i')], 2]
+[[(10, 20), (30, 40), (50, 60)], 0]
+[[(True, False), (False, True), (True, True)], 1]
+[[(1, 'a', True), (2, 'b', False), (3, 'c', True)], 2]
+</ans>",True,{}
+181,"<ans>
+[ [1, 2, 3], [4, 5, 6] ]
+[ [1, 2, 3], [3, 4, 5] ]
+[ [], [1, 2, 3] ]
+[ [1, 2, 3], [] ]
+[ [1, 2, 3], [1, 2, 3] ]
+</ans>",True,{}
+182,"<ans>
+[1, 2, 3, 4, 5]
+[-1, -2, -3, -4, -5]
+[-1, 2, -3, 4, -5]
+[10, 20, 30, 40, 50]
+[0, 0, 0, 0, 0]
+</ans>",0,{}
+183,"<ans>
+[[]]
+[[(1, 2), (1, 3), (1, 4)]]
+[[(1, 2), (2, 3), (3, 4)]]
+[[(1, 2), (1, 3), (2, 4), (2, 5)]]
+[[(1, 2), (2, 3), (3, 4), (4, 5), (5, 6)]]
+</ans>",True,{}
+184,"<ans>
+[[1, 2, 3], [4, 5], [6]]
+[[], [1], [2, 3, 4, 5]]
+[[1], [2], [3], [4, 5, 6, 7]]
+[[1, 2, 3, 4, 5], [6, 7], [8, 9, 10]]
+[[1], [2, 3], [4, 5, 6], [7, 8, 9, 10]]
+</ans>",0,{}
+185,"<ans>
+[1.2, 2.5, 3.7]
+[0.9, 1.1, 2.3, 4.6]
+[5.4, 6.7, 7.8, 8.9, 9.1]
+[10.5, 11.6, 12.7, 13.8, 14.9, 15.1]
+[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+</ans>",0,{}
+186,"<ans>
+[1]
+[2]
+[3]
+[5]
+[10]
+</ans>
+
+These test cases cover a range of inputs, including the smallest possible value (1), small values (2, 3), a medium value (5), and a larger value (10). This should help verify the correctness and robustness of the function.",True,{}
+187,"<ans>
+(1, 2, 3)
+(10, 20, 30, 40)
+(""a"", ""b"", ""c"", ""d"", ""e"")
+(True, False, True)
+(""hello"", ""world"", 123, 45.67)
+</ans>",0,{}
+188,"<ans>
+[1]
+[2]
+[5]
+[10]
+[20]
+</ans>
+
+These test cases cover a range of inputs, including the smallest possible value (1), small values (2, 5), and larger values (10, 20). This will help verify the correctness and robustness of the function.",True,{}
+189,"<ans>
+[(""abc"", ""def"", ""ghi"")]
+[(""hello"", ""world"")]
+[(""a"", ""b"", ""c"", ""d"")]
+[(""xyz"", ""uvw"", ""rst"")]
+[(""one"", ""two"", ""three"", ""four"", ""five"")]
+</ans>",True,{}
+190,"<ans>
+[[[1, 2, 3], [2, 3, 4], [3, 4, 5]], 3]
+[[[1, 2, 3], [4, 5, 6], [7, 8, 9]], 5]
+[[[1, 1, 1], [1, 2, 3], [1, 4, 5]], 1]
+[[[], [1, 2], [3, 4]], 2]
+[[[1, 2, 3], [2, 2, 2], [3, 3, 3]], 2]
+</ans>",True,{}
+191,"<ans>
+[1, 2, 3, 4, 5]
+[10, 11, 12, 13, 14]
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+[100, 101, 102, 103, 104, 105, 106, 107, 108, 109]
+</ans>",0,{}
+192,"<ans>
+""2023-10-05""
+""1999-12-31""
+""2000-01-01""
+""2020-02-29""
+""1985-07-15""
+</ans>",True,{}
+193,"<ans>
+[5, 3, 8, 1, 2]
+[10, 7, 8, 9, 1, 5]
+[1]
+[9, 8, 7, 6, 5, 4, 3, 2, 1]
+[4, 4, 4, 4, 4]
+</ans>",0,{}
+194,"<ans>
+[(1, 2, 3), (4, 5, 6)]
+[(10, 20, 30), (40, 50, 60)]
+[(0b1010, 0b1100), (0b1001, 0b1010)]
+[(255, 128, 64), (255, 255, 255)]
+[(7, 8, 9), (1, 2, 3)]
+</ans>",True,{}
+195,"<ans>
+[1, 2, 3]
+[2, 3, 4]
+[0, 0, 0]
+[-1, -2, -3]
+[5, 10, 15]
+</ans>",True,{}
+196,"<ans>
+[ [1, 2, 3], [4, 5, 6] ]
+[ [1, 2, 3], [3, 4, 5] ]
+[ [], [1, 2, 3] ]
+[ [1, 2, 3], [] ]
+[ [1, 2, 3], [1, 2, 3] ]
+</ans>",True,{}
+197,"<ans>
+[5, 10, 4]
+[3, 7, 2]
+[8, 12, 5]
+[6, 6, 3]
+[9, 15, 6]
+</ans>",True,{}
+198,"<ans>
+[[1, 2, 3, 4], 5]
+[[10, 20, 30], 15]
+[[5, 5, 5, 5], 5]
+[[-1, -2, -3], 0]
+[[100, 200, 300], 250]
+</ans>",True,{}
+199,"<ans>
+""'ab'""
+""'aab'""
+""'abb'""
+""'acb'""
+""'abbb'""
+</ans>",True,{}
+200,"<ans>
+[123]
+[0]
+[987654321]
+[10]
+[-456]
+</ans>
+
+### Explanation:
+1. `[123]`: A positive integer with the last digit 3.
+2. `[0]`: The number 0, which should return 0 as the last digit.
+3. `[987654321]`: A large positive integer with the last digit 1.
+4. `[10]`: A number ending with 0, which should return 0 as the last digit.
+5. `[-456]`: A negative integer, which should return 6 as the last digit (since the last digit is independent of the sign).",True,{}
+201,"<ans>
+[1, 2, 3, 4, 5]
+[-1, -2, -3, -4, -5]
+[0, -1, 1, -2, 2]
+[-10, 10, -20, 20, -30]
+[]
+</ans>",0,{}
+202,"<ans>
+""abcdef""
+""hello""
+""python""
+""123456789""
+""a1b2c3d4""
+</ans>
+
+### Explanation of Test Cases:
+1. `""abcdef""`: A simple string with even and odd positions. The expected output is `""bdf""`.
+2. `""hello""`: A string with an odd length. The expected output is `""el""`.
+3. `""python""`: A string with an even length. The expected output is `""yhn""`.
+4. `""123456789""`: A string with numbers. The expected output is `""2468""`.
+5. `""a1b2c3d4""`: A string with alternating letters and numbers. The expected output is `""1b3d""`.
+
+These test cases cover various scenarios, including strings with even and odd lengths, strings with numbers, and strings with mixed characters.",True,{}
+203,"<ans>
+[(1, 2), (2, 1), (3, 4), (4, 3)]
+[(1, 1), (2, 2), (3, 3)]
+[(1, 2), (2, 3), (3, 1)]
+[(5, 6), (6, 5), (7, 8), (8, 7), (9, 10), (10, 9)]
+[(1, 2), (2, 1), (1, 3), (3, 1), (2, 3), (3, 2)]
+</ans>",0,{}
+204,"<ans>
+[1, 2, 3]
+[0, 4, 5, 6]
+[9, 8, 7, 6, 5]
+[1, 0, 0, 1]
+[2, 2, 2, 2, 2, 2]
+</ans>",0,{}
+205,"<ans>
+[""She quickly ran to the store""]
+[""He slowly walked down the street""]
+[""The dog barked loudly at the stranger""]
+[""They happily celebrated their victory""]
+[""The cat quietly sneaked into the room""]
+</ans>",True,{}
+206,"<ans>
+[1]
+[5]
+[10]
+[0]
+[100]
+</ans>",True,{}
+207,"<ans>
+[array('i', [1, 2, 3, 4, 5])]
+[array('i', [-1, -2, -3, -4, -5])]
+[array('i', [0, 0, 0, 0, 0])]
+[array('i', [1, -2, 3, -4, 5])]
+[array('i', [10, -20, 30, -40, 50, 60])]
+</ans>",0,{}
+208,"<ans>
+[-1, -2, -3, -4, -5]
+[0, 1, 2, 3, 4]
+[-10, -20, -30, -40, -50]
+[-5, 5, -10, 10, -15]
+[-100, -200, -300, -400, -500]
+</ans>",0,{}
+209,"<ans>
+[([(1, 2, 3, 4, 5), (6, 7, 8, 9, 10), (11, 12, 13, 14, 15)], 1)]
+[([(10, 20, 30, 40), (50, 60, 70, 80), (90, 100, 110, 120)], 2)]
+[([(1, 2, 3), (4, 5, 6), (7, 8, 9)], 0)]
+[([(1, 2, 3, 4, 5, 6), (7, 8, 9, 10, 11, 12)], 3)]
+[([(1,), (2,), (3,), (4,)], 1)]
+</ans>",0,{}
+210,"<ans>
+((1, 2, 3), (4, 5, 6)), ((7, 8, 9), (10, 11, 12))
+((0, 0, 0), (1, 1, 1)), ((2, 2, 2), (3, 3, 3))
+((1,), (2,)), ((3,), (4,))
+((10, 20), (30, 40)), ((50, 60), (70, 80))
+((1, 2), (3, 4)), ((5, 6), (7, 8))
+</ans>",True,{}
+211,"<ans>
+([1, 2, 3, 4, 5], [2, 4])
+([10, 20, 30, 40], [10, 30])
+([5, 5, 5, 5], [5])
+([1, 2, 3], [4, 5, 6])
+([], [1, 2, 3])
+</ans>",True,{}
+212,"<ans>
+[1, 2, 3]
+[-1, -2, -3]
+[0, 0, 0]
+[10, 20, 30]
+[0.5, 1.5, 2.5]
+</ans>",0,{}
+213,"<ans>
+[0]
+[1]
+[2]
+[3]
+[10]
+</ans>",True,{}
+214,"<ans>
+[""apple"", ""banana"", ""cherry"", ""date""], 5
+[""hello"", ""world"", ""python"", ""code""], 5
+[""a"", ""ab"", ""abc"", ""abcd""], 3
+[""test"", ""case"", ""input"", ""output""], 4
+[""one"", ""two"", ""three"", ""four""], 3
+</ans>",True,{}
+215,"<ans>
+[""Hello World""]
+[""  This is a test  ""]
+[""NoSpacesHere""]
+[""   ""]
+[""\tTab\tSpaces\nNewLine""]
+</ans>",True,{}
+216,"<ans>
+[100, 150]
+[200, 200]
+[300, 250]
+[500, 600]
+[1000, 800]
+</ans>
+
+### Explanation of Test Cases:
+1. **[100, 150]**: The sale amount (150) is greater than the actual cost (100), so there is a loss of 50.
+2. **[200, 200]**: The sale amount (200) is equal to the actual cost (200), so there is no loss.
+3. **[300, 250]**: The sale amount (250) is less than the actual cost (300), so there is no loss.
+4. **[500, 600]**: The sale amount (600) is greater than the actual cost (500), so there is a loss of 100.
+5. **[1000, 800]**: The sale amount (800) is less than the actual cost (1000), so there is no loss.",True,{}
+217,"<ans>
+[12]
+[28]
+[7]
+[36]
+[100]
+</ans>
+
+### Explanation of Test Cases:
+1. **12**: The even factors of 12 are 2, 4, 6, and 12. The sum is 2 + 4 + 6 + 12 = 24.
+2. **28**: The even factors of 28 are 2, 4, 14, and 28. The sum is 2 + 4 + 14 + 28 = 48.
+3. **7**: Since 7 is an odd number, it has no even factors. The sum is 0.
+4. **36**: The even factors of 36 are 2, 4, 6, 12, 18, and 36. The sum is 2 + 4 + 6 + 12 + 18 + 36 = 78.
+5. **100**: The even factors of 100 are 2, 4, 10, 20, 50, and 100. The sum is 2 + 4 + 10 + 20 + 50 + 100 = 186.",True,{}
+218,"<ans>
+[1]
+[2]
+[7]
+[9]
+[12]
+</ans>
+
+These test cases cover various scenarios:
+1. `[1]` - January, which has 31 days.
+2. `[2]` - February, which does not have 31 days.
+3. `[7]` - July, which has 31 days.
+4. `[9]` - September, which does not have 31 days.
+5. `[12]` - December, which has 31 days.",True,{}
+219,"<ans>
+[""hello"", ""world""]
+[""abc"", ""def"", ""ghi""]
+[""12345"", ""67890""]
+[""a"", ""b"", ""c"", ""d""]
+[""python"", ""programming"", ""language""]
+</ans>",0,{}
+220,"<ans>
+[[1, 2, 3], [4, 5], [6]]
+[[1], [2, 3, 4], [5, 6]]
+[[1, 2], [3], [4, 5, 6]]
+[[1, 2, 3, 4], [5], [6, 7]]
+[[1], [2], [3], [4, 5, 6, 7]]
+</ans>",0,{}
+221,"<ans>
+[5, 10]
+[0, 10]
+[10, 0]
+[7, 3]
+[12, 12]
+</ans>",True,{}
+222,"<ans>
+""HelloWorld""
+""PythonProgramming""
+""123ABCdef456""
+""UPPERCASE""
+""no_uppercase_here""
+</ans>
+
+These test cases cover various scenarios:
+1. A mix of uppercase and lowercase letters.
+2. A string with uppercase letters only.
+3. A string with numbers and uppercase letters.
+4. A string with only uppercase letters.
+5. A string with no uppercase letters at all.",True,{}
+223,"<ans>
+[[[1, 2, 3], [4, 5, 6], [7, 8, 9]]]
+[[[10], [20], [30]]]
+[[[100, 200], [300, 400], [500, 600]]]
+[[[7], [8], [9], [10]]]
+[[[1], [2], [3], [4], [5]]]
+</ans>",True,{}
+224,"<ans>
+""Hello World""
+""PYTHON""
+""123ABCdef""
+""""
+""MixedCase123""
+</ans>
+
+These test cases cover various scenarios:
+1. A string with mixed upper and lower case letters.
+2. A string with all upper case letters.
+3. A string with numbers and mixed case letters.
+4. An empty string.
+5. A string with mixed case letters and numbers.",True,{}
+225,"<ans>
+[[]]
+[[1]]
+[[1, 2], [1], [2], []]
+[[1, 2, 3], [1, 2], [1, 3], [1], [2, 3], [2], [3], []]
+[[1, 2, 3, 4], [1, 2, 3], [1, 2, 4], [1, 2], [1, 3, 4], [1, 3], [1, 4], [1], [2, 3, 4], [2, 3], [2, 4], [2], [3, 4], [3], [4], []]
+</ans>",0,{}
+226,"<ans>
+[1, 2, 3, 4, 5]
+[-1, -2, -3, -4, -5]
+[0, 0, 0, 0, 0]
+[2, 3, -2, 4]
+[-2, 0, -1]
+</ans>",0,{}
+227,"<ans>
+[{'a': 5, 'b': 5, 'c': 5}, 5]
+[{'x': 10, 'y': 10, 'z': 10}, 10]
+[{'key1': 7, 'key2': 7, 'key3': 7, 'key4': 7}, 7]
+[{'one': 1, 'two': 1, 'three': 1}, 1]
+[{'alpha': 100, 'beta': 100, 'gamma': 100}, 100]
+</ans>",True,{}
+228,"<ans>
+[{'a': 1, 'b': None, 'c': 3}]
+[{'x': None, 'y': None, 'z': None}]
+[{'name': 'Alice', 'age': 25, 'city': None}]
+[{'key1': 'value1', 'key2': '', 'key3': 0}]
+[{}]
+</ans>",True,{}
+229,"<ans>
+[1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1]
+[2, 3, 1, 4, 5]
+[1, 1, 1, 1, 1]
+[10, 22, 9, 33, 21, 50, 41, 60]
+</ans>",0,{}
+230,"<ans>
+(1, 2, 3, 4)
+(10, 20, 30, 40, 50)
+(0, 0, 0, 0)
+(-1, -2, -3, -4, -5)
+(100, 200, 300)
+</ans>",0,{}
+231,"<ans>
+[ [1, 2, 3, 4, 5], 10 ]
+[ [10, 20, 30], 7 ]
+[ [7, 8, 9], 5 ]
+[ [1, 1, 1, 1, 1], 2 ]
+[ [100, 200, 300, 400], 1000 ]
+</ans>",True,{}
+232,"<ans>
+[1, 2, 3, 4, 5]
+[10, 11, 12, 13]
+[5, 6, 7, 8, 9, 10]
+[100, 101, 102, 103, 104]
+[7, 8, 9, 10, 11, 12, 13]
+</ans>",0,{}
+233,"<ans>
+[([(1, 2), (3, 4)], [(3, 4), (1, 2)])]
+[([(5, 6), (7, 8)], [(7, 8), (5, 6)])]
+[([(1, 2, 3), (4, 5, 6)], [(4, 5, 6), (1, 2, 3)])]
+[([(9, 10), (11, 12)], [(11, 12), (9, 10)])]
+[([(1, 2), (2, 3), (3, 4)], [(3, 4), (2, 3), (1, 2)])]
+</ans>",0,{}
+234,"<ans>
+[""hello world"", ""o"", ""a""]
+[""programming is fun"", ""m"", ""x""]
+[""abcabcabc"", ""a"", ""z""]
+[""123456789"", ""5"", ""0""]
+["""", ""a"", ""b""]
+</ans>",True,{}
+235,"<ans>
+[{'a': 3, 'b': 1, 'c': 2}]
+[{'apple': 5, 'banana': 2, 'cherry': 8}]
+[{'x': 10, 'y': 10, 'z': 10}]
+[{'one': 1}]
+[{'a': 100, 'b': 50, 'c': 75, 'd': 25}]
+</ans>",True,{}
+236,"<ans>
+[1, 2, 3, 4, 5]
+[-1, -2, -3, -4, -5]
+[0, 0, 0, 0, 0]
+[10]
+[5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+</ans>",0,{}
+237,"<ans>
+[""Hello World""]
+[""PYTHON""]
+[""123ABC""]
+[""lowercase""]
+[""MixedCase123""]
+</ans>",True,{}
+238,"<ans>
+""HelloWorld""
+""123abc456""
+""PythonProgramming""
+""ABCdefGHI""
+""a1b2c3d4""
+</ans>
+
+### Explanation:
+1. `""HelloWorld""`: Tests the function with a string that contains both uppercase and lowercase letters. The expected output is `""HW""`.
+2. `""123abc456""`: Tests the function with a string that contains numbers and lowercase letters. The expected output is `""123456""`.
+3. `""PythonProgramming""`: Tests the function with a string that contains mixed case letters. The expected output is `""PP""`.
+4. `""ABCdefGHI""`: Tests the function with a string that contains uppercase letters and lowercase letters in between. The expected output is `""ABCGHI""`.
+5. `""a1b2c3d4""`: Tests the function with a string that contains lowercase letters and numbers. The expected output is `""1234""`.",True,{}
+239,"<ans>
+[12345]
+[987654321]
+[7]
+[1000000]
+[0]
+</ans>
+
+### Explanation of Test Cases:
+1. `[12345]`: A typical multi-digit number to check if the function correctly extracts the first digit (1).
+2. `[987654321]`: Another multi-digit number to ensure the function works for larger numbers (9).
+3. `[7]`: A single-digit number to verify the function handles edge cases where no division is needed (7).
+4. `[1000000]`: A number with trailing zeros to ensure the function correctly identifies the first digit (1).
+5. `[0]`: A special case to check if the function handles zero correctly (0).",True,{}

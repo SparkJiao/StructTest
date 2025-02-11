@@ -1,0 +1,2213 @@
+index,generated,result,format_properties
+0,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""hello world"", ""l""]
+[""programming"", ""m""]
+[""abcdefgabcdefg"", ""a""]
+[""xyzzyx"", ""y""]
+[""aaa"", ""a""]
+</ans>
+
+These test cases cover various scenarios:
+
+1. A common word with multiple occurrences of the target character.
+2. A longer word with the target character appearing twice.
+3. A string with the target character at the beginning and end.
+4. A palindrome-like string with the target character in the middle.
+5. A string with only the target character repeated.
+
+Each of these inputs can be used to test different aspects of the function's behavior.",True,{}
+1,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[[3, 2, 1], [1, 1, 1], [2, 2, 2]]
+[[10], [5], [8], [2]]
+[[1, 1], [0, 0], [2, 2], [1, 2]]
+[[-1, 2], [3, -4], [0, 0], [5, -5]]
+</ans>",0,{}
+2,"Here are 5 groups of test case inputs for the given function to find the volume of a triangular prism:
+
+<ans>
+[5, 3, 4]
+[10, 6, 8]
+[2.5, 3.5, 4.5]
+[1, 1, 1]
+[7.2, 4.8, 6.3]
+</ans>",True,{}
+3,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""hello_world""]
+[""abc_def""]
+[""test_case""]
+[""invalid-input""]
+[""multiple_under_scores""]
+</ans>",True,{}
+4,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[5]
+[0]
+[10]
+[3.5]
+[1000000]
+</ans>",True,{}
+5,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""hello world"", ""ol""]
+[""programming"", ""ram""]
+[""abcdefg"", ""xyz""]
+[""test string"", ""ts""]
+[""12345"", ""24""]
+</ans>",True,{}
+6,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 4]
+[1, 1, 1, 1, 1]
+[]
+[10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 100]
+</ans>",0,{}
+7,"Here are 5 groups of test case inputs for the `is_woodall` function:
+
+<ans>
+1
+7
+26
+127
+63
+
+2
+15
+31
+8191
+511
+
+3
+11
+23
+255
+1023
+
+4
+13
+47
+2047
+4095
+
+5
+17
+95
+8191
+16383
+</ans>",0,{}
+8,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[19]
+[209]
+[1000]
+[12]
+[1234]
+</ans>",True,{}
+9,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[9, 8, 7, 6, 5, 4, 3, 2, 1]
+[0, 0, 0, 1]
+[5, 5, 5, 5, 5]
+[1, 9, 2, 8, 3, 7, 4, 6, 5]
+</ans>",0,{}
+10,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[5, -3]
+[0, 10]
+[-7, -2]
+[100, -100]
+[-1, 0]
+</ans>",True,{}
+11,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1]
+[5]
+[10]
+[0]
+[100]
+</ans>",True,{}
+12,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+""123""
+""11111""
+""9876543210""
+""000""
+""1010101""
+</ans>",True,{}
+13,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[-1, -5, 0, 10, 3]
+[100, 99, 98, 97, 96]
+[5, 5, 5, 5, 5]
+[-10, -20, -30, -40, -50]
+</ans>",0,{}
+14,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[(1, 5), (3, 7), (2, 6), (4, 8)]
+[(10, 2), (5, 15), (20, 3), (8, 9)]
+[(0, 0), (1, 1), (2, 2), (3, 3)]
+[(100, 1), (50, 75), (25, 30), (10, 90)]
+[(-5, 5), (-10, 10), (-3, 3), (-1, 1)]
+</ans>",0,{}
+15,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]
+[('Math', 95), ('Physics', 85), ('Chemistry', 92), ('Biology', 88), ('History', 78)]
+[('A', 10), ('B', 5), ('C', 20), ('D', 15)]
+[('X', 100), ('Y', 100), ('Z', 100)]
+[('First', 50), ('Second', 60), ('Third', 40), ('Fourth', 30), ('Fifth', 70)]
+</ans>",0,{}
+16,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, [3, 4], 5]]
+[1, [2, 3], [4, [5, 6]]]
+[[]]
+[1, 2, 3, 4, 5]
+[[1, [2, [3, [4, [5]]]]]]
+</ans>",0,{}
+17,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[-1, 0, 1, -2, 2]
+[0, 0, 0, 0, 0]
+[-5, -4, -3, -2, -1]
+[1.5, -2.7, 0, 3.14, -0.1]
+</ans>",0,{}
+18,"Here are 5 groups of test case inputs for the given bell_number function:
+
+<ans>
+[0]
+[1]
+[3]
+[5]
+[10]
+</ans>",True,{}
+19,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1]
+[1, 1, 2, 3, 3]
+[3, 3, 3, 3]
+[1, 2, 2, 3, 2, 4]
+</ans>",0,{}
+20,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3, 4, 5], [2, 3, 4]]
+[[1, 2, 3], []]
+[[1, 2, 3, 4, 5], [1, 2, 3, 4, 5]]
+[[1, 2, 3, 4, 5], [6, 7]]
+[[1, 2, 3, 2, 3, 4, 5], [2, 3, 4]]
+</ans>",True,{}
+21,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[((1, 2), (3, 4), (5, 6))]
+[((1, 2, 3), (4, 5, 6), (7, 8, 9), (10, 11, 12))]
+[((1,), (2,), (3,), (4,), (5,))]
+[((1, 2), (3, 4, 5), (6, 7))]
+[()]
+</ans>",True,{}
+22,"Here are 5 groups of test case inputs for the comb_sort function:
+
+<ans>
+[5, 2, 9, 1, 5, 6]
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+[1, 2, 3, 4, 5]
+[3, 3, 3, 3, 3]
+[-1, -5, 0, 2, -3, 7, -2]
+</ans>",0,{}
+23,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[8]
+[2]
+[0]
+[15]
+[100]
+</ans>",True,{}
+24,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+([""red"", ""blue"", ""green""], [""a"", ""b"", ""c""])
+([""red"", ""red"", ""green""], [""a"", ""a"", ""b""])
+([""red"", ""green"", ""blue"", ""blue""], [""a"", ""b"", ""c"", ""c""])
+([""red"", ""red"", ""red""], [""a"", ""b"", ""c""])
+([""red"", ""green"", ""blue"", ""red"", ""green"", ""blue""], [""a"", ""b"", ""c"", ""a"", ""b"", ""c""])
+</ans>",True,{}
+25,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[(6, 24, 12), (7, 9, 6), (12, 18, 21), (6, 24, 36)], 3]
+[[(10, 20, 30), (5, 15, 25), (8, 16, 24), (12, 18, 30)], 5]
+[[(2, 4, 6, 8), (3, 6, 9, 12), (5, 10, 15, 20)], 2]
+[[(1, 3, 5), (2, 4, 6), (7, 14, 21), (8, 16, 24)], 7]
+[[(100, 200, 300), (50, 150, 250), (75, 225, 375)], 25]
+</ans>",True,{}
+26,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[11]
+[22]
+[0]
+[100]
+[1234567890]
+</ans>",True,{}
+27,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""hello world""]
+[""even words only""]
+[""odd""]
+[""""]
+[""a b c d e f g""]
+</ans>",True,{}
+28,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1]
+[5]
+[10]
+[0]
+[100]
+</ans>",True,{}
+29,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""abc""]
+[""xyz""]
+[""hello""]
+[""python""]
+[""programming""]
+</ans>",True,{}
+30,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1]
+[2]
+[3]
+[4]
+[10]
+</ans>",True,{}
+31,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1]
+[2]
+[5]
+[10]
+[100]
+</ans>",True,{}
+32,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[{'a': 1, 'b': 2}, {'c': 3, 'd': 4}, {'e': 5, 'f': 6}]
+[{'x': 10}, {'y': 20, 'z': 30}, {'x': 40, 'y': 50}]
+[{}, {'a': 1, 'b': 2}, {'c': 3, 'd': 4}]
+[{'a': 1, 'b': 2, 'c': 3}, {'b': 4, 'd': 5}, {'e': 6, 'f': 7}]
+[{'a': 'apple'}, {'b': 'banana'}, {'c': 'cherry', 'd': 'date'}]
+</ans>",0,{}
+33,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 1, 2, 3, 1, 2, 1]
+['a', 'b', 'c', 'a', 'b', 'a']
+[True, False, True, True, False]
+[3.14, 2.71, 3.14, 1.41, 2.71, 3.14]
+[]
+</ans>",0,{}
+34,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[10]
+[0]
+[1]
+[100]
+[1000000]
+</ans>",True,{}
+35,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""apple"", ""banana"", ""cherry"", ""date""]
+[""cat"", ""dog"", ""elephant"", ""fish"", ""giraffe""]
+[""a"", ""ab"", ""abc"", ""abcd"", ""abcde""]
+[""python"", ""programming"", ""function"", ""test""]
+[""supercalifragilisticexpialidocious"", ""antidisestablishmentarianism"", ""pneumonoultramicroscopicsilicovolcanoconiosis""]
+</ans>",0,{}
+36,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[""apple"", ""banana"", ""cherry""], ""an""]
+[[""hello"", ""world"", ""python""], ""xyz""]
+[[""cat"", ""dog"", ""bird""], ""do""]
+[["""", ""empty"", ""string""], """"]
+[[""programming"", ""is"", ""fun""], ""gram""]
+</ans>",True,{}
+37,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[121]
+[1010101]
+[343434]
+[123]
+[9898989898]
+</ans>",True,{}
+38,"Here are 5 groups of test case inputs for the given power function:
+
+<ans>
+[2, 3]
+[5, 0]
+[0, 4]
+[10, 1]
+[3, 5]
+</ans>",True,{}
+39,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[(1, 3), (4, 2), (5, 1)]]
+[[(10, 5), (20, 4), (30, 3), (40, 2), (50, 1)]]
+[[(100, 100), (200, 200), (300, 300)]]
+[[(1, 1), (2, 2), (3, 3), (4, 4), (5, 5)]]
+[[(0, 0), (-1, -1), (-2, -2), (-3, -3)]]
+</ans>",True,{}
+40,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2], [3, 4, 5], [6]]
+[[1], [2, 3], [4, 5, 6], [7, 8, 9, 10]]
+[[], [1, 2], [3, 4, 5]]
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[[1, 2, 3, 4, 5], [6, 7, 8], [9, 10], [11, 12, 13, 14]]
+</ans>",0,{}
+41,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[12]
+[1]
+[100]
+[7]
+[36]
+</ans>",True,{}
+42,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3], [2, 3, 4], [3, 4, 5]]
+[[1, 1, 1], [2, 2, 2], [3, 3, 3]]
+[[1], [2], [3], [4], [5]]
+[[1, 2], [3, 4], [5, 6], [7, 8]]
+[['a', 'b'], ['b', 'c'], ['c', 'd'], ['d', 'a']]
+</ans>",0,{}
+43,"Here are 5 groups of test case inputs for the given decimal_to_binary function:
+
+<ans>
+[0]
+[1]
+[10]
+[255]
+[1024]
+</ans>",True,{}
+44,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[123]
+[999]
+[1221]
+[12345]
+[9]
+</ans>
+
+These test cases cover various scenarios:
+
+1. A regular three-digit number
+2. A number where the next palindrome is in the next thousand
+3. A number that is already a palindrome
+4. A larger number to test performance
+5. A single-digit number
+
+Each of these inputs can be used directly with the function by calling `next_smallest_palindrome(*eval(inputs))`.",True,{}
+45,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 3, 2, 4, 5], 3]
+[[10, 9, 8, 7, 6, 5, 4, 3, 2, 1], 5]
+[[1], 1]
+[[5, 5, 5, 5, 5], 3]
+[[3, 1, 4, 1, 5, 9, 2, 6, 5, 3], 7]
+</ans>",True,{}
+46,"Here are 5 groups of test case inputs for the snake_to_camel function:
+
+<ans>
+['hello_world']
+['snake_case_string']
+['convert_to_camel_case']
+['already_camel_case']
+['multiple__underscores___in___a___row']
+</ans>",True,{}
+47,"Here are 5 groups of test case inputs for the eulerian_num function:
+
+<ans>
+[5, 2]
+[4, 1]
+[6, 3]
+[3, 0]
+[7, 4]
+</ans>",True,{}
+48,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[['apple', 'banana', 'cherry'], ['dog', 'cat', 'bird'], ['red', 'green', 'blue']]
+[['zebra', 'yak', 'xylophone'], ['umbrella', 'violin', 'whistle']]
+[['1abc', '2def', '3ghi'], ['4jkl', '5mno', '6pqr'], ['7stu', '8vwx', '9yz']]
+[['python', 'java', 'javascript'], ['html', 'css', 'sql']]
+[[]]
+</ans>",0,{}
+49,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[True, False, True, True, False]
+[False, False, False, False]
+[True, True, True, True, True]
+[]
+[True, False, True, False, True, False, True]
+</ans>",0,{}
+50,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3], (4, 5, 6)]
+[[10, 20], (30,)]
+[[], (1, 2, 3, 4)]
+[[5], (1, 2, 3, 4, 5)]
+[[100, 200, 300, 400], ()]
+</ans>",True,{}
+51,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 4, 7], [2, 5, 8], [3, 6, 9]]
+[[1, 1, 1], [2, 2, 2], [3, 3, 3]]
+[[-5, 0, 5], [-3, 3, 6], [-1, 2, 4]]
+[[10], [20], [30]]
+[[], [1, 2, 3], [4, 5, 6]]
+</ans>",True,{}
+52,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""1010"", 4]
+[""11001"", 5]
+[""101010"", 6]
+[""1"", 1]
+[""0000"", 4]
+</ans>",True,{}
+53,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""123""]
+[""-456""]
+[""+789""]
+[""0""]
+[""abc""]
+</ans>",True,{}
+54,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[{}]]
+[[{}, {}, {}]]
+[[{'a': 1}]]
+[[{}, {'b': 2}, {}]]
+[[], [{}], [{'c': 3, 'd': 4}]]
+</ans>",0,{}
+55,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+(1, 2, 3)
+(9, 8, 7, 6, 5)
+(0, 1, 0)
+(42,)
+(1, 0, 0, 1)
+</ans>",0,{}
+56,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[['1.5', '3.6'], ['2', '4.8'], ['a', '5.7']]
+[['3.14', '2.718'], ['x', '1.414'], ['2.236', 'y']]
+[['0', '0'], ['1', '1'], ['2', '2']]
+[['abc', '123'], ['def', '456'], ['ghi', '789']]
+[['3.14159', '2.71828'], ['1.41421', '1.73205'], ['2.23607', '2.44949']]
+</ans>",0,{}
+57,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""Hello World""]
+[""Python is awesome""]
+[""This is a test case""]
+[""""]
+[""One Two Three Four Five""]
+</ans>",True,{}
+58,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 1, 2, 2, 3, 3, 4]
+[1, 1, 2, 3, 3, 4, 4]
+[1, 2, 2, 3, 3, 4, 4]
+[1, 1, 2, 2, 3, 4, 4]
+[1, 1, 2, 2, 3, 3, 3, 4, 4]
+</ans>",0,{}
+59,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[(2, 3), (-4, 5), (1, -1)]
+[(1, 1), (-1, -1), (0, 5)]
+[(-10, 5), (2, 2), (3, -7), (-1, -1)]
+[(100, -100)]
+[(0, 0), (1, 1), (-1, -1), (2, -2), (3, 3)]
+</ans>",0,{}
+60,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[300]
+[1000]
+[10000]
+[1]
+[220]
+</ans>",0,{}
+61,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+""11000010001""
+""00000""
+""11111""
+""10101010""
+""1100110011001100""
+</ans>",True,{}
+62,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[12, 18]
+[100, 200]
+[7, 13]
+[24, 36]
+[1000, 2000]
+</ans>",True,{}
+63,"Here are 5 groups of test case inputs for the multiply_int function:
+
+<ans>
+[5, 3]
+[-2, 4]
+[0, 7]
+[10, -5]
+[100, 0]
+</ans>",True,{}
+64,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[3, ""The quick brown fox jumps over the lazy dog""]
+[4, ""Python is an amazing programming language""]
+[2, ""A B C D E F G H I J K L M N O P""]
+[5, ""Supercalifragilisticexpialidocious is a very long word""]
+[0, ""Short words only here""]
+</ans>",True,{}
+65,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[8, 1, 6], [3, 5, 7], [4, 9, 2]]
+[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+[[2, 7, 6], [9, 5, 1], [4, 3, 8]]
+[[1, 1, 1], [1, 1, 1], [1, 1, 1]]
+[[4, 9, 2], [3, 5, 7], [8, 1, 6]]
+</ans>",0,{}
+66,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 1, 2, 1, 3, 1]
+[5, 5, 5, 2, 2, 2, 2, 5]
+['a', 'b', 'c', 'a', 'd', 'a', 'b', 'a']
+[True, False, True, True, False, True]
+[3.14, 2.71, 3.14, 1.41, 3.14, 2.71, 3.14]
+</ans>",0,{}
+67,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""hello""]
+[""python""]
+[""aEiOu""]
+[""programming""]
+[""""]
+</ans>",True,{}
+68,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[('H', 'e', 'l', 'l', 'o')]
+[('W', 'o', 'r', 'l', 'd', '!')]
+[('P', 'y', 't', 'h', 'o', 'n')]
+[('1', '2', '3', '4', '5')]
+[('a', 'b', 'c')]
+</ans>",True,{}
+69,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[-1, -2, 3, 4, -5]
+[0, -1, -2, -3, -4, -5]
+[-10, 20, -30, 40, -50]
+[1, 2, 3, 4, 5]
+[-1, -1, -1, -1, -1]
+</ans>",0,{}
+70,"Here are 5 groups of test case inputs for the hexagonal_num function:
+
+<ans>
+[1]
+[5]
+[10]
+[100]
+[1000]
+</ans>",True,{}
+71,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[8]
+[16]
+[10]
+[1]
+[32]
+</ans>",True,{}
+72,"Here are 5 groups of test case inputs for the pancake_sort function:
+
+<ans>
+[5, 2, 8, 1, 9, 3]
+[1, 2, 3, 4, 5]
+[9, 8, 7, 6, 5, 4, 3, 2, 1]
+[3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+[]
+</ans>",0,{}
+73,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3], [1, 2, 4], [1, 2, 5]]
+[[1, 1, 1], [1, 1, 1], [1, 1, 1]]
+[[1, 2, 3, 4], [1, 2, 3, 5], [1, 2, 3, 6]]
+[[], [], []]
+[[1, 2, 3, 4, 5], [5, 4, 3, 2, 1], [1, 2, 3, 4, 5]]
+</ans>",True,{}
+74,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+([1, 2, 3],)
+((1, 2, 3),)
+((1, 2, 3), [4, 5, 6], (7, 8, 9))
+([],)
+((1,), [2], (3,), [4])
+</ans>",0,{}
+75,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[10, -3, 5, 8, -1, 0]
+[7, 7, 7, 7, 7]
+[-5, -2, -8, -1, -9]
+[100, 0, 50, 75, 25]
+</ans>",0,{}
+76,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[2, 3, 12]
+[5, 7, 31]
+[3, 4, 11]
+[6, 8, 100]
+[10, 15, 75]
+</ans>",True,{}
+77,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3, 4, 5], [2, 4]]
+[[10, 20, 30, 40, 50], [20, 30, 60]]
+[['a', 'b', 'c', 'd', 'e'], ['b', 'd', 'f']]
+[[1, 2, 2, 3, 4, 5, 5], [2, 5]]
+[[], [1, 2, 3]]
+</ans>",True,{}
+78,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[5]
+[0]
+[10]
+[-3]
+[100]
+</ans>",True,{}
+79,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[220, 284]
+[1184, 1210]
+[2620, 2924]
+[5020, 5564]
+[6232, 6368]
+</ans>",True,{}
+80,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""ABcde""]
+[""ZYXwvutsrqponmlkjihgfedcba""]
+[""abcdefghijklmnopqrstuvwxyz""]
+[""ThIsIsATeStCaSe""]
+[""""]
+</ans>",True,{}
+81,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[0, 1, 2, 3, 4, 5, 6]
+[10, 20, 30, 40, 50]
+[7, 8, 9, 10, 11, 12]
+[1, 3, 5, 7, 9, 11, 13, 15]
+</ans>",0,{}
+82,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[5]
+[16]
+[1]
+[100]
+[1023]
+</ans>",True,{}
+83,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3, 4, 1, 2, 1], 1]
+[[5, 5, 5, 5, 5], 5]
+[[1, 2, 3, 4, 5], 6]
+[[], 10]
+[[1, 2, 3, 1, 2, 3, 1, 2, 3], 2]
+</ans>",True,{}
+84,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3, 4, 5], 1, 3]
+[[10, 20, 30, 40, 50], 0, 4]
+[[-1, -2, -3, -4, -5], 2, 4]
+[[0, 0, 0, 0, 0], 0, 3]
+[[100, 200, 300, 400, 500], 3, 4]
+</ans>",True,{}
+85,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[5]
+[10.5]
+[0]
+[3.14]
+[1000000]
+</ans>",True,{}
+86,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""std""]
+[""standard""]
+[""stdstdstd""]
+[""astdbstdcstd""]
+[""nostdinputhere""]
+</ans>",True,{}
+87,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+((1, 2, 3, 4),)
+(('a', 'b', 'c', 'd'),)
+((1.0, 2.0, 3.0, 4.0),)
+((True, False, True),)
+((1, '2', 3.0, True),)
+</ans>",True,{}
+88,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3, 3, 3, 3, 5], 7, 3]
+[[1, 1, 1, 1, 2, 3, 4], 7, 1]
+[[1, 2, 3, 4, 5], 5, 2]
+[[2, 2, 2, 2, 2, 2], 6, 2]
+[[1, 1, 2, 2, 3, 3, 3, 3, 3], 9, 3]
+</ans>",True,{}
+89,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[0]
+[7]
+[15]
+[1024]
+[2147483647]
+</ans>",True,{}
+90,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""Hello World""]
+[""Python""]
+[""Programming""]
+[""OpenAI""]
+[""""]
+</ans>",True,{}
+91,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3]
+[3, 2, 1]
+[-1, 0, 1]
+[5, 5, 5]
+[3.14, 2.71, 1.41]
+</ans>",True,{}
+92,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[15, 2, 4]
+[0, 1, 3]
+[7, 1, 3]
+[16, 3, 5]
+[255, 4, 8]
+</ans>",True,{}
+93,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[-1, 2, -3, 4, 5, -6], 6]
+[[1, 2, 3, -4, -5, 6], 6]
+[[-1, -2, -3, 4, 5, 6], 6]
+[[1, 2, 3, 4, 5, 6], 6]
+[[-5, 7, -3, -4, 9, -1, 10, 2], 8]
+</ans>",True,{}
+94,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""Hello World"", ""*""]
+[""Python Programming"", ""_""]
+["""", ""-""]
+[""No Spaces"", ""#""]
+[""  Multiple   Spaces  "", ""!""]
+</ans>",True,{}
+95,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[5]
+[0]
+[3.5]
+[10]
+[1.23]
+</ans>",True,{}
+96,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[10]
+[0]
+[15]
+[255]
+[1024]
+</ans>",True,{}
+97,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[(1, 2), (2, 1), (3, 4), (1, 2), (4, 3)]]
+[[(1, 1), (2, 2), (3, 3), (1, 1), (2, 2), (4, 4)]]
+[[(1, 2, 3), (3, 2, 1), (2, 3, 1), (1, 2, 3), (3, 1, 2)]]
+[[(1,), (2,), (3,), (1,), (2,), (3,), (4,)]]
+[[(1, 2), (3, 4), (5, 6), (7, 8), (9, 10)]]
+</ans>",True,{}
+98,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""abc""]
+[""""]
+[""hello""]
+[""a""]
+[""programming""]
+</ans>",True,{}
+99,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[10, 3]
+[5, 2]
+[20, 4]
+[100, 5]
+[1000, 7]
+</ans>",True,{}
+100,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3], [4, 5]]
+[[10], [20, 30, 40]]
+[[1, 2, 3, 4, 5], [6]]
+[['a', 'b', 'c'], ['d', 'e', 'f']]
+[[], [1, 2, 3]]
+</ans>",True,{}
+101,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""Hello, World!""]
+[""""]
+[""Python Programming""]
+[""12345""]
+[""   Spaces   ""]
+</ans>",True,{}
+102,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[0]
+[1]
+[24]
+[100]
+[10000]
+</ans>",True,{}
+103,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1]
+[1, 11, 2, 10, 4, 5, 2, 1]
+[12, 11, 13, 5, 6, 7]
+[1, 3, 5, 7, 9, 8, 6, 4, 2]
+</ans>",0,{}
+104,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""bbbab""]
+[""cbbd""]
+[""a""]
+[""racecar""]
+[""abcdefghijklmnopqrstuvwxyz""]
+</ans>",True,{}
+105,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3, 4, 5], [3, 4, 5, 6, 7]]
+[[1, 1, 2, 2, 3], [2, 2, 3, 3, 4]]
+[[], [1, 2, 3]]
+[[1, 2, 3], [4, 5, 6]]
+[[1, 2, 3, 4, 5], [1, 2, 3, 4, 5]]
+</ans>",True,{}
+106,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+((1, 2, 3, 4, 1, 2, 1), 1)
+(('a', 'b', 'c', 'a', 'd', 'a'), 'a')
+((1.5, 2.5, 1.5, 3.5, 1.5), 1.5)
+((True, False, True, True, False), True)
+((), 5)
+</ans>",True,{}
+107,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3], 0]
+[['a', 'b', 'c'], 'x']
+[[], 5]
+[[True, False], None]
+[[1.1, 2.2, 3.3], 0.0]
+</ans>",True,{}
+108,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[3+4j]
+[-2-2j]
+[1+0j]
+[0+5j]
+[-3.5+2.7j]
+</ans>",True,{}
+109,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3, 4, 5]]
+[[1.0, 2, 3.5, 4, ""5"", True]]
+[[]]
+[[""a"", ""b"", ""c"", 1, 2, 3]]
+[[1, 2, 3, 4.0, 5.0, 6, 7, 8, 9, 10]]
+</ans>",True,{}
+110,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+(['red', 'blue'], 2)
+(['a', 'b', 'c'], 3)
+([1, 2, 3, 4], 2)
+(['x'], 3)
+([True, False], 4)
+</ans>",True,{}
+111,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[10]
+[20]
+[0]
+[1]
+[100]
+</ans>",True,{}
+112,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[5, 10]
+[0, 0]
+[-3, 7]
+[100, -50]
+[3.14, 2.71]
+</ans>",True,{}
+113,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+(((1, 2), (3, 4)), ((5, 6), (7, 8)))
+(((10, 20), (30, 40), (50, 60)), ((15, 25), (35, 45), (55, 65)))
+(((1, 1, 1), (2, 2, 2)), ((3, 3, 3), (4, 4, 4)))
+(((5,), (10,), (15,)), ((7,), (12,), (17,)))
+(((100, 200, 300), (400, 500, 600)), ((150, 250, 350), (450, 550, 650)))
+</ans>",True,{}
+114,"Here are 5 groups of test case inputs for the newman_prime function:
+
+<ans>
+[0]
+[1]
+[5]
+[10]
+[15]
+</ans>",True,{}
+115,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+((10, 20, 30), (2, 4, 5))
+((100, 200, 300, 400), (10, 20, 30, 40))
+((15, 25, 35), (3, 5, 7))
+((1000, 2000, 3000, 4000, 5000), (10, 20, 30, 40, 50))
+((8, 16, 24, 32), (2, 4, 6, 8))
+</ans>",True,{}
+116,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3, 4, 5], 2]
+[[10, 20, 30, 40, 50, 60], 3]
+[['a', 'b', 'c', 'd'], 1]
+[[True, False, True, False, True], 4]
+[[], 0]
+</ans>",True,{}
+117,"Here are 5 groups of test case inputs for the dog_age function:
+
+<ans>
+[1]
+[2]
+[3]
+[0]
+[10]
+</ans>",True,{}
+118,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3, 4, 5, 6], 2]
+[[1, 2, 3, 4, 5], 3]
+[['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'], 4]
+[[1, 2, 3], 1]
+[[], 5]
+</ans>",True,{}
+119,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[5]
+[0]
+[1]
+[10]
+[3.5]
+</ans>",True,{}
+120,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1]
+[5]
+[10]
+[0]
+[100]
+</ans>",True,{}
+121,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1]
+[5]
+[10]
+[100]
+[1000]
+</ans>",True,{}
+122,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+['A']
+['z']
+['0']
+[' ']
+['\n']
+</ans>",True,{}
+123,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[2, 3, 4, 5, 6, 7, 8]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[0, 1, 0, 3, 0, 5, 0, 7]
+[10, 20, 30, 40, 50]
+[-2, 1, 4, -3, 6, -5, 8]
+</ans>",0,{}
+124,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1]
+[5]
+[10]
+[20]
+[100]
+</ans>",True,{}
+125,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[(1, 2, 3), (4, 5, 6), (7, 8, 9)]
+[(10,), (20,), (30,)]
+[(1, 2), (3, 4), (5, 6), (7, 8)]
+[('a', 'b', 'c'), ('d', 'e', 'f'), ('g', 'h', 'i')]
+[(1.1, 2.2), (3.3, 4.4), (5.5, 6.6)]
+</ans>",0,{}
+126,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+((10, 4, 3), (1, 2, 3))
+((5, 7, 9, 11), (1, 1, 1, 1))
+((100, 200, 300), (50, 100, 150))
+((0, 0, 0), (1, 1, 1))
+((15, 25, 35, 45, 55), (5, 10, 15, 20, 25))
+</ans>",True,{}
+127,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1]
+[2]
+[5]
+[10]
+[20]
+</ans>",True,{}
+128,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[{""a"": 1, ""b"": 2, ""c"": 3, ""d"": 4}, 3]
+[{""x"": 10, ""y"": 20, ""z"": 30}, 15]
+[{""apple"": 5, ""banana"": 3, ""cherry"": 7, ""date"": 1}, 5]
+[{""one"": 1, ""two"": 2, ""three"": 3, ""four"": 4, ""five"": 5}, 6]
+[{""red"": 100, ""green"": 200, ""blue"": 300, ""yellow"": 400}, 250]
+</ans>",True,{}
+129,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+(1, 2, 3, (4, 5), 6)
+('a', 'b', 'c', ('d', 'e'), 'f')
+(1.1, 2.2, (3.3, 4.4), 5.5)
+((1, 2), 3, 4, 5)
+(True, False, (True, False), True)
+</ans>",0,{}
+130,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1]
+[5]
+[10]
+[20]
+[100]
+</ans>",True,{}
+131,"Here are 5 groups of test case inputs for the given sequential_search function:
+
+<ans>
+[[1, 2, 3, 4, 5], 3]
+[[10, 20, 30, 40, 50], 60]
+[[], 5]
+[[1, 1, 1, 1, 1], 1]
+[[""apple"", ""banana"", ""cherry"", ""date""], ""cherry""]
+</ans>",True,{}
+132,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[1, 2, 2, 3, 4]
+[]
+[1]
+['a', 'b', 'c', 'a']
+</ans>",0,{}
+133,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3], [4, 5, 6]]
+[[10, 20, 30, 40], [1, 2, 3, 4]]
+[[0, 0, 0], [1, 1, 1]]
+[[100, 200], [50, 75]]
+[[-5, -10, -15], [-2, -4, -6]]
+</ans>",True,{}
+134,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1234]
+[3211000]
+[321]
+[44322211]
+[9876543210]
+</ans>",True,{}
+135,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 1, 1, 1], 1]
+[[], 5]
+[[2, 2, 2, 2, 2], 2]
+[[3.14, 3.14, 3.14], 3.14]
+[['a', 'a', 'a', 'a'], 'a']
+</ans>",True,{}
+136,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""abb""]
+[""abbb""]
+[""ab""]
+[""abbbb""]
+[""cabbc""]
+</ans>",True,{}
+137,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3], 3, 2
+[-1, -2, -3], 3, 3
+[5, -2, 3, -1, 4], 5, 2
+[1, -1, 1, -1], 4, 4
+[-2, 1, -3, 4, -1, 2, 1, -5, 4], 9, 3
+</ans>",True,{}
+138,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1]
+[5]
+[10]
+[0]
+[100]
+</ans>",True,{}
+139,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[[1, 2], [3, 4, 5], [6]]]
+[[[1], [1, 2], [1, 2, 3], [1, 2, 3, 4]]]
+[[[]], [[], [1]], [[], [1], [1, 2]]]
+[[[1, 2, 3], [4, 5, 6], [7, 8, 9]]]
+[[[1]], [[1, 2]], [[1, 2, 3]], [[1, 2, 3, 4]], [[1, 2, 3, 4, 5]]]
+</ans>",0,{}
+140,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[3, 2]
+[5, 3]
+[2, 4]
+[10, 5]
+[1, 1]
+</ans>",0,{}
+141,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[10, 3]
+[0, 5]
+[-15, 4]
+[100, 7]
+[-20, -6]
+</ans>",True,{}
+142,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[3, 4]
+[5, 12]
+[1, 1]
+[7, 24]
+[0.5, 1.2]
+</ans>",True,{}
+143,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[10, -5, 0, 15, -20, 25]
+[100, 'a', 200, 'b', 300, 'c']
+[-10, -20, -30, -40, -50]
+[0, 1, 'x', 2, 'y', 3, 'z']
+</ans>",0,{}
+144,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[12]
+[28]
+[6]
+[1]
+[100]
+</ans>",True,{}
+145,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1]
+[2, 4, 1, 3, 5]
+[1, 1, 1, 2, 2]
+[3, 1, 4, 1, 5, 9, 2, 6, 5, 3]
+</ans>",0,{}
+146,"Here are 5 groups of test case inputs for the flatten_list function:
+
+<ans>
+[[1, 2, [3, 4, [5, 6]], 7, 8, [9]]]
+[[], [1, 2], [3, [4, [5]]], 6]
+[[1], [2], [3], [4], [5]]
+[[1, [2, [3, [4, [5]]]]]]
+[[1, 2], 3, [4, [5, 6, [7, 8, 9]]], [10]]
+</ans>",0,{}
+147,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[([('John', 10), ('Mary', 20), ('John', 15), ('Mary', 25)],)]
+[([('Alice', 85), ('Bob', 90), ('Charlie', 80), ('Alice', 95), ('Bob', 85)],)]
+[([('X', 100), ('Y', 200), ('Z', 150), ('X', 50), ('Y', 100), ('Z', 200)],)]
+[([('A', 1), ('B', 2), ('C', 3), ('D', 4), ('E', 5)],)]
+[([('Student1', 75), ('Student2', 80), ('Student3', 85), ('Student1', 90), ('Student2', 70), ('Student3', 95)],)]
+</ans>",0,{}
+148,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[{}]
+[{""a"": 1, ""b"": 2, ""c"": 3}]
+[{""a"": {""b"": 2}, ""c"": 3}]
+[{""a"": {""b"": {""c"": 3}}, ""d"": 4}]
+[{""a"": 1, ""b"": {""c"": {""d"": {""e"": 5}}}, ""f"": {""g"": 6}}]
+</ans>",True,{}
+149,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3, 4, 5], [[0, 2], [0, 3]], 2, 1]
+[[10, 20, 30, 40, 50], [[0, 4], [1, 3]], 2, 2]
+[[5, 10, 15, 20, 25, 30], [[1, 3], [2, 5], [0, 2]], 3, 4]
+[[100, 200, 300], [[0, 1], [1, 2], [0, 2]], 3, 0]
+[[1, 2, 3, 4, 5, 6, 7, 8], [[0, 3], [2, 5], [4, 7], [1, 6]], 4, 3]
+</ans>",True,{}
+150,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""Python Programming is fun"", ""Pineapple Pen"", ""Purple Parrot"", ""Apple Pie""]
+[""Powerful Python"", ""Playful Puppy"", ""Happy Hippo""]
+[""Panda Paw"", ""Penguin Parade"", ""Peacock Plume""]
+[""Pepperoni Pizza"", ""Pasta Primavera"", ""Pumpkin Pie""]
+[""Proper Punctuation"", ""Practical Programming"", ""Positive Perspective""]
+</ans>",0,{}
+151,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5], 5, 2, 4
+[5, 4, 3, 2, 1], 5, 1, 3
+[1, 101, 2, 3, 100], 5, 2, 4
+[10, 22, 9, 33, 21, 50, 41, 60], 8, 3, 6
+[3, 10, 2, 1, 20], 5, 1, 3
+</ans>",True,{}
+152,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[([1, 2], [3, 4], [5, 6]), 1, 7]
+[([10, 20], [30, 40], [50, 60]), 0, 15]
+[([100], [200], [300]), 2, 400]
+[([1, 2, 3], [4, 5, 6], [7, 8, 9]), 1, 10]
+[([0], [1], [2], [3]), 3, 4]
+</ans>",True,{}
+153,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3], [4, 5, 6], 2]
+[[1, 1, 1], [1, 1, 1], 3]
+[[-1, 0, 1], [-2, 2, 3], 4]
+[[10, 20, 30], [1, 2, 3], 5]
+[[100, 200], [300, 400, 500], 1]
+</ans>",True,{}
+154,"Here are 5 groups of test case inputs for the given maximum function:
+
+<ans>
+[5, 10]
+[-3, -7]
+[0, 0]
+[3.14, 2.71]
+[-1000000, 1000000]
+</ans>",True,{}
+155,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""Hello World""]
+[""Python""]
+[""   Spaces   ""]
+[""123 456 789""]
+[""""]
+</ans>",True,{}
+156,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[10]
+[15]
+[0]
+[255]
+[128]
+</ans>",True,{}
+157,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[16]
+[10]
+[1]
+[100]
+[1024]
+</ans>",True,{}
+158,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[0]
+[1]
+[5]
+[10]
+[20]
+</ans>",True,{}
+159,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[['apple', 'banana', 'cherry'], 'Fruit: {}']
+[[1, 2, 3, 4, 5], 'Number: {}']
+[['cat', 'dog', 'bird'], 'Pet: {} is cute']
+[[True, False, True, False], 'Boolean: {}']
+[['A', 'B', 'C', 'D', 'E'], 'Letter {}:']
+</ans>",True,{}
+160,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+['a', 'b', 'c'], [1, 2, 3], ['x', 'y', 'z']
+['red', 'green', 'blue'], ['apple', 'banana', 'cherry'], [5, 10, 15]
+['one'], ['two'], ['three']
+['cat', 'dog'], ['meow', 'woof'], [4, 2]
+[], [], []
+</ans>",True,{}
+161,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[10]
+[25]
+[50]
+[100]
+[1000]
+</ans>",True,{}
+162,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[], [1], [1, 2], [1, 2, 3]]
+[[1, 2, 3, 4, 5], [1, 2], [1, 2, 3]]
+[['a', 'b', 'c'], ['d', 'e'], ['f', 'g', 'h', 'i']]
+[[1], [2], [3], [4], [5]]
+[['python'], ['java', 'c++'], ['ruby', 'perl', 'php'], ['javascript']]
+</ans>",0,{}
+163,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+(1, 2, 3, 4, 5)
+(1, 1, 2, 3, 4)
+()
+(10,)
+('a', 'b', 'c', 'a')
+</ans>",0,{}
+164,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+""aabbcdeeff""
+""abcdef""
+""aabbccddeffg""
+""""
+""aaaaaa""
+</ans>",True,{}
+165,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""a""]
+[""abcda""]
+[""hello""]
+[""racecar""]
+[""python""]
+</ans>",True,{}
+166,"Here are 5 groups of test case inputs for the median_numbers function:
+
+<ans>
+[1, 2, 3]
+[3, 2, 1]
+[2, 1, 3]
+[-1, 0, 1]
+[5, 5, 5]
+</ans>",True,{}
+167,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[123, 456, 789]
+[1000, 2000, 3000]
+[5, 15, 25, 35]
+[9876, 5432, 1098]
+[-10, 20, -30, 40]
+</ans>",0,{}
+168,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+((1, 2, 3), (4, 5, 6))
+((0, 0, 0), (1, 1, 1))
+((255, 255, 255), (0, 0, 0))
+((10, 20, 30), (5, 15, 25))
+((7, 14, 21), (3, 6, 9))
+</ans>",True,{}
+169,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[(1, 2), (3, 4), (1, 2), (5, 6)]]
+[[(1, 1), (1, 2), (2, 1), (2, 2)]]
+[[(1, 2, 3), (2, 3, 1), (3, 1, 2), (1, 2, 3)]]
+[[(1,), (2,), (3,), (1,), (2,), (3,)]]
+[[(1, 2), (2, 1), (3, 4), (4, 3), (5, 6), (6, 5)]]
+</ans>",True,{}
+170,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+(((1, 2), (3, 4)), ((5, 6), (7, 8)))
+(((0, 0), (0, 0)), ((1, 1), (1, 1)))
+(((10, 20, 30), (40, 50, 60)), ((1, 2, 3), (4, 5, 6)))
+(((1,), (2,), (3,)), ((4,), (5,), (6,)))
+(((1.5, 2.5), (3.5, 4.5)), ((0.5, 1.5), (2.5, 3.5)))
+</ans>",True,{}
+171,"Here are 5 groups of test case inputs for the given minimum function:
+
+<ans>
+[5, 10]
+[-3, -7]
+[0, 0]
+[3.14, 2.71]
+[-1000000, 1000000]
+</ans>",True,{}
+172,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[((1, 2, 3), (2, 3)), ((4, 5, 6), (4, 5))]
+[((1, 2, 3, 4, 5), (3, 4)), ((6, 7, 8, 9, 10), (7, 8))]
+[((1,), (1,)), ((2,), (3,))]
+[((1, 2, 3), (4,)), ((5, 6, 7), (5,))]
+[((1, 2, 3, 4, 5), (2, 3, 4)), ((6, 7, 8, 9, 10), (8, 9, 10))]
+</ans>",True,{}
+173,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[7]
+[12]
+[0]
+[1000000]
+[-5]
+</ans>",True,{}
+174,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[12]
+[21]
+[534976]
+[1234]
+[9876543210]
+</ans>
+
+These test cases cover various scenarios:
+
+1. A simple two-digit number where rearrangement is possible.
+2. A two-digit number where rearrangement is not possible (should return False).
+3. A larger number with multiple digits where rearrangement is possible.
+4. A number where the next bigger number is formed by swapping the last two digits.
+5. The largest possible 10-digit number, where rearrangement is not possible (should return False).",True,{}
+175,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1,7,11], [2,4,6], 3]
+[[1,1,2], [1,2,3], 2]
+[[1,2], [3], 3]
+[[-10,-4,0,4], [-3,-1,1,2], 4]
+[[1,2,3,4,5], [2,4,6,8,10], 7]
+</ans>",True,{}
+176,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[(1, 2), (3, 4), (5, 6)]
+[(0, 1), (-2, 3), (4, -5)]
+[(-1, -1), (2, 2), (-3, 3)]
+[(0.5, 2), (1.5, 3), (2.5, 4)]
+[(10, 0.1), (100, 0.01), (1000, 0.001)]
+</ans>",0,{}
+177,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[10, -5, 0, 15, 20]
+[100, 'a', 200, 'b', 50, 'c']
+[-10, -20, -30, 'x', 'y', 'z']
+[5, 3.14, 2, 'hello', 1, True, False]
+</ans>",0,{}
+178,"Here are 5 groups of test case inputs for the given snake_to_camel function:
+
+<ans>
+[""hello_world""]
+[""this_is_a_long_variable_name""]
+[""single""]
+[""multiple__underscores___in_a__row""]
+[""_leading_and_trailing_underscores_""]
+</ans>",True,{}
+179,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[2, 4, 6, 8, 10]
+[1, 3, 5, 7, 9]
+[1, 2, 3, 4, 5]
+[]
+</ans>",0,{}
+180,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[(1, 2, 3), (4, 5, 6), (7, 8, 9)], 0]
+[[(10, 20), (30, 40), (50, 60)], 1]
+[[(1,), (2,), (3,)], 0]
+[[(1, 2, 3, 4), (5, 6, 7, 8), (9, 10, 11, 12)], 2]
+[[], 0]
+</ans>",True,{}
+181,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3], [4, 5, 6]]
+[[1, 2, 3], [3, 4, 5]]
+[[], [1, 2, 3]]
+[[1, 2, 3], []]
+[['a', 'b', 'c'], ['d', 'e', 'f']]
+</ans>",True,{}
+182,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[-1, -2, -3, 0, 1]
+[10, 20, 30, 40, 50]
+[-5, -4, -3, -2, -1]
+[0, 0, 1, 2, 3]
+</ans>",0,{}
+183,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[(1, 2, 3), (1, 4, 5), (2, 3, 4), (2, 5, 6)]]
+[[(1, 'a'), (2, 'b'), (1, 'c'), (3, 'd'), (2, 'e')]]
+[[(10, 20), (30, 40), (10, 50), (30, 60), (20, 70)]]
+[[(1,), (2,), (1,), (3,), (2,), (1,)]]
+[[(1, 2, 3, 4), (5, 6, 7), (1, 8, 9), (5, 10), (2, 11, 12)]]
+</ans>",True,{}
+184,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[['a', 'ab', 'abc', 'abcd']]
+[['hello', 'world', 'python', 'programming']]
+[['1', '22', '333', '4444', '55555']]
+[['', 'x', 'xy', 'xyz']]
+[[' ', '  ', '   ', '    ']]
+</ans>",True,{}
+185,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1.4, 2.6, 3.5, 4.2]
+[0.1, 0.9, 1.5, 2.7, 3.2]
+[-1.7, 2.3, -0.5, 1.8, 3.9, -2.1]
+[10.1, 20.6, 30.4, 40.9, 50.2]
+[0.49, 1.51, 2.49, 3.51, 4.49, 5.51]
+</ans>",0,{}
+186,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1]
+[5]
+[10]
+[0]
+[100]
+</ans>",True,{}
+187,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+(1, 2, 3, 4, 5)
+('a', 'b', 'c', 'd')
+(10,)
+('hello', 'world', '!')
+(True, False, None, 3.14)
+</ans>",0,{}
+188,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1]
+[5]
+[10]
+[100]
+[1000]
+</ans>",True,{}
+189,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+((""GFG"", ""is"", ""best"", ""for"", ""geeks""),)
+((""Python"", ""Java"", ""C++""),)
+((""a"", ""b"", ""c"", ""d"", ""e"", ""f""),)
+((""Hello"", ""World""),)
+((""1234"", ""5678"", ""90""),)
+</ans>",True,{}
+190,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[[1, 2], [2, 3], [1, 3], [4, 5]], 1]
+[[[1, 2, 3], [4, 5, 6], [7, 8, 9], [1, 4, 7]], 1]
+[[[1], [2], [3], [4], [5]], 3]
+[[[1, 1, 1], [2, 2, 2], [3, 3, 3], [1, 2, 3]], 1]
+[[[]], 5]
+</ans>",True,{}
+191,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+[0, 1, 2, 3, 4, 5]
+[-1, -2, -3, -4, -5, 0, 1, 2, 3, 4, 5]
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+[]
+</ans>",0,{}
+192,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""2022-03-17""]
+[""1999-12-31""]
+[""2023-01-01""]
+[""2000-02-29""]
+[""1900-10-10""]
+</ans>",True,{}
+193,"Here are 5 groups of test case inputs for the shell_sort function:
+
+<ans>
+[5, 2, 9, 1, 7, 6, 3]
+[10, 8, 3, 2, 5, 7, 9, 1, 4, 6]
+[1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1]
+[-3, 0, -5, 8, 4, -1, 2, -7]
+</ans>",0,{}
+194,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+({1, 2, 3}, {3, 4, 5})
+({1, 2, 3, 4}, {2, 3, 4, 5})
+({10, 20, 30}, {20, 30, 40})
+({1, 2}, {2, 3})
+({100, 200, 300, 400}, {200, 300, 400, 500})
+</ans>",True,{}
+195,"Here are 5 groups of test case inputs for the parabola_directrix function:
+
+<ans>
+[1, 0, 0]
+[2, -4, 5]
+[-1, 6, -8]
+[0.5, 2, -3]
+[3, 1, -2]
+</ans>",True,{}
+196,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3], [4, 5, 6]]
+[[1, 2, 3], [3, 4, 5]]
+[[], [1, 2, 3]]
+[[1, 2, 3], []]
+[['a', 'b', 'c'], [1, 2, 'b']]
+</ans>",True,{}
+197,"Here are 5 groups of test case inputs for the median_trapezium function:
+
+<ans>
+[10, 20, 5]
+[5.5, 7.5, 3]
+[100, 200, 50]
+[3, 3, 2]
+[0, 10, 4]
+</ans>",True,{}
+198,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[1, 2, 3], 4]
+[[5, 2, 8, 1], 3]
+[[10], 10]
+[[], 5]
+[[100, 200, 300, 400], 500]
+</ans>",0,{}
+199,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""ab""]
+[""abb""]
+[""abbb""]
+[""a""]
+[""abc""]
+</ans>",True,{}
+200,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[123]
+[0]
+[9876543210]
+[-42]
+[1000000000]
+</ans>",True,{}
+201,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[-1, 2, -3, 4, -5]
+[0, -1, -2, -3, -4, -5]
+[1, 2, 3, 4, 5]
+[-10, -20, -30, 10, 20, 30]
+[-0.5, 0.5, -1.5, 1.5, -2.5, 2.5]
+</ans>",0,{}
+202,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""abcdefg""]
+[""12345678""]
+[""""]
+[""HelloWorld""]
+[""Python Programming""]
+</ans>",True,{}
+203,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[(1, 2), (2, 1), (3, 4), (4, 3), (5, 6)]
+[(1, 2), (2, 3), (3, 1), (4, 5), (5, 4)]
+[(1, 1), (2, 2), (3, 3), (4, 4)]
+[(1, 2), (3, 4), (5, 6), (2, 1), (4, 3), (6, 5)]
+[(1, 2), (2, 3), (3, 4), (4, 1)]
+</ans>",0,{}
+204,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[9, 8, 7, 6, 5, 4, 3, 2, 1]
+[0, 1, 0, 1]
+[42]
+[1, 0, 0, 0, 0]
+</ans>",0,{}
+205,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""He quickly ran to the store.""]
+[""The cat lazily lounged on the windowsill.""]
+[""She spoke softly in the quiet room.""]
+[""The team worked diligently on the project.""]
+[""The sun slowly set over the horizon.""]
+</ans>",True,{}
+206,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1]
+[5]
+[0]
+[10]
+[3.5]
+</ans>",True,{}
+207,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[-1, 0, 1, 2, 3]
+[0, 0, 0, 1, 1]
+[-5, -4, -3, -2, -1]
+[-10, -5, 0, 5, 10]
+</ans>",0,{}
+208,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[-1, -2, -3, -4, -5]
+[-10, -5, -8, -3, -7]
+[-100, -50, -75, -25, -90]
+[-1, -1, -1, -1, -1]
+[-999, -1000, -998, -997, -996]
+</ans>",0,{}
+209,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[(1, 2, 3, 4), (5, 6, 7, 8)], 1]
+[[(1, 2, 3), (4, 5, 6), (7, 8, 9)], 0]
+[[(1, 2, 3, 4, 5), (6, 7, 8, 9, 10), (11, 12, 13, 14, 15)], 2]
+[[(1,), (2,), (3,)], 0]
+[[(1, 2, 3, 4, 5, 6), (7, 8, 9, 10, 11, 12)], 3]
+</ans>",True,{}
+210,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+(((1, 2), (3, 4)), ((5, 6), (7, 8)))
+(((1, 1, 1), (2, 2, 2)), ((3, 3, 3), (4, 4, 4)))
+(((0, 1), (2, 3), (4, 5)), ((1, 1), (1, 1), (1, 1)))
+(((1,), (2,), (3,)), ((4,), (5,), (6,)))
+(((1.5, 2.5), (3.5, 4.5)), ((2.0, 3.0), (4.0, 5.0)))
+</ans>",True,{}
+211,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+((1, 2, 3, 4, 5), [1, 2, 3])
+((1, 1, 2, 2, 3), [1, 2])
+(('a', 'b', 'c', 'd'), ['a', 'c', 'e'])
+((10, 20, 30, 40, 50), [20, 40, 60])
+((), [1, 2, 3])
+</ans>",True,{}
+212,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[-1, 0, 1]
+[10, -10, 20, -20]
+[0.5, 1.5, 2.5]
+[]
+</ans>",0,{}
+213,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[0]
+[1]
+[2]
+[5]
+[10]
+</ans>",True,{}
+214,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[['apple', 'banana', 'cherry', 'date', 'elderberry'], 5]
+[['cat', 'dog', 'elephant', 'fox', 'giraffe'], 3]
+[['red', 'green', 'blue', 'yellow', 'purple'], 4]
+[['a', 'ab', 'abc', 'abcd', 'abcde'], 2]
+[['hello', 'world', 'python', 'programming', 'code'], 6]
+</ans>",True,{}
+215,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""Hello World""]
+[""   Spaces   at   ends   ""]
+[""NoSpacesHere""]
+[""Multiple    Spaces    Between    Words""]
+[""""]
+</ans>",True,{}
+216,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[100, 80]
+[50, 75]
+[1000, 1000]
+[500, 450]
+[200, 250]
+</ans>",True,{}
+217,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[24]
+[36]
+[100]
+[1000]
+[2048]
+</ans>",True,{}
+218,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1]
+[4]
+[7]
+[12]
+[6]
+</ans>",True,{}
+219,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""hello"", ""world"", ""python""]
+[""a"", ""bc"", ""def"", ""ghij""]
+[""racecar"", ""level"", ""deified""]
+[""""]
+[""abc"", ""123"", ""!@#"", ""XYZ""]
+</ans>",0,{}
+220,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[['a'], ['ab', 'c'], ['def']]
+[['apple', 'banana'], ['cherry'], ['date', 'elderberry', 'fig']]
+[['1', '2', '3'], ['4'], ['5', '6'], ['7', '8', '9', '10']]
+[['python'], ['java', 'c++'], ['ruby', 'perl'], ['go']]
+[[1, 2, 3], [4, 5], [6], [7, 8, 9, 10], [11, 12, 13, 14, 15]]
+</ans>",0,{}
+221,"Here are 5 groups of test case inputs for the rectangle_area function:
+
+<ans>
+[5, 3]
+[10, 7]
+[2.5, 4.0]
+[0, 8]
+[100, 100]
+</ans>",True,{}
+222,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""Hello World""]
+[""ABCdef123""]
+[""NoUpperCaseHere""]
+[""MixedCASEstring""]
+[""123!@#$%^&*()""]
+</ans>",True,{}
+223,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[[1, 2], [3, 4], [5, 6]]]
+[[[10], [20], [30], [40]]]
+[[[1, 2, 3], ['a', 'b', 'c'], [True, False]]]
+[[[]]]
+[[[1], [2, 3], [4, 5, 6], [7, 8, 9, 10]]]
+</ans>",0,{}
+224,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""Hello World""]
+[""UPPERCASE""]
+[""lowercase""]
+[""MixEd CaSe StRiNg""]
+[""123!@#$%^&*()""]
+</ans>",True,{}
+225,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3]
+[4, 5]
+['a', 'b', 'c', 'd']
+[]
+['x']
+</ans>",0,{}
+226,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[2, 3, -2, 4]
+[-2, 0, -1]
+[-2, 3, -4]
+[1, -2, -3, 0, 7, -8, -2]
+[6, -3, -10, 0, 2]
+</ans>",0,{}
+227,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[{""a"": 1, ""b"": 1, ""c"": 1}, 1]
+[{""x"": 5, ""y"": 5, ""z"": 5, ""w"": 5}, 5]
+[{""p"": 3, ""q"": 3, ""r"": 4}, 3]
+[{}, 0]
+[{""one"": 10, ""two"": 10, ""three"": 10, ""four"": 10, ""five"": 10}, 10]
+</ans>",0,{}
+228,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+{'a': 1, 'b': None, 'c': 3, 'd': None, 'e': 5}
+{'x': None, 'y': None, 'z': None}
+{'p': 10, 'q': 20, 'r': 30}
+{'foo': None, 'bar': 'baz', 'qux': None, 'quux': ''}
+{}
+</ans>",True,{}
+229,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[5, 4, 3, 2, 1]
+[2, 3, 1, 4, 5]
+[10, 22, 9, 33, 21, 50, 41, 60]
+[3, 100, 4, 5, 150, 6]
+</ans>",0,{}
+230,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+(1, 2, 3, 4, 5)
+(10, 20, 30, 40)
+(0, 0, 0, 0, 0)
+(-1, 2, -3, 4, -5)
+(100,)
+</ans>",0,{}
+231,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[2, 3, 4], 5]
+[[10, 20, 30, 40], 7]
+[[1, 2, 3, 4, 5], 10]
+[[100, 200, 300], 1000]
+[[7, 14, 21, 28], 11]
+</ans>",True,{}
+232,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[5, 3, 4, 1, 2]
+[7, 8, 9, 10]
+[1, 3, 5, 7]
+[-3, -2, -1, 0, 1]
+</ans>",0,{}
+233,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[[(1, 2), (2, 3), (4, 5)], [(2, 1), (3, 4), (5, 4)]]
+[[(1, 1), (2, 2), (3, 3)], [(1, 1), (2, 2), (4, 4)]]
+[[(1, 2, 3), (4, 5, 6)], [(3, 2, 1), (7, 8, 9)]]
+[[(1, 2), (3, 4), (5, 6)], [(2, 1), (4, 3), (7, 8)]]
+[[(1,), (2,), (3,)], [(3,), (2,), (1,)]]
+</ans>",True,{}
+234,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""Hello World"", ""o"", ""0""]
+[""Programming"", ""m"", ""M""]
+[""OpenAI"", ""I"", ""i""]
+[""Python is fun"", "" "", ""_""]
+[""abracadabra"", ""a"", ""A""]
+</ans>",True,{}
+235,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+{'apple': 5, 'banana': 2, 'orange': 8, 'pear': 1}
+{'a': 3, 'b': 3, 'c': 1, 'd': 2, 'e': 2}
+{'x': 10, 'y': 10, 'z': 10}
+{'cat': 5, 'dog': 3, 'fish': 7, 'bird': 2, 'hamster': 1}
+{}
+</ans>",True,{}
+236,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[1, 2, 3, 4, 5]
+[-10, 0, 10, 20, 30]
+[100, 200, 300, 400, 500]
+[-5, -4, -3, -2, -1]
+[7, 7, 7, 7, 7]
+</ans>",0,{}
+237,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""HELLO WORLD""]
+[""Python Programming""]
+[""123ABC""]
+[""MiXeD CaSe StRiNg""]
+[""""]
+</ans>",True,{}
+238,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[""Hello World""]
+[""123abc456DEF""]
+[""UPPERCASE""]
+[""MixedCASE123""]
+[""a1B2c3D4e5F6""]
+</ans>",True,{}
+239,"Here are 5 groups of test case inputs for the given function:
+
+<ans>
+[12345]
+[9876543210]
+[1]
+[1000000000]
+[5280]
+</ans>",True,{}

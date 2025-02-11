@@ -1,0 +1,89 @@
+{
+    "hf_token": "{your_hf_token}",
+    "model_configs": {
+        "deepseek-v3": {
+            "model_name": "deepseek-chat",
+            "type": "OpenAI",
+            "api_key": "sk-de9c7340b3b24a85ab17e079a48b882f",
+            "base_url": "https://api.deepseek.com"
+        },
+        "gpt-3.5_release": {
+            "model_name": "gpt-3.5-turbo",
+            "type": "OpenAI",
+            "api_key": "{your_openai_api_key}",
+            "base_url": "https://api.openai.com/v1"
+        },
+        "gpt-4o-mini_release": {
+            "model_name": "gpt-4o-mini",
+            "type": "OpenAI",
+            "api_key": "{your_openai_api_key}",
+            "base_url": "https://api.openai.com/v1"
+        },
+        "gpt-4o_release": {
+            "model_name": "gpt-4o",
+            "type": "OpenAI",
+            "api_key": "{your_openai_api_key}",
+            "base_url": "https://api.openai.com/v1"
+        },
+        "qwen2.5-0.5b-instruct": {
+            "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+            "type": "OpenAI",
+            "api_key": "na",
+            "base_url": "http://127.0.0.1:8000/v1"
+        },
+        "tinyllama-1.1b-chat_post": {
+            "model_name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+            "type": "vllm_post",
+            "template": "<|user|>\n{prompt}</s>\n<|assistant|>\n",
+            "base_url": "http://127.0.0.1:8000/"
+        },
+        "Llama3.1-8b-instruct_release": {
+            "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+            "type": "OpenAI",
+            "api_key": "na",
+            "base_url": "http://127.0.0.1:8000/v1"
+        },
+        "Mistral-7B-Instruct-v0.2_release": {
+            "model_name": "mistralai/Mistral-7B-Instruct-v0.2",
+            "type": "OpenAI",
+            "api_key": "na",
+            "base_url": "http://127.0.0.1:8000/v1"
+        },
+        "Llama3.1-70b-instruct_release": {
+            "model_name": "meta-llama/Llama-3.1-70B-Instruct",
+            "type": "OpenAI",
+            "api_key": "na",
+            "base_url": "http://127.0.0.1:8000/v1"
+        },
+        "mixtral_release": {
+            "model_name": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+            "type": "OpenAI",
+            "api_key": "na",
+            "base_url": "http://127.0.0.1:8000/v1"
+        },
+        "Qwen2-7B-Instruct_release": {
+            "model_name": "Qwen/Qwen2-7B-Instruct",
+            "type": "OpenAI",
+            "api_key": "na",
+            "base_url": "http://127.0.0.1:8000/v1"
+        },
+        "Phi-3-mini-128k-instruct_release": {
+            "model_name": "microsoft/Phi-3-mini-128k-instruct",
+            "type": "OpenAI",
+            "api_key": "na",
+            "base_url": "http://127.0.0.1:8000/v1"
+        },
+        "mistral_nemo_release": {
+            "model_name": "mistralai/Mistral-Nemo-Instruct-2407",
+            "type": "OpenAI",
+            "api_key": "na",
+            "base_url": "http://127.0.0.1:8000/v1"
+        },
+        "deepseek-r1-1.5b": {
+            "model_name": "deepseek-r1:1.5b_32k",
+            "type": "OpenAI",
+            "api_key": "na",
+            "base_url": "http://127.0.0.1:8000/v1"
+        }
+    }
+}

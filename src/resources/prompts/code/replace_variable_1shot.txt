@@ -1,0 +1,62 @@
+## Instruction
+
+I will show you a code snippet. Your task is to replace the name of variables to different ones according to the mapping I give to you, and return me back the new code snippet after replacement.
+
+### Response format
+
+Please inclcude your answer within <ans> and </ans> tags.
+
+Here is an example for your reference:
+
+#### Code Snippet
+
+```
+def get_last_checkpoint(folder):
+    content = os.listdir(folder)
+    checkpoints = [
+        path
+        for path in content
+        if _re_checkpoint.search(path) is not None and os.path.isdir(os.path.join(folder, path))
+    ]
+    if len(checkpoints) == 0:
+        return None
+    return os.path.join(folder, max(checkpoints, key=lambda x: int(_re_checkpoint.search(x).groups()[0])))
+```
+
+#### Variable Renaming
+
+```
+path -> ppp
+content -> ccc
+```
+
+#### Response
+
+<ans>
+def get_last_checkpoint(folder):
+    ccc = os.listdir(folder)
+    checkpoints = [
+        ppp
+        for ppp in ccc
+        if _re_checkpoint.search(ppp) is not None and os.path.isdir(os.path.join(folder, ppp))
+    ]
+    if len(checkpoints) == 0:
+        return None
+    return os.path.join(folder, max(checkpoints, key=lambda x: int(_re_checkpoint.search(x).groups()[0])))
+</ans>
+
+Now, let's get started:
+
+#### Code Snippet
+
+```
+[[code_snippet]]
+```
+
+#### Variable Renaming
+
+```
+[[var_mapping]]
+```
+
+#### Response

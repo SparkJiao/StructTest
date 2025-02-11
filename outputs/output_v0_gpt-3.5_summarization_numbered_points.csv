@@ -1,0 +1,89 @@
+index,generated,result
+0,"<summary>
+1. The transport properties of nonlinear non-equilibrium dynamical systems, particularly ratchet systems, are complex and depend on parameters.
+2. Mateos conjectured a connection between current direction and chaotic to periodic behavior transitions in ratchet systems.
+3. Barbi and Salerno argued against Mateos' conjecture, proposing an alternative explanation for current reversals related to stability properties of periodic orbits.
+4. The behavior of individual trajectories in chaotic systems differs from that of ensembles, with current values significantly affected by ensemble characteristics.
+5. Bifurcations in single-trajectory behavior often correspond to sudden spikes or jumps in the current for an ensemble in the same system.
+6. Not all current reversals are associated with bifurcations, but most current reversals are associated with abrupt changes in the current due to bifurcations.
+7. Hidden bifurcations can lead to current reversals without apparent bifurcations, highlighting the complexity of the system.
+8. Understanding the behavior of chaotic deterministic ratchets requires careful consideration of ensemble characteristics and the relationship between bifurcations and current changes.
+</summary>",1
+1,"<summary>
+1. The document discusses the wide range of eccentricities observed in extrasolar planets, with theories proposed for their origin.
+2. Test particle simulations were used to determine stable orbits for additional planets in six highly eccentric planetary systems.
+3. Observations from the Hobby-Eberly Telescope were combined with dynamical simulations to search for low-mass companions in known planetary systems.
+4. No evidence was found for additional planets in the six systems studied, with detection limits computed using high-precision data.
+5. The research was supported by NASA grants and involved collaborations with various institutions and databases for data analysis. 
+</summary>",1
+2,"<summary>
+1. The study focuses on rare decays of the Higgs boson in different new physics models.
+2. The branching ratios of these rare decays can reach significant values in the type-II 2HDM, L2HDM, NMSSM, and NMSSM models.
+3. The decay rates of these rare decays can help distinguish between different models.
+4. The decay rates of the rare decays depend on the yukawa couplings and the properties of the Higgs boson.
+5. Constraints from various experimental data and theoretical considerations are used to limit the parameter space of the models.
+6. The muon anomalous magnetic moment is a crucial constraint in the NMSSM and NMSSM models.
+7. The decay rates of the rare decays can be as large as 5 in the type-II 2HDM and 9 in the L2HDM.
+8. The decay rate of a specific rare decay can reach 5 in the L2HDM and 9 in the NMSSM and NMSSM models.
+9. The study concludes that the decay rates of these rare decays can provide valuable insights into the nature of new physics models.
+</summary>",1
+3,"<summary>
+1. Supersymmetry (SUSY) is an extension of the standard model that solves the naturalness problem and predicts the existence of superpartners of standard model particles.
+2. SUSY breaking and its mediation to the Minimal Supersymmetric Standard Model (MSSM) sector are important problems in SUSY phenomenology, with the no-scale type Kähler potential being a focus of study.
+3. The no-scale Kähler potential predicts that all scalar masses and trilinear scalar couplings vanish as the cosmological constant vanishes, with gaugino masses being the only source of SUSY breaking.
+4. Different scenarios with universal or non-universal gaugino masses at the GUT scale are explored, with constraints from direct search bounds, cosmological considerations, and current limits on the lightest Higgs mass and branching ratio for Bs → μμ taken into account.
+5. The minimal scenario with universal gaugino masses at the GUT scale is severely constrained by various bounds, while scenarios with gaugino masses given above the GUT scale or non-universal gaugino masses at the GUT scale have wider allowed parameter regions.
+6. The Higgs mass bound plays a significant role in constraining scenarios with a Higgsino-like neutralino LSP, while scenarios with a Wino-like neutralino or tau sneutrino LSP have less severe constraints, allowing for lower SUSY particle masses.
+</summary>",1
+4,"<summary>
+1. Colliding plane waves can result in spacelike singularities, but cross polarization can weaken these singularities.
+2. The Chandrasekhar and Xanthopoulos solution shows a Cauchy horizon instead of a spacelike singularity.
+3. Stability of horizons formed by colliding plane waves has been a topic of research, with some solutions showing instability against perturbations.
+4. The electromagnetic field can weaken the strength of singularities in colliding pure gravitational waves.
+5. The collision of pure electromagnetic waves can lead to significant singularity formation.
+6. The stability conjecture proposed by Helliwell and Konkowski predicts the behavior of horizons in maximally extended spacetimes with Cauchy horizons.
+7. Test fields such as electromagnetic and scalar fields are used to probe the stability of quasiregular singularities in the CPBS spacetime.
+8. The exact back-reaction solutions show that the stability conjecture correctly predicts the transformation of quasiregular singularities into scalar curvature singularities in the CPBS spacetime.
+</summary>",1
+5,"<summary>
+1. X-ray studies of normal galaxies at cosmologically interesting distances have been extended in deep field surveys, detecting significant numbers of normal galaxies contributing to the diffuse X-ray background.
+2. The investigation of typical galaxies in deep X-ray surveys is important to understand the contribution of X-ray binaries, hot interstellar gas, and low-luminosity AGN to the X-ray emission.
+3. Stacking analysis of galaxies in different redshift bins revealed significant detections in the soft X-ray band, providing insights into the evolution of the X-ray-to-optical luminosity ratio and the contribution of normal galaxies to the X-ray background.
+4. The results suggest that the average X-ray luminosities of galaxies have not evolved significantly, and the study provides constraints on star formation models based on X-ray properties of spiral galaxies. 
+</summary>",1
+6,"<summary>
+1. Quantum systems can exhibit correlations that go beyond classical descriptions, with varying degrees of non-classicality.
+2. Non-separable or entangled states cannot be expressed as a mixture of product states and violate local hidden state models.
+3. Bell-nonlocality is a phenomenon where measurement correlations violate Bell inequalities, demonstrating the violation of local causality.
+4. EPR-steering is a way to verify the existence of entanglement when one party or their detectors cannot be trusted.
+5. EPR-steerable states allow for correlations that cannot be explained by a local hidden state model.
+6. T-states are two-qubit states with maximally mixed reduced states, and their epr-steerability can be determined using steering ellipsoid formalism.
+7. Sufficient conditions for epr-steerability of t-states can be derived using epr-steering inequalities, providing insights into the boundary of epr-steerable states.
+8. The deterministic lhs model for t-states is optimal and provides a strong necessary condition for epr-steerability, with potential for further generalization and application to arbitrary two-qubit states.
+</summary>",1
+7,"<summary>
+1. The use of spin polarization of a single electron to encode binary information was first mentioned by Feynman in 1985, but concrete schemes for implementing spintronic logic gates were not developed until the mid-1990s.
+2. Spin-based devices offer advantages such as lower power dissipation, immunity to noise, and potentially faster operation compared to charge-based devices.
+3. A classical universal logic gate (NAND) using three spins in a weak magnetic field was proposed in 1994, with spin orientations of electrons confined in semiconductor quantum dots.
+4. The anti-ferromagnetic ordering between spins in neighboring quantum dots is preferred over the ferromagnetic ordering, leading to the encoding of logic states based on spin orientations.
+5. While spintronic logic gates show promise, they face challenges in maintaining unidirectionality of logic signals due to bidirectional exchange interactions, limiting their practical applications.
+6. Reversible logic gates that are not constrained by the Landauer barrier have been proposed, such as a reversible quantum inverter using exchange-coupled spins.
+7. Spin coherence times in solids are longer than charge coherence times, making spin a preferred vehicle for encoding qubits in quantum computing.
+8. Optical readout of qubits encoded in single electron spins has been proposed as a more practical approach compared to electrical readout, due to the challenges of making contacts to individual quantum dots.
+9. Experimental progress has been made in utilizing single electron spins for computing, with potential applications in quantum computing and all-optical quantum computing.
+</summary>",1
+8,"<summary>
+1. Cataclysmic variables (CVs) are short-period binaries consisting of a white dwarf primary and a low mass main sequence secondary.
+2. The lack of systems in the 2-3 hour period range and the sharp cut-off at around 77 minutes in the orbital period distribution of CVs with hydrogen-rich donors are notable features.
+3. Theoretical models have struggled to accurately reproduce the observed short-period cut-off and shape of the CV orbital period distribution.
+4. Various mechanisms, such as consequential angular momentum loss (CAML) and donor star deformation, have been explored to increase the minimum orbital period and hide the period spike in CV populations.
+5. The observed period distribution of non-magnetic and magnetic CVs shows no significant difference below the period gap, suggesting a flat underlying parent distribution.
+6. Despite efforts to address the period minimum and period spike issues in CV populations, the problems remain unresolved and open for further investigation.
+</summary>",1
+9,"<summary>
+1. The h@xmath5 emission in Stephan's Quintet dominates the mid-infrared emission, indicating a new cooling pathway in the system.
+2. The h@xmath5 emission is stronger than x-ray emission, challenging the traditional view that x-rays dominate cooling in compact group evolution.
+3. Silicon and iron are depleted onto dust in the shock region, suggesting that dust is not destroyed in the shock.
+4. Star formation in Stephan's Quintet is mainly concentrated in specific regions triggered by shocks, while regions dominated by warm h@xmath5 emission show low star formation rates.
+5. The observed coexistence of @xmath10siii and h@xmath5 emission suggests a multiphase postshock medium resulting from a galaxy-wide collision in the system.
+</summary>",1

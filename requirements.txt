@@ -1,0 +1,40 @@
+nltk
+pandas
+openai
+python-dotenv
+tiktoken
+pymupdf
+tqdm
+
+# AI21
+ai21
+
+# Anthropic
+anthropic[bedrock]
+
+# Cohere
+cohere-aws
+
+# Google
+# vertexai
+google-generativeai
+gcloud
+
+# Huggingface
+transformers
+accelerate
+datasets
+
+
+# Code
+pyext
+pandas
+
+# Math
+backoff
+
+# Summarization
+sqlalchemy
+
+# New Model
+timeout-decorator

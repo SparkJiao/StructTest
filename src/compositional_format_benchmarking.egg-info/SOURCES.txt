@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/compositional_format_benchmarking.egg-info/PKG-INFO
+src/compositional_format_benchmarking.egg-info/SOURCES.txt
+src/compositional_format_benchmarking.egg-info/dependency_links.txt
+src/compositional_format_benchmarking.egg-info/requires.txt
+src/compositional_format_benchmarking.egg-info/top_level.txt

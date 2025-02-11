@@ -1,0 +1,1947 @@
+index,generated,result,format_properties
+0,"<ans>
+def remove_Occ(str_var,char_var): 
+    for index_var in range(len(str_var)): 
+        if (str_var[index_var] == char_var): 
+            str_var = str_var[0 : index_var] + str_var[index_var + 1:] 
+            break
+    for index_var in range(len(str_var) - 1,-1,-1):  
+        if (str_var[index_var] == char_var): 
+            str_var = str_var[0 : index_var] + str_var[index_var + 1:] 
+            break
+    return str_var 
+</ans>",True,{}
+1,"<ans>
+def sort_matrix(matrix):
+    sorted_matrix = sorted(matrix, key=sum)
+    return sorted_matrix
+</ans>",True,{}
+2,"<ans>
+def find_Volume(length, breadth, height) : 
+    return ((length * breadth * height) / 2) 
+</ans>",True,{}
+3,"<ans>
+import re
+def text_lowercase_underscore(input_string):
+        regex_pattern = '^[a-z]+_[a-z]+$'
+        if re.search(regex_pattern,  input_string):
+                return True
+        else:
+                return False
+</ans>",True,{}
+4,"<ans>
+def square_perimeter(x):
+  boundary=4*x
+  return boundary
+</ans>",True,{}
+5,"<ans>
+TOTAL_CHARACTERS = 256
+def str_to_list(input_string): 
+	temporary_list = [] 
+	for char in input_string: 
+		temporary_list.append(char) 
+	return temporary_list 
+def lst_to_string(char_list): 
+	return ''.join(char_list) 
+def get_char_count_array(input_string): 
+	char_count_array = [0] * TOTAL_CHARACTERS 
+	for char_in_string in input_string: 
+		char_count_array[ord(char_in_string)] += 1
+	return char_count_array 
+def remove_dirty_chars(input_string, filter_string): 
+	char_count_array = get_char_count_array(filter_string) 
+	input_index = 0
+	result_index = 0
+	temporary_list = '' 
+	string_as_list = str_to_list(input_string) 
+	while input_index != len(string_as_list): 
+		temporary_list = string_as_list[input_index] 
+		if char_count_array[ord(temporary_list)] == 0: 
+			string_as_list[result_index] = string_as_list[input_index] 
+			result_index += 1
+		input_index+=1
+	return lst_to_string(string_as_list[0:result_index]) 
+</ans>",True,{}
+6,"<ans>
+def test_duplicate(input_list):
+    unique_elements = set(input_list)    
+    return length(input_list) != length(unique_elements)     
+</ans>",True,{}
+7,"<ans>
+def is_woodall(y): 
+	if (y % 2 == 0): 
+		return False
+	if (y == 1): 
+		return True
+	y = y + 1 
+	q = 0
+	while (y % 2 == 0): 
+		y = y/2
+		q = q + 1
+		if (q == y): 
+			return True
+	return False
+</ans>",True,{}
+8,"<ans>
+def rev(value):    
+    reversed_value = 0
+    while (value > 0):  
+        reversed_value = (reversed_value * 10 + value % 10) 
+        value = value // 10  
+    return reversed_value  
+def check(input_value):    
+    return (2 * rev(input_value) == input_value + 1)  
+</ans>",True,{}
+9,"<ans>
+def find_Max_Num(list_of_numbers) : 
+    length_of_list = len(list_of_numbers)
+    list_of_numbers.sort(reverse = True) 
+    max_number = list_of_numbers[0] 
+    for index in range(1,length_of_list) : 
+        max_number = max_number * 10 + list_of_numbers[index] 
+    return max_number 
+</ans>",True,{}
+10,"<ans>
+def opposite_Signs(a,b): 
+    return ((a ^ b) < 0); 
+</ans>",True,{}
+11,"<ans>
+def is_octagonal(x): 
+	return 3 * x * x - 2 * x 
+</ans>",True,{}
+12,"<ans>
+from collections import defaultdict
+def count_Substrings(input_string):
+    length_of_string = len(input_string)
+    substring_count, current_sum = 0, 0
+    frequency_map = defaultdict(lambda : 0)
+    frequency_map[0] += 1
+    for index in range(length_of_string):
+        current_sum += ord(input_string[index]) - ord('0')
+        substring_count += frequency_map[current_sum - (index + 1)]
+        frequency_map[current_sum - (index + 1)] += 1
+    return substring_count
+</ans>",True,{}
+13,"<ans>
+def smallest_num(list_of_numbers):
+  return min(list_of_numbers)
+</ans>",True,{}
+14,"<ans>
+def max_difference(input_list):
+  difference_list = [abs(second_element - first_element) for first_element, second_element in input_list]
+  max_diff = max(difference_list)
+  return (max_diff) 
+</ans>",True,{}
+15,"<ans>
+def course_scores(course_scores_list):
+    #course_scores = [('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)])
+    course_scores_list.sort(key = lambda item: item[1])
+    return course_scores_list
+</ans>",True,{}
+16,"<ans>
+def recursive_list_sum(input_list):
+	sum_total = 0
+	for item in input_list:
+		if type(item) == type([]):
+			sum_total = sum_total + recursive_list_sum(item)
+		else:
+			sum_total = sum_total + item
+	return sum_total
+</ans>",True,{}
+17,"<ans>
+def pos_count(items):
+  positive_counter = 0
+  for element in items: 
+    if element >= 0: 
+      positive_counter += 1
+  return positive_counter 
+</ans>",0,{}
+18,"<ans>
+def bell_number(num):   
+    chime = [[0 for index_i in range(num+1)] for index_j in range(num+1)] 
+    chime[0][0] = 1
+    for index_i in range(1, num+1): 
+        chime[index_i][0] = chime[index_i-1][index_i-1]  
+        for index_j in range(1, index_i+1): 
+            chime[index_i][index_j] = chime[index_i-1][index_j-1] + chime[index_i][index_j-1]   
+    return chime[num][0] 
+</ans>",True,{}
+19,"<ans>
+def is_Monotonic(array): 
+    return (all(array[index] <= array[index + 1] for index in range(len(array) - 1)) or
+            all(array[index] >= array[index + 1] for index in range(len(array) - 1))) 
+</ans>",True,{}
+20,"<ans>
+def is_sublist(main_list, sub_list):
+	is_sublist = False
+	if sub_list == []:
+		is_sublist = True
+	elif sub_list == main_list:
+		is_sublist = True
+	elif len(sub_list) > len(main_list):
+		is_sublist = False
+	else:
+		for index in range(len(main_list)):
+			if main_list[index] == sub_list[0]:
+				counter = 1
+				while (counter < len(sub_list)) and (main_list[index+counter] == sub_list[counter]):
+					counter += 1				
+				if counter == len(sub_list):
+					is_sublist = True
+	return is_sublist
+</ans>",True,{}
+21,"<ans>
+def find_equal_tuple(data):
+  length = 0 if not data else len(data[0])
+  status = 1
+  for item in data:
+    if len(item) != length:
+      status = 0
+      break
+  return status
+def get_equal(data):
+  return find_equal_tuple(data) == 1
+</ans>",True,{}
+22,"<ans>
+def comb_sort(numbers):
+    shrink_factor = 1.3
+    gap_size = len(numbers)
+    is_swapped = True
+    index = 0
+    while gap_size > 1 or is_swapped:
+        gap_size = int(float(gap_size) / shrink_factor)
+        is_swapped = False
+        index = 0
+        while gap_size + index < len(numbers):
+            if numbers[index] > numbers[index + gap_size]:
+                numbers[index], numbers[index + gap_size] = numbers[index + gap_size], numbers[index]
+                is_swapped = True
+            index += 1
+    return numbers
+</ans>",True,{}
+23,"<ans>
+def dif_Square(x): 
+    if (x % 4 != 2): 
+        return True
+    return False
+</ans>",True,{}
+24,"<ans>
+def is_samepatterns(hues, designs):    
+    if len(hues) != len(designs):
+        return False    
+    mapping = {}
+    pattern_set = set()
+    color_set = set()    
+    for index in range(len(designs)):
+        pattern_set.add(designs[index])
+        color_set.add(hues[index])
+        if designs[index] not in mapping.keys():
+            mapping[designs[index]] = []
+
+        mapped_colors = mapping[designs[index]]
+        mapped_colors.append(hues[index])
+        mapping[designs[index]] = mapped_colors
+
+    if len(pattern_set) != len(color_set):
+        return False   
+
+    for color_list in mapping.values():
+
+        for index in range(len(color_list) - 1):
+            if color_list[index] != color_list[index+1]:
+                return False
+
+    return True
+</ans>",True,{}
+25,"<ans>
+def find_tuples(input_list, divisor):
+  result = [tuple_element for tuple_element in input_list if all(element % divisor == 0 for element in tuple_element)]
+  return result
+</ans>",True,{}
+26,"<ans>
+def is_Diff(x): 
+    return (x % 11 == 0) 
+</ans>",True,{}
+27,"<ans>
+def word_len(input_string): 
+    input_string = input_string.split(' ')   
+    for current_word in input_string:    
+        if len(current_word)%2!=0: 
+            return True  
+        else:
+          return False
+</ans>",True,{}
+28,"<ans>
+def tetrahedral_number(x): 
+	return (x * (x + 1) * (x + 2)) / 6
+</ans>",True,{}
+29,"<ans>
+def get_Char(input_string):  
+    total_sum = 0
+    for index in range(len(input_string)): 
+        total_sum += (ord(input_string[index]) - ord('a') + 1)  
+    if (total_sum % 26 == 0): 
+        return ord('z') 
+    else: 
+        total_sum = total_sum % 26
+        return chr(ord('a') + total_sum - 1)
+</ans>",True,{}
+30,"<ans>
+def seq(x): 
+	if x == 1 or x == 2: 
+		return 1
+	else: 
+		return seq(seq(x-1)) + seq(x-seq(x-1))
+</ans>",True,{}
+31,"<ans>
+def hex_num(x):
+  return 3 * x * (x - 1) + 1
+</ans>",True,{}
+32,"<ans>
+import collections as collections_alias
+def merge_dictionaries_three(dictionary_one, dictionary_two, dictionary_three):
+    combined_dictionary = dict(collections_alias.ChainMap({}, dictionary_one, dictionary_two, dictionary_three))
+    return combined_dictionary
+</ans>",True,{}
+33,"<ans>
+import collections
+def freq_count(input_list):
+  frequency_counter = collections.Counter(input_list)
+  return frequency_counter
+</ans>",0,{}
+34,"<ans>
+def closest_num(M):
+  return (M - 1)
+</ans>",True,{}
+35,"<ans>
+def len_log(array1):
+    maximum_length=len(array1[0])
+    for element in array1:
+        if len(element)>maximum_length:
+            maximum_length=len(element)
+    return maximum_length
+</ans>",True,{}
+36,"<ans>
+def find_substring(main_string, substring):
+   if any(substring in element for element in main_string):
+       return True
+   return False
+</ans>",True,{}
+37,"<ans>
+def is_undulating(num): 
+	num = str(num)
+	if (len(num) <= 2): 
+		return False
+	for index in range(2, len(num)): 
+		if (num[index - 2] != num[index]): 
+			return False
+	return True
+</ans>",True,{}
+38,"<ans>
+def power(x,y):
+	if y==0:
+		return 1
+	elif x==0:
+		return 0
+	elif y==1:
+		return x
+	else:
+		return x*power(x,y-1)
+</ans>",True,{}
+39,"<ans>
+from operator import item_selector 
+def index_minimum(sample_list):
+  result = min(sample_list, key = item_selector(1))[0]
+  return (result) 
+</ans>",True,{}
+40,"<ans>
+def Find_Min_Length(items):  
+    shortestLength = min(len(element) for element in items )
+    return shortestLength 
+</ans>",True,{}
+41,"<ans>
+def divisor(num):
+  for index in range(num):
+    result = len([index for index in range(1,num+1) if not num % index])
+  return result
+</ans>",True,{}
+42,"<ans>
+def frequency_lists(array1):
+    array1 = [item for sublist in array1 for item in sublist]
+    data_dict = {}
+    for element in array1:
+        if element in data_dict.keys():
+            data_dict[element] += 1
+        else:
+            k = element
+            v = 1
+            data_dict[k] = v
+    return data_dict
+</ans>",True,{}
+43,"<ans>
+def decimal_to_binary(x): 
+    return bin(x).replace(""0b"","""") 
+</ans>",True,{}
+44,"<ans>
+import system_module
+def next_smallest_palindrome(number):
+    number_string = str(number)
+    for index in range(number+1, system_module.maxsize):
+        if str(index) == str(index)[::-1]:
+            return index
+</ans>",True,{}
+45,"<ans>
+def kth_element(list_input, index_k):
+  length_list = len(list_input)
+  for outer_index in range(length_list):
+    for inner_index in range(0, length_list-outer_index-1):
+      if list_input[inner_index] > list_input[inner_index+1]:
+        list_input[inner_index], list_input[inner_index+1] == list_input[inner_index+1], list_input[inner_index]
+  return list_input[index_k-1]
+</ans>",True,{}
+46,"<ans>
+def snake_to_camel(input_string):
+        import regex_module
+        return ''.join(part.capitalize() or '_' for part in input_string.split('_'))
+</ans>",True,{}
+47,"<ans>
+def eulerian_num(a, b): 
+	if (b >= a or a == 0): 
+		return 0 
+	if (b == 0): 
+		return 1 
+	return ((a - b) * eulerian_num(a - 1, b - 1) +(b + 1) * eulerian_num(a - 1, b))
+</ans>",True,{}
+48,"<ans>
+def sort_sublists(data_list):
+    output_list = [sorted(sublist, key = lambda sublist:sublist[0]) for sublist in data_list] 
+    return output_list
+</ans>",True,{}
+49,"<ans>
+def count(items):   
+    return sum(items) 
+</ans>",True,{}
+50,"<ans>
+def add_lists(list_var, tuple_var):
+  result_var = tuple(list(tuple_var) + list_var)
+  return (result_var) 
+</ans>",True,{}
+51,"<ans>
+import heapq
+def merge_sorted_list(list1, list2, list3):
+  list1 = sorted(list1)
+  list2 = sorted(list2)
+  list3 = sorted(list3)
+  merged_result = heapq.merge(list1, list2, list3)
+  return list(merged_result)
+</ans>",True,{}
+52,"<ans>
+def odd_Equivalent(str_input, num_input): 
+    counter = 0
+    for index in range(0, num_input): 
+        if (str_input[index] == '1'): 
+            counter = counter + 1
+    return counter 
+</ans>",True,{}
+53,"<ans>
+def check_integer(input_string):
+ input_string = input_string.strip()
+ if len(input_string) < 1:
+    return None
+ else:
+     if all(input_string[index] in ""0123456789"" for index in range(len(input_string))):
+          return True
+     elif (input_string[0] in ""+-"") and \
+         all(input_string[index] in ""0123456789"" for index in range(1,len(input_string))):
+         return True
+     else:
+        return False
+</ans>",True,{}
+54,"<ans>
+def empty_dit(input_list):
+    is_empty = all(not d for d in input_list)
+    return is_empty
+</ans>",0,{}
+55,"<ans>
+def tuple_to_int(values):
+    output = int(''.join(map(str, values)))
+    return output
+</ans>",True,{}
+56,"<ans>
+def list_to_float(input_list):
+  result_list = []
+  for tuple_item in input_list:
+    temporary_list = []
+    for element in tuple_item:
+      if element.isalpha():
+        temporary_list.append(element)
+      else:
+        temporary_list.append(float(element))
+    result_list.append((temporary_list[0],temporary_list[1])) 
+  return result_list
+</ans>",True,{}
+57,"<ans>
+def string_to_list(input_string): 
+    result_list = list(input_string.split("" "")) 
+    return result_list
+</ans>",True,{}
+58,"<ans>
+def search(list_input):
+    length_of_list = len(list_input)
+    xor_result = 0
+    for index in range(length_of_list) :
+        xor_result = xor_result ^ list_input[index]
+    return (xor_result)
+</ans>",True,{}
+59,"<ans>
+def max_product_tuple(input_list):
+    max_result = max([abs(a * b) for a, b in input_list])
+    return max_result
+</ans>",True,{}
+60,"<ans>
+def amicable_numbers_sum(boundary):
+    if not isinstance(boundary, int):
+        return ""Input is not an integer!""
+    if boundary < 1:
+        return ""Input must be bigger than 0!""
+    friendly_numbers = set()
+    for number in range(2, boundary+1):
+        if number in friendly_numbers:
+            continue
+        sum_factors = sum([divisor for divisor in range(1, number) if number % divisor == 0])
+        sum_factors2 = sum([divisor for divisor in range(1, sum_factors) if sum_factors % divisor == 0])
+        if number == sum_factors2 and number != sum_factors:
+            friendly_numbers.add(number)
+            friendly_numbers.add(sum_factors2)
+    return sum(friendly_numbers)
+</ans>",True,{}
+61,"<ans>
+def find_length(input_str): 
+	length_of_str = len(input_str)
+	curr_sum = 0
+	maximum_sum = 0
+	for index in range(length_of_str): 
+		curr_sum += (1 if input_str[index] == '0' else -1) 
+		if curr_sum < 0: 
+			curr_sum = 0
+		maximum_sum = max(curr_sum, maximum_sum) 
+	return maximum_sum if maximum_sum else 0
+</ans>",True,{}
+62,"<ans>
+def sum(x,y): 
+    total = 0
+    for index in range (1,min(x,y)): 
+        if (x % index == 0 and y % index == 0): 
+            total += index 
+    return total
+</ans>",0,{}
+63,"<ans>
+def multiply_int(a, b):
+    if b < 0:
+        return -multiply_int(a, -b)
+    elif b == 0:
+        return 0
+    elif b == 1:
+        return a
+    else:
+        return a + multiply_int(a, b - 1)
+</ans>",True,{}
+64,"<ans>
+def long_words(threshold, input_string):
+    lengthy_words = []
+    words_list = input_string.split("" "")
+    for word in words_list:
+        if len(word) > threshold:
+            lengthy_words.append(word)
+    return lengthy_words	
+</ans>",True,{}
+65,"<ans>
+def magic_square_test(matrix_data):
+    matrix_size = len(matrix_data[0])
+    sums = []
+    sums.extend([sum(lines) for lines in matrix_data])   
+    for column_index in range(matrix_size):
+        sums.append(sum(matrix_row[column_index] for matrix_row in matrix_data))
+    diagonal_sum1 = 0
+    for index in range(0, matrix_size):
+        diagonal_sum1 += matrix_data[index][index]
+    sums.append(diagonal_sum1)      
+    diagonal_sum2 = 0
+    for index in range(matrix_size-1, -1, -1):
+        diagonal_sum2 += matrix_data[index][index]
+    sums.append(diagonal_sum2)
+    if len(set(sums)) > 1:
+        return False
+    return True
+</ans>",True,{}
+66,"<ans>
+from collections import defaultdict
+def max_occurrences(numbers):
+    frequency_dict = defaultdict(int)
+    for num in numbers:
+        frequency_dict[num] += 1
+    max_item = max(frequency_dict.items(), key=lambda x: x[1]) 
+    return max_item[0]
+</ans>",True,{}
+67,"<ans>
+def reverse_vowels(input_string):
+	vowel_collection = """"
+	for character in input_string:
+		if character in ""aeiouAEIOU"":
+			vowel_collection += character
+	output_string = """"
+	for character in input_string:
+		if character in ""aeiouAEIOU"":
+			output_string += vowel_collection[-1]
+			vowel_collection = vowel_collection[:-1]
+		else:
+			output_string += character
+	return output_string
+</ans>",True,{}
+68,"<ans>
+def tup_string(new_tup):
+  new_str =  ''.join(new_tup)
+  return new_str
+</ans>",True,{}
+69,"<ans>
+def sum_negativenum(values):
+  negative_sum = list(filter(lambda values:values<0,values))
+  return sum(negative_sum)
+</ans>",0,{}
+70,"<ans>
+def hexagonal_num(x): 
+	return x*(2*x - 1) 
+</ans>",True,{}
+71,"<ans>
+def check_Sum_Of_Powers_Of_Two(x): 
+    if (x % 2 == 1): 
+        return False
+    else: 
+        return True
+</ans>",True,{}
+72,"<ans>
+def pancake_sort(numbers):
+    length_of_array = len(numbers)
+    while length_of_array > 1:
+        max_index = numbers.index(max(numbers[0:length_of_array]))
+        numbers = numbers[max_index::-1] + numbers[max_index+1:len(numbers)]
+        numbers = numbers[length_of_array-1::-1] + numbers[length_of_array:len(numbers)]
+        length_of_array -= 1
+    return numbers
+</ans>",True,{}
+73,"<ans>
+def count_samepair(array1, array2, array3):
+    output = sum(x == y == z for x, y, z in zip(array1, array2, array3))
+    return output
+</ans>",True,{}
+74,"<ans>
+def search_arrays(data): 
+	if isinstance(data, list): 
+		return 1
+	else: 
+		return len(data) 
+</ans>",True,{}
+75,"<ans>
+def max_Abs_Diff(list_input): 
+    length_of_list = len(list_input)
+    minimum_element = list_input[0] 
+    maximum_element = list_input[0] 
+    for index in range(1, length_of_list): 
+        minimum_element = min(minimum_element, list_input[index]) 
+        maximum_element = max(maximum_element, list_input[index]) 
+    return (maximum_element - minimum_element) 
+</ans>",True,{}
+76,"<ans>
+def find_solution(alpha, beta, num):
+	index = 0
+	while index * alpha <= num:
+		if (num - (index * alpha)) % beta == 0: 
+			return (index, (num - (index * alpha)) // beta)
+		index = index + 1
+	return None
+</ans>",True,{}
+77,"<ans>
+def remove_elements(array1, array2):
+    output = [element for element in array1 if element not in array2]
+    return output
+</ans>",True,{}
+78,"<ans>
+def calculate_sum(x):
+  if x < 1:
+    return 0
+  else:
+    return x + calculate_sum(x - 2)
+</ans>",True,{}
+79,"<ans>
+import mth 
+def divide_and_sum(number): 
+  sum_total = 1
+  index = 2
+
+  while index * index <= number:
+    if (number % index == 0):
+      sum_total = (sum_total + index + mth.floor(number / index))
+    index += 1
+
+  return sum_total
+
+def are_equivalent(number1, number2): 
+    return divide_and_sum(number1) == divide_and_sum(number2); 
+</ans>",True,{}
+80,"<ans>
+def count_char_position(input_string): 
+    char_counter = 0
+    for index in range(length(input_string)):
+        if ((index == ascii_value(input_string[index]) - ascii_value('A')) or 
+            (index == ascii_value(input_string[index]) - ascii_value('a'))): 
+            char_counter += 1
+    return char_counter 
+</ans>",True,{}
+81,"<ans>
+def find_even_pair(array): 
+  counter = 0
+  for index1 in range(0, len(array)): 
+    for index2 in range(index1+1, len(array)): 
+        if ((array[index1] ^ array[index2]) % 2 == 0): 
+          counter += 1
+
+  return counter
+</ans>",True,{}
+82,"<ans>
+def next_power_of_2(x): 
+  if x and not x & (x - 1):
+    return x
+
+  counter = 0
+  while x != 0: 
+    x >>= 1
+    counter += 1
+
+  return 1 << counter; 
+</ans>",True,{}
+83,"<ans>
+def frequency(array, element): 
+    counter = 0  
+    for item in array: 
+      if item == element: 
+        counter += 1
+
+    return counter 
+</ans>",True,{}
+84,"<ans>
+def sum_range_list(array1, start, end):                                                                                                                                                                                                
+    total_sum = 0                                                                                                                                                                                                         
+    for index in range(start, end+1, 1):                                                                                                                                                                                        
+        total_sum += array1[index]                                                                                                                                                                                                  
+    return total_sum   
+</ans>",True,{}
+85,"<ans>
+import mathematics
+def calculate_perimeter(side_length):
+  total_perimeter = (5 * side_length)
+  return total_perimeter
+</ans>",True,{}
+86,"<ans>
+def count_occurance(input_string):
+  occurrence_count = 0
+  for index in range(length(input_string) - 2):
+    if (input_string[index] == 's' and input_string[index+1] == 't' and input_string[index+2] == 'd'):
+      occurrence_count = occurrence_count + 1
+  return occurrence_count
+</ans>",0,{}
+87,"<ans>
+def check_type(input_list):
+  result_flag = True
+  for element in input_list:
+    if not isinstance(element, type(input_list[0])):
+      result_flag = False
+      break
+  return (result_flag) 
+</ans>",True,{}
+88,"<ans>
+def is_majority(list_of_numbers, length_of_list, target_value):
+	index_found = binary_search(list_of_numbers, 0, length_of_list-1, target_value)
+	if index_found == -1:
+		return False
+	if ((index_found + length_of_list//2) <= (length_of_list -1)) and list_of_numbers[index_found + length_of_list//2] == target_value:
+		return True
+	else:
+		return False
+
+def binary_search(list_of_numbers, start_index, end_index, target_value):
+	if end_index >= start_index:
+		middle_index = (start_index + end_index)//2 
+		if (middle_index == 0 or target_value > list_of_numbers[middle_index-1]) and (list_of_numbers[middle_index] == target_value):
+			return middle_index
+		elif target_value > list_of_numbers[middle_index]:
+			return binary_search(list_of_numbers, (middle_index + 1), end_index, target_value)
+		else:
+			return binary_search(list_of_numbers, start_index, (middle_index -1), target_value)
+	return -1
+</ans>",True,{}
+89,"<ans>
+def count_Set_Bits(x): 
+    counter = 0
+    while (x): 
+        counter += x & 1
+        x >>= 1
+    return counter 
+</ans>",True,{}
+90,"<ans>
+def odd_values_string(input_string):
+  output_string = """" 
+  for index in range(len(input_string)):
+    if index % 2 == 0:
+      output_string = output_string + input_string[index]
+  return output_string
+</ans>",True,{}
+91,"<ans>
+def min_of_three(x,y,z): 
+      if (x <= y) and (x <= z): 
+        min_value = x 
+      elif (y <= x) and (y <= z): 
+        min_value = y 
+      else: 
+        min_value = z 
+      return min_value 
+</ans>",True,{}
+92,"<ans>
+def all_Bits_Set_In_The_Given_Range(x,y,z):  
+    temp1 = (((1 << z) - 1) ^ ((1 << (y - 1)) - 1)) 
+    temp2 = x & temp1
+    if (temp2 == 0): 
+        return True
+    return False
+</ans>",True,{}
+93,"<ans>
+def re_arrange_array(list_of_numbers, length_of_list):
+  index_j=0
+  for index_i in range(0, length_of_list):
+    if (list_of_numbers[index_i] < 0):
+      temporary_variable = list_of_numbers[index_i]
+      list_of_numbers[index_i] = list_of_numbers[index_j]
+      list_of_numbers[index_j] = temporary_variable
+      index_j = index_j + 1
+  return list_of_numbers
+</ans>",True,{}
+94,"<ans>
+def replace_blank(input_string, replacement_char):
+ output_string = input_string.replace(' ', replacement_char)
+ return output_string
+</ans>",True,{}
+95,"<ans>
+def volume_cube(side_length):
+  cube_volume = side_length * side_length * side_length
+  return cube_volume
+</ans>",True,{}
+96,"<ans>
+def even_bit_set_number(input_number): 
+    counter = 0;result = 0;temporary = input_number 
+    while(temporary > 0): 
+        if (counter % 2 == 1): 
+            result |= (1 << counter)
+        counter+=1
+        temporary >>= 1
+    return (input_number | result) 
+</ans>",True,{}
+97,"<ans>
+from collections import Counter 
+def check_occurences(input_list):
+  result_dict = dict(Counter(tuple(element) for element in map(sorted, input_list)))
+  return  (result_dict) 
+</ans>",True,{}
+98,"<ans>
+def number_of_substrings(input_string): 
+	length_of_string = len(input_string); 
+	return int(length_of_string * (length_of_string + 1) / 2); 
+</ans>",True,{}
+99,"<ans>
+def get_total_number_of_sequences(x, y): 
+	matrix=[[0 for row in range(y+1)] for row in range(x+1)] 
+	for row in range(x+1): 
+		for col in range(y+1): 
+			if row==0 or col==0: 
+				matrix[row][col]=0
+			elif row<col: 
+				matrix[row][col]=0
+			elif col==1: 
+				matrix[row][col]=row 
+			else: 
+				matrix[row][col]=matrix[row-1][col]+matrix[row//2][col-1] 
+	return matrix[x][y]
+</ans>",True,{}
+100,"<ans>
+def replace_list(array1, array2):
+    array1[-1:] = array2
+    new_list = array1
+    return new_list
+</ans>",0,{}
+101,"<ans>
+def count_charac(input_string):
+    count = 0
+    for char in input_string:
+        count = count + 1
+    return count
+</ans>",True,{}
+102,"<ans>
+import mathematics  
+def find_Next_Perfect_Square(number): 
+    nextNumber = mathematics.floor(mathematics.sqrt(number)) + 1
+    return nextNumber * nextNumber 
+</ans>",True,{}
+103,"<ans>
+def max_sum(input_array): 
+	increasing_subsequence = input_array[:] 
+	for index_i in range(len(input_array)): 
+		for index_j in range(0, index_i): 
+			if input_array[index_i] > input_array[index_j] and increasing_subsequence[index_i] < increasing_subsequence[index_j] + input_array[index_i]: 
+				increasing_subsequence[index_i] = increasing_subsequence[index_j] + input_array[index_i] 
+	decreasing_subsequence = input_array[:] 
+	for index_i in range(1, len(input_array) + 1): 
+		for index_j in range(1, index_i): 
+			if input_array[-index_i] > input_array[-index_j] and decreasing_subsequence[-index_i] < decreasing_subsequence[-index_j] + input_array[-index_i]: 
+				decreasing_subsequence[-index_i] = decreasing_subsequence[-index_j] + input_array[-index_i] 
+	maximum_sum = float(""-Inf"") 
+	for i, index_j, element_k in zip(increasing_subsequence, decreasing_subsequence, input_array): 
+		maximum_sum = max(maximum_sum, i + index_j - element_k) 
+	return maximum_sum
+</ans>",0,{}
+104,"<ans>
+def lps(input_string): 
+	length_of_string = len(input_string) 
+	matrix = [[0 for index_x in range(length_of_string)] for index_x in range(length_of_string)] 
+	for index_i in range(length_of_string): 
+		matrix[index_i][index_i] = 1
+	for current_length in range(2, length_of_string+1): 
+		for index_i in range(length_of_string-current_length+1): 
+			index_j = index_i+current_length-1
+			if input_string[index_i] == input_string[index_j] and current_length == 2: 
+				matrix[index_i][index_j] = 2
+			elif input_string[index_i] == input_string[index_j]: 
+				matrix[index_i][index_j] = matrix[index_i+1][index_j-1] + 2
+			else: 
+				matrix[index_i][index_j] = max(matrix[index_i][index_j-1], matrix[index_i+1][index_j]); 
+	return matrix[0][length_of_string-1]
+</ans>",True,{}
+105,"<ans>
+def intersection_array(list1, list2):
+    output = list(filter(lambda x: x in list1, list2)) 
+    return output
+</ans>",True,{}
+106,"<ans>
+def count_X(sequence, item): 
+    counter = 0
+    for element in sequence: 
+        if (element == item): 
+            counter = counter + 1
+    return counter 
+</ans>",True,{}
+107,"<ans>
+def insert_element(collection,item):
+ collection = [value for entry in collection for value in (item, entry)]
+ return collection
+</ans>",True,{}
+108,"<ans>
+import cmath  
+def convert(values):    
+  result = cmath.polar(values)  
+  return (result) 
+</ans>",True,{}
+109,"<ans>
+def count_integer(array1):
+    counter = 0
+    for element in array1:
+        if isinstance(element, int):
+            counter = counter + 1
+    return counter
+</ans>",True,{}
+110,"<ans>
+from itertools import combinations_with_replacement 
+def combinations_colors(colors_list, num_combinations):
+    return list(combinations_with_replacement(colors_list, num_combinations))
+
+</ans>",True,{}
+111,"<ans>
+def count_Primes_nums(input_number):
+    prime_counter = 0
+    for current_number in range(input_number):
+        if current_number <= 1:
+            continue
+        for divisor in range(2, current_number):
+            if (current_number % divisor) == 0:
+                break
+        else:
+            prime_counter += 1
+    return prime_counter
+</ans>",True,{}
+112,"<ans>
+def swap_numbers(x,y):
+ temporary_variable = x
+ x = y
+ y = temporary_variable
+ return (x,y)
+</ans>",True,{}
+113,"<ans>
+def maximize_elements(input_tuple1, input_tuple2):
+  result_tuple = tuple(tuple(max(element1, element2) for element1, element2 in zip(sub_tuple1, sub_tuple2))
+   for sub_tuple1, sub_tuple2 in zip(input_tuple1, input_tuple2))
+  return (result_tuple) 
+</ans>",True,{}
+114,"<ans>
+def calculate_prime(x): 
+	if x == 0 or x == 1: 
+		return 1
+	return 2 * calculate_prime(x - 1) + calculate_prime(x - 2)
+</ans>",True,{}
+115,"<ans>
+def division_elements(input_tuple1, input_tuple2):
+  result_tuple = tuple(element1 // element2 for element1, element2 in zip(input_tuple1, input_tuple2))
+  return (result_tuple) 
+</ans>",True,{}
+116,"<ans>
+def split_two_parts(array1, length):
+    return array1[:length], array1[length:]
+</ans>",True,{}
+117,"<ans>
+def dog_age(human_years):
+ if human_years < 0:
+ 	exit()
+ elif human_years <= 2:
+	 dog_years = human_years * 10.5
+ else:
+	 dog_years = 21 + (human_years - 2)*4
+ return dog_years
+</ans>",True,{}
+118,"<ans>
+def list_split(input_list, interval):
+    return [input_list[index::interval] for index in range(interval)]
+</ans>",True,{}
+119,"<ans>
+def lateralsurface_cube(side_length):
+  lateral_surface_area = 4 * (side_length * side_length)
+  return lateral_surface_area
+</ans>",True,{}
+120,"<ans>
+def calculate_SquareSum(x):  
+    return int(x*(4*x*x-1)/3) 
+</ans>",True,{}
+121,"<ans>
+def calculate_star_number(x): 
+	return (6 * x * (x - 1) + 1) 
+</ans>",True,{}
+122,"<ans>
+def ascii_value(var1):
+  var2=var1
+  return ord(var2)
+</ans>",True,{}
+123,"<ans>
+def sum_even_and_even_index(list_input):  
+    index = 0
+    total = 0
+    for index in range(0, length(list_input), 2): 
+        if (list_input[index] % 2 == 0) : 
+            total += list_input[index]  
+    return total
+</ans>",True,{}
+124,"<ans>
+def even_Power_Sum(num): 
+    total = 0; 
+    for index in range(1,num+1): 
+        multiplier = 2*index; 
+        total = total + (multiplier*multiplier*multiplier*multiplier*multiplier); 
+    return total; 
+</ans>",True,{}
+125,"<ans>
+def rear_extract(input_array):
+  output_list = [element[-1] for element in input_array]
+  return (output_list) 
+</ans>",True,{}
+126,"<ans>
+def substract_elements(alpha, beta):
+  gamma = tuple(map(lambda delta, epsilon: delta - epsilon, alpha, beta))
+  return (gamma) 
+</ans>",True,{}
+127,"<ans>
+import mathematics  
+def calculate_even_binomial_coefficient_sum(number): 
+    return (1 << (number - 1)) 
+</ans>",True,{}
+128,"<ans>
+def dict_filter(dictionary, threshold):
+    filtered_dict = {k: v for (k, v) in dictionary.items() if v >= threshold}
+    return filtered_dict
+</ans>",True,{}
+129,"<ans>
+def count_first_elements(input_tuple):
+  for index, element in enumerate(input_tuple):
+    if isinstance(element, tuple):
+      break
+  return (index) 
+</ans>",True,{}
+130,"<ans>
+def is_num_decagonal(x): 
+	return 4 * x * x - 3 * x 
+</ans>",True,{}
+131,"<ans>
+def sequential_search(data_list, search_item):
+    position = 0
+    is_found = False
+    while position < len(data_list) and not is_found:
+        if data_list[position] == search_item:
+            is_found = True
+        else:
+            position = position + 1
+    return is_found, position
+</ans>",True,{}
+132,"<ans>
+def all_unique(input_list):
+    if length(input_list) > length(unique_elements(input_list)):
+        return False
+    return True
+</ans>",True,{}
+133,"<ans>
+def sub_list(list1, list2):
+  output = map(lambda x, y: x - y, list1, list2)
+  return list(output)
+</ans>",True,{}
+134,"<ans>
+def validate(input_number): 
+    for index in range(10): 
+        temporary_value = input_number;  
+        counter = 0; 
+        while (temporary_value): 
+            if (temporary_value % 10 == index): 
+                counter+=1;  
+            if (counter > index): 
+                return False
+            temporary_value //= 10; 
+    return True
+</ans>",True,{}
+135,"<ans>
+def check_element(items, item):
+  is_element_present = all(value == item for value in items)
+  return is_element_present
+</ans>",0,{}
+136,"<ans>
+import regex_module
+def text_match_two_three(input_string):
+        regex_pattern = 'ab{2,3}'
+        if regex_module.search(regex_pattern,  input_string):
+                return True
+        else:
+                return False
+</ans>",True,{}
+137,"<ans>
+def max_sub_array_sum_repeated(array_input, length_of_array, repeat_count): 
+	max_sum_so_far = -2147483648
+	current_max_sum = 0
+	for index in range(length_of_array * repeat_count): 
+		current_max_sum = current_max_sum + array_input[index % length_of_array] 
+		if (max_sum_so_far < current_max_sum): 
+			max_sum_so_far = current_max_sum 
+		if (current_max_sum < 0): 
+			current_max_sum = 0
+	return max_sum_so_far
+</ans>",True,{}
+138,"<ans>
+def calculateSquareSum(x):  
+    return int(2*x*(x+1)*(2*x+1)/3)
+</ans>",True,{}
+139,"<ans>
+def max_length(input_list):
+    maximum_length = max(len(element) for element in input_list)  
+    maximum_list = max((element) for element in input_list)
+    return(maximum_length, maximum_list)
+</ans>",0,{}
+140,"<ans>
+def count_no_of_ways(num, factor): 
+	ways = [0] * (num + 1) 
+	sum = factor 
+	modulus = 1000000007
+	ways[1] = factor 
+	ways[2] = factor * factor	 
+	for index in range(3, num + 1): 
+		ways[index] = ((factor - 1) * (ways[index - 1] + ways[index - 2])) % modulus 
+	return ways[num]
+</ans>",True,{}
+141,"<ans>
+def find(a,b):  
+    c = a//b 
+    return (c)
+</ans>",True,{}
+142,"<ans>
+import mth
+def calculate_hypotenuse(width, height):
+  hypotenuse = mth.sqrt((width*width)+(height*height))
+  return hypotenuse
+</ans>",True,{}
+143,"<ans>
+def max_val(input_list):
+     maximum_value = max(element for element in input_list if isinstance(element, int)) 
+     return(maximum_value)
+</ans>",0,{}
+144,"<ans>
+def sum_div(num):
+    divs = [1]
+    for index in range(2, num):
+        if (num % index) == 0:
+            divs.append(index)
+    return sum(divs)
+</ans>",True,{}
+145,"<ans>
+def get_Inv_Count(list_input): 
+    count_inversions = 0
+    for index_i in range(len(list_input)): 
+        for index_j in range(index_i + 1, len(list_input)): 
+            if (list_input[index_i] > list_input[index_j]): 
+                count_inversions += 1
+    return count_inversions 
+</ans>",True,{}
+146,"<ans>
+def flatten_list(input_list):
+    flattened_list = []
+    if not input_list: return flattened_list
+    temp_stack = [list(input_list)]
+    while temp_stack:
+        current_element = temp_stack.pop()
+        next_element = current_element.pop()
+        if current_element: temp_stack.append(current_element)
+        if isinstance(next_element, list):
+            if next_element: temp_stack.append(list(next_element))
+        else: flattened_list.append(next_element)
+    flattened_list.reverse()
+    return flattened_list 
+</ans>",True,{}
+147,"<ans>
+from collections import custom_dict
+def find_max_aggregate(student_data):
+    aggregate_scores = custom_dict(int)
+    for student_name, student_marks in student_data:
+        aggregate_scores[student_name] += student_marks
+    return max(aggregate_scores.items(), key=lambda item: item[1])
+</ans>",True,{}
+148,"<ans>
+def depth_of_dict(data):
+    if isinstance(data, dict):
+        return 1 + (max(apply_function(depth_of_dict, data.dict_values())) if data else 0)
+    return 0
+</ans>",0,{}
+149,"<ans>
+def find_Element(array, intervals, shifts, position) :  
+    for counter in range(shifts - 1, -1, -1) : 
+        start = intervals[counter][0] 
+        end = intervals[counter][1] 
+        if (start <= position and end >= position) : 
+            if (position == start) : 
+                position = end 
+            else : 
+                position = position - 1 
+    return array[position] 
+</ans>",True,{}
+150,"<ans>
+import regex
+def begin_with_p(word_list):
+ for word in word_list:
+        match = regex.match(""(P\w+)\W(P\w+)"", word)
+        if match:
+            return match.groups()
+</ans>",0,{}
+151,"<ans>
+def max_sum_increasing_subseq(array, length, idx, key):
+	dynamic_prog = [[0 for row in range(length)] 
+			for row in range(length)]
+	for row in range(length):
+		if array[row] > array[0]:
+			dynamic_prog[0][row] = array[row] + array[0]
+		else:
+			dynamic_prog[0][row] = array[row]
+	for row in range(1, length):
+		for col in range(length):
+			if array[col] > array[row] and col > row:
+				if dynamic_prog[row - 1][row] + array[col] > dynamic_prog[row - 1][col]:
+					dynamic_prog[row][col] = dynamic_prog[row - 1][row] + array[col]
+				else:
+					dynamic_prog[row][col] = dynamic_prog[row - 1][col]
+			else:
+				dynamic_prog[row][col] = dynamic_prog[row - 1][col]
+	return dynamic_prog[idx][key]
+</ans>",True,{}
+152,"<ans>
+from copy import deep_copy_function
+def colon_tuplex(tuple_x, index_m, index_n):
+  tuple_x_colon = deep_copy_function(tuple_x)
+  tuple_x_colon[index_m].append(index_n)
+  return tuple_x_colon
+</ans>",True,{}
+153,"<ans>
+def large_product(list1, list2, top_n):
+    output = sorted([x*y for x in list1 for y in list2], reverse=True)[:top_n]
+    return output
+</ans>",True,{}
+154,"<ans>
+def maximum(x,y):   
+    if x >= y: 
+        return x 
+    else: 
+        return y 
+</ans>",True,{}
+155,"<ans>
+def string_to_tuple(input_string):
+    output_tuple = tuple(char for char in input_string if not char.isspace()) 
+    return output_tuple
+</ans>",True,{}
+156,"<ans>
+def set_left_most_unset_bit(num): 
+    if not (num & (num + 1)): 
+        return num 
+    position, temporary, counter = 0, num, 0 
+    while temporary: 
+        if not (temporary & 1): 
+            position = counter      
+        counter += 1; temporary >>= 1
+    return (num | (1 << (position))) 
+</ans>",True,{}
+157,"<ans>
+def highest_Power_of_2(num): 
+    result = 0 
+    for index in range(num, 0, -1): 
+        if ((index & (index - 1)) == 0): 
+            result = index 
+            break 
+    return result 
+</ans>",True,{}
+158,"<ans>
+def compute_lucas(x): 
+	if (x == 0): 
+		return 2
+	if (x == 1): 
+		return 1
+	return compute_lucas(x - 1) + compute_lucas(x - 2) 
+</ans>",True,{}
+159,"<ans>
+def add_string(items, text):
+    formatted_strings = [text.format(element) for element in items]
+    return formatted_strings
+</ans>",0,{}
+160,"<ans>
+def convert_list_dictionary(list_one, list_two, list_three):
+     output = [{key: {sub_key: value}} for (key, sub_key, value) in zip(list_one, list_two, list_three)]
+     return output
+</ans>",True,{}
+161,"<ans>
+def get_max_sum (num):
+	result_list = list()
+	result_list.append(0)
+	result_list.append(1)
+	index = 2
+	while index<num + 1:
+		result_list.append(max(index, (result_list[int(index / 2)] 
+						+ result_list[int(index / 3)] +
+							result_list[int(index / 4)]
+						+ result_list[int(index / 5)])))
+		index = index + 1
+	return result_list[num]
+</ans>",True,{}
+162,"<ans>
+def max_length_list(data_list):
+    longest_length = max(len(element) for element in data_list)   
+    longest_list = max(data_list, key=lambda item: len(item))    
+    return(longest_length, longest_list)
+</ans>",True,{}
+163,"<ans>
+def check_distinct(input_tuple):
+  result_flag = True
+  temporary_set = set()
+  for element in input_tuple:
+    if element in temporary_set:
+      result_flag = False
+      break
+    temporary_set.add(element)
+  return result_flag 
+</ans>",True,{}
+164,"<ans>
+def first_non_repeating_character(input_string):
+  character_sequence = []
+  char_count = {}
+  for char in input_string:
+    if char in char_count:
+      char_count[char] += 1
+    else:
+      char_count[char] = 1 
+      character_sequence.append(char)
+  for char in character_sequence:
+    if char_count[char] == 1:
+      return char
+  return None
+</ans>",True,{}
+165,"<ans>
+import regex_module  
+pattern = r'^[a-z]$|^([a-z]).*\1$'
+def check_char(input_string): 
+	if(regex_module.search(pattern, input_string)): 
+		return ""Valid"" 
+	else: 
+		return ""Invalid"" 
+</ans>",True,{}
+166,"<ans>
+def median_numbers(x,y,z):
+ if x > y:
+    if x < z:
+        middle_value = x
+    elif y > z:
+        middle_value = y
+    else:
+        middle_value = z
+ else:
+    if x > z:
+        middle_value = x
+    elif y < z:
+        middle_value = y
+    else:
+        middle_value = z
+ return middle_value
+</ans>",True,{}
+167,"<ans>
+def sum_of_digits(numbers):
+    return sum(int(element) for num in numbers for element in str(num) if element.isdigit())
+</ans>",True,{}
+168,"<ans>
+def bitwise_xor(input_tuple1, input_tuple2):
+  result_tuple = tuple(element1 ^ element2 for element1, element2 in zip(input_tuple1, input_tuple2))
+  return (result_tuple) 
+</ans>",True,{}
+169,"<ans>
+def extract_freq(input_list):
+  result = len(list(set(tuple(sorted(element)) for element in input_list)))
+  return (result)
+</ans>",True,{}
+170,"<ans>
+def add_nested_tuples(input_tuple1, input_tuple2):
+  result_tuple = tuple(tuple(element1 + element2 for element1, element2 in zip(sub_tuple1, sub_tuple2))
+   for sub_tuple1, sub_tuple2 in zip(input_tuple1, input_tuple2))
+  return (result_tuple) 
+</ans>",True,{}
+171,"<ans>
+def minimum(x,y):   
+    if x <= y: 
+        return x 
+    else: 
+        return y 
+</ans>",True,{}
+172,"<ans>
+def check_tuplex(collection, element): 
+  if element in collection:
+    return True
+  else:
+     return False
+</ans>",True,{}
+173,"<ans>
+def find_Parity(a): 
+    b = a ^ (a >> 1); 
+    b = b ^ (b >> 2); 
+    b = b ^ (b >> 4); 
+    b = b ^ (b >> 8); 
+    b = b ^ (b >> 16); 
+    if (b & 1): 
+        return True
+    return False
+</ans>",True,{}
+174,"<ans>
+def rearrange_bigger(input_number):
+    num_list = list(str(input_number))
+    for index in range(len(num_list)-2,-1,-1):
+        if num_list[index] < num_list[index+1]:
+            sublist = num_list[index:]
+            min_value = min(filter(lambda x: x > sublist[0], sublist))
+            sublist.remove(min_value)
+            sublist.sort()
+            num_list[index:] = [min_value] + sublist
+            return int("""".join(num_list))
+    return False
+</ans>",True,{}
+175,"<ans>
+import heap_module
+def find_k_smallest_pairs(list1, list2, num_pairs):
+   priority_queue = []
+   def add_to_queue(index1, index2):
+       if index1 < len(list1) and index2 < len(list2):
+           heap_module.heappush(priority_queue, [list1[index1] + list2[index2], index1, index2])
+   add_to_queue(0, 0)
+   result_pairs = []
+   while priority_queue and len(result_pairs) < num_pairs:
+       temp_sum, index1, index2 = heap_module.heappop(priority_queue)
+       result_pairs.append([list1[index1], list2[index2]])
+       add_to_queue(index1, index2 + 1)
+       if index2 == 0:
+           add_to_queue(index1 + 1, 0)
+   return result_pairs
+</ans>",True,{}
+176,"<ans>
+def min_product_tuple(input_list):
+    minimum_product = min([abs(element_x * element_y) for element_x, element_y in input_list])
+    return minimum_product
+</ans>",True,{}
+177,"<ans>
+def min_val(input_list):
+     minimum_value = min(element for element in input_list if isinstance(element, int))
+     return minimum_value
+</ans>",0,{}
+178,"<ans>
+import regex_module
+def snake_to_camel(input_string):
+  return ''.join(part.capitalize() or '_' for part in input_string.split('_'))
+</ans>",True,{}
+179,"<ans>
+def remove_odd(list_input):
+    for item in list_input:
+        if item % 2 != 0:
+            list_input.remove(item)
+    return list_input
+</ans>",True,{}
+180,"<ans>
+def extract_nth_element(array1, index):
+    output = [element[index] for element in array1]
+    return output
+</ans>",True,{}
+181,"<ans>
+def overlapping(array1, array2):  
+    for index1 in range(len(array1)): 
+        for index2 in range(len(array2)): 
+            if(array1[index1] == array2[index2]): 
+                return True
+    return False
+</ans>",True,{}
+182,"<ans>
+def max_Product(input_list): 
+    list_length = len(input_list) 
+    if (list_length < 2): 
+        return (""No pairs exists"")           
+    first_max = input_list[0]; second_max = input_list[1]      
+    for index_i in range(0,list_length): 
+        for index_j in range(index_i + 1,list_length): 
+            if (input_list[index_i] * input_list[index_j] > first_max * second_max): 
+                first_max = input_list[index_i]; second_max = input_list[index_j] 
+    return first_max, second_max    
+</ans>",True,{}
+183,"<ans>
+def group_tuples(data): 
+	result = {} 
+	for item in data: 
+		try: 
+			result[item[0]].extend(item[1:]) 
+		except KeyError: 
+			result[item[0]] = list(item) 
+	return [tuple(val) for val in result.values()] 
+</ans>",True,{}
+184,"<ans>
+def Find_Max(array): 
+    highestValue = max((element) for element in array) 
+    return highestValue
+</ans>",True,{}
+185,"<ans>
+def round_and_sum(input_list):
+  size=len(input_list)
+  total_sum=sum(list(map(round,input_list))* size)
+  return total_sum
+</ans>",0,{}
+186,"<ans>
+def cube_Sum(num): 
+    total = 0
+    for index in range(1,num + 1): 
+        total += (2*index)*(2*index)*(2*index) 
+    return total
+</ans>",True,{}
+187,"<ans>
+def concatenate_tuple(input_tuple):
+    separator = ""-""
+    result = ''.join([str(element) + separator for element in input_tuple])
+    result = result[ : len(result) - len(separator)]
+    return (str(result)) 
+</ans>",True,{}
+188,"<ans>
+def find_Average_Of_Cube(num):  
+    total = 0
+    for index in range(1, num + 1): 
+        total += index * index * index  
+    return round(total / num, 6) 
+</ans>",True,{}
+189,"<ans>
+def extract_rear(input_data):
+  result_list = list(element[len(element) - 1] for element in input_data)
+  return (result_list) 
+</ans>",True,{}
+190,"<ans>
+def count_element_in_list(array1, element): 
+    counter = 0
+    for index in range(len(array1)): 
+        if element in array1[index]: 
+            counter += 1          
+    return counter
+</ans>",True,{}
+191,"<ans>
+def filter_oddnumbers(values):
+ filtered_values = list(filter(lambda element: element%2 != 0, values))
+ return filtered_values
+</ans>",True,{}
+192,"<ans>
+import regex_module
+def change_date_format(date_string):
+        return regex_module.sub(r'(\d{4})-(\d{1,2})-(\d{1,2})', '\\3-\\2-\\1', date_string)
+</ans>",True,{}
+193,"<ans>
+def shell_sort(input_array):
+    interval = len(input_array) // 2
+    while interval > 0:
+        for index in range(interval, len(input_array)):
+            temp_item = input_array[index]
+            position = index
+            while position >= interval and input_array[position - interval] > temp_item:
+                input_array[position] = input_array[position - interval]
+                position -= interval
+            input_array[position] = temp_item
+        interval //= 2
+
+    return input_array
+</ans>",True,{}
+194,"<ans>
+def and_tuples(input_tuple1, input_tuple2):
+  result_tuple = tuple(element1 & element2 for element1, element2 in zip(input_tuple1, input_tuple2))
+  return (result_tuple) 
+</ans>",True,{}
+195,"<ans>
+def parabola_directrix(alpha, beta, gamma): 
+  delta = ((int)(gamma - ((beta * beta) + 1) * 4 * alpha ))
+  return delta
+</ans>",True,{}
+196,"<ans>
+def common_element(array1, array2):
+     outcome = False
+     for item1 in array1:
+         for item2 in array2:
+             if item1 == item2:
+                 outcome = True
+                 return outcome
+</ans>",True,{}
+197,"<ans>
+def median_trapezium(length1, length2, altitude):
+ middle_value = 0.5 * (length1 + length2)
+ return middle_value
+</ans>",True,{}
+198,"<ans>
+def check_greater(list_of_numbers, value_to_compare):
+  list_of_numbers.sort()
+  return value_to_compare > list_of_numbers[-1]
+</ans>",True,{}
+199,"<ans>
+import re
+def text_match_one(input_text):
+        regex_pattern = 'ab+?'
+        if re.search(regex_pattern,  input_text):
+                return True
+        else:
+                return False
+</ans>",True,{}
+200,"<ans>
+def last_Digit(x) :
+    return (x % 10) 
+</ans>",True,{}
+201,"<ans>
+def neg_nos(input_list):
+  output_list = []
+  for number in input_list: 
+    if number < 0: 
+      output_list.append(number)
+  return output_list 
+</ans>",True,{}
+202,"<ans>
+def remove_odd(input_string):
+ output_string = ''
+ for index in range(1, len(input_string) + 1):
+    if(index % 2 == 0):
+        output_string = output_string + input_string[index - 1]
+ return output_string
+</ans>",True,{}
+203,"<ans>
+def count_bidirectional(input_list):
+  result_count = 0
+  for index_outer in range(0, len(input_list)):
+    for index_inner in range(index_outer + 1, len(input_list)):
+      if input_list[index_inner][0] == input_list[index_outer][1] and input_list[index_outer][1] == input_list[index_inner][0]:
+        result_count += 1
+  return result_count
+</ans>",True,{}
+204,"<ans>
+def multiple_to_single(list_input):
+  result = int("""".join(map(str, list_input)))
+  return result
+</ans>",True,{}
+205,"<ans>
+import regex_module
+def find_adverb_position(input_text):
+ for match_object in regex_module.finditer(r""\w+ly"", input_text):
+    return (match_object.start(), match_object.end(), match_object.group(0))
+</ans>",True,{}
+206,"<ans>
+def calculate_surface_area(side_length):
+  area = 6 * side_length * side_length
+  return area
+</ans>",True,{}
+207,"<ans>
+from array import arr
+def count_positives(numbers):
+    total_count = len(numbers)
+    positive_count = 0
+    for num in numbers:
+        if num > 0:
+            positive_count += 1
+        else:
+          None
+    return round(positive_count/total_count,2)
+</ans>",0,{}
+208,"<ans>
+def largest_neg(array1): 
+    maximum = array1[0] 
+    for element in array1: 
+        if element < maximum : 
+             maximum = element  
+    return maximum
+</ans>",True,{}
+209,"<ans>
+def trim_tuple(input_list, trim_length):
+  result_list = []
+  for element in input_list:
+    element_length = len(element)
+    result_list.append(tuple(list(element)[trim_length: element_length - trim_length]))
+  return (str(result_list)) 
+</ans>",True,{}
+210,"<ans>
+def index_multiplication(input_tuple1, input_tuple2):
+  result_tuple = tuple(tuple(var_a * var_b for var_a, var_b in zip(tuple1, tuple2))
+   for tuple1, tuple2 in zip(input_tuple1, input_tuple2))
+  return (result_tuple) 
+</ans>",True,{}
+211,"<ans>
+from collections import Counter 
+def count_Occurrence(sequence, collection): 
+    total = 0
+    for element in sequence: 
+        if element in collection: 
+            total += 1 
+    return total  
+</ans>",True,{}
+212,"<ans>
+def cube_nums(values):
+    cubed_values = list(map(lambda element: element ** 3, values))
+    return cubed_values
+</ans>",0,{}
+213,"<ans>
+def cal_sum(num): 
+	alpha = 3
+	beta = 0
+	gamma = 2
+	if (num == 0): 
+		return 3
+	if (num == 1): 
+		return 3
+	if (num == 2): 
+		return 5
+	total = 5
+	while (num > 2): 
+		delta = alpha + beta 
+		total = total + delta 
+		alpha = beta 
+		beta = gamma 
+		gamma = delta 
+		num = num-1
+	return total
+</ans>",True,{}
+214,"<ans>
+def extract_string(input_string, length):
+    output_list = [element for element in input_string if len(element) == length] 
+    return output_list
+</ans>",True,{}
+215,"<ans>
+import regex_module
+def remove_whitespaces(input_text):
+  return (regex_module.sub(r'\s+', '', input_text))
+</ans>",True,{}
+216,"<ans>
+def loss_amount(cost_price, selling_price): 
+  if(selling_price > cost_price):
+    difference = selling_price - cost_price
+    return difference
+  else:
+    return 0
+</ans>",True,{}
+217,"<ans>
+import math 
+def sumofFactors(num) : 
+    if (num % 2 != 0) : 
+        return 0
+    result = 1
+    for index in range(2, (int)(math.sqrt(num)) + 1) :    
+        counter = 0
+        current_sum = 1
+        current_term = 1
+        while (num % index == 0) : 
+            counter = counter + 1
+            num = num // index 
+            if (index == 2 and counter == 1) : 
+                current_sum = 0
+            current_term = current_term * index 
+            current_sum = current_sum + current_term 
+        result = result * current_sum  
+    if (num >= 2) : 
+        result = result * (1 + num) 
+    return result
+</ans>",True,{}
+218,"<ans>
+def check_monthnumb_number(month_identifier):
+  if(month_identifier==1 or month_identifier==3 or month_identifier==5 or month_identifier==7 or month_identifier==8 or month_identifier==10 or month_identifier==12):
+    return Yes
+  else:
+    return No
+</ans>",True,{}
+219,"<ans>
+def reverse_string_list(str_list):
+    res = [item[::-1] for item in str_list]
+    return res
+</ans>",True,{}
+220,"<ans>
+def Find_Min(items): 
+    return minimum(items, key=length) 
+</ans>",True,{}
+221,"<ans>
+def rectangle_area(length, breadth):
+  surface = length * breadth
+  return surface
+</ans>",True,{}
+222,"<ans>
+import regex_module
+def remove_uppercase(input_string):
+  return regex_module.sub('[A-Z]', '', input_string)
+</ans>",True,{}
+223,"<ans>
+def Extract(my_list): 
+    return [element[0] for element in my_list] 
+</ans>",True,{}
+224,"<ans>
+def upper_ctr(input_string):
+    uppercase_count = 0
+    for index in range(len(input_string)):
+          if input_string[index] >= 'A' and input_string[index] <= 'Z': uppercase_count += 1
+    return uppercase_count
+</ans>",0,{}
+225,"<ans>
+def combinations_list(input_list):
+    if len(input_list) == 0:
+        return [[]]
+    output_combinations = []
+    for element in combinations_list(input_list[1:]):
+        output_combinations += [element, element+[input_list[0]]]
+    return output_combinations
+</ans>",True,{}
+226,"<ans>
+def max_subarray_product(input_array):
+    length_of_array = len(input_array)
+    current_max_product = 1
+    current_min_product = 1
+    global_max_product = 0
+    positive_number_flag = 0
+    for index in range(0, length_of_array):
+        if input_array[index] > 0:
+            current_max_product = current_max_product * input_array[index]
+            current_min_product = min(current_min_product * input_array[index], 1)
+            positive_number_flag = 1
+        elif input_array[index] == 0:
+            current_max_product = 1
+            current_min_product = 1
+        else:
+            temporary_variable = current_max_product
+            current_max_product = max(current_min_product * input_array[index], 1)
+            current_min_product = temporary_variable * input_array[index]
+        if (global_max_product < current_max_product):
+            global_max_product = current_max_product
+    if positive_number_flag == 0 and global_max_product == 0:
+        return 0
+    return global_max_product
+</ans>",True,{}
+227,"<ans>
+def check_value(data, num):
+    outcome = all(item == num for item in data.values()) 
+    return outcome
+</ans>",True,{}
+228,"<ans>
+def drop_empty(map1):
+  map1 = {k:v for (k, v) in map1.items() if v is not None}
+  return map1
+</ans>",True,{}
+229,"<ans>
+def max_product(input_list):   
+  length_of_list = len(input_list)
+  max_product_subarray = input_list[:]
+  for index_i in range(length_of_list): 
+    current_product = input_list[index_i]
+    index_j = index_i + 1
+    while index_j < length_of_list:
+      if input_list[index_j-1] > input_list[index_j]: 
+        break
+      current_product *= input_list[index_j]
+      if current_product > max_product_subarray[index_j]:
+        max_product_subarray[index_j] = current_product 
+      index_j = index_j + 1
+  return max(max_product_subarray)
+</ans>",True,{}
+230,"<ans>
+def add_pairwise(input_tuple):
+  result_tuple = tuple(first_element + second_element for first_element, second_element in zip(input_tuple, input_tuple[1:]))
+  return (result_tuple) 
+</ans>",True,{}
+231,"<ans>
+def find_remainder(list_input, divisor): 
+    product = 1
+    for index in range(len(list_input)):  
+        product = (product * (list_input[index] % divisor)) % divisor 
+    return product % divisor 
+</ans>",True,{}
+232,"<ans>
+def check_Consecutive(lst): 
+    return arranged(lst) == list(range(minimum(lst), maximum(lst)+1)) 
+</ans>",True,{}
+233,"<ans>
+def tuple_intersection(list_a, list_b):
+  result = set([tuple(sorted(element)) for element in list_a]) & set([tuple(sorted(element)) for element in list_b])
+  return (result)
+</ans>",True,{}
+234,"<ans>
+def replace_char(input_string, old_char, new_char):
+    modified_string = input_string.replace(old_char, new_char)
+    return modified_string
+</ans>",True,{}
+235,"<ans>
+from collections import CounterClass
+def sort_counter(input_dict):
+    counter_instance = CounterClass(input_dict)
+    sorted_items = counter_instance.most_common()
+    return sorted_items
+</ans>",0,{}
+236,"<ans>
+def big_sum(numbers):
+      total = maximum(numbers) + minimum(numbers)
+      return total
+</ans>",True,{}
+237,"<ans>
+def is_lower(input_str):
+  return (input_str.lower())
+</ans>",True,{}
+238,"<ans>
+import regex_module
+def remove_lowercase(input_string):
+ return regex_module.sub('[a-z]', '', input_string)
+</ans>",True,{}
+239,"<ans>
+def initial_Digit(x) :  
+    while x >= 10:  
+        x = x / 10 
+    return int(x) 
+</ans>",True,{}

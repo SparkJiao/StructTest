@@ -1,0 +1,38 @@
+### Instruction
+
+I will show you a Python function. Please add proper docstring for it following the format below:
+
+### Function without Docstring
+
+```
+def func(arg_1, arg_2, …, arg_N):
+    *function body*
+```
+
+### Response
+
+```
+def func(arg_1, arg_2, …, arg_N):
+    """
+    Args:
+        arg_1 (type): meaning.
+        arg_2 (type): meaning.
+        …
+        arg_N (type): meaning.
+
+    Return:
+        value1 (type): meaning.
+        value2 (type): meaning.
+        …
+    """
+```
+---
+Note that you do not need to return the function body back to me.
+
+Now, let's get started.
+
+### Function without Docstring
+
+[[Function]]
+
+### Response

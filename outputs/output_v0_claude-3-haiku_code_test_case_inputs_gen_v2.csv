@@ -1,0 +1,8127 @@
+index,generated,result,format_properties
+0,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 1 3
+2 5 7 4 6
+5 4
+<SPLIT>
+7 2 5
+2 5 4 2 6 3 1
+2 1
+6 5
+<SPLIT>
+9 4 6
+6 8 5 1 8 1 1 2 1
+9 2
+8 4
+5 3
+9 7
+<SPLIT>
+10 3 8
+1 2 3 4 5 6 7 8 9 10
+7 5
+8 6
+10 8
+<SPLIT>
+12 5 10
+3 7 2 9 5 1 8 4 6 2 1 3
+12 8
+10 6
+8 4
+6 2
+4 1
+</ans>",0,{}
+1,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+5
+10
+100
+1000
+<SPLIT>
+4
+<SPLIT>
+6
+<SPLIT>
+10
+<SPLIT>
+100
+<SPLIT>
+1000
+</ans>",0,{}
+2,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+<SPLIT>
+5
+<SPLIT>
+10
+<SPLIT>
+100
+<SPLIT>
+1000
+</ans>",0,{}
+3,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 0 1
+<SPLIT>
+5
+1 0 1 0 1
+<SPLIT>
+7
+1 0 1 0 1 0 1
+<SPLIT>
+11
+1 0 1 0 1 0 1 0 1 0 1
+<SPLIT>
+17
+1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1
+</ans>",0,{}
+4,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 6
+1 2 0 2 0
+2 4
+3 3
+1 5
+1 2
+1 5
+2 3
+<SPLIT>
+5 3
+4 2 1 3 2
+3 5
+4 2
+2 5
+<SPLIT>
+10 10
+1 2 3 4 5 6 7 8 9 10
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+<SPLIT>
+20 15
+5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+<SPLIT>
+50 25
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+</ans>",0,{}
+5,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+1 2
+2 3
+3 4
+4 5
+5 6
+<SPLIT>
+10
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+<SPLIT>
+15
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+<SPLIT>
+20
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+<SPLIT>
+25
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+</ans>",0,{}
+6,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10 5
+1 2 3 4 5 1 2 3 4 5
+1 2
+2 3
+2 4
+3 5
+4 5
+
+15 7
+1 2 3 4 5 6 7 1 2 3 4 5 6 7 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 1
+
+20 10
+1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 1
+
+25 12
+1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 1
+
+30 15
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 1
+</ans>",0,{}
+7,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3
+2
+b
+b
+bbac
+0
+a
+aca
+acba
+1
+ab
+c
+ccb
+<SPLIT>
+5 2
+0
+ab
+ba
+1
+ba
+ab
+2
+ab
+ba
+3
+ab
+ba
+4
+ab
+ba
+<SPLIT>
+4 4
+0
+abcd
+bcda
+cdab
+dabc
+1
+abcd
+bcda
+cdab
+dabc
+2
+abcd
+bcda
+cdab
+dabc
+3
+abcd
+bcda
+cdab
+dabc
+<SPLIT>
+2 5
+0
+abcde
+bcdea
+cdeab
+deabc
+eabcd
+1
+abcde
+bcdea
+cdeab
+deabc
+eabcd
+<SPLIT>
+3 3
+0
+abc
+bca
+cab
+1
+abc
+bca
+cab
+2
+abc
+bca
+cab
+</ans>",0,{}
+8,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+3 3 3
+1 10 2
+2 1 1
+<SPLIT>
+2
+5 5 5
+3 3 3
+<SPLIT>
+4
+10 10 10
+5 5 5
+2 2 2
+1 1 1
+<SPLIT>
+5
+20 20 20
+10 10 10
+5 5 5
+2 2 2
+1 1 1
+<SPLIT>
+3
+7 7 7
+4 4 4
+1 1 1
+</ans>",0,{}
+9,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 2
+1 3
+2 1
+<SPLIT>
+5 5
+3 3
+3 3
+<SPLIT>
+4 2
+2 3
+1 2
+<SPLIT>
+5 5
+1 5
+1 5
+<SPLIT>
+10 10
+5 5
+5 5
+</ans>
+
+For the function calling problem, here are 5 groups of test case inputs:
+
+<ans>
+[3, 3, 1]
+[2, 3, 0]
+[2, 3, 1]
+[4, 3, 1]
+[4, 2, 2]
+</ans>",0,{}
+10,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+4 2
+1 4
+3 5
+2
+1 6
+3 4
+5
+1 2
+3 4
+5 6
+7 8
+9 10
+4
+1 2
+3 4
+5 6
+7 8
+<SPLIT>
+2
+1 2
+3 4
+3
+1 2
+3 4
+5 6
+4
+1 2
+3 4
+5 6
+7 8
+<SPLIT>
+5
+1 2
+3 4
+5 6
+7 8
+9 10
+3
+1 2
+3 4
+5 6
+<SPLIT>
+4
+1 2
+3 4
+5 6
+7 8
+2
+1 3
+2 4
+<SPLIT>
+6
+1 2
+3 4
+5 6
+7 8
+9 10
+11 12
+</ans>",0,{}
+11,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+0 1
+0 2
+0 -3
+<SPLIT>
+2
+0 1
+1 1
+<SPLIT>
+5
+0 1
+1 2
+-2 3
+4 -4
+-5 5
+<SPLIT>
+10
+0 1
+1 2
+-2 3
+4 -4
+-5 5
+6 6
+-7 7
+8 -8
+9 9
+-10 10
+<SPLIT>
+7
+0 1
+1 2
+-2 3
+4 -4
+-5 5
+6 6
+-7 7
+</ans>",0,{}
+12,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 9
+<SPLIT>
+5 8
+<SPLIT>
+10 30
+<SPLIT>
+7 21
+<SPLIT>
+15 45
+</ans>",0,{}
+13,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+4 2 5 1 3
+<SPLIT>
+10
+7 3 5 1 9 2 6 4 8 10
+<SPLIT>
+20
+11 3 7 1 15 5 13 2 9 4 17 6 19 8 20 10 12 14 16 18
+<SPLIT>
+50
+27 11 39 3 43 7 47 1 49 5 23 9 31 13 35 17 41 21 45 25 29 29 33 33 37 37 41 41 45 45 49 49
+<SPLIT>
+100
+51 3 97 7 23 11 79 15 43 19 67 23 89 27 31 31 35 35 39 39 43 43 47 47 51 51 55 55 59 59 63 63 67 67 71 71 75 75 79 79 83 83 87 87 91 91 95 95 99 99
+</ans>",0,{}
+14,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+1 1 2 2
+<SPLIT>
+1 1 3 3
+<SPLIT>
+2 2 5 5
+<SPLIT>
+10000 10000 100000 100000
+<SPLIT>
+500000 500000 1000000 1000000
+</ans>",0,{}
+15,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+7 5
+3 2 5 4
+0
+2 1 2
+1 1
+2 6 7
+
+10 4
+3 1 2 3
+2 4 5
+2 6 7
+3 8 9 10
+
+5 3
+2 1 2
+2 3 4
+1 5
+
+20 10
+2 1 2
+2 3 4
+2 5 6
+2 7 8
+2 9 10
+2 11 12
+2 13 14
+2 15 16
+2 17 18
+2 19 20
+
+15 7
+3 1 2 3
+2 4 5
+2 6 7
+2 8 9
+2 10 11
+2 12 13
+3 14 15 1
+<SPLIT>
+7 5
+3 2 5 4
+0
+2 1 2
+1 1
+2 6 7
+
+10 4
+3 1 2 3
+2 4 5
+2 6 7
+3 8 9 10
+
+5 3
+2 1 2
+2 3 4
+1 5
+
+20 10
+2 1 2
+2 3 4
+2 5 6
+2 7 8
+2 9 10
+2 11 12
+2 13 14
+2 15 16
+2 17 18
+2 19 20
+
+15 7
+3 1 2 3
+2 4 5
+2 6 7
+2 8 9
+2 10 11
+2 12 13
+3 14 15 1
+<SPLIT>
+7 5
+3 2 5 4
+0
+2 1 2
+1 1
+2 6 7
+
+10 4
+3 1 2 3
+2 4 5
+2 6 7
+3 8 9 10
+
+5 3
+2 1 2
+2 3 4
+1 5
+
+20 10
+2 1 2
+2 3 4
+2 5 6
+2 7 8
+2 9 10
+2 11 12
+2 13 14
+2 15 16
+2 17 18
+2 19 20
+
+15 7
+3 1 2 3
+2 4 5
+2 6 7
+2 8 9
+2 10 11
+2 12 13
+3 14 15 1
+<SPLIT>
+7 5
+3 2 5 4
+0
+2 1 2
+1 1
+2 6 7
+
+10 4
+3 1 2 3
+2 4 5
+2 6 7
+3 8 9 10
+
+5 3
+2 1 2
+2 3 4
+1 5
+
+20 10
+2 1 2
+2 3 4
+2 5 6
+2 7 8
+2 9 10
+2 11 12
+2 13 14
+2 15 16
+2 17 18
+2 19 20
+
+15 7
+3 1 2 3
+2 4 5
+2 6 7
+2 8 9
+2 10 11
+2 12 13
+3 14 15 1
+<SPLIT>
+7 5
+3 2 5 4
+0
+2 1 2
+1 1
+2 6 7
+
+10 4
+3 1 2 3
+2 4 5
+2 6 7
+3 8 9 10
+
+5 3
+2 1 2
+2 3 4
+1 5
+
+20 10
+2 1 2
+2 3 4
+2 5 6
+2 7 8
+2 9 10
+2 11 12
+2 13 14
+2 15 16
+2 17 18
+2 19 20
+
+15 7
+3 1 2 3
+2 4 5
+2 6 7
+2 8 9
+2 10 11
+2 12 13
+3 14 15 1
+</ans>",0,{}
+16,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 5
+3 2 1 4 5
+1 2 3 4 5
+<SPLIT>
+10 10
+5 3 7 1 2 4 6 8 9 10
+1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+20 20
+10 5 15 1 20 3 7 12 18 2 4 6 8 9 11 13 14 16 17 19
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+<SPLIT>
+50 50
+25 10 40 5 45 1 50 15 30 20 35 2 3 4 6 7 8 9 11 12 13 14 16 17 18 19 21 22 23 24 26 27 28 29 31 32 33 34 36 37 38 39 41 42 43 44 46 47 48 49
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50
+<SPLIT>
+100 100
+50 25 75 10 90 5 100 15 30 20 35 40 45 1 60 65 70 80 85 2 3 4 6 7 8 9 11 12 13 14 16 17 18 19 21 22 23 24 26 27 28 29 31 32 33 34 36 37 38 39 41 42 43 44 46 47 48 49 51 52 53 54 56 57 58 59 61 62 63 64 66 67 68 69 71 72 73 74 76 77 78 79 81 82 83 84 86 87 88 89 91 92 93 94 96 97 98 99
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100
+</ans>",0,{}
+17,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 3
+#..#
+#.#.
+....
+.###
+<SPLIT>
+10 4
+#....##...
+.#...#....
+..#..#..#.
+...#.#....
+.#..##.#..
+.....#...#
+...#.##...
+.#...#.#..
+.....#..#.
+...#.#...#
+<SPLIT>
+19 6
+##..............###
+#......#####.....##
+.....#########.....
+....###########....
+...#############...
+..###############..
+.#################.
+.#################.
+.#################.
+.#################.
+#####....##....####
+####............###
+####............###
+#####...####...####
+.#####..####..#####
+...###........###..
+....###########....
+.........##........
+#.................#
+<SPLIT>
+5 2
+#.#.#
+#.#.#
+#.#.#
+#.#.#
+#.#.#
+<SPLIT>
+7 3
+#.#.#.#
+#.#.#.#
+#.#.#.#
+#.#.#.#
+#.#.#.#
+#.#.#.#
+#.#.#.#
+</ans>",0,{}
+18,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2 3
+1 2
+<SPLIT>
+6 1
+5 1 2 3 4 1
+<SPLIT>
+5 10
+1 2 3 4 5
+<SPLIT>
+10 20
+1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+15 50
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+</ans>",0,{}
+19,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 0 0
+<SPLIT>
+5
+4 2 1 4 3
+<SPLIT>
+4
+0 2 3 1
+<SPLIT>
+10
+0 1 2 3 4 5 6 7 8 9
+<SPLIT>
+7
+0 1 2 3 4 5 6
+</ans>",0,{}
+20,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 3 2
+5 4 3
+10 5 4
+15 7 6
+20 10 8
+</ans>",0,{}
+21,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+7 3
+1 5 16 18 7 2 10
+baaaaca
+
+5 5
+2 4 1 3 1000
+aaaaa
+
+5 4
+2 4 1 3 1000
+aaaaa
+
+8 1
+10 15 2 1 4 8 15 16
+qqwweerr
+
+6 3
+14 18 9 19 2 15
+cccccc
+</ans>",0,{}
+22,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+3 2 2 3
+<SPLIT>
+6
+4 5 6 3 2 1
+<SPLIT>
+10
+6 8 4 6 7 1 6 3 4 5
+<SPLIT>
+7
+1 2 3 4 5 6 7
+<SPLIT>
+10
+5 3 1 2 4 6 7 8 9 10
+</ans>",0,{}
+23,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+2 3 6 7
+<SPLIT>
+5
+6 15 35 77 22
+<SPLIT>
+5
+6 10 15 1000 75
+<SPLIT>
+10
+1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+15
+100 200 300 400 500 600 700 800 900 1000 1100 1200 1300 1400 1500
+</ans>",0,{}
+24,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10 15 5 7
+20 20 10 10
+50 30 20 15
+100000 1000000 50000 100
+1000000 1000000 500000 10000
+</ans>
+
+<ans>
+6 9 2 4
+6 10 2 4
+6 5 4 3
+10 20 5 8
+50 100 25 20
+</ans>
+
+<ans>
+100 50 30 25
+200 75 100 50
+500 200 250 100
+1000 500 400 200
+10000 2000 5000 500
+</ans>
+
+<ans>
+1000 500 250 100
+2000 1000 500 200
+5000 2000 1000 500
+10000 5000 2500 1000
+100000 50000 25000 10000
+</ans>
+
+<ans>
+1000000 1000000 500000 10000
+2000000 1000000 1000000 20000
+5000000 2000000 2500000 50000
+10000000 5000000 5000000 100000
+100000000 50000000 25000000 1000000
+</ans>",0,{}
+25,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 10 3
+2 5 1
+5 3 9
+6 2 2
+1 3 1
+5 1 8
+6 5 10
+1 6 5
+6 4 6
+3 6 2
+3 4 5
+<SPLIT>
+7 15 18
+2 6 3
+5 7 4
+6 5 4
+3 6 9
+6 7 7
+1 6 4
+7 1 6
+7 2 1
+4 3 2
+3 2 8
+5 3 6
+2 5 5
+3 7 9
+4 1 8
+2 1 1
+<SPLIT>
+10 20 10
+1 2 1
+2 3 2
+3 4 3
+4 5 4
+5 6 5
+6 7 6
+7 8 7
+8 9 8
+9 10 9
+1 10 10
+2 4 11
+3 5 12
+4 6 13
+5 7 14
+6 8 15
+7 9 16
+8 10 17
+1 3 18
+2 5 19
+3 7 20
+<SPLIT>
+15 30 25
+1 2 1
+2 3 2
+3 4 3
+4 5 4
+5 6 5
+6 7 6
+7 8 7
+8 9 8
+9 10 9
+10 11 10
+11 12 11
+12 13 12
+13 14 13
+14 15 14
+1 15 15
+2 4 16
+3 5 17
+4 6 18
+5 7 19
+6 8 20
+7 9 21
+8 10 22
+9 11 23
+10 12 24
+11 13 25
+<SPLIT>
+20 40 35
+1 2 1
+2 3 2
+3 4 3
+4 5 4
+5 6 5
+6 7 6
+7 8 7
+8 9 8
+9 10 9
+10 11 10
+11 12 11
+12 13 12
+13 14 13
+14 15 14
+15 16 15
+16 17 16
+17 18 17
+18 19 18
+19 20 19
+1 20 20
+2 4 21
+3 5 22
+4 6 23
+5 7 24
+6 8 25
+7 9 26
+8 10 27
+9 11 28
+10 12 29
+11 13 30
+12 14 31
+13 15 32
+14 16 33
+15 17 34
+16 18 35
+17 19 36
+18 20 37
+</ans>",0,{}
+26,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+snow affects sports such as skiing, snowboarding, and snowmachine travel.
+snowboarding is a recreational activity and olympic and paralympic sport.
+<SPLIT>
+'co-co-co, codeforces?!'
+<SPLIT>
+thun-thun-thunder, thunder, thunder
+thunder, thun-, thunder
+thun-thun-thunder, thunder
+thunder, feel the thunder
+lightning then the thunder
+thunder, feel the thunder
+lightning then the thunder
+thunder, thunder
+<SPLIT>
+the quick brown fox jumps over the lazy dog.
+this is a sample text with various words and punctuation.
+hello, world! how are you today?
+<SPLIT>
+arcady is a copywriter who loves to type.
+his task is to type up a well-designed story.
+he types words, punctuation, and spaces carefully.
+the editor suggests autocompletions when possible.
+arcady wants to minimize the number of keyboard clicks.
+</ans>",True,{}
+27,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+100
+<SPLIT>
+1000
+<SPLIT>
+10000
+<SPLIT>
+100000
+<SPLIT>
+500000
+</ans>",0,{}
+28,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+0840
+<SPLIT>
+0123456789
+<SPLIT>
+0987654321
+<SPLIT>
+0101010101
+<SPLIT>
+0000000000
+</ans>",True,{}
+29,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 4
+4 6
+10 -2
+8 -1
+
+3 5
+4 -5
+4 -2
+1 3
+
+4 4
+5 2
+5 -3
+2 1
+4 -2
+
+3 10
+10 0
+10 -10
+30 0
+
+5 15
+10 5
+5 -3
+8 -2
+12 -4
+7 3
+</ans>",0,{}
+30,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2
+10 99 20 88
+<SPLIT>
+3
+13 24 13 45 67 89
+<SPLIT>
+5
+10 20 30 40 50 60 70 80 90 99
+<SPLIT>
+1
+50 51
+<SPLIT>
+4
+11 22 33 44 55 66 77 88
+</ans>",0,{}
+31,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+banana
+4
+<SPLIT>
+banana
+3
+<SPLIT>
+banana
+2
+<SPLIT>
+abcdefghij
+10
+<SPLIT>
+aaaaaaaaaaaaaaaaaaaa
+3
+</ans>",0,{}
+32,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+5 2 4 3 6 1
+00100
+00011
+10010
+01101
+01010
+<SPLIT>
+7
+5 2 4 3 6 7 1
+0001001
+0000000
+0000010
+1000001
+0000000
+0010000
+1001000
+<SPLIT>
+3
+2 1 3
+010
+101
+011
+<SPLIT>
+4
+3 1 4 2
+0001
+0010
+0100
+1000
+<SPLIT>
+6
+4 2 1 5 3 6
+00100
+00011
+10010
+01101
+01010
+00001
+</ans>",0,{}
+33,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+3 9 1 -1
+<SPLIT>
+8
+11 -1 13 19 24 7 17 5
+<SPLIT>
+16
+1 2 3 4 5 6 7 -1 9 10 11 12 13 14 15
+<SPLIT>
+32
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 -1 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+<SPLIT>
+64
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 -1 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63
+</ans>",0,{}
+34,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+0 1 1 1 0 0 0 0 1
+1 2
+1 3
+3 4
+3 5
+2 6
+4 7
+6 8
+5 9
+
+6
+0 0 1 0 1 0
+1 2
+1 3
+1 4
+2 5
+2 6
+
+10
+1 0 1 0 1 0 1 0 1 0
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+
+8
+0 1 0 1 0 1 0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+
+7
+1 1 1 0 0 0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+<SPLIT>
+</ans>",0,{}
+35,"<ans>
+3 5 2 4 5
+3 5 2 4 5
+3 5 2 4 5
+3 5 2 4 5
+3 5 2 4 5
+<SPLIT>
+[3, 5, 2]
+[4, 5, 1]
+[5, 3, 2]
+[2, 4, 3]
+[4, 3, 2]
+<SPLIT>
+
+</ans>",0,{}
+36,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+abc
+cbaabc
+<SPLIT>
+aaabrytaaa
+ayrat
+<SPLIT>
+ami
+no
+<SPLIT>
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+<SPLIT>
+aaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaa
+</ans>",True,{}
+37,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+(
+)
+(())
+<SPLIT>
+4
+(())
+(())
+(())
+(())
+<SPLIT>
+5
+(())
+(())
+(())
+(())
+(())
+<SPLIT>
+2
+(())
+())
+<SPLIT>
+6
+(())
+(())
+(())
+(())
+(())
+(())
+</ans>",0,{}
+38,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+100 30
+40 10
+50 20
+70 15
+80 25
+
+10
+1 1
+9 7
+1 4
+10 7
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+
+3
+1 1
+2 2
+3 3
+
+20
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+
+100
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+51 51
+52 52
+53 53
+54 54
+55 55
+56 56
+57 57
+58 58
+59 59
+60 60
+61 61
+62 62
+63 63
+64 64
+65 65
+66 66
+67 67
+68 68
+69 69
+70 70
+71 71
+72 72
+73 73
+74 74
+75 75
+76 76
+77 77
+78 78
+79 79
+80 80
+81 81
+82 82
+83 83
+84 84
+85 85
+86 86
+87 87
+88 88
+89 89
+90 90
+91 91
+92 92
+93 93
+94 94
+95 95
+96 96
+97 97
+98 98
+99 99
+100 100
+</ans>",0,{}
+39,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+7
+1101001
+3 4 9 100 1 2 3
+<SPLIT>
+5
+10101
+3 10 15 15 15
+<SPLIT>
+10
+1010101010
+1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+20
+0101010101010101010
+10 20 30 40 50 60 70 80 90 100 10 20 30 40 50 60 70 80 90 100
+<SPLIT>
+50
+1111000011110000111100001111
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50
+</ans>",True,{}
+40,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 3 7
+7 4 17
+3 0 8
+11 2 0
+13 3 5
+3 1
+2 1
+4 3
+<SPLIT>
+4 3 7
+7 4 17
+3 0 8
+11 2 0
+13 3 5
+3 1
+2 1
+4 1
+<SPLIT>
+4 3 7
+7 4 17
+3 0 8
+11 2 0
+14 3 5
+3 1
+2 1
+4 3
+<SPLIT>
+5 4 10
+7 4 17
+3 0 8
+11 2 0
+13 3 5
+14 2 10
+3 1
+2 1
+4 3
+5 4
+<SPLIT>
+6 5 15
+7 4 17
+3 0 8
+11 2 0
+13 3 5
+14 2 10
+15 3 12
+3 1
+2 1
+4 3
+5 4
+6 5
+</ans>",0,{}
+41,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 5
+2 4
+2 3
+
+4
+1 5
+2 3
+2 5
+3 4
+<SPLIT>
+5
+1 5
+2 3
+2 5
+3 5
+2 2
+
+3
+1 3
+2 4
+2 3
+<SPLIT>
+7
+1 10
+2 8
+2 5
+3 4
+4 4
+6 8
+7 7
+
+3
+1 2
+3 4
+5 6
+
+4
+1 3
+2 4
+3 5
+4 6
+
+5
+1 5
+2 3
+3 4
+4 6
+5 7
+
+6
+1 4
+2 5
+3 6
+4 7
+5 8
+6 9
+
+7
+1 7
+2 6
+3 5
+4 4
+5 6
+6 7
+7 8
+<SPLIT>
+</ans>",0,{}
+42,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 1 2 2 3 3
+<SPLIT>
+2
+2 1 1 2
+<SPLIT>
+4
+4 1 3 2 2 3 1 4
+<SPLIT>
+5
+1 2 3 4 5 1 2 3 4 5
+<SPLIT>
+10
+1 2 3 4 5 6 7 8 9 10 10 9 8 7 6 5 4 3 2 1
+</ans>",0,{}
+43,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+0 0
+1 1
+0 3
+1 2
+<SPLIT>
+4
+0 0
+0 2
+0 4
+2 0
+<SPLIT>
+3
+-1 -1
+1 0
+3 1
+<SPLIT>
+10
+-100 -100
+-100 -50
+-100 0
+-100 50
+-100 100
+100 -100
+100 -50
+100 0
+100 50
+100 100
+<SPLIT>
+20
+-1000 -1000
+-1000 -500
+-1000 0
+-1000 500
+-1000 1000
+-500 -1000
+-500 -500
+-500 0
+-500 500
+-500 1000
+0 -1000
+0 -500
+0 0
+0 500
+0 1000
+500 -1000
+500 -500
+500 0
+500 500
+500 1000
+</ans>",0,{}
+44,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3
+1 0 1
+0 1 0
+1 1 1
+<SPLIT>
+4 4
+0 1 0 1
+1 0 1 0
+0 1 0 1
+1 0 1 0
+<SPLIT>
+2 5
+0 1 0 1 0
+1 0 1 0 1
+<SPLIT>
+5 2
+1 1
+0 0
+1 1
+0 0
+1 1
+<SPLIT>
+6 3
+1 0 1
+0 1 0
+1 0 1
+0 1 0
+1 0 1
+0 1 0
+</ans>",0,{}
+45,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+0 0 0
+2 0 0
+2 2 0
+0 2 0
+4
+1 1 -1
+1 1 1
+1 3 1
+1 3 -1
+<SPLIT>
+5
+0 0 0
+1 0 0
+1 1 0
+0 1 0
+0 0 1
+5
+0 0 1
+1 0 1
+1 1 1
+0 1 1
+0 0 0
+<SPLIT>
+6
+0 0 0
+1 0 0
+1 1 0
+0 1 0
+0 0 1
+1 0 1
+6
+0 0 1
+1 0 1
+1 1 1
+0 1 1
+0 0 0
+1 0 0
+<SPLIT>
+8
+0 0 0
+1 0 0
+1 1 0
+0 1 0
+0 0 1
+1 0 1
+1 1 1
+0 1 1
+8
+0 0 1
+1 0 1
+1 1 1
+0 1 1
+0 0 0
+1 0 0
+1 1 0
+0 1 0
+<SPLIT>
+10
+0 0 0
+1 0 0
+1 1 0
+0 1 0
+0 0 1
+1 0 1
+1 1 1
+0 1 1
+0 0 -1
+1 0 -1
+10
+0 0 1
+1 0 1
+1 1 1
+0 1 1
+0 0 0
+1 0 0
+1 1 0
+0 1 0
+0 0 -1
+1 0 -1
+</ans>",0,{}
+46,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 2 3
+<SPLIT>
+5
+1 2 3 4 5
+<SPLIT>
+4
+2 4 6 8
+<SPLIT>
+2
+3 5
+<SPLIT>
+7
+1 1 1 1 1 1 1
+</ans>",0,{}
+47,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 3
+abb 2
+aaa -3
+bba -1
+abb 5
+aaa 7
+4 4
+abcd 10
+abcd -5
+abcd 8
+abcd 3
+3 2
+ab 5
+ba -3
+ab 7
+6 3
+aaa 2
+bbb -1
+ccc 3
+aaa 4
+bbb -2
+ccc 5
+3 5
+abcde 100
+abcde -50
+abcde 75
+</ans>",0,{}
+48,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2
+5 2
+3 3
+<SPLIT>
+3
+10 3
+20 5
+30 7
+<SPLIT>
+5
+100 10
+200 20
+300 30
+400 40
+500 50
+<SPLIT>
+10
+1000 100
+2000 200
+3000 300
+4000 400
+5000 500
+6000 600
+7000 700
+8000 800
+9000 900
+10000 1000
+<SPLIT>
+20
+10000 1000
+20000 2000
+30000 3000
+40000 4000
+50000 5000
+60000 6000
+70000 7000
+80000 8000
+90000 9000
+100000 10000
+110000 11000
+120000 12000
+130000 13000
+140000 14000
+150000 15000
+160000 16000
+170000 17000
+180000 18000
+190000 19000
+200000 20000
+</ans>",0,{}
+49,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+""RUn.exe O"" """" ""   2ne, "" two! . "" ""
+<SPLIT>
+""firstarg   second   """"    ""
+<SPLIT>
+""   """"arg1"""" """"arg2"""" """"arg3"""" ""
+<SPLIT>
+""a b c d e f g h i j k l m n o p q r s t u v w x y z""
+<SPLIT>
+""1 2 3 4 5 6 7 8 9 0""
+</ans>",0,{}
+50,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10 100
+10 20 30 40 50 60 70 80 90 100
+<SPLIT>
+5 100
+80 40 40 40 60
+<SPLIT>
+15 200
+10 20 30 40 50 60 70 80 90 100 110 120 130 140 150
+<SPLIT>
+20 300
+50 75 100 125 150 175 200 225 250 275 300 25 50 75 100 125 150 175 200 225
+<SPLIT>
+30 500
+10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 230 240 250 260 270 280 290 300
+</ans>",0,{}
+51,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6
+2 3 3 1 3 1
+<SPLIT>
+10
+1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+20
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+<SPLIT>
+5
+1 2 3 4 5
+<SPLIT>
+15
+5 10 15 20 25 30 35 40 45 50 55 60 65 70 75
+</ans>",0,{}
+52,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+2 6 6
+<SPLIT>
+5
+1 2 3 4 5
+<SPLIT>
+10
+1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+7
+100 200 300 400 500 600 700
+<SPLIT>
+15
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+</ans>",0,{}
+53,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+4 5 1 2 3
+<SPLIT>
+10
+7 9 1 2 3 4 5 6 8 10
+<SPLIT>
+15
+15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+<SPLIT>
+20
+20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+<SPLIT>
+30
+30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+</ans>",0,{}
+54,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3
+.#.
+###
+.#.
+<SPLIT>
+5 5
+#.#.#
+.#.#.
+#.#.#
+.#.#.
+#.#.#
+<SPLIT>
+4 4
+..#.
+#.#.
+.#..
+#.#.
+<SPLIT>
+2 6
+#.#.#.
+.#.#.#
+<SPLIT>
+6 3
+#..
+.#.
+#..
+.#.
+#..
+.#.
+</ans>",0,{}
+55,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10 2
+4 1 5 10
+1 4 10 5
+<SPLIT>
+7 6
+2 1 2 1
+4 2 4 3
+2 5 2 5
+2 3 5 3
+1 2 1 2
+3 2 5 3
+<SPLIT>
+20 4
+5 1 10 5
+2 3 15 7
+8 10 18 15
+12 12 18 18
+<SPLIT>
+50 10
+10 5 20 15
+15 10 25 20
+20 15 30 25
+25 20 35 30
+30 25 40 35
+35 30 45 40
+40 35 50 45
+45 40 55 50
+50 45 60 55
+55 50 65 60
+<SPLIT>
+100 20
+20 10 40 30
+30 20 50 40
+40 30 60 50
+50 40 70 60
+60 50 80 70
+70 60 90 80
+80 70 100 90
+90 80 110 100
+100 90 120 110
+110 100 130 120
+120 110 140 130
+130 120 150 140
+140 130 160 150
+150 140 170 160
+160 150 180 170
+170 160 190 180
+180 170 200 190
+190 180 210 200
+200 190 220 210
+210 200 230 220
+</ans>",0,{}
+56,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6 2
+1 2
+1 3
+2 4
+2 5
+4 6
+
+13 3
+1 2
+3 2
+4 2
+5 2
+3 6
+10 6
+6 7
+6 13
+5 8
+5 9
+9 11
+11 12
+
+3 5
+2 1
+3 1
+
+10 2
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+
+15 3
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+</ans>",0,{}
+57,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 3 2
+1 2
+2 3
+3 4
+1 3
+2 4
+4 5 1 2
+5 3 2
+1 2
+2 3
+3 4
+1 3
+2 4
+4 5 1 2
+5 3 2
+1 2
+2 3
+3 4
+1 3
+2 4
+4 5 1 2
+5 3 2
+1 2
+2 3
+3 4
+1 3
+2 4
+4 5 1 2
+5 3 2
+1 2
+2 3
+3 4
+1 3
+2 4
+4 5 1 2
+</ans>
+
+<ans>
+10 5 3
+1 2
+2 3
+3 4
+4 5
+5 6
+1 7
+2 8
+3 9
+4 10
+5 6
+7 8
+8 9
+</ans>
+
+<ans>
+20 10 5
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+1 11
+2 12
+3 13
+4 14
+5 15
+</ans>
+
+<ans>
+50 25 10
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+1 27
+2 28
+3 29
+4 30
+5 31
+6 32
+7 33
+8 34
+9 35
+10 36
+11 37
+12 38
+13 39
+14 40
+15 41
+16 42
+17 43
+18 44
+19 45
+20 46
+21 47
+22 48
+23 49
+24 50
+</ans>
+
+<ans>
+100 50 20
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+1 51
+2 52
+3 53
+4 54
+5 55
+6 56
+7 57
+8 58
+9 59
+10 60
+11 61
+12 62
+13 63
+14 64
+15 65
+16 66
+17 67
+18 68
+19 69
+20 70
+21 71
+22 72
+23 73
+24 74
+25 75
+26 76
+27 77
+28 78
+29 79
+30 80
+31 81
+32 82
+33 83
+34 84
+35 85
+36 86
+37 87
+38 88
+39 89
+40 90
+41 91
+42 92
+43 93
+44 94
+45 95
+46 96
+47 97
+48 98
+49 99
+50 100
+</ans>",0,{}
+58,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+1 2 3 4 5
+<SPLIT>
+10
+123456789 987654321 456789123 789456123 321654987 654321987 987123456 456123789 789321654 123987654
+<SPLIT>
+7
+1 2 3 4 5 6 7
+<SPLIT>
+15
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+<SPLIT>
+20
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+</ans>",True,{}
+59,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 3
+aaa
+bbb
+ccb
+ddd
+
+6 1
+a
+a
+b
+b
+c
+c
+
+5 4
+abcd
+efgh
+ijkl
+mnop
+qrst
+
+10 5
+abcde
+fghij
+klmno
+pqrst
+uvwxy
+zabcd
+efghi
+jklmn
+opqrs
+tuvwx
+
+3 7
+abcdefg
+hijklmn
+opqrstu
+</ans>",0,{}
+60,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+2
+1
+4
+5
+3
+<SPLIT>
+10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+<SPLIT>
+20
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+<SPLIT>
+50
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+<SPLIT>
+100
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+</ans>",0,{}
+61,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2 3
+arc
+rac
+<SPLIT>
+3 3
+abc
+bac
+cab
+<SPLIT>
+4 4
+abcd
+badc
+cdab
+dcba
+<SPLIT>
+5 5
+abcde
+bcdea
+cdeab
+deabc
+eabcd
+<SPLIT>
+6 6
+abcdef
+bcdeaf
+cdefab
+defabc
+efabcd
+fabcde
+</ans>",0,{}
+62,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 5 5
+RRGGB
+RRGGY
+YYBBG
+YYBBR
+RBBRG
+1 1 5 5
+2 2 5 5
+2 2 3 3
+1 1 3 5
+4 4 5 5
+<SPLIT>
+6 10 5
+RRRGGGRRGG
+RRRGGGRRGG
+RRRGGGYYBB
+YYYBBBYYBB
+YYYBBBRGRG
+YYYBBBYBYB
+1 1 6 10
+1 3 3 10
+2 2 6 6
+1 7 6 10
+2 1 5 10
+<SPLIT>
+8 8 8
+RRRRGGGG
+RRRRGGGG
+RRRRGGGG
+RRRRGGGG
+YYYYBBBB
+YYYYBBBB
+YYYYBBBB
+YYYYBBBB
+1 1 8 8
+5 2 5 7
+3 1 8 6
+2 3 5 8
+1 2 6 8
+2 1 5 5
+2 1 7 7
+6 5 7 5
+<SPLIT>
+10 10 10
+RRRRGGGGBB
+RRRRGGGGBB
+RRRRGGGGBB
+RRRRGGGGBB
+YYYYBBBBGG
+YYYYBBBBGG
+YYYYBBBBGG
+YYYYBBBBGG
+BBBBGGGGGG
+BBBBGGGGGG
+1 1 10 10
+5 2 5 7
+3 1 8 6
+2 3 5 8
+1 2 6 8
+2 1 5 5
+2 1 7 7
+6 5 7 5
+3 3 8 8
+7 7 10 10
+<SPLIT>
+15 15 15
+RRRRGGGGBBBBYYYYY
+RRRRGGGGBBBBYYYYY
+RRRRGGGGBBBBYYYYY
+RRRRGGGGBBBBYYYYY
+RRRRGGGGBBBBYYYYY
+YYYYBBBBGGGGRRRRR
+YYYYBBBBGGGGRRRRR
+YYYYBBBBGGGGRRRRR
+YYYYBBBBGGGGRRRRR
+YYYYBBBBGGGGRRRRR
+BBBBGGGGRRRRRYYYY
+BBBBGGGGRRRRRYYYY
+BBBBGGGGRRRRRYYYY
+BBBBGGGGRRRRRYYYY
+BBBBGGGGRRRRRYYYY
+1 1 15 15
+5 2 5 7
+3 1 8 6
+2 3 5 8
+1 2 6 8
+2 1 5 5
+2 1 7 7
+6 5 7 5
+3 3 8 8
+7 7 10 10
+10 10 15 15
+</ans>",0,{}
+63,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 6
+2 1 1
+5 2 6
+2 3 2
+3 4 3
+4 5 5
+1 5 4
+<SPLIT>
+5 7
+2 1 5
+3 2 3
+1 3 3
+2 4 1
+4 3 5
+5 4 1
+1 5 3
+<SPLIT>
+10 15
+1 2 1
+2 3 2
+3 4 3
+4 5 4
+5 6 5
+6 7 6
+7 8 7
+8 9 8
+9 10 9
+1 10 10
+2 5 1
+3 6 2
+4 7 3
+5 8 4
+6 9 5
+<SPLIT>
+20 30
+1 2 1
+2 3 2
+3 4 3
+4 5 4
+5 6 5
+6 7 6
+7 8 7
+8 9 8
+9 10 9
+10 11 10
+11 12 11
+12 13 12
+13 14 13
+14 15 14
+15 16 15
+16 17 16
+17 18 17
+18 19 18
+19 20 19
+1 20 20
+2 7 1
+3 8 2
+4 9 3
+5 10 4
+6 11 5
+7 12 6
+8 13 7
+9 14 8
+10 15 9
+11 16 10
+<SPLIT>
+30 45
+1 2 1
+2 3 2
+3 4 3
+4 5 4
+5 6 5
+6 7 6
+7 8 7
+8 9 8
+9 10 9
+10 11 10
+11 12 11
+12 13 12
+13 14 13
+14 15 14
+15 16 15
+16 17 16
+17 18 17
+18 19 18
+19 20 19
+20 21 20
+21 22 21
+22 23 22
+23 24 23
+24 25 24
+25 26 25
+26 27 26
+27 28 27
+28 29 28
+29 30 29
+1 30 30
+2 7 1
+3 8 2
+4 9 3
+5 10 4
+6 11 5
+7 12 6
+8 13 7
+9 14 8
+10 15 9
+11 16 10
+12 17 11
+13 18 12
+14 19 13
+15 20 14
+16 21 15
+17 22 16
+18 23 17
+19 24 18
+20 25 19
+21 26 20
+</ans>",0,{}
+64,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+1 1 1 1 1 1
+5
+S
+M
+L
+XL
+XXL
+
+1 1 1 1 1 1
+5
+S,M
+M,L
+L,XL
+XL,XXL
+XXL,XXXL
+
+2 2 2 2 2 2
+10
+S
+M
+L
+XL
+XXL
+XXXL
+S,M
+M,L
+L,XL
+XL,XXL
+
+0 0 0 0 0 10
+5
+XXXL
+XXXL
+XXXL
+XXXL
+XXXL
+
+5 5 5 5 5 5
+20
+S
+M
+L
+XL
+XXL
+XXXL
+S,M
+M,L
+L,XL
+XL,XXL
+XXL,XXXL
+</ans>",0,{}
+65,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 4
+2 -2 3 1 2
+1 3
+4 5
+2 5
+1 3
+
+10 5
+-5 2 3 -1 4 -2 1 0 5 -3
+1 3
+4 6
+2 5
+7 9
+1 10
+
+20 10
+-10 9 -8 7 -6 5 -4 3 -2 1 2 -3 4 -5 6 -7 8 -9 10 -11
+1 5
+6 10
+11 15
+16 20
+1 10
+2 12
+3 14
+4 16
+5 18
+6 20
+
+50 20
+-50 49 -48 47 -46 45 -44 43 -42 41 -40 39 -38 37 -36 35 -34 33 -32 31 -30 29 -28 27 -26 25 -24 23 -22 21 -20 19 -18 17 -16 15 -14 13 -12 11 -10 9 -8 7 -6 5 -4 3 -2 1
+1 10
+11 20
+21 30
+31 40
+41 50
+1 20
+2 22
+3 24
+4 26
+5 28
+6 30
+7 32
+8 34
+9 36
+10 38
+11 40
+12 42
+13 44
+14 46
+15 48
+16 50
+
+100 50
+-100 99 -98 97 -96 95 -94 93 -92 91 -90 89 -88 87 -86 85 -84 83 -82 81 -80 79 -78 77 -76 75 -74 73 -72 71 -70 69 -68 67 -66 65 -64 63 -62 61 -60 59 -58 57 -56 55 -54 53 -52 51 -50 49 -48 47 -46 45 -44 43 -42 41 -40 39 -38 37 -36 35 -34 33 -32 31 -30 29 -28 27 -26 25 -24 23 -22 21 -20 19 -18 17 -16 15 -14 13 -12 11 -10 9 -8 7 -6 5 -4 3 -2 1
+1 20
+21 40
+41 60
+61 80
+81 100
+1 50
+2 52
+3 54
+4 56
+5 58
+6 60
+7 62
+8 64
+9 66
+10 68
+11 70
+12 72
+13 74
+14 76
+15 78
+16 80
+17 82
+18 84
+19 86
+20 88
+21 90
+22 92
+23 94
+24 96
+25 98
+26 100
+</ans>
+
+The above test cases cover a range of input sizes, from small (5 elements, 4 segments) to large (100 elements, 50 segments). The input values also vary, including both positive and negative integers.",0,{}
+66,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+24
+<SPLIT>
+12
+<SPLIT>
+1000000000000
+<SPLIT>
+100000000000
+<SPLIT>
+987654321
+</ans>",0,{}
+67,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10 ATCGATCGAT
+<SPLIT>
+20 CGCGCGCGCGCGCGCGCGCG
+<SPLIT>
+5 ATCGA
+<SPLIT>
+100 AAAATTTTCCCCGGGG
+<SPLIT>
+50 ATCGATCGATCGATCGATCG
+</ans>",0,{}
+68,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 5 10
+1 2 20
+2 3 30
+3 4 40
+4 5 50
+1 5 60
+<SPLIT>
+10 10 20
+1 2 10
+2 3 20
+3 4 30
+4 5 40
+5 6 50
+6 7 60
+7 8 70
+8 9 80
+9 10 90
+1 10 100
+<SPLIT>
+3 3 5
+1 2 10
+2 3 20
+1 3 30
+<SPLIT>
+7 7 15
+1 2 20
+2 3 30
+3 4 40
+4 5 50
+5 6 60
+6 7 70
+1 7 80
+<SPLIT>
+15 20 30
+1 2 10
+2 3 20
+3 4 30
+4 5 40
+5 6 50
+6 7 60
+7 8 70
+8 9 80
+9 10 90
+10 11 100
+11 12 110
+12 13 120
+13 14 130
+14 15 140
+1 15 150
+</ans>",0,{}
+69,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2 1
+<SPLIT>
+5 3
+<SPLIT>
+10 20
+<SPLIT>
+50 50
+<SPLIT>
+100 0
+</ans>",0,{}
+70,"<ans>
+1 4
+9 9
+5 7
+12 29
+137 591
+1 1000000
+<SPLIT>
+1 10
+20 20
+50 100
+500 1000
+10000 100000
+<SPLIT>
+5 15
+25 35
+100 200
+1000 2000
+50000 100000
+<SPLIT>
+2 8
+15 25
+75 125
+750 1250
+25000 50000
+<SPLIT>
+3 12
+18 28
+90 180
+900 1800
+40000 80000
+</ans>",0,{}
+71,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6 2 3
+2 2 2 2 1 1
+
+2 5 1 
+5 8
+
+10 3 4
+1 2 3 4 5 6 7 8 9 10
+
+20 10 5
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+
+50 20 10
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50
+</ans>",0,{}
+72,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2
+6
+
+3
+6669
+
+10
+-1
+
+5
+-1
+
+100
+-1
+</ans>",0,{}
+73,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 2
+1 2
+1 3
+1 4
+2 5
+4 5
+2 5
+
+7 2
+1 2
+1 3
+1 4
+3 5
+3 6
+3 7
+2 7
+
+6 4
+1 2
+2 3
+2 4
+4 5
+4 6
+2 4 5 6
+
+10 3
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+2 5 8
+
+15 5
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+3 6 9 12 15
+<SPLIT>
+4 2
+1 2
+2 3
+3 4
+2 4
+
+6 3
+1 2
+2 3
+3 4
+4 5
+5 6
+2 4 6
+
+8 4
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+2 4 6 8
+
+12 6
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+2 4 6 8 10 12
+
+20 8
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+2 4 6 8 10 12 14 16
+<SPLIT>
+3 2
+1 2
+2 3
+1 3
+
+5 3
+1 2
+2 3
+3 4
+4 5
+2 4 5
+
+8 5
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+2 4 6 7 8
+
+12 7
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+2 4 6 8 10 11 12
+
+18 9
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+2 4 6 8 10 12 14 16 18
+<SPLIT>
+7 3
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+2 5 7
+
+10 5
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+2 4 6 8 10
+
+15 8
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+2 4 6 8 10 12 14 15
+
+20 10
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+2 4 6 8 10 12 14 16 18 20
+
+25 12
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+2 4 6 8 10 12 14 16 18 20 22 24
+<SPLIT>
+4 2
+1 2
+1 3
+1 4
+3 4
+
+6 3
+1 2
+2 3
+2 4
+4 5
+4 6
+2 4 6
+
+9 5
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+2 4 6 8 9
+
+13 7
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+2 4 6 8 10 12 13
+
+18 9
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+2 4 6 8 10 12 14 16 18
+</ans>",0,{}
+74,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 3 10 7
+1 2 3 4 5 1 2
+<SPLIT>
+10 5 20 15
+1 2 3 4 5 6 7 8 9 10 1 2 3 4 5
+<SPLIT>
+20 10 50 30
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+50 20 100 80
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+<SPLIT>
+100 50 200 150
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50
+</ans>",0,{}
+75,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+5 4 3 2 1
+<SPLIT>
+4
+2 1 3 4
+<SPLIT>
+3
+3 2 1
+<SPLIT>
+2
+1 2
+<SPLIT>
+10
+10 9 8 7 6 5 4 3 2 1
+</ans>",True,{}
+76,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 -1
+-1 4
+-1 6
+<SPLIT>
+4
+1 -1
+-1 4
+-1 6
+-1 8
+<SPLIT>
+5
+1 -1
+-1 4
+-1 6
+-1 8
+-1 10
+<SPLIT>
+3
+-1 3
+2 -1
+-1 6
+<SPLIT>
+4
+1 3
+-1 6
+2 -1
+-1 8
+</ans>",0,{}
+77,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+7 3
+1 2 3
+1 4 5
+4 6 7
+
+9 3
+3 6 9
+2 5 8
+1 4 7
+
+5 2
+4 1 5
+3 1 2
+
+10 4
+1 2 3
+4 5 6
+7 8 9
+1 2 10
+
+15 5
+1 2 3
+4 5 6
+7 8 9
+10 11 12
+13 14 15
+<SPLIT>
+
+[7, 3]
+[9, 3]
+[5, 2]
+[10, 4]
+[15, 5]
+</ans>",0,{}
+78,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+7
+1 2 1 3 1 2 1
+<SPLIT>
+10
+1 2 3 4 5 1 2 3 4 1
+<SPLIT>
+15
+1 2 3 4 5 6 7 8 9 10 1 2 3 4 5
+<SPLIT>
+20
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 1
+<SPLIT>
+25
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 1
+</ans>",0,{}
+79,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+2 1 3 4
+7 6
+1 1 2 3
+1
+1 1 2 2
+3
+<SPLIT>
+1
+3 1 2 3
+5 6 7
+<SPLIT>
+2
+4 2 3 4
+8 10 8 5
+2 2 1 4
+<SPLIT>
+4
+6 5 4 5
+2 3 2 3 1 3
+1 5 2 3
+10
+4 4 2 3
+<SPLIT>
+5
+3 1 5 3
+9 8 7
+2 5 4 5
+8 8
+3 5 1 4
+5 5 10
+</ans>",0,{}
+80,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+1 1 2 3 1 0 2 4 20
+<SPLIT>
+1 1 2 3 1 0 15 27 26
+<SPLIT>
+1 1 2 3 1 0 2 2 1
+<SPLIT>
+1 1 3 4 2 1 10 10 50
+<SPLIT>
+1 1 2 3 1 0 100 100 1000
+</ans>",0,{}
+81,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3 3
+<SPLIT>
+2 2 2
+<SPLIT>
+4 4 4
+<SPLIT>
+5 5 5
+<SPLIT>
+1 1 1
+</ans>",0,{}
+82,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+2 2 3 5 5
+<SPLIT>
+10
+1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+20
+100 200 300 400 500 600 700 800 900 1000 1100 1200 1300 1400 1500 1600 1700 1800 1900 2000
+<SPLIT>
+15
+1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000
+<SPLIT>
+50
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50
+</ans>",0,{}
+83,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+ab
+a?a
+2
+aaa
+aab
+
+ab
+a?a*
+4
+abacaba
+abaca
+apapa
+aaaaax
+
+abc
+a?a?a*
+4
+abacaba
+abaca
+apapa
+aaaaax
+
+abc
+a*a
+3
+aba
+abba
+abcba
+
+abc
+a?b
+5
+abc
+abb
+aab
+bab
+bbb
+</ans>",0,{}
+84,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+4 2
+R 1 1
+B 1 5
+Q 3 3
+<SPLIT>
+2
+4 2
+R 3 3
+B 1 5
+<SPLIT>
+5
+0 0
+R -1 0
+B 1 1
+Q 0 -1
+R 0 1
+B -1 -1
+<SPLIT>
+10
+100 100
+R 99 100
+B 100 99
+Q 101 101
+R 99 99
+B 101 100
+Q 100 101
+R 100 99
+B 99 101
+Q 101 99
+<SPLIT>
+1
+0 0
+Q 1 1
+</ans>",0,{}
+85,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+AABBB
+<SPLIT>
+3
+AAA
+<SPLIT>
+7
+AAABABB
+<SPLIT>
+10
+AAABBBAAAB
+<SPLIT>
+20
+AAABBBAAABBBAAABBBAA
+</ans>",0,{}
+86,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6 2
+5 6 7 9 4 5
+<SPLIT>
+8 6
+7 7 7 7 8 8 8 8
+<SPLIT>
+4 1
+4 2 1 10
+<SPLIT>
+10 5
+1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+12 8
+1 2 3 4 5 6 7 8 9 10 11 12
+</ans>",0,{}
+87,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 595
+43 2
+300 4
+554 10
+<SPLIT>
+1 1
+1 1
+<SPLIT>
+2 50
+20 0
+3 1
+<SPLIT>
+5 240
+13 0
+50 25
+60 5
+155 70
+165 70
+<SPLIT>
+10 1000
+100 50
+200 100
+300 150
+400 200
+500 250
+600 300
+700 350
+800 400
+900 450
+1000 500
+</ans>",0,{}
+88,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 10
+0 0
+2 0
+2 2
+3 4
+4 0
+1 1 2
+2 1
+2 2
+2 3
+2 4
+2 5
+1 2 3
+1 3 4
+1 4 5
+2 1
+
+7 15
+-10 10
+-5 0
+0 10
+5 0
+10 10
+15 0
+20 10
+1 1 2
+1 2 3
+1 3 4
+1 4 5
+1 5 6
+1 6 7
+2 1
+2 2
+2 3
+2 4
+2 5
+2 6
+2 7
+
+10 20
+-100 100
+-50 50
+0 100
+50 50
+100 100
+150 50
+200 100
+250 50
+300 100
+350 50
+1 1 2
+1 2 3
+1 3 4
+1 4 5
+1 5 6
+1 6 7
+1 7 8
+1 8 9
+1 9 10
+2 1
+2 2
+2 3
+2 4
+2 5
+2 6
+2 7
+2 8
+2 9
+2 10
+
+15 30
+-1000 1000
+-800 800
+-600 600
+-400 400
+-200 200
+0 1000
+200 800
+400 600
+600 400
+800 200
+1000 1000
+1200 800
+1400 600
+1600 400
+1800 200
+1 1 2
+1 2 3
+1 3 4
+1 4 5
+1 5 6
+1 6 7
+1 7 8
+1 8 9
+1 9 10
+1 10 11
+1 11 12
+1 12 13
+1 13 14
+1 14 15
+2 1
+2 2
+2 3
+2 4
+2 5
+2 6
+2 7
+2 8
+2 9
+2 10
+2 11
+2 12
+2 13
+2 14
+2 15
+
+20 40
+-10000 10000
+-8000 8000
+-6000 6000
+-4000 4000
+-2000 2000
+0 10000
+2000 8000
+4000 6000
+6000 4000
+8000 2000
+10000 10000
+12000 8000
+14000 6000
+16000 4000
+18000 2000
+20000 10000
+22000 8000
+24000 6000
+26000 4000
+28000 2000
+1 1 2
+1 2 3
+1 3 4
+1 4 5
+1 5 6
+1 6 7
+1 7 8
+1 8 9
+1 9 10
+1 10 11
+1 11 12
+1 12 13
+1 13 14
+1 14 15
+1 15 16
+1 16 17
+1 17 18
+1 18 19
+1 19 20
+2 1
+2 2
+2 3
+2 4
+2 5
+2 6
+2 7
+2 8
+2 9
+2 10
+2 11
+2 12
+2 13
+2 14
+2 15
+2 16
+2 17
+2 18
+2 19
+2 20
+</ans>",0,{}
+89,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+20
+5184
+100000
+1000000
+10
+</ans>",0,{}
+90,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2 5 0
+1 3 2 5 4
+1 4 3 2 5
+<SPLIT>
+3 2 1
+1 2
+2 3
+3 4
+<SPLIT>
+4 3 0
+1 2 3
+4 5 6
+7 8 9
+10 11 12
+<SPLIT>
+5 4 1
+10 20 30 40
+50 60 70 80
+90 100 110 120
+130 140 150 160
+170 180 190 200
+<SPLIT>
+7 6 0
+1 2 3 4 5 6
+7 8 9 10 11 12
+13 14 15 16 17 18
+19 20 21 22 23 24
+25 26 27 28 29 30
+31 32 33 34 35 36
+37 38 39 40 41 42
+</ans>",0,{}
+91,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+0 1 0
+1 0 1
+1 2 3
+4 5 6
+<SPLIT>
+4
+0 1 0 1
+1 0 1 0
+1 2 3 4
+5 6 7 8
+<SPLIT>
+5
+0 1 0 1 0
+1 0 1 0 1
+1 2 3 4 5
+6 7 8 9 10
+<SPLIT>
+2
+0 1
+1 0
+1 2
+3 4
+<SPLIT>
+6
+0 1 0 1 0 1
+1 0 1 0 1 0
+1 2 3 4 5 6
+7 8 9 10 11 12
+</ans>",0,{}
+92,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+1 2 3 4 5
+<SPLIT>
+10
+5 4 3 2 1 5 4 3 2 1
+<SPLIT>
+7
+1 1 1 1 1 1 1
+<SPLIT>
+3
+1 4 1
+<SPLIT>
+15
+100000 100000 100000 100000 100000 100000 100000 100000 100000 100000 100000 100000 100000 100000 100000
+</ans>",0,{}
+93,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+0 0
+1 0
+2 0
+<SPLIT>
+4
+0 0
+1 0
+2 0
+3 0
+<SPLIT>
+5
+0 0
+1 0
+2 0
+3 0
+4 0
+<SPLIT>
+6
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+<SPLIT>
+7
+0 0
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+</ans>",0,{}
+94,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2 3
+1 1
+3 6
+6 8
+1 2
+<SPLIT>
+4 1
+31235 6578234
+2 4
+5 10
+10 20
+<SPLIT>
+7 14
+14 28
+28 56
+56 112
+112 224
+<SPLIT>
+1 2
+2 4
+4 8
+8 16
+16 32
+<SPLIT>
+100 200
+200 400
+400 800
+800 1600
+1600 3200
+</ans>",0,{}
+95,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3 4
+***
+*X*
+***
+
+5 6 14
+..***.
+*...X.
+..*...
+..*.**
+....*.
+
+2 3 2
+.**
+X..
+
+4 4 8
+.*.*
+.*X*
+.*.*
+.*.*
+
+3 4 6
+.*.*
+.*X.
+.*.*
+</ans>",0,{}
+96,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 4 1 5
+1 2
+2 3
+3 4
+4 5
+<SPLIT>
+5 4 3 5
+1 2
+2 3
+3 4
+4 5
+<SPLIT>
+5 6 1 5
+1 2
+1 3
+1 4
+4 5
+3 5
+2 5
+<SPLIT>
+10 10 3 7
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+1 10
+<SPLIT>
+15 20 5 12
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+1 5
+2 6
+3 7
+4 8
+5 9
+6 10
+7 11
+8 12
+9 13
+10 14
+</ans>",0,{}
+97,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 2
+<SPLIT>
+10 5
+<SPLIT>
+20 -10
+<SPLIT>
+50 25
+<SPLIT>
+100 0
+</ans>",0,{}
+98,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 3
+10 20 30 40 50
+<SPLIT>
+10 5
+1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+20 10
+100 200 300 400 500 600 700 800 900 1000 1100 1200 1300 1400 1500 1600 1700 1800 1900 2000
+<SPLIT>
+50 20
+1000 2000 3000 4000 5000 6000 7000 8000 9000 10000 11000 12000 13000 14000 15000 16000 17000 18000 19000 20000 21000 22000 23000 24000 25000
+<SPLIT>
+100 50
+10000 20000 30000 40000 50000 60000 70000 80000 90000 100000 110000 120000 130000 140000 150000 160000 170000 180000 190000 200000 210000 220000 230000 240000 250000 260000 270000 280000 290000 300000 310000 320000 330000 340000 350000 360000 370000 380000 390000 400000 410000 420000 430000 440000 450000 460000 470000 480000 490000 500000
+</ans>",0,{}
+99,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6 7
+1 2
+2 3
+3 4
+4 6
+6 5
+4 4
+3 6
+4 2 7 3
+1 10 2
+3 8 2
+5 1 0
+6 5 4
+3 7
+5 2
+<SPLIT>
+10 15
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+1 10
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 1
+5 10 4 2
+1 20 5
+2 15 3
+3 10 7
+4 18 4
+5 12 6
+6 8 2
+7 25 8
+8 30 10
+9 22 9
+10 18 5
+1 10
+2 15
+3 20
+4 12
+5 18
+6 25
+7 30
+8 22
+9 18
+10 20
+<SPLIT>
+8 12
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+1 8
+2 3
+3 4
+4 5
+5 6
+6 7
+7 1
+3 5 2 3
+1 15 4
+2 20 6
+3 10 3
+4 18 5
+5 12 7
+6 25 9
+7 30 8
+8 22 6
+1 10
+2 15
+3 20
+4 12
+5 18
+6 25
+7 30
+8 22
+<SPLIT>
+12 20
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+1 12
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 1
+12 1
+7 15 3 4
+1 20 6
+2 15 4
+3 25 8
+4 18 5
+5 12 7
+6 30 10
+7 22 9
+8 28 12
+9 16 6
+10 24 8
+11 20 7
+12 18 5
+1 10
+2 15
+3 20
+4 12
+5 18
+6 25
+7 30
+8 22
+9 16
+10 24
+11 20
+12 18
+<SPLIT>
+15 25
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+1 15
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 1
+15 1
+10 20 5 6
+1 25 8
+2 20 6
+3 30 10
+4 18 5
+5 15 7
+6 35 12
+7 28 9
+8 22 8
+9 16 6
+10 24 10
+11 20 7
+12 18 5
+13 32 11
+14 26 9
+15 30 10
+1 10
+2 15
+3 20
+4 12
+5 18
+6 25
+7 30
+8 22
+9 16
+10 24
+11 20
+12 18
+13 32
+14 26
+15 30
+</ans>",0,{}
+100,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+3 7 9 7 8
+5 2 5 7 5
+<SPLIT>
+10
+1 2 3 4 5 6 7 8 9 10
+1 1 1 1 1 1 1 1 1 1
+<SPLIT>
+3
+1 1 1
+1 2 3
+<SPLIT>
+7
+1 2 3 4 5 6 7
+1 2 3 4 5 6 7
+<SPLIT>
+20
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+</ans>",0,{}
+101,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+10 4
+13 9
+100 13
+123 456
+92 46
+<SPLIT>
+5
+11 4
+14 9
+101 13
+124 456
+93 46
+<SPLIT>
+5
+12 4
+15 9
+102 13
+125 456
+94 46
+<SPLIT>
+5
+13 4
+16 9
+103 13
+126 456
+95 46
+<SPLIT>
+5
+14 4
+17 9
+104 13
+127 456
+96 46
+</ans>",0,{}
+102,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+s
+f
+f
+s
+<SPLIT>
+4
+f
+s
+f
+s
+<SPLIT>
+5
+s
+f
+s
+f
+s
+<SPLIT>
+6
+f
+s
+f
+s
+f
+s
+<SPLIT>
+7
+s
+f
+s
+f
+s
+f
+s
+</ans>",0,{}
+103,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 2
+1 4
+5 2
+<SPLIT>
+3 3
+1 2
+2 3
+1 3
+<SPLIT>
+3 2
+3 1
+3 2
+<SPLIT>
+10 5
+1 4
+5 2
+7 9
+3 6
+8 10
+<SPLIT>
+20 10
+1 4
+5 2
+7 9
+3 6
+8 10
+11 13
+15 17
+18 19
+12 14
+16 20
+</ans>",0,{}
+104,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 10 1 3
+3 4 7
+<SPLIT>
+5 20 2 5
+4 7 10 13 17
+<SPLIT>
+2 15 3 4
+6 12
+<SPLIT>
+10 50 1 10
+5 10 15 20 25 30 35 40 45 49
+<SPLIT>
+4 30 2 7
+8 12 18 25
+</ans>",0,{}
+105,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+rivest
+shamir
+adleman
+<SPLIT>
+10
+tourist
+petr
+wjmzbmr
+yeputons
+vepifanov
+scottwu
+oooooooooooooooo
+subscriber
+rowdark
+tankengineer
+<SPLIT>
+10
+petr
+egor
+endagorion
+feferivan
+ilovetanyaromanova
+kostka
+dmitriyh
+maratsnowbear
+bredorjaguarturnik
+cgyforever
+<SPLIT>
+7
+car
+care
+careful
+carefully
+becarefuldontforgetsomething
+otherwiseyouwillbehacked
+goodluck
+<SPLIT>
+5
+abc
+bcd
+cde
+def
+efg
+</ans>",0,{}
+106,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 3
+1 2
+3 4
+5 1
+
+10 5
+1 2
+3 4
+5 6
+7 8
+9 10
+
+20 10
+1 2
+3 4
+5 6
+7 8
+9 10
+11 12
+13 14
+15 16
+17 18
+19 20
+
+50 25
+1 2
+3 4
+5 6
+7 8
+9 10
+11 12
+13 14
+15 16
+17 18
+19 20
+21 22
+23 24
+25 26
+27 28
+29 30
+31 32
+33 34
+35 36
+37 38
+39 40
+41 42
+43 44
+45 46
+47 48
+49 50
+
+100 50
+1 2
+3 4
+5 6
+7 8
+9 10
+11 12
+13 14
+15 16
+17 18
+19 20
+21 22
+23 24
+25 26
+27 28
+29 30
+31 32
+33 34
+35 36
+37 38
+39 40
+41 42
+43 44
+45 46
+47 48
+49 50
+51 52
+53 54
+55 56
+57 58
+59 60
+61 62
+63 64
+65 66
+67 68
+69 70
+71 72
+73 74
+75 76
+77 78
+79 80
+81 82
+83 84
+85 86
+87 88
+89 90
+91 92
+93 94
+95 96
+97 98
+99 100
+</ans>",0,{}
+107,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 3 4
+<SPLIT>
+3
+1 10 100
+<SPLIT>
+3
+10000000000000000 10000000000000000 10000000000000000
+<SPLIT>
+3
+23 34 45
+<SPLIT>
+3
+1 2 3
+</ans>",0,{}
+108,"<ans>
+1010
+1011
+1001
+1100
+1101
+<SPLIT>
+10101
+10110
+10011
+11001
+11010
+<SPLIT>
+11111
+11110
+11101
+11011
+10111
+<SPLIT>
+100101
+100110
+100011
+101001
+101010
+<SPLIT>
+101111
+101110
+101101
+101011
+100111
+</ans>",0,{}
+109,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+2
+3
+5
+7
+11
+<SPLIT>
+5
+4
+8
+16
+32
+<SPLIT>
+5
+1
+2
+4
+8
+16
+<SPLIT>
+5
+3
+6
+12
+24
+48
+<SPLIT>
+5
+5
+10
+20
+40
+80
+</ans>",0,{}
+110,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+3
+4
+6
+2000000000
+763243547
+<SPLIT>
+7
+1
+2
+3
+2000000000
+763243547
+<SPLIT>
+7
+1
+2
+3
+2000000000
+763243547
+<SPLIT>
+7
+1
+2
+3
+2000000000
+763243547
+<SPLIT>
+7
+1
+2
+3
+2000000000
+763243547
+</ans>",0,{}
+111,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+1.2 3.4 2.5
+1.5 1.8 2.0
+2.0 2.0 2.0
+1.9 1.8 1.7
+1.1 3.4 2.5
+<SPLIT>
+3.7 1.2 4.5
+2.5 3.8 1.0
+1.5 2.0 2.5
+4.0 1.5 2.0
+2.1 2.9 1.8
+<SPLIT>
+1.0 1.0 1.0
+2.5 2.5 2.5
+3.0 3.0 3.0
+4.0 4.0 4.0
+5.0 5.0 5.0
+<SPLIT>
+1.1 1.2 1.3
+2.1 2.2 2.3
+3.1 3.2 3.3
+4.1 4.2 4.3
+5.1 5.2 5.3
+<SPLIT>
+1.7 2.3 3.9
+2.5 1.8 4.2
+3.1 4.0 2.7
+4.6 2.1 3.5
+1.9 3.7 2.4
+</ans>",0,{}
+112,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+aabb
+aabcaa
+aaaabbbcccddd
+abcdefghijklmnopqrstuvwxyz
+abcabcabcabcabcabcabcabc
+</ans>
+
+<ans>
+[4, 4, 1]
+[6, 5, 1]
+[12, 12, 1]
+[26, 26, 1]
+[26, 26, 1]
+</ans>",0,{}
+113,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 2 30 4
+6 14 25 48
+<SPLIT>
+123 1 2143435 4
+123 11 -5453 141245
+<SPLIT>
+123 1 2143435 4
+54343 -13 6 124
+<SPLIT>
+-123 -1 2143435 4
+-123 -11 5453 -141245
+<SPLIT>
+0 0 100 3
+0 1 2 3
+</ans>",0,{}
+114,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+oxxxx
+x...x
+x...x
+x...x
+xxxxo
+<SPLIT>
+6
+.x.x..
+x.x.x.
+.xo..x
+x..ox.
+.x.x.x
+..x.x.
+<SPLIT>
+3
+o.x
+oxx
+o.x
+<SPLIT>
+4
+o.x.
+.x.o
+x.o.
+.o.x
+<SPLIT>
+7
+o.x.x.o
+x.o.o.x
+.x.x.x.
+o.o.o.o
+x.x.x.x
+.o.o.o.
+o.x.x.o
+</ans>",0,{}
+115,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+100 1
+<SPLIT>
+1000 2
+<SPLIT>
+10000000000000000000 3
+<SPLIT>
+1000000000000000000 2
+<SPLIT>
+10000000000000000000 1
+</ans>",0,{}
+116,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 5
+1 2 1
+1 3 2
+2 3 3
+2 4 4
+3 4 5
+<SPLIT>
+10 15
+1 2 1
+1 3 2
+1 4 3
+1 5 4
+1 6 5
+2 3 6
+2 4 7
+2 5 8
+2 6 9
+3 4 10
+3 5 11
+3 6 12
+4 5 13
+4 6 14
+5 6 15
+<SPLIT>
+20 30
+1 2 1
+1 3 2
+1 4 3
+1 5 4
+1 6 5
+1 7 6
+1 8 7
+1 9 8
+1 10 9
+2 3 10
+2 4 11
+2 5 12
+2 6 13
+2 7 14
+2 8 15
+3 4 16
+3 5 17
+3 6 18
+3 7 19
+3 8 20
+4 5 21
+4 6 22
+4 7 23
+4 8 24
+5 6 25
+5 7 26
+5 8 27
+6 7 28
+6 8 29
+7 8 30
+<SPLIT>
+50 75
+1 2 1
+1 3 2
+1 4 3
+1 5 4
+1 6 5
+1 7 6
+1 8 7
+1 9 8
+1 10 9
+1 11 10
+1 12 11
+1 13 12
+1 14 13
+1 15 14
+1 16 15
+1 17 16
+1 18 17
+1 19 18
+1 20 19
+1 21 20
+2 3 21
+2 4 22
+2 5 23
+2 6 24
+2 7 25
+2 8 26
+2 9 27
+2 10 28
+2 11 29
+2 12 30
+3 4 31
+3 5 32
+3 6 33
+3 7 34
+3 8 35
+3 9 36
+3 10 37
+4 5 38
+4 6 39
+4 7 40
+4 8 41
+4 9 42
+4 10 43
+5 6 44
+5 7 45
+5 8 46
+5 9 47
+5 10 48
+6 7 49
+6 8 50
+6 9 51
+6 10 52
+7 8 53
+7 9 54
+7 10 55
+8 9 56
+8 10 57
+9 10 58
+<SPLIT>
+100 150
+1 2 1
+1 3 2
+1 4 3
+1 5 4
+1 6 5
+1 7 6
+1 8 7
+1 9 8
+1 10 9
+1 11 10
+1 12 11
+1 13 12
+1 14 13
+1 15 14
+1 16 15
+1 17 16
+1 18 17
+1 19 18
+1 20 19
+1 21 20
+1 22 21
+1 23 22
+1 24 23
+1 25 24
+1 26 25
+1 27 26
+1 28 27
+1 29 28
+1 30 29
+1 31 30
+1 32 31
+1 33 32
+1 34 33
+1 35 34
+1 36 35
+1 37 36
+1 38 37
+1 39 38
+1 40 39
+1 41 40
+1 42 41
+1 43 42
+1 44 43
+1 45 44
+1 46 45
+1 47 46
+1 48 47
+1 49 48
+1 50 49
+2 3 50
+2 4 51
+2 5 52
+2 6 53
+2 7 54
+2 8 55
+2 9 56
+2 10 57
+2 11 58
+2 12 59
+2 13 60
+2 14 61
+2 15 62
+2 16 63
+2 17 64
+2 18 65
+2 19 66
+2 20 67
+2 21 68
+2 22 69
+2 23 70
+2 24 71
+2 25 72
+2 26 73
+2 27 74
+2 28 75
+</ans>",0,{}
+117,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 1
+2 3 4 1
+1 2 3 4
+<SPLIT>
+4 1
+4 3 1 2
+3 4 2 1
+<SPLIT>
+4 3
+4 3 1 2
+3 4 2 1
+<SPLIT>
+4 2
+4 3 1 2
+2 1 4 3
+<SPLIT>
+4 1
+4 3 1 2
+2 1 4 3
+</ans>",0,{}
+118,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 6
+1 100
+2 2
+5 5
+2 1000000000
+1000000000 1000000000
+<SPLIT>
+4 10
+2 5
+3 9
+5 15
+10 50
+<SPLIT>
+2 100
+3 50
+4 75
+6 200
+8 300
+<SPLIT>
+1 1000000000
+2 500000000
+3 333333333
+4 250000000
+5 200000000
+<SPLIT>
+7 20
+3 10
+5 15
+8 25
+12 40
+15 50
+</ans>",0,{}
+119,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+2 1 1 -3 4
+<SPLIT>
+7
+1 1 1 1 2 3 4
+<SPLIT>
+10
+-5 0 1 2 3 4 5 6 7 8
+<SPLIT>
+3
+-1 0 1
+<SPLIT>
+15
+-10 -9 -8 -7 -6 -5 -4 -3 -2 -1 0 1 2 3 4
+</ans>",0,{}
+120,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 2 3
+<SPLIT>
+4
+1 1 1 3
+<SPLIT>
+2
+2 2
+<SPLIT>
+5
+1 2 1 2 3
+<SPLIT>
+6
+2 2 2 2 2 2
+</ans>",0,{}
+121,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+1 2 3 2 1
+<SPLIT>
+3
+10 6 8
+<SPLIT>
+7
+5 7 3 9 2 6 4
+<SPLIT>
+10
+1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+8
+3 5 2 7 1 9 4 6
+</ans>",0,{}
+122,"Here are 5 groups of test case inputs for the ""Two Dots"" programming problem:
+
+<ans>
+3 4
+AAAA
+ABCA
+AAAA
+<SPLIT>
+3 4
+AAAA
+ABCA
+AADA
+<SPLIT>
+4 4
+YYYR
+BYBY
+BBBY
+BBBY
+<SPLIT>
+7 6
+AAAAAB
+ABBBAB
+ABAAAB
+ABABBB
+ABAAAB
+ABBBAB
+AAAAAB
+<SPLIT>
+2 13
+ABCDEFGHIJKLM
+NOPQRSTUVWXYZ
+</ans>",0,{}
+123,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+1
+2
+3
+4
+5
+<SPLIT>
+10
+20
+30
+40
+50
+<SPLIT>
+100
+200
+300
+400
+500
+<SPLIT>
+1000
+2000
+3000
+4000
+5000
+<SPLIT>
+5001
+5002
+5003
+5004
+5005
+</ans>",0,{}
+124,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10 50 2
+<SPLIT>
+1 2345 10
+<SPLIT>
+101 154 2
+<SPLIT>
+1 1000000000000000 5
+<SPLIT>
+1000000000000000 1000000000000000 10
+</ans>",0,{}
+125,"<ans>
+4 3 2 1 2
+1 2 3 4 5
+1 2 3
+4 5 6
+7 8 9
+<SPLIT>
+3 2 1 2 3
+1 2 3
+4 5 6
+7 8 9
+10 11 12
+<SPLIT>
+5 4 3 2 1
+1 2 3 4 5
+6 7 8 9 10
+11 12 13 14 15
+16 17 18 19 20
+<SPLIT>
+6 5 4 3 2
+1 2 3 4 5 6
+7 8 9 10 11 12
+13 14 15 16 17 18
+19 20 21 22 23 24
+<SPLIT>
+7 6 5 4 3
+1 2 3 4 5 6 7
+8 9 10 11 12 13 14
+15 16 17 18 19 20 21
+22 23 24 25 26 27 28
+</ans>",0,{}
+126,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 2 3 5
+-2 -1 4
+-1 2
+7 3
+
+5 3 2 7
+-3 -1 0 2 4
+-2 0 3
+5 10 15
+
+10 5 1 10
+-5 -3 -1 0 1 3 5 7 9 10
+-4 -2 0 2 4
+20 15 10 5 1
+
+4 4 1 10
+-5 -3 0 5
+-4 -2 2 4
+10 20 30 40
+
+7 7 2 8
+-6 -4 -2 0 2 4 6
+-5 -3 -1 1 3 5 7
+50 40 30 20 10 5 1
+</ans>",0,{}
+127,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+1 2 4 4
+<SPLIT>
+9
+1 1 8 8 8 4 4 4 4
+<SPLIT>
+7
+4 3 7 1 4 3 3
+<SPLIT>
+10
+1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+5
+1 3 5 7 9
+</ans>",0,{}
+128,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+-9
+<SPLIT>
+-5
+<SPLIT>
+-1
+<SPLIT>
+10
+<SPLIT>
+100
+</ans>",0,{}
+129,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 4
+1 4
+3 3
+6 2
+8 1
+
+10 5
+-5 -5
+-4 -4
+-3 -3
+-2 -2
+-1 -1
+0 0
+1 1
+2 2
+3 3
+4 4
+
+20 10
+-10 -10
+-9 -9
+-8 -8
+-7 -7
+-6 -6
+-5 -5
+-4 -4
+-3 -3
+-2 -2
+-1 -1
+0 0
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+
+30 15
+-15 -15
+-14 -14
+-13 -13
+-12 -12
+-11 -11
+-10 -10
+-9 -9
+-8 -8
+-7 -7
+-6 -6
+-5 -5
+-4 -4
+-3 -3
+-2 -2
+-1 -1
+0 0
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+
+40 20
+-20 -20
+-19 -19
+-18 -18
+-17 -17
+-16 -16
+-15 -15
+-14 -14
+-13 -13
+-12 -12
+-11 -11
+-10 -10
+-9 -9
+-8 -8
+-7 -7
+-6 -6
+-5 -5
+-4 -4
+-3 -3
+-2 -2
+-1 -1
+0 0
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+</ans>",0,{}
+130,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+15 20
+<SPLIT>
+14 8
+<SPLIT>
+6 6
+<SPLIT>
+100 200
+<SPLIT>
+1000 2000
+</ans>",0,{}
+131,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2
+1 2
+2 3
+<SPLIT>
+3
+1 3
+2 4
+3 5
+<SPLIT>
+5
+1 2
+2 3
+3 4
+4 5
+5 6
+<SPLIT>
+10
+1 10
+2 9
+3 8
+4 7
+5 6
+6 7
+7 8
+8 9
+9 10
+10 10
+<SPLIT>
+20
+1 20
+2 19
+3 18
+4 17
+5 16
+6 15
+7 14
+8 13
+9 12
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 20
+</ans>",0,{}
+132,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 2 3 4 5 6 7 8 9
+<SPLIT>
+4
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+<SPLIT>
+5
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+<SPLIT>
+2
+1 2 3 4
+<SPLIT>
+4
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+</ans>",0,{}
+133,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6
+2 0 3 0 1 1
+<SPLIT>
+1
+0
+<SPLIT>
+6
+3 2 2 2 1 1
+<SPLIT>
+5
+1 1 1 1 1
+<SPLIT>
+10
+3 2 2 2 2 2 2 2 2 2
+</ans>",0,{}
+134,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2 6
+2 3
+<SPLIT>
+36 5
+10 16
+<SPLIT>
+3 5
+2 1
+<SPLIT>
+10 10
+10 10
+<SPLIT>
+100 100
+100 100
+</ans>",0,{}
+135,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10
+aabbbbaaca
+<SPLIT>
+5
+aabbb
+<SPLIT>
+20
+aaaabbbbccccddddeeee
+<SPLIT>
+15
+abcdefghijklmno
+<SPLIT>
+30
+aaaaaaaaaabbbbbbbbbbcccccccccc
+</ans>",0,{}
+136,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10
+1 0 1 0 1 0 1 0 1 1
+9
+0 1 0 1 0 1 0 1 1
+15
+1 0 1 0 1 0 1 0 1 0 1 0 1 0 1
+20
+1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1
+25
+1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1
+<SPLIT>
+[10, 10, 10]
+[9, 9, 9]
+[15, 15, 15]
+[20, 20, 20]
+[25, 25, 25]
+</ans>
+
+The test case inputs are generated such that the Euclid's algorithm performs exactly the specified number of steps (n) to find the greatest common divisor of the two polynomials. The coefficients of the polynomials are restricted to be either 0, 1, or -1, and the leading coefficient of the first polynomial is set to 1.",0,{}
+137,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3
+<SPLIT>
+4 4
+<SPLIT>
+5 5
+<SPLIT>
+6 6
+<SPLIT>
+7 7
+</ans>",0,{}
+138,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6 2 2
+1 1 2 2 1 1
+
+6 3 2
+1 2 1 2 1 2
+
+10 5 3
+1 2 3 4 3 2 1 2 3 4
+
+20 10 5
+1 2 3 4 5 6 7 8 9 10 9 8 7 6 5 4 3 2 1 5
+
+50 20 10
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 10
+<SPLIT>
+3 1 1
+1 1 1
+
+5 2 1
+1 2 1 2 1
+
+10 5 2
+1 2 3 4 2 3 4 5 2 1
+
+15 7 3
+1 2 3 4 5 6 7 6 5 4 3 2 1 3 5
+
+30 15 7
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 7
+<SPLIT>
+</ans>",0,{}
+139,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10 2 1
+1 1 1
+1 1 1
+1 1 1
+2 2 2
+2 2 2
+2 2 2
+<SPLIT>
+8 1 1
+2 2 1
+3 3 1
+3 1 3
+1 1 1
+2 1 1
+1 2 3
+<SPLIT>
+5 1 1
+1 2 2
+2 2 2
+2 2 2
+1 2 2
+2 2 2
+2 2 2
+<SPLIT>
+15 3 2
+1 2 3
+2 3 1
+3 1 2
+1 2 3
+2 3 1
+3 1 2
+<SPLIT>
+20 1 3
+2 1 3
+3 2 1
+1 3 2
+2 1 3
+3 2 1
+1 3 2
+</ans>",0,{}
+140,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+dreamerasereamdeream
+<SPLIT>
+dreamerdreamerasedream
+<SPLIT>
+dreamerdreamerasedreamerasedream
+<SPLIT>
+dreamerdreamerasedreamerasedreamerasedream
+<SPLIT>
+dreamerdreamerasedreamerasedreamerasedreamerasedream
+</ans>",True,{}
+141,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 5
+1 2 3 4 5
+2 3 4 5 6
+1 2
+2 3
+3 4
+4 5
+5 1
+<SPLIT>
+3 2
+1 2 3
+2 2 2
+1 2
+2 3
+<SPLIT>
+10 10
+-5 -4 -3 -2 -1 0 1 2 3 4
+-4 -3 -2 -1 0 1 2 3 4 5
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 1
+<SPLIT>
+7 6
+-10 -9 -8 -7 -6 -5 -4
+-9 -8 -7 -6 -5 -4 -3
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+<SPLIT>
+15 14
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+</ans>",0,{}
+142,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2
+3 2
+3 1 3 2
+1 2 2 2
+1 0 0 1
+
+4
+10 10 
+1 2 1 1
+5 5 6 5
+6 4 5 4
+2 1 2 0
+
+2
+2 2
+2 1 1 1 
+1 2 2 2
+1 0 0 0
+
+5
+5 5
+1 1 2 1
+2 2 3 2
+3 3 4 3
+4 4 5 4
+4 1 1 4
+
+3
+4 4
+1 1 2 1
+2 2 3 2
+3 3 4 3
+1 1 1 1
+</ans>",0,{}
+143,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+ababa
+<SPLIT>
+abcba
+<SPLIT>
+abcabc
+<SPLIT>
+abcdefgfedcba
+<SPLIT>
+abcdefghihgfedcba
+</ans>",True,{}
+144,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 2
+abcd
+bcde
+bcad
+bcde
+
+5 3
+bwwwz
+hrhdh
+sepsp
+sqfaf
+ajbvw
+
+7 6
+ypnxnnp
+pnxonpm
+nxanpou
+xnnpmud
+nhtdudu
+npmuduh
+pmutsnz
+
+3 1
+abc
+bcd
+cde
+
+6 4
+abcdef
+bcdefg
+cdefgh
+defghi
+efghij
+fghijk
+</ans>",0,{}
+145,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3 10
+5 5 2
+7 6 3
+<SPLIT>
+4 5 2
+8 1 1 2
+6 3 7 5 2
+<SPLIT>
+5 7 15
+3 5 7 9 11
+2 4 6 8 10 12 14
+<SPLIT>
+2 2 20
+10 15
+8 12
+<SPLIT>
+7 10 50
+8 5 12 3 9 6 10
+20 15 18 22 25 30 35 40 45 50
+</ans>",0,{}
+146,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+wow
+this
+is
+the
+first
+mcdics
+codeforces
+round
+hooray
+i
+am
+proud
+about
+that
+
+7
+arsijo
+suggested
+the
+idea
+for
+this
+problem
+
+4
+same
+same
+same
+differ
+
+10
+hello
+world
+hi
+there
+how
+are
+you
+doing
+today
+great
+
+6
+apple
+orange
+banana
+pear
+kiwi
+mango
+</ans>",0,{}
+147,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 7
+1 6 3
+<SPLIT>
+5 10
+1 2 3 4 5
+<SPLIT>
+10 100
+10 20 30 40 50 60 70 80 90 100
+<SPLIT>
+2 5
+0 0
+<SPLIT>
+7 20
+1 2 3 4 5 6 7
+</ans>",True,{}
+148,"<ans>
+3 1 10 100
+3 1 100 10
+4 1 2 3 4
+3 1 4 1
+2 1 1
+6 2 7 1 8 2 8
+</ans>",0,{}
+149,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 8 2
+0 10 3
+1 100 5
+10 20 7
+100 200 11
+</ans>
+
+<ans>
+0 100 1
+1 1000 2
+10 10000 3
+100 100000 4
+1000 1000000 5
+</ans>
+
+<ans>
+0 1000000000000000000 1
+1 1000000000000000000 2
+10 1000000000000000000 3
+100 1000000000000000000 4
+1000 1000000000000000000 5
+</ans>
+
+<ans>
+1 10 1
+5 15 2
+10 20 3
+50 100 4
+100 200 5
+</ans>
+
+<ans>
+0 0 1
+1 1 1
+10 10 1
+100 100 1
+1000 1000 1
+</ans>",0,{}
+150,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+100 50 50
+<SPLIT>
+199 60 40
+<SPLIT>
+500 100 200
+<SPLIT>
+1000 300 400
+<SPLIT>
+750 250 150
+</ans>",0,{}
+151,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+1 2 5
+-1 4 15
+0 -1 5
+-10 10 20
+-5 5 0
+<SPLIT>
+-5 5 10
+-10 10 0
+0 0 5
+-1 1 2
+-100 100 50
+<SPLIT>
+-1000000000000000000 1000000000000000000 500000000000000000
+0 0 0
+-1 -1 -1
+1 1 1
+100 -100 0
+<SPLIT>
+-100000000000000000 100000000000000000 -50000000000000000
+-50000000000000000 50000000000000000 0
+50000000000000000 -50000000000000000 25000000000000000
+-25000000000000000 25000000000000000 -12500000000000000
+12500000000000000 -12500000000000000 6250000000000000
+<SPLIT>
+-1000000000000000000 1000000000000000000 1000000000000000000
+-500000000000000000 500000000000000000 250000000000000000
+250000000000000000 -250000000000000000 125000000000000000
+-125000000000000000 125000000000000000 -62500000000000000
+62500000000000000 -62500000000000000 31250000000000000
+</ans>",0,{}
+152,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 4
+abaca
+1 2
+1 3
+3 4
+4 5
+
+6 6
+xzyabc
+1 2
+3 1
+2 3
+5 4
+4 3
+6 4
+
+10 14
+xzyzyzyzqx
+1 2
+3 1
+2 3
+5 4
+4 3
+2 6
+6 8
+6 5
+2 10
+3 9
+10 9
+4 6
+1 10
+2 8
+
+7 8
+abcadef
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+1 7
+2 6
+
+8 10
+aaaabbbb
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+1 8
+2 7
+3 6
+<SPLIT>
+</ans>",0,{}
+153,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 4 2
+<SPLIT>
+5 1 3
+<SPLIT>
+10 -5 2
+<SPLIT>
+20 100 -10
+<SPLIT>
+50 -50 1
+</ans>",True,{}
+154,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+0 5 0 2 3
+<SPLIT>
+7
+1 0 0 5 0 0 2
+<SPLIT>
+10
+0 0 0 0 0 0 0 0 0 0
+<SPLIT>
+15
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+<SPLIT>
+20
+0 2 4 6 8 10 12 14 16 18 1 3 5 7 9 11 13 15 17 19
+</ans>",0,{}
+155,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+1 2 3 4 5
+1000 2000 3000 4000 5000
+<SPLIT>
+10
+1 2 3 4 5 6 7 8 9 10
+500 1000 1500 2000 2500 3000 3500 4000 4500 5000
+<SPLIT>
+20
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+100 200 300 400 500 600 700 800 900 1000 1100 1200 1300 1400 1500 1600 1700 1800 1900 2000
+<SPLIT>
+50
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50
+10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 230 240 250 260 270 280 290 300 310 320 330 340 350 360 370 380 390 400 410 420 430 440 450 460 470 480 490 500
+<SPLIT>
+100
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100
+</ans>",0,{}
+156,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 2
+<SPLIT>
+10 3
+<SPLIT>
+100 5
+<SPLIT>
+1000000000 10
+<SPLIT>
+500000000 7
+</ans>",0,{}
+157,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 9 3
+8 6 7
+4 2 5
+<SPLIT>
+4
+1 2 3 4
+8 7 6 5
+12 11 10 9
+16 15 14 13
+<SPLIT>
+5
+1 2 3 4 5
+10 9 8 7 6
+15 14 13 12 11
+20 19 18 17 16
+25 24 23 22 21
+<SPLIT>
+6
+1 2 3 4 5 6
+12 11 10 9 8 7
+13 14 15 16 17 18
+24 23 22 21 20 19
+25 26 27 28 29 30
+36 35 34 33 32 31
+<SPLIT>
+7
+1 2 3 4 5 6 7
+14 13 12 11 10 9 8
+15 16 17 18 19 20 21
+28 27 26 25 24 23 22
+29 30 31 32 33 34 35
+42 41 40 39 38 37 36
+49 48 47 46 45 44 43
+</ans>",0,{}
+158,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 1
+2 2
+3 1
+<SPLIT>
+4
+2 3
+2 2
+2 1
+2 4
+<SPLIT>
+3
+1 1
+1 1
+2 3
+<SPLIT>
+5
+1 2
+2 3
+3 1
+4 4
+5 5
+<SPLIT>
+10
+1 2
+2 3
+3 1
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+</ans>",0,{}
+159,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4 3
+0 1 W
+1 2 W
+5 3 B
+5 4 B
+
+10 5
+0 1 W
+1 2 W
+5 3 B
+5 4 B
+10 5 W
+10 6 B
+11 7 W
+12 8 B
+13 9 W
+14 10 B
+
+20 10
+0 1 W
+1 2 W
+5 3 B
+5 4 B
+10 5 W
+10 6 B
+11 7 W
+12 8 B
+13 9 W
+14 10 B
+15 11 W
+16 12 B
+17 13 W
+18 14 B
+19 15 W
+20 16 B
+21 17 W
+22 18 B
+23 19 W
+24 20 B
+
+50 20
+0 1 W
+1 2 W
+5 3 B
+5 4 B
+10 5 W
+10 6 B
+11 7 W
+12 8 B
+13 9 W
+14 10 B
+15 11 W
+16 12 B
+17 13 W
+18 14 B
+19 15 W
+20 16 B
+21 17 W
+22 18 B
+23 19 W
+24 20 B
+25 21 W
+26 22 B
+27 23 W
+28 24 B
+29 25 W
+30 26 B
+31 27 W
+32 28 B
+33 29 W
+34 30 B
+35 31 W
+36 32 B
+37 33 W
+38 34 B
+39 35 W
+40 36 B
+41 37 W
+42 38 B
+43 39 W
+44 40 B
+45 41 W
+46 42 B
+47 43 W
+48 44 B
+49 45 W
+50 46 B
+
+100 50
+0 1 W
+1 2 W
+5 3 B
+5 4 B
+10 5 W
+10 6 B
+11 7 W
+12 8 B
+13 9 W
+14 10 B
+15 11 W
+16 12 B
+17 13 W
+18 14 B
+19 15 W
+20 16 B
+21 17 W
+22 18 B
+23 19 W
+24 20 B
+25 21 W
+26 22 B
+27 23 W
+28 24 B
+29 25 W
+30 26 B
+31 27 W
+32 28 B
+33 29 W
+34 30 B
+35 31 W
+36 32 B
+37 33 W
+38 34 B
+39 35 W
+40 36 B
+41 37 W
+42 38 B
+43 39 W
+44 40 B
+45 41 W
+46 42 B
+47 43 W
+48 44 B
+49 45 W
+50 46 B
+51 47 W
+52 48 B
+53 49 W
+54 50 B
+55 51 W
+56 52 B
+57 53 W
+58 54 B
+59 55 W
+60 56 B
+61 57 W
+62 58 B
+63 59 W
+64 60 B
+65 61 W
+66 62 B
+67 63 W
+68 64 B
+69 65 W
+70 66 B
+71 67 W
+72 68 B
+73 69 W
+74 70 B
+75 71 W
+76 72 B
+77 73 W
+78 74 B
+79 75 W
+80 76 B
+81 77 W
+82 78 B
+83 79 W
+84 80 B
+85 81 W
+86 82 B
+87 83 W
+88 84 B
+89 85 W
+90 86 B
+91 87 W
+92 88 B
+93 89 W
+94 90 B
+95 91 W
+96 92 B
+97 93 W
+98 94 B
+99 95 W
+100 96 B
+</ans>",0,{}
+160,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+127
+<SPLIT>
+1000
+<SPLIT>
+10000
+<SPLIT>
+50000
+<SPLIT>
+100000
+</ans>",0,{}
+161,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+8
+8 7 3 1 7 0 9 4
+3
+1 8
+2 5
+7 7
+<SPLIT>
+6
+0 1 2 3 3 5
+3
+1 2
+1 4
+3 6
+<SPLIT>
+10
+1 2 3 4 5 6 7 8 9 0
+5
+1 2
+3 6
+5 8
+7 10
+1 10
+<SPLIT>
+16
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6
+4
+1 4
+5 8
+9 12
+13 16
+<SPLIT>
+20
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9
+6
+1 4
+5 8
+9 12
+13 16
+17 20
+1 20
+</ans>",0,{}
+162,"Here are 5 groups of test case inputs for the ""Bus of Characters"" problem:
+
+<ans>
+3
+1 2 3
+010101
+
+4
+5 10 8 3
+0101010101
+
+6
+10 8 9 11 13 5
+010010011101
+
+10
+1 2 3 4 5 6 7 8 9 10
+0101010101010101
+
+20
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+01010101010101010101010101
+<SPLIT>
+
+[3, 1, 2, 3, 2, 1]
+[4, 3, 4, 1, 2, 3, 2, 1]
+[6, 6, 2, 3, 3, 1, 4, 4, 1, 2, 5, 5]
+[10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[20, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+</ans>
+
+The first group of test case inputs has 3 rows, with seat widths 1, 2, and 3, and the passenger order is ""010101"".
+
+The second group has 4 rows, with seat widths 5, 10, 8, and 3, and the passenger order is ""0101010101"".
+
+The third group has 6 rows, with seat widths 10, 8, 9, 11, 13, and 5, and the passenger order is ""010010011101"".
+
+The fourth group has 10 rows, with seat widths 1 to 10, and the passenger order is ""0101010101010101"".
+
+The fifth group has 20 rows, with seat widths 1 to 20, and the passenger order is ""01010101010101010101010101"".",0,{}
+163,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10 5 3
+2 3 5
+1 2 0
+2 3 0
+3 4 1
+4 5 2
+5 6 3
+6 7 4
+7 8 5
+8 9 6
+9 10 7
+
+10 5 3
+2 3 5
+1 2 0
+2 3 0
+3 4 1
+4 5 2
+5 6 3
+6 7 4
+7 8 5
+8 9 6
+9 10 7
+
+5 3 2
+2 3
+1 2 0
+2 3 1
+3 4 2
+
+10 10 5
+2 2 2 2 2
+1 2 1
+1 3 2
+1 4 3
+1 5 4
+2 3 5
+2 4 6
+2 5 7
+3 4 8
+3 5 9
+4 5 10
+
+20 15 10
+3 2 2 2 2 2 2 2 2 2
+1 2 1
+1 3 2
+1 4 3
+1 5 4
+1 6 5
+2 3 6
+2 4 7
+2 5 8
+2 6 9
+3 4 10
+3 5 11
+3 6 12
+4 5 13
+4 6 14
+5 6 15
+</ans>",0,{}
+164,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3
+*.*
+.*.
+*.*
+
+5 5
+**..*
+..***
+.*.*.
+*.*.*
+.*.*.*
+
+4 4
+****
+.*.*
+****
+.*.*
+
+7 7
+*.*.*.*
+.*.*.*
+*.*.*.*
+.*.*.*
+*.*.*.*
+.*.*.*
+*.*.*.*
+
+10 10
+**********
+.*.*.*.*.*
+**********
+.*.*.*.*.*
+**********
+.*.*.*.*.*
+**********
+.*.*.*.*.*
+**********
+.*.*.*.*.*
+</ans>",0,{}
+165,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2 1 3
+3 3 6
+99995 9998900031 9998900031
+
+3 1 5
+4 2 7
+100000 99999900001 99999900001
+
+5 1 10
+7 3 12
+50000 25000001 25000001
+
+10 1 20
+15 5 30
+75000 37500001 37500001
+
+20 1 40
+30 10 60
+100000 50000001 50000001
+</ans>",0,{}
+166,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10 6
+1234560
+1234560
+1234560
+1234560
+1234560
+1234560
+1234560
+1234560
+1234560
+1234560
+<SPLIT>
+2 1
+1
+10
+<SPLIT>
+5 3
+12345
+12345
+12345
+12345
+12345
+<SPLIT>
+8 7
+1234567
+1234567
+1234567
+1234567
+1234567
+1234567
+1234567
+1234567
+<SPLIT>
+15 4
+1234
+1234
+1234
+1234
+1234
+1234
+1234
+1234
+1234
+1234
+1234
+1234
+1234
+1234
+1234
+</ans>",0,{}
+167,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 1 10
+7 5 12345
+5 0 4
+10 5 15
+17 8 54321
+<SPLIT>
+4 2 20
+499999993 9 1000000000
+10 5 187
+2 0 999999999
+3 2 15
+<SPLIT>
+5 3 25
+3 1 10
+7 5 12345
+5 0 4
+10 5 15
+<SPLIT>
+8 4 40
+17 8 54321
+499999993 9 1000000000
+10 5 187
+2 0 999999999
+<SPLIT>
+6 1 30
+3 1 10
+7 5 12345
+5 0 4
+10 5 15
+17 8 54321
+</ans>",0,{}
+168,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2 3 2
+..#
+###
+<SPLIT>
+3 3 4
+#.#
+.#.
+#.#
+<SPLIT>
+4 4 6
+..#.
+#.#.
+.#..
+..#.
+<SPLIT>
+5 5 10
+.#.#.
+#.#.#
+.#.#.
+#.#.#
+.#.#.
+<SPLIT>
+6 6 12
+.#.#..
+#.#.#.
+.#.#..
+#.#.#.
+.#.#..
+#.#.#.
+</ans>",0,{}
+169,"<ans>
+5
+6
+12
+29
+40
+</ans>",0,{}
+170,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+abcdefghij
+0
+abcdefghij
+1
+abcdefghij
+2
+abcdefghij
+3
+abcdefghij
+4
+<SPLIT>
+zyxwvutsrq
+0
+zyxwvutsrq
+1
+zyxwvutsrq
+2
+zyxwvutsrq
+3
+zyxwvutsrq
+4
+<SPLIT>
+aabbccddee
+0
+aabbccddee
+1
+aabbccddee
+2
+aabbccddee
+3
+aabbccddee
+4
+<SPLIT>
+abcdefghijklmnopqrstuvwxyz
+0
+abcdefghijklmnopqrstuvwxyz
+1
+abcdefghijklmnopqrstuvwxyz
+2
+abcdefghijklmnopqrstuvwxyz
+3
+abcdefghijklmnopqrstuvwxyz
+4
+<SPLIT>
+aaaaaaaaaaaaaaaaaaaaaaaaaa
+0
+aaaaaaaaaaaaaaaaaaaaaaaaaa
+1
+aaaaaaaaaaaaaaaaaaaaaaaaaa
+2
+aaaaaaaaaaaaaaaaaaaaaaaaaa
+3
+aaaaaaaaaaaaaaaaaaaaaaaaaa
+4
+</ans>",0,{}
+171,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10 0 0 5 5
+EEEEEEEEEEE
+
+10 0 0 -5 -5
+WWWWWWWWWW
+
+20 10 10 0 0
+NNNNNNNNNNNNNNNNNNN
+
+15 -5 5 5 -5
+SWSWSWSWSWSWSWSWSW
+
+25 0 0 10 10
+EEEEEEEEEEEEEEEEEEEEEEEEE
+</ans>",0,{}
+172,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+1 2 3
+<SPLIT>
+4 5 6
+<SPLIT>
+7 8 9
+<SPLIT>
+10 11 12
+<SPLIT>
+13 14 15
+</ans>",0,{}
+173,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 5
+3 1 2 2 4
+<SPLIT>
+4 5
+2 3 4 5
+<SPLIT>
+10 10
+5 5 5 5 5 5 5 5 5 5
+<SPLIT>
+7 8
+3 4 2 6 1 5 7
+<SPLIT>
+15 20
+10 12 8 15 9 11 7 13 6 14 5 16 4 17 3
+</ans>",0,{}
+174,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2
+........
+........
+......#.
+K..##..#
+.......#
+...##..#
+......#.
+K.......
+
+........
+........
+..#.....
+..#..#..
+..####..
+...##...
+........
+....K#K#
+
+3
+........
+........
+......#.
+K..##..#
+.......#
+...##..#
+......#.
+K.......
+
+........
+........
+..#.....
+..#..#..
+..####..
+...##...
+........
+....K#K#
+
+........
+........
+......#.
+K..##..#
+.......#
+...##..#
+......#.
+K.......
+
+<SPLIT>
+4
+........
+........
+......#.
+K..##..#
+.......#
+...##..#
+......#.
+K.......
+
+........
+........
+..#.....
+..#..#..
+..####..
+...##...
+........
+....K#K#
+
+........
+........
+......#.
+K..##..#
+.......#
+...##..#
+......#.
+K.......
+
+........
+........
+..#.....
+..#..#..
+..####..
+...##...
+........
+....K#K#
+
+<SPLIT>
+5
+........
+........
+......#.
+K..##..#
+.......#
+...##..#
+......#.
+K.......
+
+........
+........
+..#.....
+..#..#..
+..####..
+...##...
+........
+....K#K#
+
+........
+........
+......#.
+K..##..#
+.......#
+...##..#
+......#.
+K.......
+
+........
+........
+..#.....
+..#..#..
+..####..
+...##...
+........
+....K#K#
+
+........
+........
+......#.
+K..##..#
+.......#
+...##..#
+......#.
+K.......
+
+<SPLIT>
+6
+........
+........
+......#.
+K..##..#
+.......#
+...##..#
+......#.
+K.......
+
+........
+........
+..#.....
+..#..#..
+..####..
+...##...
+........
+....K#K#
+
+........
+........
+......#.
+K..##..#
+.......#
+...##..#
+......#.
+K.......
+
+........
+........
+..#.....
+..#..#..
+..####..
+...##...
+........
+....K#K#
+
+........
+........
+......#.
+K..##..#
+.......#
+...##..#
+......#.
+K.......
+
+</ans>",0,{}
+175,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+0 2 0 4 0
+3 0 1 0 5
+<SPLIT>
+7
+0 0 0 0 0 0 7
+1 2 3 4 5 6 0
+<SPLIT>
+11
+0 0 0 5 0 0 0 4 0 0 11
+9 2 6 0 8 1 7 0 3 0 10
+<SPLIT>
+4
+0 0 0 4
+1 2 3 0
+<SPLIT>
+15
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 15
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 0
+</ans>",0,{}
+176,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 3
+1 2 1
+1 2
+2 3
+1 3
+
+3 2
+1 1 0
+1 2
+1 3
+
+4 4
+1 2 0 1
+1 3
+1 2
+2 3
+2 4
+
+5 5
+1 1 1 2 1
+3 4
+1 2
+2 3
+4 5
+4 5
+
+4 10
+2 4 1 4
+3 2
+4 2
+4 1
+3 1
+4 1
+1 3
+3 2
+2 1
+3 1
+2 4
+</ans>",0,{}
+177,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+7
+3
+6
+7
+21
+28
+999999999
+999999984
+<SPLIT>
+5
+5
+10
+15
+20
+25
+30
+<SPLIT>
+3
+10
+100
+1000
+<SPLIT>
+2
+100
+1000000
+<SPLIT>
+4
+50
+100
+500
+1000
+</ans>",0,{}
+178,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+3 3 3 3 3
+<SPLIT>
+10
+10 9 8 7 6 5 4 3 2 1
+<SPLIT>
+20
+20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+<SPLIT>
+50
+50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+<SPLIT>
+100
+100 99 98 97 96 95 94 93 92 91 90 89 88 87 86 85 84 83 82 81 80 79 78 77 76 75 74 73 72 71 70 69 68 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+</ans>",0,{}
+179,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+1500 2000 1600 3 2
+2000 1500 1800 4 3
+3000 2500 2800 5 4
+1000 1200 1100 2 2
+2500 3000 2700 6 5
+</ans>
+
+<ans>
+1000 1500 1200 10 10
+2000 2500 2300 20 15
+3000 3500 3200 30 20
+1500 2000 1800 15 12
+2500 3000 2800 25 18
+</ans>
+
+<ans>
+2000 2500 2200 8 6
+3000 3500 3100 12 9
+4000 4500 4200 16 12
+1500 2000 1800 6 4
+2500 3000 2700 10 8
+</ans>
+
+<ans>
+1200 1800 1500 5 3
+2500 3000 2800 10 7
+3800 4200 4000 15 10
+1000 1500 1300 3 2
+2200 2700 2400 8 5
+</ans>
+
+<ans>
+1800 2200 2000 7 5
+2800 3300 3100 13 9
+4000 4500 4200 18 12
+1300 1700 1500 4 3
+2600 3100 2900 11 7
+</ans>",0,{}
+180,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 5
+1 2 -1
+2 3 2
+3 4 -3
+4 5 4
+1 5 -2
+<SPLIT>
+10 10
+1 2 1
+2 3 2
+3 4 -3
+4 5 4
+5 6 -5
+6 7 6
+7 8 -7
+8 9 8
+9 10 -9
+1 10 -10
+<SPLIT>
+7 7
+1 2 1
+2 3 2
+3 4 -3
+4 5 4
+5 6 -5
+6 7 6
+1 7 -7
+<SPLIT>
+15 15
+1 2 1
+2 3 2
+3 4 -3
+4 5 4
+5 6 -5
+6 7 6
+7 8 -7
+8 9 8
+9 10 -9
+10 11 10
+11 12 -11
+12 13 12
+13 14 -13
+14 15 14
+1 15 -15
+<SPLIT>
+20 20
+1 2 1
+2 3 2
+3 4 -3
+4 5 4
+5 6 -5
+6 7 6
+7 8 -7
+8 9 8
+9 10 -9
+10 11 10
+11 12 -11
+12 13 12
+13 14 -13
+14 15 14
+15 16 -15
+16 17 16
+17 18 -17
+18 19 18
+19 20 -19
+1 20 -20
+</ans>",0,{}
+181,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 3
+10 2
+100 5
+1000000000 10
+97 3
+<SPLIT>
+5 3
+10 2
+100 5
+1000000000 10
+97 3
+<SPLIT>
+5 3
+10 2
+100 5
+1000000000 10
+97 3
+<SPLIT>
+5 3
+10 2
+100 5
+1000000000 10
+97 3
+<SPLIT>
+5 3
+10 2
+100 5
+1000000000 10
+97 3
+</ans>",0,{}
+182,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+ab
+acxb
+cax
+<SPLIT>
+aaaa
+aaabbcc
+a
+<SPLIT>
+aaaa
+aabbcc
+ab
+<SPLIT>
+baaa
+aaaaa
+ab
+<SPLIT>
+abcde
+abcde
+abcde
+</ans>",0,{}
+183,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+1
+2 1
+1
+1 1
+1
+2 0
+1
+1
+1 0
+<SPLIT>
+4
+2
+1 1
+2 0
+2
+1 1
+2 1
+<SPLIT>
+3
+2
+1 1
+2 0
+1
+1 0
+<SPLIT>
+7
+3
+1 1
+2 1
+3 0
+2
+1 1
+2 0
+1
+1 0
+<SPLIT>
+10
+4
+1 1
+2 1
+3 1
+4 1
+2
+1 0
+2 0
+3
+1 1
+2 0
+4 0
+</ans>",0,{}
+184,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+abaa
+<SPLIT>
+7
+aacdeee
+<SPLIT>
+2
+az
+<SPLIT>
+10
+abcdefghij
+<SPLIT>
+20
+aaaabbbbccccddddeeee
+</ans>",0,{}
+185,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2 1 3
+<SPLIT>
+3 2 2
+<SPLIT>
+9 9 99
+<SPLIT>
+10 5 15
+<SPLIT>
+20 20 50
+</ans>",0,{}
+186,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 100 1
+0 1 2 1 2
+<SPLIT>
+3 10 12
+1 2 0
+<SPLIT>
+3 12 1
+0 1 0
+<SPLIT>
+4 50 75
+2 0 1 2
+<SPLIT>
+7 20 30
+2 1 2 0 2 1 2
+</ans>",0,{}
+187,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+2
+1 2
+<SPLIT>
+3
+1 2 3
+<SPLIT>
+4
+1 2 3 4
+<SPLIT>
+5
+1 2 3 4 5
+<SPLIT>
+6
+1 2 3 4 5 6
+</ans>",0,{}
+188,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+00
+00
+<SPLIT>
+00X00X0XXX0
+0XXX0X00X00
+<SPLIT>
+0X0X0
+0X0X0
+<SPLIT>
+0XXX0
+00000
+<SPLIT>
+0X0X0X0X0X
+0X0X0X0X0X
+</ans>",True,{}
+189,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+4
+aa#bb
+c
+c^c
+aa$c
+
+<SPLIT>
+2
+aaaa$bbbb
+bbbb^aaaa
+
+<SPLIT>
+6
+a#b
+c=a
+d=b
+e=c
+f=d
+res=e^f
+
+<SPLIT>
+3
+x1#y2
+z3=x1
+res=z3^z3
+
+<SPLIT>
+5
+a1#b2
+c3=a1
+d4=b2
+e5=c3
+res=d4^e5
+</ans>",0,{}
+190,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+7 5 4 5 8
+3 2 2 2 3
+10 10 5 5 12
+20 53 45 26 4
+15 20 10 15 8
+</ans>",0,{}
+191,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5 10 3
+1 2 3
+1 2 5
+1 3 3
+1 4 2
+1 5 4
+2 3 1
+2 4 3
+2 5 2
+3 4 4
+3 5 1
+<SPLIT>
+10 20 5
+1 2 3 4 5
+1 2 5
+1 3 3
+1 4 2
+1 5 4
+1 6 1
+1 7 6
+1 8 2
+1 9 4
+1 10 3
+2 3 1
+2 4 3
+2 5 2
+2 6 5
+2 7 2
+3 4 4
+3 5 1
+3 6 3
+3 7 1
+3 8 4
+<SPLIT>
+20 40 10
+1 2 3 4 5 6 7 8 9 10
+1 2 5
+1 3 3
+1 4 2
+1 5 4
+1 6 1
+1 7 6
+1 8 2
+1 9 4
+1 10 3
+1 11 7
+1 12 2
+1 13 5
+1 14 3
+1 15 4
+1 16 1
+1 17 6
+1 18 2
+1 19 4
+1 20 3
+2 3 1
+2 4 3
+2 5 2
+2 6 5
+2 7 2
+2 8 4
+2 9 1
+2 10 3
+2 11 2
+2 12 5
+2 13 1
+2 14 3
+2 15 2
+2 16 5
+2 17 2
+2 18 4
+2 19 1
+2 20 3
+<SPLIT>
+50000 100000 50000
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50000
+<SPLIT>
+100000 200000 100000
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100000
+</ans>",0,{}
+192,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+1 2 3
+4 5 6
+<SPLIT>
+5
+10 20 30 40 50
+60 70 80 90 100
+<SPLIT>
+2
+2 1
+5 6
+<SPLIT>
+4
+100 100 100 100
+100 100 100 100
+<SPLIT>
+7
+1 2 3 4 5 6 7
+7 6 5 4 3 2 1
+</ans>",0,{}
+193,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+5
+10 10 5 20 15
+5 7 2 8 10
+<SPLIT>
+3
+30 25 20
+9 10 12
+<SPLIT>
+7
+50 40 30 20 10 5 1
+2 3 4 5 6 7 8
+<SPLIT>
+10
+100 90 80 70 60 50 40 30 20 10
+1 2 3 4 5 6 7 8 9 10
+<SPLIT>
+4
+25 50 75 100
+10 5 15 20
+</ans>",0,{}
+194,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3 2
+59 3
+1000000000000000000 10
+5 5
+10 2
+</ans>",0,{}
+195,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+2 6 8
+<SPLIT>
+5
+2 3 4 9 12
+<SPLIT>
+4
+5 7 2 9
+<SPLIT>
+6
+2 4 6 8 10 12
+<SPLIT>
+10
+3 6 9 12 15 18 21 24 27 30
+</ans>",0,{}
+196,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+6
+ooxoox
+<SPLIT>
+10
+ooxooxxxox
+<SPLIT>
+15
+ooxooxxxoxoooxox
+<SPLIT>
+20
+ooxooxxxoxoooxoxooox
+<SPLIT>
+25
+ooxooxxxoxoooxoxoooxoooxo
+</ans>",0,{}
+197,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+3
+10 10 10
+GLW
+<SPLIT>
+2
+1 2
+WL
+<SPLIT>
+4
+10 10 10 10
+GLWG
+<SPLIT>
+5
+5 5 5 5 5
+GWLGW
+<SPLIT>
+10
+1 2 3 4 5 6 7 8 9 10
+GWLGWLGWLG
+</ans>",0,{}
+198,"Here are 5 groups of test case inputs for the given programming problem:
+
+<ans>
+10 5 3
+20 10 5
+50 20 10
+100 50 25
+1000000000 100000 1
+</ans>
+
+<ans>
+[10, 5, 3]
+[20, 10, 5]
+[50, 20, 10]
+[100, 50, 25]
+[1000000000, 100000, 1]
+</ans>",0,{}

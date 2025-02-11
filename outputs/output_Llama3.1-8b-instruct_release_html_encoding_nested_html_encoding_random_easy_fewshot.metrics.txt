@@ -1,0 +1,1 @@
+Average Accuracy (%): 15.0

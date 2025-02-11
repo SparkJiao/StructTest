@@ -1,0 +1,3014 @@
+index,generated,result,format_properties
+0,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+    <title>Title 4</title>
+    <title>Title 5</title>
+</head>
+<body>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+    <footer>Footer 3</footer>
+    <footer>Footer 4</footer>
+    <footer>Footer 5</footer>
+</body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 4, 'footer': 5, 'h1': 8, 'h2': 16, 'head': 1, 'html': 1, 'p': 16, 'title': 5}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 4, 'footer': 5, 'h1': 2, 'h2': 4, 'head': 1, 'html': 1, 'p': 4, 'title': 5}}"
+1,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h1>Header 4</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h1>Header 4</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 2, 'footer': 4, 'h1': 8, 'h2': 6, 'head': 1, 'html': 1, 'p': 8, 'title': 2}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 2, 'footer': 4, 'h1': 4, 'h2': 3, 'head': 1, 'html': 1, 'p': 4, 'title': 2}}"
+2,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+        <title>Title 4</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+        <footer>Footer 5</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 4, 'footer': 5, 'h1': 20, 'h2': 8, 'head': 1, 'html': 1, 'p': 20, 'title': 4}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 4, 'footer': 5, 'h1': 5, 'h2': 2, 'head': 1, 'html': 1, 'p': 5, 'title': 4}}"
+3,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+    <title>Title 4</title>
+</head>
+<body>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+    <footer>Footer 3</footer>
+    <footer>Footer 4</footer>
+    <footer>Footer 5</footer>
+</body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 5, 'footer': 5, 'h1': 15, 'h2': 10, 'head': 1, 'html': 1, 'p': 15, 'title': 4}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 5, 'footer': 5, 'h1': 3, 'h2': 2, 'head': 1, 'html': 1, 'p': 3, 'title': 4}}"
+4,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 1</footer>
+        <footer>Footer 1</footer>
+        <footer>Footer 1</footer>
+        <footer>Footer 1</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 5, 'footer': 5, 'h1': 15, 'h2': 15, 'head': 1, 'html': 1, 'p': 25, 'title': 3}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 5, 'footer': 5, 'h1': 3, 'h2': 3, 'head': 1, 'html': 1, 'p': 5, 'title': 3}}"
+5,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 2, 'footer': 2, 'h1': 10, 'h2': 6, 'head': 1, 'html': 1, 'p': 6, 'title': 2}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 2, 'footer': 2, 'h1': 5, 'h2': 3, 'head': 1, 'html': 1, 'p': 3, 'title': 2}}"
+6,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <h2>Subheading 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <h2>Subheading 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <h2>Subheading 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <h2>Subheading 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <h2>Subheading 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 5, 'footer': 4, 'h1': 10, 'h2': 20, 'head': 1, 'html': 1, 'p': 20, 'title': 2}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 5, 'footer': 4, 'h1': 2, 'h2': 4, 'head': 1, 'html': 1, 'p': 4, 'title': 2}}"
+7,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+        <title>Title 4</title>
+        <title>Title 5</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 3, 'footer': 4, 'h1': 15, 'h2': 15, 'head': 1, 'html': 1, 'p': 15, 'title': 5}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 3, 'footer': 4, 'h1': 5, 'h2': 5, 'head': 1, 'html': 1, 'p': 5, 'title': 5}}"
+8,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+        <footer>Footer 5</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 3, 'footer': 5, 'h1': 12, 'h2': 9, 'head': 1, 'html': 1, 'p': 12, 'title': 3}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 3, 'footer': 5, 'h1': 4, 'h2': 3, 'head': 1, 'html': 1, 'p': 4, 'title': 3}}"
+9,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+    <title>Title 4</title>
+    <title>Title 5</title>
+</head>
+<body>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h1>Heading 4</h1>
+        <h1>Heading 5</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h1>Heading 4</h1>
+        <h1>Heading 5</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h1>Heading 4</h1>
+        <h1>Heading 5</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h1>Heading 4</h1>
+        <h1>Heading 5</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+</body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 4, 'footer': 2, 'h1': 20, 'h2': 8, 'head': 1, 'html': 1, 'p': 16, 'title': 5}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 4, 'footer': 2, 'h1': 5, 'h2': 2, 'head': 1, 'html': 1, 'p': 4, 'title': 5}}"
+10,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+    <title>Title 4</title>
+</head>
+<body>
+    <div>
+        <h1>Header 1</h1>
+        <h1>Header 2</h1>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Header 1</h1>
+        <h1>Header 2</h1>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Header 1</h1>
+        <h1>Header 2</h1>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Header 1</h1>
+        <h1>Header 2</h1>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+    <footer>Footer 3</footer>
+</body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 4, 'footer': 3, 'h1': 8, 'h2': 8, 'head': 1, 'html': 1, 'p': 16, 'title': 4}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 4, 'footer': 3, 'h1': 2, 'h2': 2, 'head': 1, 'html': 1, 'p': 4, 'title': 4}}"
+11,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 5, 'footer': 3, 'h1': 25, 'h2': 15, 'head': 1, 'html': 1, 'p': 15, 'title': 2}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 5, 'footer': 3, 'h1': 5, 'h2': 3, 'head': 1, 'html': 1, 'p': 3, 'title': 2}}"
+12,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <div>
+            <h1>Header 3</h1>
+            <h1>Header 4</h1>
+            <h2>Subheader 4</h2>
+            <h2>Subheader 5</h2>
+            <h2>Subheader 6</h2>
+            <p>Paragraph 6</p>
+            <p>Paragraph 7</p>
+            <p>Paragraph 8</p>
+            <p>Paragraph 9</p>
+            <p>Paragraph 10</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+        <footer>Footer 5</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 2, 'footer': 5, 'h1': 4, 'h2': 6, 'head': 1, 'html': 1, 'p': 10, 'title': 3}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 2, 'footer': 5, 'h1': 2, 'h2': 3, 'head': 1, 'html': 1, 'p': 5, 'title': 3}}"
+13,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+    <title>Title 4</title>
+    <title>Title 5</title>
+</head>
+<body>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h1>Heading 4</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <h2>Subheading 5</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h1>Heading 4</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <h2>Subheading 5</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h1>Heading 4</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <h2>Subheading 5</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h1>Heading 4</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <h2>Subheading 5</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+    <footer>Footer 3</footer>
+    <footer>Footer 4</footer>
+    <footer>Footer 5</footer>
+</body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 4, 'footer': 5, 'h1': 16, 'h2': 20, 'head': 1, 'html': 1, 'p': 8, 'title': 5}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 4, 'footer': 5, 'h1': 4, 'h2': 5, 'head': 1, 'html': 1, 'p': 2, 'title': 5}}"
+14,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+    <title>Title 4</title>
+</head>
+<body>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+    <footer>Footer 3</footer>
+</body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 4, 'footer': 3, 'h1': 12, 'h2': 8, 'head': 1, 'html': 1, 'p': 20, 'title': 4}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 4, 'footer': 3, 'h1': 3, 'h2': 2, 'head': 1, 'html': 1, 'p': 5, 'title': 4}}"
+15,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+        <title>Title 4</title>
+        <title>Title 5</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 5, 'footer': 3, 'h1': 15, 'h2': 15, 'head': 1, 'html': 1, 'p': 15, 'title': 5}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 5, 'footer': 3, 'h1': 3, 'h2': 3, 'head': 1, 'html': 1, 'p': 3, 'title': 5}}"
+16,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+    <title>Title 4</title>
+    <title>Title 5</title>
+</head>
+<body>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+    <footer>Footer 3</footer>
+</body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 3, 'footer': 3, 'h1': 9, 'h2': 6, 'head': 1, 'html': 1, 'p': 12, 'title': 5}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 3, 'footer': 3, 'h1': 3, 'h2': 2, 'head': 1, 'html': 1, 'p': 4, 'title': 5}}"
+17,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+        <title>Title 4</title>
+        <title>Title 5</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Heading 2</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 2</h1>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 2</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Heading 3</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 3</h1>
+            <h2>Subheading 3</h2>
+            <h2>Subheading 3</h2>
+            <h2>Subheading 3</h2>
+            <p>Paragraph 3</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 3</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+        <footer>Footer 5</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 3, 'footer': 5, 'h1': 9, 'h2': 9, 'head': 1, 'html': 1, 'p': 9, 'title': 5}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 3, 'footer': 5, 'h1': 3, 'h2': 3, 'head': 1, 'html': 1, 'p': 3, 'title': 5}}"
+18,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+    <title>Title 4</title>
+</head>
+<body>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h1>Heading 4</h1>
+        <h1>Heading 5</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h1>Heading 4</h1>
+        <h1>Heading 5</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h1>Heading 4</h1>
+        <h1>Heading 5</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+    <footer>Footer 3</footer>
+</body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 3, 'footer': 3, 'h1': 15, 'h2': 12, 'head': 1, 'html': 1, 'p': 15, 'title': 4}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 3, 'footer': 3, 'h1': 5, 'h2': 4, 'head': 1, 'html': 1, 'p': 5, 'title': 4}}"
+19,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+    <title>Title 4</title>
+    <title>Title 5</title>
+</head>
+<body>
+    <div>
+        <h1>Header 1</h1>
+        <h1>Header 2</h1>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 2</h2>
+        <h2>Subheader 3</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </div>
+    <div>
+        <h1>Header 1</h1>
+        <h1>Header 2</h1>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 2</h2>
+        <h2>Subheader 3</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </div>
+    <div>
+        <h1>Header 1</h1>
+        <h1>Header 2</h1>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 2</h2>
+        <h2>Subheader 3</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </div>
+    <div>
+        <h1>Header 1</h1>
+        <h1>Header 2</h1>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 2</h2>
+        <h2>Subheader 3</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+</body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 4, 'footer': 2, 'h1': 8, 'h2': 12, 'head': 1, 'html': 1, 'p': 20, 'title': 5}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 4, 'footer': 2, 'h1': 2, 'h2': 3, 'head': 1, 'html': 1, 'p': 5, 'title': 5}}"
+20,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+        <footer>Footer 5</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 5, 'footer': 5, 'h1': 15, 'h2': 20, 'head': 1, 'html': 1, 'p': 10, 'title': 2}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 5, 'footer': 5, 'h1': 3, 'h2': 4, 'head': 1, 'html': 1, 'p': 2, 'title': 2}}"
+21,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 3, 'footer': 2, 'h1': 15, 'h2': 15, 'head': 1, 'html': 1, 'p': 15, 'title': 2}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 3, 'footer': 2, 'h1': 5, 'h2': 5, 'head': 1, 'html': 1, 'p': 5, 'title': 2}}"
+22,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 2, 'footer': 2, 'h1': 8, 'h2': 4, 'head': 1, 'html': 1, 'p': 4, 'title': 2}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 2, 'footer': 2, 'h1': 4, 'h2': 2, 'head': 1, 'html': 1, 'p': 2, 'title': 2}}"
+23,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+        <footer>Footer 5</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 4, 'footer': 5, 'h1': 20, 'h2': 8, 'head': 1, 'html': 1, 'p': 20, 'title': 2}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 4, 'footer': 5, 'h1': 5, 'h2': 2, 'head': 1, 'html': 1, 'p': 5, 'title': 2}}"
+24,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+        <title>Title 4</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h1>Header 1</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+        <footer>Footer 5</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 5, 'footer': 5, 'h1': 20, 'h2': 20, 'head': 1, 'html': 1, 'p': 10, 'title': 4}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 5, 'footer': 5, 'h1': 4, 'h2': 4, 'head': 1, 'html': 1, 'p': 2, 'title': 4}}"
+25,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+    <title>Title 4</title>
+</head>
+<body>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+    <footer>Footer 3</footer>
+</body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 4, 'footer': 3, 'h1': 8, 'h2': 16, 'head': 1, 'html': 1, 'p': 8, 'title': 4}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 4, 'footer': 3, 'h1': 2, 'h2': 4, 'head': 1, 'html': 1, 'p': 2, 'title': 4}}"
+26,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <h2>Subheader 5</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <h2>Subheader 5</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <h2>Subheader 5</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <h2>Subheader 5</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 4, 'footer': 2, 'h1': 8, 'h2': 20, 'head': 1, 'html': 1, 'p': 16, 'title': 3}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 4, 'footer': 2, 'h1': 2, 'h2': 5, 'head': 1, 'html': 1, 'p': 4, 'title': 3}}"
+27,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+        <title>Title 4</title>
+        <title>Title 5</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 5, 'footer': 4, 'h1': 15, 'h2': 10, 'head': 1, 'html': 1, 'p': 25, 'title': 5}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 5, 'footer': 4, 'h1': 3, 'h2': 2, 'head': 1, 'html': 1, 'p': 5, 'title': 5}}"
+28,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+        <footer>Footer 5</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 4, 'footer': 5, 'h1': 20, 'h2': 8, 'head': 1, 'html': 1, 'p': 16, 'title': 3}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 4, 'footer': 5, 'h1': 5, 'h2': 2, 'head': 1, 'html': 1, 'p': 4, 'title': 3}}"
+29,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 5, 'footer': 4, 'h1': 20, 'h2': 20, 'head': 1, 'html': 1, 'p': 10, 'title': 3}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 5, 'footer': 4, 'h1': 4, 'h2': 4, 'head': 1, 'html': 1, 'p': 2, 'title': 3}}"
+30,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+        <title>Title 4</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <h2>Subheading 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h1>Heading 6</h1>
+            <h2>Subheading 5</h2>
+            <h2>Subheading 6</h2>
+            <h2>Subheading 7</h2>
+            <h2>Subheading 8</h2>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 2, 'footer': 2, 'h1': 6, 'h2': 8, 'head': 1, 'html': 1, 'p': 4, 'title': 4}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 2, 'footer': 2, 'h1': 3, 'h2': 4, 'head': 1, 'html': 1, 'p': 2, 'title': 4}}"
+31,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+        <title>Title 4</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h1>Header 4</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h1>Header 4</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h1>Header 4</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 3, 'footer': 4, 'h1': 12, 'h2': 9, 'head': 1, 'html': 1, 'p': 12, 'title': 4}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 3, 'footer': 4, 'h1': 4, 'h2': 3, 'head': 1, 'html': 1, 'p': 4, 'title': 4}}"
+32,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+        <title>Title 4</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h1>Header 4</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h1>Header 4</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+        <footer>Footer 5</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 2, 'footer': 5, 'h1': 8, 'h2': 6, 'head': 1, 'html': 1, 'p': 6, 'title': 4}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 2, 'footer': 5, 'h1': 4, 'h2': 3, 'head': 1, 'html': 1, 'p': 3, 'title': 4}}"
+33,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+    <title>Title 4</title>
+</head>
+<body>
+    <div>
+        <h1>Header 1</h1>
+        <h1>Header 2</h1>
+        <h1>Header 3</h1>
+        <h1>Header 4</h1>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 2</h2>
+        <h2>Subheader 3</h2>
+        <h2>Subheader 4</h2>
+        <h2>Subheader 5</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Header 1</h1>
+        <h1>Header 2</h1>
+        <h1>Header 3</h1>
+        <h1>Header 4</h1>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 2</h2>
+        <h2>Subheader 3</h2>
+        <h2>Subheader 4</h2>
+        <h2>Subheader 5</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+</body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 2, 'footer': 2, 'h1': 8, 'h2': 10, 'head': 1, 'html': 1, 'p': 8, 'title': 4}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 2, 'footer': 2, 'h1': 4, 'h2': 5, 'head': 1, 'html': 1, 'p': 4, 'title': 4}}"
+34,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 5, 'footer': 2, 'h1': 25, 'h2': 25, 'head': 1, 'html': 1, 'p': 15, 'title': 2}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 5, 'footer': 2, 'h1': 5, 'h2': 5, 'head': 1, 'html': 1, 'p': 3, 'title': 2}}"
+35,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+    <title>Title 4</title>
+</head>
+<body>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <h2>Subheading 3</h2>
+        <h2>Subheading 4</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+</body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 4, 'footer': 2, 'h1': 8, 'h2': 16, 'head': 1, 'html': 1, 'p': 16, 'title': 4}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 4, 'footer': 2, 'h1': 2, 'h2': 4, 'head': 1, 'html': 1, 'p': 4, 'title': 4}}"
+36,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <h2>Subheading 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <h2>Subheading 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <h2>Subheading 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <h2>Subheading 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 2</h1>
+            <h1>Heading 3</h1>
+            <h1>Heading 4</h1>
+            <h1>Heading 5</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 2</h2>
+            <h2>Subheading 3</h2>
+            <h2>Subheading 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 5, 'footer': 4, 'h1': 25, 'h2': 20, 'head': 1, 'html': 1, 'p': 20, 'title': 2}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 5, 'footer': 4, 'h1': 5, 'h2': 4, 'head': 1, 'html': 1, 'p': 4, 'title': 2}}"
+37,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+        <title>Title 4</title>
+        <title>Title 5</title>
+    </head>
+    <body>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <div>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h1>Heading 1</h1>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <h2>Subheading 1</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 1</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 3, 'footer': 3, 'h1': 9, 'h2': 9, 'head': 1, 'html': 1, 'p': 6, 'title': 5}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 3, 'footer': 3, 'h1': 3, 'h2': 3, 'head': 1, 'html': 1, 'p': 2, 'title': 5}}"
+38,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <h2>Subheader 5</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <div>
+            <h1>Header 4</h1>
+            <h1>Header 5</h1>
+            <h1>Header 6</h1>
+            <h2>Subheader 6</h2>
+            <h2>Subheader 7</h2>
+            <h2>Subheader 8</h2>
+            <h2>Subheader 9</h2>
+            <h2>Subheader 10</h2>
+            <p>Paragraph 6</p>
+            <p>Paragraph 7</p>
+            <p>Paragraph 8</p>
+            <p>Paragraph 9</p>
+            <p>Paragraph 10</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+        <footer>Footer 5</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 2, 'footer': 5, 'h1': 6, 'h2': 10, 'head': 1, 'html': 1, 'p': 10, 'title': 2}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 2, 'footer': 5, 'h1': 3, 'h2': 5, 'head': 1, 'html': 1, 'p': 5, 'title': 2}}"
+39,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+    <title>Title 4</title>
+    <title>Title 5</title>
+</head>
+<body>
+    <div>
+        <h1>Header 1</h1>
+        <h1>Header 1</h1>
+        <h1>Header 1</h1>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 1</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+    </div>
+    <div>
+        <h1>Header 1</h1>
+        <h1>Header 1</h1>
+        <h1>Header 1</h1>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 1</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+    </div>
+    <div>
+        <h1>Header 1</h1>
+        <h1>Header 1</h1>
+        <h1>Header 1</h1>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 1</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+    </div>
+    <div>
+        <h1>Header 1</h1>
+        <h1>Header 1</h1>
+        <h1>Header 1</h1>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 1</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+    </div>
+    <div>
+        <h1>Header 1</h1>
+        <h1>Header 1</h1>
+        <h1>Header 1</h1>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 1</h2>
+        <h2>Subheader 1</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+    <footer>Footer 3</footer>
+    <footer>Footer 4</footer>
+    <footer>Footer 5</footer>
+</body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 5, 'footer': 5, 'h1': 15, 'h2': 15, 'head': 1, 'html': 1, 'p': 20, 'title': 5}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 5, 'footer': 5, 'h1': 3, 'h2': 3, 'head': 1, 'html': 1, 'p': 4, 'title': 5}}"
+40,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+    <title>Title 4</title>
+</head>
+<body>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h1>Heading 4</h1>
+        <h1>Heading 5</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h1>Heading 4</h1>
+        <h1>Heading 5</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+        <h1>Heading 3</h1>
+        <h1>Heading 4</h1>
+        <h1>Heading 5</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 2</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <p>Paragraph 3</p>
+        <p>Paragraph 4</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+    <footer>Footer 3</footer>
+</body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 3, 'footer': 3, 'h1': 15, 'h2': 6, 'head': 1, 'html': 1, 'p': 12, 'title': 4}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 3, 'footer': 3, 'h1': 5, 'h2': 2, 'head': 1, 'html': 1, 'p': 4, 'title': 4}}"
+41,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+        </div>
+        <div>
+            <h1>Header 3</h1>
+            <h1>Header 4</h1>
+            <h2>Subheader 5</h2>
+            <h2>Subheader 6</h2>
+            <h2>Subheader 7</h2>
+            <h2>Subheader 8</h2>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+            <p>Paragraph 6</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 2, 'footer': 2, 'h1': 4, 'h2': 8, 'head': 1, 'html': 1, 'p': 6, 'title': 2}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 2, 'footer': 2, 'h1': 2, 'h2': 4, 'head': 1, 'html': 1, 'p': 3, 'title': 2}}"
+42,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 5, 'footer': 3, 'h1': 10, 'h2': 20, 'head': 1, 'html': 1, 'p': 20, 'title': 2}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 5, 'footer': 3, 'h1': 2, 'h2': 4, 'head': 1, 'html': 1, 'p': 4, 'title': 2}}"
+43,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+        <title>Title 4</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 5, 'footer': 2, 'h1': 10, 'h2': 15, 'head': 1, 'html': 1, 'p': 10, 'title': 4}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 5, 'footer': 2, 'h1': 2, 'h2': 3, 'head': 1, 'html': 1, 'p': 2, 'title': 4}}"
+44,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+</head>
+<body>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+        <p>Paragraph 1</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+    <footer>Footer 3</footer>
+    <footer>Footer 4</footer>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+    <footer>Footer 3</footer>
+    <footer>Footer 4</footer>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+    <footer>Footer 3</footer>
+    <footer>Footer 4</footer>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+    <footer>Footer 3</footer>
+    <footer>Footer 4</footer>
+</body>
+</html>
+```",0,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 4, 'footer': 4, 'h1': 20, 'h2': 20, 'head': 1, 'html': 1, 'p': 16, 'title': 3}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 4, 'footer': 4, 'h1': 5, 'h2': 5, 'head': 1, 'html': 1, 'p': 4, 'title': 3}}"
+45,"```html
+<html>
+<head>
+    <title>Title 1</title>
+    <title>Title 2</title>
+    <title>Title 3</title>
+    <title>Title 4</title>
+    <title>Title 5</title>
+</head>
+<body>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+    </div>
+    <div>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h1>Heading 1</h1>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <h2>Subheading 1</h2>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+    </div>
+    <footer>Footer 1</footer>
+    <footer>Footer 2</footer>
+    <footer>Footer 3</footer>
+    <footer>Footer 4</footer>
+    <footer>Footer 5</footer>
+</body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 3, 'footer': 5, 'h1': 15, 'h2': 15, 'head': 1, 'html': 1, 'p': 6, 'title': 5}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 3, 'footer': 5, 'h1': 5, 'h2': 5, 'head': 1, 'html': 1, 'p': 2, 'title': 5}}"
+46,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+            <p>Paragraph 5</p>
+        </div>
+        <div>
+            <h1>Header 3</h1>
+            <h1>Header 4</h1>
+            <h2>Subheader 4</h2>
+            <h2>Subheader 5</h2>
+            <h2>Subheader 6</h2>
+            <p>Paragraph 6</p>
+            <p>Paragraph 7</p>
+            <p>Paragraph 8</p>
+            <p>Paragraph 9</p>
+            <p>Paragraph 10</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+        <footer>Footer 5</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 2, 'footer': 5, 'h1': 4, 'h2': 6, 'head': 1, 'html': 1, 'p': 10, 'title': 3}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 2, 'footer': 5, 'h1': 2, 'h2': 3, 'head': 1, 'html': 1, 'p': 5, 'title': 3}}"
+47,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+        <title>Title 4</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 3, 'footer': 2, 'h1': 9, 'h2': 12, 'head': 1, 'html': 1, 'p': 6, 'title': 4}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 3, 'footer': 2, 'h1': 3, 'h2': 4, 'head': 1, 'html': 1, 'p': 2, 'title': 4}}"
+48,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+        <title>Title 4</title>
+        <title>Title 5</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 3</h1>
+            <h1>Header 4</h1>
+            <h2>Subheader 5</h2>
+            <h2>Subheader 6</h2>
+            <h2>Subheader 7</h2>
+            <h2>Subheader 8</h2>
+            <p>Paragraph 3</p>
+            <p>Paragraph 4</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 2, 'footer': 3, 'h1': 4, 'h2': 8, 'head': 1, 'html': 1, 'p': 4, 'title': 5}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 2, 'footer': 3, 'h1': 2, 'h2': 4, 'head': 1, 'html': 1, 'p': 2, 'title': 5}}"
+49,"```html
+<html>
+    <head>
+        <title>Title 1</title>
+        <title>Title 2</title>
+        <title>Title 3</title>
+        <title>Title 4</title>
+        <title>Title 5</title>
+    </head>
+    <body>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <div>
+            <h1>Header 1</h1>
+            <h1>Header 2</h1>
+            <h1>Header 3</h1>
+            <h2>Subheader 1</h2>
+            <h2>Subheader 2</h2>
+            <h2>Subheader 3</h2>
+            <h2>Subheader 4</h2>
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+        </div>
+        <footer>Footer 1</footer>
+        <footer>Footer 2</footer>
+        <footer>Footer 3</footer>
+        <footer>Footer 4</footer>
+        <footer>Footer 5</footer>
+    </body>
+</html>
+```",1,"{'config': 'nested', 'ground_truth': {'body': 1, 'div': 3, 'footer': 5, 'h1': 9, 'h2': 12, 'head': 1, 'html': 1, 'p': 6, 'title': 5}, 'mode': 'nested', 'no_of_tags': {'body': 1, 'div': 3, 'footer': 5, 'h1': 3, 'h2': 4, 'head': 1, 'html': 1, 'p': 2, 'title': 5}}"

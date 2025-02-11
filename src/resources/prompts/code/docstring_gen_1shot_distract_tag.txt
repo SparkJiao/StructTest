@@ -1,0 +1,114 @@
+## Instruction
+
+I will show you a Python function. Please add proper docstring for it following the format below:
+
+#### Function without Docstring
+
+```
+def func(arg_1, arg_2, …, arg_N):
+    *function body*
+```
+
+#### Response
+
+<ans>
+def func(arg_1, arg_2, …, arg_N):
+    """
+    Args:
+        arg_1 (type): meaning
+        arg_2 (type): meaning
+        …
+        arg_N (type): meaning
+
+    Return:
+        value1 (type): meaning
+        value2 (type): meaning
+        …
+    """
+</ans>
+
+Remember to use <ans> and </ans> tags to wrap the function with docstring.
+
+### Example
+
+Here is a example for your reference:
+
+#### Function without Docstring
+
+```
+def evaluate_generation(subtask, generated, start_tag, end_tag, **kwargs):
+    evaluation_functions = {
+        # summarization - easy
+        "length": evaluate_length,
+        "bullet_points": evaluate_bullet_points,
+        "numbered_points": evaluate_numbered_points,
+        "questions": evaluate_questions,
+        # summarization - medium
+        "bullet_points_length": evaluate_bullet_points_length,
+        "numbered_points_length": evaluate_numbered_points_length,
+        "indented_bullet_points": evaluate_indented_bullet_points,
+        # code
+        "add_print_statements": evaluate_print_statements,
+        "add_docstring": evaluate_docstring,
+        "replace_variables": check_code_modifications,
+    }
+
+    if subtask not in evaluation_functions:
+        raise ValueError(f"Unknown subtask: {subtask}")
+    evaluation_function = evaluation_functions[subtask]
+
+    parsed_generated = isolate_content(generated, start_tag, end_tag)
+    parsed_generated = basic_postprocessing(parsed_generated)
+
+    return evaluation_function(parsed_generated, **kwargs)
+```
+
+#### Response
+
+<ans>
+def evaluate_generation(subtask, generated, start_tag, end_tag, **kwargs):
+    """
+    Args:
+        subtask (str): aaa
+        generated (str): bbb
+        start_tag (str): ccc
+        end_tag (str): ddd
+
+    Returns:
+        evaluation_results: str
+    """
+    evaluation_functions = {
+        # summarization - easy
+        "length": evaluate_length,
+        "bullet_points": evaluate_bullet_points,
+        "numbered_points": evaluate_numbered_points,
+        "questions": evaluate_questions,
+        # summarization - medium
+        "bullet_points_length": evaluate_bullet_points_length,
+        "numbered_points_length": evaluate_numbered_points_length,
+        "indented_bullet_points": evaluate_indented_bullet_points,
+        # code
+        "add_print_statements": evaluate_print_statements,
+        "add_docstring": evaluate_docstring,
+        "replace_variables": check_code_modifications,
+    }
+
+    if subtask not in evaluation_functions:
+        raise ValueError(f"Unknown subtask: {subtask}")
+    evaluation_function = evaluation_functions[subtask]
+
+    parsed_generated = isolate_content(generated, start_tag, end_tag)
+    parsed_generated = basic_postprocessing(parsed_generated)
+
+    return evaluation_function(parsed_generated, **kwargs)
+</ans>
+
+You will be given multiple functions. Remember to only add docstring to function `[[fn_name]]` and return it back to me.
+
+#### Function without Docstring
+
+```
+[[code_snippet]]
+```
+
+#### Response

@@ -1,0 +1,25 @@
+## Instruction
+
+I will show you a code snippet. Your task is to replace the name of variables to different ones according to the mapping I give to you, and return me back the new code snippet after replacement.
+
+### Response format
+
+Please include your answer within <ans> and </ans> tags.
+
+Note that you should not replace the variables reserved as internal attributes or function names. For example, in python, you could replace `path` with `ppp`, but you should not change `os.path` as `os.ppp` since `path` in an attribute of `os`.
+
+Now, let's get started:
+
+#### Code Snippet
+
+```
+[[code_snippet]]
+```
+
+#### Variable Renaming
+
+```
+[[var_mapping]]
+```
+
+#### Response

@@ -1,0 +1,64 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "summarization_eval",
+  "dataset_size": 41874521,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/compositional-format-following/summarization_eval@cfbb4ac921707bd0ba1b7eaed85e086e31dc07f4/arxiv.csv": {
+      "num_bytes": 6604681,
+      "checksum": null
+    },
+    "hf://datasets/compositional-format-following/summarization_eval@cfbb4ac921707bd0ba1b7eaed85e086e31dc07f4/big_patent.csv": {
+      "num_bytes": 6032693,
+      "checksum": null
+    },
+    "hf://datasets/compositional-format-following/summarization_eval@cfbb4ac921707bd0ba1b7eaed85e086e31dc07f4/govreport.csv": {
+      "num_bytes": 9509002,
+      "checksum": null
+    },
+    "hf://datasets/compositional-format-following/summarization_eval@cfbb4ac921707bd0ba1b7eaed85e086e31dc07f4/pubmed.csv": {
+      "num_bytes": 4767953,
+      "checksum": null
+    },
+    "hf://datasets/compositional-format-following/summarization_eval@cfbb4ac921707bd0ba1b7eaed85e086e31dc07f4/qmsum.csv": {
+      "num_bytes": 9651721,
+      "checksum": null
+    },
+    "hf://datasets/compositional-format-following/summarization_eval@cfbb4ac921707bd0ba1b7eaed85e086e31dc07f4/summ_screen.csv": {
+      "num_bytes": 5332127,
+      "checksum": null
+    }
+  },
+  "download_size": 41898177,
+  "features": {
+    "format_properties": {
+      "n_points": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "symbol": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 83772698,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 41874521,
+      "num_examples": 1200,
+      "dataset_name": "summarization_eval"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
