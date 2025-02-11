@@ -143,3 +143,24 @@ Qwen2-7B-Instruct_release
 Phi-3-mini-128k-instruct_release
 mistral_nemo_release
 ```
+
+### Cite
+```bibtex
+@article{DBLP:journals/corr/abs-2412-18011,
+  author       = {Hailin Chen and
+                  Fangkai Jiao and
+                  Mathieu Ravaut and
+                  Nawshad Farruque and
+                  Xuan{-}Phi Nguyen and
+                  Chengwei Qin and
+                  Manan Dey and
+                  Bosheng Ding and
+                  Caiming Xiong and
+                  Shafiq Joty and
+                  Yingbo Zhou},
+  title        = {StructTest: Benchmarking LLMs' Reasoning through Compositional
+                  Structured Outputs},
+  journal      = {CoRR},
+  volume       = {abs/2412.18011},
+  year         = {2024}
+}
