@@ -144,7 +144,7 @@ Phi-3-mini-128k-instruct_release
 mistral_nemo_release
 ```
 
-### Cite
+## Cite
 ```bibtex
 @article{DBLP:journals/corr/abs-2412-18011,
   author       = {Hailin Chen and
