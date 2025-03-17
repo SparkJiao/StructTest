@@ -59,11 +59,13 @@ def map_task_to_tags(task, subtask=""):
 def map_dataset_name_to_summary_length(task):
     # return 1024 # debugging for tiny models
     if task == "html_encoding":
-        return 4096
+        return 16384
     elif task == "code":
-        return 4096
+        return 16384
     elif task == "math":
-        return 4096
+        return 16384
+    elif task == "summarization":
+        return 16384
     return 512
 
 

@@ -41,6 +41,9 @@ def get_generator(generator_name, **kwargs):
     elif generator_name == "gpt-4o-mini":
         from src.pipeline.generators.openai_generator import OpenAIGenerator
         return OpenAIGenerator("gpt-4o-mini", **kwargs)
+    elif generator_name == "deepseek-ai/DeepSeek-R1":
+        from src.pipeline.generators.openai_generator import OpenAIGenerator, DeepSeekR1Generator
+        return DeepSeekR1Generator("deepseek-ai/DeepSeek-R1", **kwargs)
     # llama 2 & 3
     elif generator_name == "meta-llama/Llama-2-7b-chat-hf":
         from src.pipeline.generators.local_vllm_llama2_generator import LocalLlama2Generator
@@ -124,22 +127,32 @@ class OnlineGenerator(Generator):
         super(OnlineGenerator, self).__init__()
         self.model = get_generator(model_name)
         self.tokenizer = self.model.tokenizer
-        self.max_summary_length = map_dataset_name_to_summary_length(task)
+        if getattr(self.model, "max_tokens", None) is not None:
+            self.max_summary_length = self.model.max_tokens
+        else:
+            self.max_summary_length = map_dataset_name_to_summary_length(task)
         self.context_length = map_model_name_to_context_window(model_name) #16000 # 16k context length
         
     def generate(self, prompt, temperature=0.1, timeout=30):
         if type(prompt) == list:
             prompt = '\n'.join([turn['content'] for turn in prompt])
         trial_id = 1
-        MAX_TRIAL = 3
+        MAX_TRIAL = 8
+        max_tokens = self.max_summary_length
         while trial_id <= MAX_TRIAL:
             try:
-                outputs = self.model.generate([prompt], temperature, max_tokens=self.max_summary_length, timeout=timeout)
+                outputs = self.model.generate([prompt], temperature, max_tokens=max_tokens, timeout=timeout)
                 return outputs.completions[0]
             except Exception as e:
                 print(e)
                 # print(prompt)
                 print("Error in generation, Sleeping and retry")
+                if "reduce the length" in str(e):
+                    max_tokens = max(1, max_tokens - 512)
+                    if max_tokens == 1:
+                        print("Max tokens reduced to 1, returning empty string")
+                        return "ERROR"
+                    continue
                 time.sleep(random.randrange(2, 4))
                 trial_id += 1
         # FAILED to get response, return dummy response

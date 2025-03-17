@@ -22,11 +22,23 @@ def isolate_content(generated, start_tag, end_tag):
 def isolate_html(generated, start_tag, end_tag):
     res = ""
     try:
+        ## isolate the portion with <think></think>
+        ## replace it with ""
+        idx1_think = generated.index("<think>")
+        idx2_think = generated.index("</think>")
+        res_think = generated[idx1_think + len(start_tag):idx2_think]
+        generated = generated.replace(res_think, "")
+    except:
+        print("<think> not found")
+        pass
+
+
+    try:
         idx1 = generated.index(start_tag)
         idx2 = generated.index(end_tag)
         res = generated[idx1 + len(start_tag): idx2]
     except:
-        # print("not found")
+        print("<html> not found")
         pass
 
     return res

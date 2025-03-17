@@ -20,6 +20,10 @@ class OpenAITypeGenerator:
         base_url = model_config['base_url']
         self.client = OpenAI(api_key=api_key, base_url=base_url)
         self.tokenizer = tiktoken.encoding_for_model("gpt-4o") # here tokenizer is used to truncate input
+        if "max_tokens" in model_config:
+            self.max_tokens = model_config["max_tokens"]
+        else:
+            self.max_tokens = None
 
 
     def generate(self, prompts, temperature, max_tokens, max_input_tokens=None, timeout=30):
