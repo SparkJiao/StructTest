@@ -1,5 +1,5 @@
 # StructTest: Benchmarking LLMs’ Reasoning through Compositional Structured Outputs
-This repo holds codes, scripts and outputs for paper [StructTest: Benchmarking LLMs’ Reasoning through Compositional Structured Outputs](https://arxiv.org/abs/2412.18011) by Hailin Chen, Fangkai Jiao, Mathieu Ravaut, Nawshad Farruque, Xuan Phi Nguyen, Chengwei Qin, Manan Dey, Bosheng Ding, Caiming Xiong, Shafiq Joty, Yingbo Zhou.
+This repo holds codes, scripts and outputs for paper [StructTest: Benchmarking LLMs’ Reasoning through Compositional Structured Outputs]().
 
 ## Leaderboard
 <!-- ![alt text](images/StructTest_results.png "Results") -->
@@ -143,24 +143,3 @@ Qwen2-7B-Instruct_release
 Phi-3-mini-128k-instruct_release
 mistral_nemo_release
 ```
-
-## Cite
-```bibtex
-@article{DBLP:journals/corr/abs-2412-18011,
-  author       = {Hailin Chen and
-                  Fangkai Jiao and
-                  Mathieu Ravaut and
-                  Nawshad Farruque and
-                  Xuan{-}Phi Nguyen and
-                  Chengwei Qin and
-                  Manan Dey and
-                  Bosheng Ding and
-                  Caiming Xiong and
-                  Shafiq Joty and
-                  Yingbo Zhou},
-  title        = {StructTest: Benchmarking LLMs' Reasoning through Compositional
-                  Structured Outputs},
-  journal      = {CoRR},
-  volume       = {abs/2412.18011},
-  year         = {2024}
-}
