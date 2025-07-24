@@ -1,5 +1,5 @@
 # StructTest: Benchmarking LLMs’ Reasoning through Compositional Structured Outputs
-This repo holds codes, scripts and outputs for paper [StructTest: Benchmarking LLMs’ Reasoning through Compositional Structured Outputs]().
+This repo holds codes, scripts and outputs for paper **StructTest: Benchmarking LLMs’ Reasoning through Compositional Structured Outputs**.
 
 ## Leaderboard
 <!-- ![alt text](images/StructTest_results.png "Results") -->
